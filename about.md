@@ -91,7 +91,7 @@ When using MDAnalysis in published work, please cite
 
  * <a name="MichaudAgrawal2011"></a>N. Michaud-Agrawal, E. J. Denning, T. B. Woolf, and
    O. Beckstein. MDAnalysis: A Toolkit for the Analysis of Molecular Dynamics
-   Simulations. *J. Comput. Chem.* **32** (2011), 2319--2327,
+   Simulations. *J. Comput. Chem.* **32** (2011), 2319—2327,
    doi:[10.1002/jcc.21787](http://dx.doi.org/10.1002/jcc.21787). 
    PMCID:[PMC3144279](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3144279/)
 
@@ -111,18 +111,18 @@ please also cite
 
  * Douglas L. Theobald. Rapid calculation of RMSD using a quaternion-based
    characteristic polynomial. *Acta Crystallographica A* **61** (2005),
-   478-480.
+   478—480.
 
  * Pu Liu, Dmitris K. Agrafiotis, and Douglas L. Theobald. Fast determination
    of the optimal rotational matrix for macromolecular
-   superpositions. *J. Comput. Chem.* **31** (2010), 1561-1563.
+   superpositions. *J. Comput. Chem.* **31** (2010), 1561—1563.
 
 If you use the helix analysis algorithm HELANAL in
 [MDAnalysis.analysis.helanal](https://pythonhosted.org/MDAnalysis/documentation_pages/analysis/helanal.html)
 please cite
 
  * Bansal M, Kumar S, Velavan R. HELANAL - A program to characterise helix
-   geometry in proteins. *J. Biomol. Struct. Dyn.* **17** (2000), 811-819
+   geometry in proteins. *J. Biomol. Struct. Dyn.* **17** (2000), 811—819
 
 If you use the GNM trajectory analysis code in
 [MDAnalysis.analysis.gnm](https://pythonhosted.org/MDAnalysis/documentation_pages/analysis/gnm.html)
@@ -130,7 +130,7 @@ please cite
 
  * Benjamin A. Hall, Samantha L. Kaye, Andy Pang, Rafael Perera, and Philip
    C. Biggin. Characterization of Protein Conformational States by Normal-Mode
-   Frequencies. *JACS* **129** (2007), 11394-11401.
+   Frequencies. *J. Am. Chem. Soc.* **129** (2007), 11394—11401.
 
 Thanks!
 
@@ -146,7 +146,7 @@ licenses; for instance the dcd reading code is under the [UIUC Open Source
 Licence](http://www.ks.uiuc.edu/Development/MDTools/catdcd/license.html). See
 the files AUTHORS and LICENSE in the distribution for details.
 
-Some time-critical routines are written in C or [http://cython.org cython] and
+Some time-critical routines are written in C or [cython](http://cython.org) and
 require a working C compiler. The minimum required version of Python is
 2.6. MDAnalysis has been successfully used on Linux and Mac OS X.
 
