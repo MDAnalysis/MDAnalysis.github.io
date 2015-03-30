@@ -1,0 +1,22 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            MDAnalysis
+tagline:          A Python toolkit for the analysis of molecular dynamics simulations.
+url:              https://mdanalysis.github.io
+paginate:         1
+baseurl:          /
+author:
+  name:           The MDAnalysis Team
+  url:            https://twitter.com/mdanalysis
+
+# Custom vars
+version:          1.0.0
+github:
+  repo:           https://github.com/MDAnalysis/MDAnalysis.github.io
