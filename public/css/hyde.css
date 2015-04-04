@@ -79,8 +79,8 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-family: "Gill Sans", "Verdana", sans-serif;
+  font-size: 2.25rem;
 }
 
 /* Sidebar nav */
@@ -247,4 +247,18 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+/* MDAnalysis */
+/* MDA orange: #ff9200;
+   MDA gray: #FFC980
+
+... needs work
+ */
+.theme-base-MDAnalysis .sidebar {
+  background-color: #FFC980;
+}
+.theme-base-MDAnalysis .content a,
+.theme-base-MDAnalysis .related-posts li a:hover {
+  color: #BF6E00;
 }
