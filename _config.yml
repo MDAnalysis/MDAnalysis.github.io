@@ -26,3 +26,10 @@ pypi:
   package:        https://pypi.python.org/pypi/MDAnalysis
   tests:          https://pypi.python.org/pypi/MDAnalysisTests
   docs:           https://pythonhosted.org/MDAnalysis
+mailinglists:
+  discussion:
+    name:         mdnalysis-discussion
+    url:          http://groups.google.com/group/mdnalysis-discussion
+  developer: 
+    name:         developer
+    url:          http://groups.google.com/group/mdnalysis-devel

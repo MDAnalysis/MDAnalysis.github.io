@@ -33,8 +33,8 @@ fit to a reference structure) and written out.
 
 Please report **bugs** or **enhancement requests** through the [Issue
 Tracker](https://github.com/MDAnalysis/mdanalysis/issues). Questions
-can also be asked on the [mdnalysis-discussion mailing
-list](http://groups.google.com/group/mdnalysis-discussion).
+can also be asked on the [{{site.mailinglists.discussion.name}}
+mailing list]({{site.mailinglists.discussion.url}}).
 
 
 # Availability
@@ -66,7 +66,7 @@ pip install MDAnalysisTests
 
 # Learning MDAnalysis
 
-The [MDAnalysis Tutorial](http://orbeckst.github.io/MDAnalysisTutorial/) serves
+The [MDAnalysis Tutorial](http://www.mdanalysis.org/MDAnalysisTutorial/) serves
 as an introduction to the library and there are other Tutorials available, too.
 
 See the [Online Documentation](https://pythonhosted.org/MDAnalysis/)
@@ -77,9 +77,9 @@ the structure and philosophy of the library together with examples of
 its use.
 
 Finally, you can also ask for advice or help on the
-[mdnalysis-discussion mailing
-list](http://groups.google.com/group/mdnalysis-discussion). If you
-find *bugs* or want to *request enhancements* please [file a
+[{{site.mailinglists.discussion.name}} mailing
+list]({{site.mailinglists.discussion.url}}). If you find *bugs* or
+want to *request enhancements* please [file a
 report](https://github.com/MDAnalysis/mdanalysis/wiki/ReportingProblems)
 in the [Issue
 Tracker](https://github.com/MDAnalysis/mdanalysis/issues).
@@ -96,44 +96,16 @@ When using MDAnalysis in published work, please cite
    PMCID:[PMC3144279](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3144279/)
 
    (If you are reading the [HTML version of the
-   paper](http://onlinelibrary.wiley.com/doi/10.1002/jcc.21787/full), have a
-   look at the (paper errata)[]. The free PubmedCentral manuscript
-   [PMC3144279](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3144279/) has
-   correct code, which can be copied and pasted.)
+   paper](http://onlinelibrary.wiley.com/doi/10.1002/jcc.21787/full),
+   have a look at the [paper
+   errata](https://github.com/MDAnalysis/mdanalysis/wiki/PaperErrata). The
+   free PubmedCentral manuscript
+   [PMC3144279](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3144279/)
+   has correct code, which can be copied and pasted.)
 
-## Included algorithms ##
-
-If you use the [RMSD alignment
-code](https://pythonhosted.org/MDAnalysis/documentation_pages/analysis/align.html)
-that uses the [QCProt
-module](https://pythonhosted.org/MDAnalysis/documentation_pages/core/qcprot.html)
-please also cite
-
- * Douglas L. Theobald. Rapid calculation of RMSD using a quaternion-based
-   characteristic polynomial. *Acta Crystallographica A* **61** (2005),
-   478—480.
-
- * Pu Liu, Dmitris K. Agrafiotis, and Douglas L. Theobald. Fast determination
-   of the optimal rotational matrix for macromolecular
-   superpositions. *J. Comput. Chem.* **31** (2010), 1561—1563.
-
-If you use the helix analysis algorithm HELANAL in
-[MDAnalysis.analysis.helanal](https://pythonhosted.org/MDAnalysis/documentation_pages/analysis/helanal.html)
-please cite
-
- * Bansal M, Kumar S, Velavan R. HELANAL - A program to characterise helix
-   geometry in proteins. *J. Biomol. Struct. Dyn.* **17** (2000), 811—819
-
-If you use the GNM trajectory analysis code in
-[MDAnalysis.analysis.gnm](https://pythonhosted.org/MDAnalysis/documentation_pages/analysis/gnm.html)
-please cite
-
- * Benjamin A. Hall, Samantha L. Kaye, Andy Pang, Rafael Perera, and Philip
-   C. Biggin. Characterization of Protein Conformational States by Normal-Mode
-   Frequencies. *J. Am. Chem. Soc.* **129** (2007), 11394—11401.
-
-Thanks!
-
+Please also see the list of [included
+algorithms]({{site.baseurl}}pages/citations#IncludedAlgorithms) with
+additional citations.
 
 # Historical, Technical and Artistic Remarks
 
@@ -155,3 +127,8 @@ licensed under a [Creative Commons Attribution-NoDerivs 3.0 Unported
 License](http://creativecommons.org/licenses/by-nd/3.0/).
 
 
+<a href="https://github.com/MDAnalysis/mdanalysis"><img style="position: absolute; top:
+0; right: 0; border: 0;"
+src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67"
+alt="Fork me on GitHub"
+data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
