@@ -33,3 +33,6 @@ mailinglists:
   developer: 
     name:         developer
     url:          http://groups.google.com/group/mdnalysis-devel
+twitter:
+  name:           mdanalysis
+  url:            https://twitter.com/mdanalysis
