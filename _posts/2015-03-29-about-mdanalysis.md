@@ -40,7 +40,7 @@ mailing list]({{site.mailinglists.discussion.url}}) and join the
 discussion.
 
 Please report **bugs** or **enhancement requests** through the [Issue
-Tracker](https://github.com/MDAnalysis/mdanalysis/issues). 
+Tracker]({{site.github.issues}}). 
 
 MDAnalysis is **open source** and welcomes *your* contributions. [Fork
 the repository on

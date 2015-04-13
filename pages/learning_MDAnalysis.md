@@ -4,7 +4,7 @@ title: Learning MDAnalysis
 ---
 
 Once you had a look at the 
-[basic example]({{ site.baseurl }}pages/basic_example) 
+[basic example]({{site.baseurl}}pages/basic_example) 
 you might want to learn more about how to use
 MDAnalysis. MDAnalysis is primarily a library that helps you to build
 your own tools but it also works very well for **interactive data
@@ -22,7 +22,7 @@ MDAnalysis for your own specific uses.
 The [MDAnalysis
 Tutorial](http://www.mdanalysis.org/MDAnalysisTutorial/) serves as an
 introduction to the library and there are [other
-tutorials](https://github.com/MDAnalysis/mdanalysis/wiki/Tutorials)
+tutorials]({{site.github.wiki}}/Tutorials)
 available, too.
 
 
@@ -42,6 +42,6 @@ Finally, you can also ask for advice or help on the
 [mdnalysis-discussion mailing
 list](http://groups.google.com/group/mdnalysis-discussion). If you
 find *bugs* or want to *request enhancements* please [file a
-report](https://github.com/MDAnalysis/mdanalysis/wiki/ReportingProblems)
+report]({{site.github.wiki}}/ReportingProblems)
 in the [Issue
-Tracker](https://github.com/MDAnalysis/mdanalysis/issues).
+Tracker]({{sitemap.github.issues}}).

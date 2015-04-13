@@ -19,7 +19,7 @@ pip install MDAnalysisTests
 
 For more details on installation and alternative ways to install MDAnalysis
 (e.g. through your distribution's package manager, see [Installing
-MDAnalysis](https://github.com/MDAnalysis/mdanalysis/wiki/Install)).
+MDAnalysis]({{site.github.wiki}}/Install)).
 
 If you have questions with the installation, please ask on the
 [{{site.mailinglists.discussion.name}}]({{site.mailinglists.discussion.url}})

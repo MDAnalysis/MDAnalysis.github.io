@@ -32,7 +32,7 @@ are implemented. Trajectories can also be manipulated (for instance,
 fit to a reference structure) and written out.
 
 Please report **bugs** or **enhancement requests** through the [Issue
-Tracker](https://github.com/MDAnalysis/mdanalysis/issues). Questions
+Tracker]({{site.github.issues}}). Questions
 can also be asked on the [{{site.mailinglists.discussion.name}}
 mailing list]({{site.mailinglists.discussion.url}}).
 
@@ -80,9 +80,8 @@ Finally, you can also ask for advice or help on the
 [{{site.mailinglists.discussion.name}} mailing
 list]({{site.mailinglists.discussion.url}}). If you find *bugs* or
 want to *request enhancements* please [file a
-report](https://github.com/MDAnalysis/mdanalysis/wiki/ReportingProblems)
-in the [Issue
-Tracker](https://github.com/MDAnalysis/mdanalysis/issues).
+report]({{site.github.wiki}}/ReportingProblems) in the [Issue
+Tracker]({{site.github.issues}}).
 
 
 # Citations
@@ -98,8 +97,8 @@ When using MDAnalysis in published work, please cite
    (If you are reading the [HTML version of the
    paper](http://onlinelibrary.wiley.com/doi/10.1002/jcc.21787/full),
    have a look at the [paper
-   errata](https://github.com/MDAnalysis/mdanalysis/wiki/PaperErrata). The
-   free PubmedCentral manuscript
+   errata]({{site.github.wiki}}/PaperErrata). The free PubmedCentral
+   manuscript
    [PMC3144279](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3144279/)
    has correct code, which can be copied and pasted.)
 

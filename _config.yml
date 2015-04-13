@@ -21,11 +21,15 @@ paginate:         5
 # Custom vars
 version:          0.9.1
 github:
+#  repo:           http://source.mdanalysis.org
   repo:           https://github.com/MDAnalysis/mdanalysis
+  docs:           http://devdocs.mdanalysis.org
+  issues:         http://issues.mdanalysis.org
+  wiki:           http://wiki.mdanalysis.org
 pypi:
-  package:        https://pypi.python.org/pypi/MDAnalysis
+  package:        http://download.mdanalysis.org
   tests:          https://pypi.python.org/pypi/MDAnalysisTests
-  docs:           https://pythonhosted.org/MDAnalysis
+  docs:           http://docs.mdanalysis.org
 mailinglists:
   discussion:
     name:         mdnalysis-discussion
