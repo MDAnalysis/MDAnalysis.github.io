@@ -7,8 +7,9 @@ The paper on MDAnalysis was published as
 
   * N. Michaud-Agrawal, E. J. Denning, T. B. Woolf, and
     O. Beckstein. MDAnalysis: A Toolkit for the Analysis of Molecular
-    Dynamics Simulations. _J. Comput. Chem._ **32** (2011), 2319–2327,
-    DOI: [10.1002/jcc.21787](http://dx.doi.org/10.1002/jcc.21787)
+    Dynamics Simulations. _J. Comput. Chem._ **32** (2011), 2319-2327,
+    DOI [10.1002/jcc.21787](http://dx.doi.org/10.1002/jcc.21787), [PMID
+    21500218](http://www.ncbi.nlm.nih.gov/pubmed/21500218).
 
 The [HTML version of the
 paper](http://onlinelibrary.wiley.com/doi/10.1002/jcc.21787/full) has
@@ -17,9 +18,9 @@ completely useless for learning MDAnalysis. The
 [PDF](http://onlinelibrary.wiley.com/doi/10.1002/jcc.21787/pdf)
 version is mostly correct although the final formatted version ended
 up with a few line breaks that are illegal in the Python syntax. The
-free PubmedCentral version  [PMID
-21500218](http://www.ncbi.nlm.nih.gov/pubmed/21500218), however,
-contains perfectly formatted Python code.
+free PubmedCentral version PMCID
+[PMC3144279](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3144279/),
+however, contains perfectly formatted Python code.
 
 Corrected code is listed here and can also be found in the
 [examples]({{site.github.repo}}/tree/master/package/examples) that are
