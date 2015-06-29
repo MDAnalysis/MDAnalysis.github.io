@@ -28,7 +28,7 @@ available, too.
 
 ## Documentation ##
 
-See the [Online Documentation](https://pythonhosted.org/MDAnalysis/)
+See the [Online Documentation]({{site.pypi.docs}})
 for more information on how to use MDAnalysis and the available
 documentation on the Wiki. The [paper on
 MDAnalysis]({{site.baseurl}}pages/citations#MichaudAgrawal2011) contains a

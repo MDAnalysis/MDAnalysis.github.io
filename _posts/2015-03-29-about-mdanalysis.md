@@ -5,16 +5,16 @@ title: MDAnalysis
 
 **MDAnalysis** is an object-oriented python toolkit to analyze
 molecular dynamics trajectories in [many popular
-formats](https://pythonhosted.org/MDAnalysis/documentation_pages/coordinates/init.html#id1). It
+formats]({{site.pypi.docs}}/documentation_pages/coordinates/init.html#id1). It
 can write most of these formats, too, together with [atom
-selections](https://pythonhosted.org/MDAnalysis/documentation_pages/selections_modules.html#selection-exporters)
+selections]({{site.pypi.docs}}/documentation_pages/selections_modules.html#selection-exporters)
 suitable for visualization or native analysis tools.
 
 MDAnalysis allows one to read molecular dynamics trajectories and
 access the atomic coordinates through [NumPy](http://numpy.scipy.org/)
 arrays. This provides a flexible and relatively fast framework for
 complex analysis tasks. In addition, powerful atom [selection
-commands](https://pythonhosted.org/MDAnalysis/documentation_pages/selections.html)
+commands]({{site.pypi.docs}}/documentation_pages/selections.html)
 are implemented. Trajectories can also be manipulated (for instance,
 fit to a reference structure) and written out. The 
 [basic example]({{site.baseurl}}pages/basic_example) demonstrates some of the main features.

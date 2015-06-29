@@ -12,13 +12,13 @@ also reads other formats
 (e.g. [PDB](http://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html)
 files and [XYZ format](http://openbabel.org/wiki/XYZ_%28format%29)
 trajectories; see the **[supported coordinate
-formats](https://pythonhosted.org/MDAnalysis/documentation_pages/coordinates/init.html#id1)**
+formats]({{site.pypi.docs}}/documentation_pages/coordinates/init.html#id1)**
 for the full list). It can write most of these formats, too, together
 with atom selections for use in [Gromacs](http://www.gromacs.org),
 [CHARMM](http://www.charmm.org/),
 [VMD](http://www.ks.uiuc.edu/Research/vmd/) and
 [PyMol](http://www.pymol.org/) (see [selection
-exporters](https://pythonhosted.org/MDAnalysis/documentation_pages/selections_modules.html#selection-exporters)
+exporters]({{site.pypi.docs}}/documentation_pages/selections_modules.html#selection-exporters)
 for more details).
 
 MDAnalysis allows one to read molecular dynamics trajectories and
@@ -27,7 +27,7 @@ arrays. This provides a flexible and relatively fast framework for
 complex analysis tasks. In addition,
 [CHARMM-style](http://www.charmm.org/html/documentation/c34b1/select.html)
 atom [selection
-commands](https://pythonhosted.org/MDAnalysis/documentation_pages/selections.html)
+commands]({{site.pypi.docs}}/documentation_pages/selections.html)
 are implemented. Trajectories can also be manipulated (for instance,
 fit to a reference structure) and written out.
 
@@ -69,7 +69,7 @@ pip install MDAnalysisTests
 The [MDAnalysis Tutorial](http://www.mdanalysis.org/MDAnalysisTutorial/) serves
 as an introduction to the library and there are other Tutorials available, too.
 
-See the [Online Documentation](https://pythonhosted.org/MDAnalysis/)
+See the [Online Documentation]({{site.pypi.docs}})
 for more information on how to use MDAnalysis and the available
 documentation on the Wiki. The [paper on
 MDAnalysis](#MichaudAgrawal2011) contains a high-level description of
