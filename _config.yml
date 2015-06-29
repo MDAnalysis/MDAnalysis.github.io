@@ -19,7 +19,7 @@ author:
 paginate:         5
 
 # Custom vars
-version:          0.9.1
+version:          0.10.0
 github:
 #  repo:           http://source.mdanalysis.org
   repo:           https://github.com/MDAnalysis/mdanalysis
