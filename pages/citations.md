@@ -29,18 +29,21 @@ please also cite
 
  * Douglas L. Theobald. Rapid calculation of RMSD using a quaternion-based
    characteristic polynomial. *Acta Crystallographica A* **61** (2005),
-   478–480.
+   478-480. doi: [10.1107/S0108767305015266](http://doi.org/10.1107/S0108767305015266)
 
  * Pu Liu, Dmitris K. Agrafiotis, and Douglas L. Theobald. Fast determination
    of the optimal rotational matrix for macromolecular
-   superpositions. *J. Comput. Chem.* **31** (2010), 1561-1563.
+   superpositions. *J. Comput. Chem.* **31** (2010), 1561-1563. doi:
+   [10.1002/jcc.21439](http://doi.org/10.1002/jcc.21439) 
 
 If you use the helix analysis algorithm HELANAL in
 [MDAnalysis.analysis.helanal](https://pythonhosted.org/MDAnalysis/documentation_pages/analysis/helanal.html)
 please cite
 
  * Bansal M, Kumar S, Velavan R. HELANAL - A program to characterise helix
-   geometry in proteins. *J. Biomol. Struct. Dyn.* **17** (2000), 811-819
+   geometry in proteins. *J. Biomol. Struct. Dyn.* **17** (2000),
+   811-819. doi:
+   [10.1080/07391102.2000.10506570](http://doi.org/10.1080/07391102.2000.10506570)
 
 If you use the GNM trajectory analysis code in
 [MDAnalysis.analysis.gnm](https://pythonhosted.org/MDAnalysis/documentation_pages/analysis/gnm.html)
@@ -48,7 +51,19 @@ please cite
 
  * Benjamin A. Hall, Samantha L. Kaye, Andy Pang, Rafael Perera, and Philip
    C. Biggin. Characterization of Protein Conformational States by Normal-Mode
-   Frequencies. *J. Am. Chem. Soc.* **129** (2007), 11394-11401.
+   Frequencies. *J. Am. Chem. Soc.* **129** (2007), 11394-11401. doi:
+   [10.1021/ja071797y](http://doi.org/10.1021/ja071797y)
+
+If you use the water analysis code in
+[MDAnalysis.analysis.waterdynamics](https://pythonhosted.org/MDAnalysis/documentation_pages/analysis/waterdynamics.html)
+please cite
+
+ * Araya-Secchi, R., Tomas Perez-Acle, Seung-gu Kang, Tien Huynh,
+   Alejandro Bernardin, Yerko Escalona, Jose-Antonio Garate, Agustin
+   D. Martinez, Isaac E. Garcia, Juan C. Saez, Ruhong
+   Zhou. Characterization of a novel water pocket inside the human
+   Cx26 hemichannel structure. *Biophysical Journal* ***107*** (2014),
+   599-612. doi: [10.1016/j.bpj.2014.05.037](http://doi.org/10.1016/j.bpj.2014.05.037)
 
 Thanks!
 
