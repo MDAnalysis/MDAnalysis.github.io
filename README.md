@@ -1,13 +1,9 @@
 # MDAnalysis Web Site
 
-The new [MDAnalysis web pages](http://www.mdanalysis.org) are currently under construction after
-the move from Google Code to GitHub (March 2015). The new home page [www.mdanalysis.org](http://www.mdanalysis.org) is maintained as a [GitHub pages](https://pages.github.com) site. The home page is also accessible as [mdanalysis.github.io](http://mdanalysis.github.io)).
-
-## Old Google Code site
-
-The old Google Code site is still visible at
-<http://mdanalysis.googlecode.com> but see [Issue #223](https://github.com/MDAnalysis/mdanalysis/issues/223) for background.
-
+The home page [www.mdanalysis.org](http://www.mdanalysis.org) is
+maintained as a [GitHub pages](https://pages.github.com) site. The
+home page is also accessible as
+[mdanalysis.github.io](http://mdanalysis.github.io)).
 
 ## Web development
 
