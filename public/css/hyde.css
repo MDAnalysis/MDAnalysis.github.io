@@ -187,12 +187,15 @@ a.sidebar-nav-item:focus {
 }
 
 /* Orange */
+/* original Hyde:   background-color: #d28445; */
+/* MDAnalysis orange: #FF9200 */
+/* MDAnalysis gray: #808080 */
 .theme-base-09 .sidebar {
-  background-color: #d28445;
+  background-color: #808080;
 }
 .theme-base-09 .content a,
 .theme-base-09 .related-posts li a:hover {
-  color: #d28445;
+  color: #ff9200;
 }
 
 /* Yellow */

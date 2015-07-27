@@ -3,6 +3,10 @@ layout: post
 title: MDAnalysis
 ---
 
+
+<img src="{{ site.baseurl }}public/mdanalysis-logo_square.png"
+style="float: right" alt="MDAnalysis" width="30%"/>
+
 **MDAnalysis** is an object-oriented python toolkit to analyze
 molecular dynamics trajectories in [many popular
 formats]({{site.pypi.docs}}/documentation_pages/coordinates/init.html#id1). It
