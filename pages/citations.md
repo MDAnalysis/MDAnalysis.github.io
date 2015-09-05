@@ -81,7 +81,7 @@ the files AUTHORS and LICENSE in the distribution for details.
 
 Some time-critical routines are written in C or [cython](http://cython.org) and
 require a working C compiler. The minimum required version of Python is
-2.6. MDAnalysis has been successfully used on Linux and Mac OS X.
+2.7. MDAnalysis has been successfully used on Linux and Mac OS X.
 
 The **MDAnalysis 'Atom' Logo** was designed by **Christian Beckstein** and is
 licensed under a [Creative Commons Attribution-NoDerivs 3.0 Unported
