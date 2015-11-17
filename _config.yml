@@ -4,19 +4,15 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
 title:            MDAnalysis
 tagline:          A Python toolkit for the analysis of molecular dynamics simulations.
 url:              http://www.mdanalysis.org
-paginate:         1
 baseurl:          /
 author:
   name:           The MDAnalysis Team
   url:            https://twitter.com/mdanalysis
-
-paginate:         5
 
 # Custom vars
 version:          0.10.0
