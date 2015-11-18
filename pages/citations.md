@@ -8,7 +8,7 @@ When using MDAnalysis in published work, please cite
  * <a name="MichaudAgrawal2011"></a>N. Michaud-Agrawal, E. J. Denning, T. B. Woolf, and
    O. Beckstein. MDAnalysis: A Toolkit for the Analysis of Molecular Dynamics
    Simulations. *J. Comput. Chem.* **32** (2011), 2319-2327,
-   doi:[10.1002/jcc.21787](http://dx.doi.org/10.1002/jcc.21787). 
+   doi:[10.1002/jcc.21787](http://dx.doi.org/10.1002/jcc.21787).
    PMCID:[PMC3144279](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3144279/)
 
    (If you are reading the [HTML version of the
@@ -34,7 +34,7 @@ please also cite
  * Pu Liu, Dmitris K. Agrafiotis, and Douglas L. Theobald. Fast determination
    of the optimal rotational matrix for macromolecular
    superpositions. *J. Comput. Chem.* **31** (2010), 1561-1563. doi:
-   [10.1002/jcc.21439](http://doi.org/10.1002/jcc.21439) 
+   [10.1002/jcc.21439](http://doi.org/10.1002/jcc.21439)
 
 If you use the helix analysis algorithm HELANAL in
 [MDAnalysis.analysis.helanal](https://pythonhosted.org/MDAnalysis/documentation_pages/analysis/helanal.html)
@@ -65,6 +65,14 @@ please cite
    Cx26 hemichannel structure. *Biophysical Journal* ***107*** (2014),
    599-612. doi: [10.1016/j.bpj.2014.05.037](http://doi.org/10.1016/j.bpj.2014.05.037)
 
+If you use the Path Similarity Analysis (PSA) code in
+[MDAnalysis.analysis.psa](https://pythonhosted.org/MDAnalysis/documentation_pages/analysis/psa.html)
+please cite
+
+ * Seyler SL, Kumar A, Thorpe MF, Beckstein O (2015) Path Similarity
+   Analysis: A Method for Quantifying Macromolecular Pathways. *PLoS
+   Comput Biol* **11**(10): e1004568. doi: [10.1371/journal.pcbi.1004568](http://dx.doi.org/10.1371/journal.pcbi.1004568)
+
 Thanks!
 
 
@@ -86,4 +94,3 @@ require a working C compiler. The minimum required version of Python is
 The **MDAnalysis 'Atom' Logo** was designed by **Christian Beckstein** and is
 licensed under a [Creative Commons Attribution-NoDerivs 3.0 Unported
 License](http://creativecommons.org/licenses/by-nd/3.0/).
-
