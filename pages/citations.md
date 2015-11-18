@@ -70,8 +70,8 @@ If you use the Path Similarity Analysis (PSA) code in
 please cite
 
  * Seyler SL, Kumar A, Thorpe MF, Beckstein O (2015) Path Similarity
-   Analysis: A Method for Quantifying Macromolecular Pathways. PLoS
-   Comput Biol 11(10): e1004568. doi: [10.1371/journal.pcbi.1004568](http://dx.doi.org/10.1371/journal.pcbi.1004568)
+   Analysis: A Method for Quantifying Macromolecular Pathways. *PLoS
+   Comput Biol* **11**(10): e1004568. doi: [10.1371/journal.pcbi.1004568](http://dx.doi.org/10.1371/journal.pcbi.1004568)
 
 Thanks!
 
