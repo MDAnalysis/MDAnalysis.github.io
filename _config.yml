@@ -14,6 +14,12 @@ author:
   name:           The MDAnalysis Team
   url:            https://twitter.com/mdanalysis
 
+gems:            ['jekyll-paginate']
+
+# Blog pagination
+paginate_path:   "/blog/page:num/"
+paginate:        3
+
 # Custom vars
 version:          0.10.0
 github:
