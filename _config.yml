@@ -14,6 +14,9 @@ author:
   name:           The MDAnalysis Team
   url:            https://twitter.com/mdanalysis
 
+images:           /public/images/
+blog:             /blog/
+
 gems:            ['jekyll-paginate']
 
 # Blog pagination
@@ -21,7 +24,7 @@ paginate_path:   "/blog/page:num/"
 paginate:        3
 
 # Custom vars
-version:          0.10.0
+version:          0.12.1
 github:
 #  repo:           http://source.mdanalysis.org
   repo:           https://github.com/MDAnalysis/mdanalysis
@@ -42,3 +45,7 @@ mailinglists:
 twitter:
   name:           mdanalysis
   url:            https://twitter.com/mdanalysis
+
+
+signature:
+  orbeckst:       "[orbeckst](https://github.com/orbeckst)"
