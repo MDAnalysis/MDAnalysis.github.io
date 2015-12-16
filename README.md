@@ -2,7 +2,7 @@
 
 The home page [www.mdanalysis.org](http://www.mdanalysis.org) is maintained as
 a [GitHub pages](https://pages.github.com) site. The home page is also
-accessible as [mdanalysis.github.io](http://mdanalysis.github.io)).
+accessible as [mdanalysis.github.io](http://mdanalysis.github.io).
 
 
 ## Blog [blog.mdanalysis.org](http://blog.mdanalysis.org)
@@ -63,9 +63,10 @@ The GitHub pages can either use HTML or
 
 Drop images into the `public/images` directory and include them like
 
+```html
   <img src="{{site.images}}imagename.png"
    style="float: right" alt="alternative text" width="30%"/>
-
+```
 
 
 ### Notes on using Jekyll
