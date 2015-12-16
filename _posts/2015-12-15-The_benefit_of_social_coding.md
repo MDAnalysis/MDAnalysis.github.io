@@ -38,7 +38,7 @@ requests](https://github.com/MDAnalysis/mdanalysis/pulls) helps people
 to enjoy open source software development. In addition, the good
 integration with continuous integration services such as [Travis
 CI](https://travis-ci.org/), [coveralls](https://coveralls.io/) or
-[quatifiedcode](https://www.quantifiedcode.com) takes care of many
+[quantifiedcode](https://www.quantifiedcode.com) takes care of many
 essential but boring tasks and allows people to focus on what they
 like doing — writing code that helps them and others to get their
 research done.
