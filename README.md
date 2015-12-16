@@ -2,10 +2,10 @@
 
 The home page [www.mdanalysis.org](http://www.mdanalysis.org) is maintained as
 a [GitHub pages](https://pages.github.com) site. The home page is also
-accessible as [mdanalysis.github.io](http://mdanalysis.github.io)).
+accessible as [mdanalysis.github.io](http://mdanalysis.github.io).
 
 
-## Blog
+## Blog [blog.mdanalysis.org](http://blog.mdanalysis.org)
 
 Check out the repository, edit the pages under `_posts`, and push
 commits. The published pages are on the *master* branch.
@@ -31,12 +31,13 @@ should not be included in commits.
 
 You can add a signature to `_config.yml` such as
 
-  signature:
+```yaml
+signature:
     yourname:       "[yourname](https://github.com/yourname)"
+```
+(you don't have to link to your GitHub profile, other profiles are good choices, too, or no link whatsoever) and then sign posts with
 
-and then sign posts with
-
-  — {{site.signature.yourname}}
+    — {{site.signature.yourname}}
 
 
 ## Web development
@@ -62,9 +63,10 @@ The GitHub pages can either use HTML or
 
 Drop images into the `public/images` directory and include them like
 
+```html
   <img src="{{site.images}}imagename.png"
    style="float: right" alt="alternative text" width="30%"/>
-
+```
 
 
 ### Notes on using Jekyll
