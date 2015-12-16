@@ -8,7 +8,7 @@ title: The benefits of social coding
 [@{{site.twitter.name}}]({{site.twitter.url}})) and of course,
 development occurs on [GitHub]({{site.github.url}}), the "social
 coding platform" (at least that was the tag line a while
-back). However, for most of its life (January 2005 – March 2015)
+back). However, for most of its life (January 2008 – March 2015)
 MDAnalysis lived on Google Code and the [move to
 GitHub](https://github.com/MDAnalysis/mdanalysis/issues/223) was done
 more out of necessity (because of [Google Code's
@@ -20,7 +20,8 @@ possibly gain?
 In turns out, a lot.
 
 <img src="{{site.images}}mdanalysis_history.png"
-style="center" alt="MDAnalysis commit history" width="100%"/>
+style="center" alt="MDAnalysis commit history (Jan 2008 to Sept 2015)" 
+width="100%"/>
 
 As you can see from the image of the [commit
 history](https://github.com/MDAnalysis/mdanalysis/graphs/contributors),
