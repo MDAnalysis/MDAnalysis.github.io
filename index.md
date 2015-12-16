@@ -28,6 +28,9 @@ Read more:
 * [installation quick start]({{site.baseurl}}pages/installation_quick_start)
 * [learning MDAnalysis]({{site.baseurl}}pages/learning_MDAnalysis)
 
+Also, check out the [blog]({{site.baseurl}}blog) or subscribe via RSS to follow
+development updates and events.
+
 ### Availability
 
 All source code is available under the [GNU General Public License,
