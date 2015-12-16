@@ -19,7 +19,7 @@ possibly gain?
 
 In turns out, a lot.
 
-<img src="{{site.images}}mdanalysis_history.png"
+<img src="{{site.images}}mdanalysis_history_small.png"
 style="center" alt="MDAnalysis commit history (Jan 2008 to Sept 2015)" 
 width="100%"/>
 
