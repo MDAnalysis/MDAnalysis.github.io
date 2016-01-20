@@ -16,15 +16,15 @@ You can upgrade with `pip install --upgrade MDAnalysis`
 Our implementation of the Gromacs
 [xdrlib](http://www.gromacs.org/Developer_Zone/Programming_Guide/XTC_Library)
 has been completely rewritten in cython this release. This changes brings us one
-step closer towards supporting python 3. The only user facing API change is that
-we have don't save persistent frame offsets with the pickle module anymore but
+step closer towards supporting Python 3. The only user facing API change is that
+we don't save persistent frame offsets with the pickle module anymore but
 with numpy's 'npz' format. This improves reopening of xtc/trr files.
 
-## Going strong towards python 3
+## Going strong towards Python 3
 
-We are planning to support python 3 as well in the future. This release has
-started our process of adopting MDAnalysis to be compatible with python 2.7 and
-python 3.
+We are planning to support Python 3 as well in the future. This release has
+started our process of adapting MDAnalysis to be compatible with Python 2.7 and
+Python 3.
 
 ## Others
 
