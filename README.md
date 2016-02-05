@@ -66,6 +66,11 @@ Drop images into the `public/images` directory and include them like
 ```html
   <img src="{{site.images}}imagename.png"
    style="float: right" alt="alternative text" width="30%"/>
+   ```
+
+or use Markdown
+```markdown
+![alternative text]({{site.images}}imagename.png)
 ```
 
 

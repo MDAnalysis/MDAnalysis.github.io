@@ -1,6 +1,6 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown:         kramdown
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
@@ -24,7 +24,7 @@ paginate_path:   "/blog/page:num/"
 paginate:        3
 
 # Custom vars
-version:          0.12.1
+version:          0.13.0
 github:
 #  repo:           http://source.mdanalysis.org
   repo:           https://github.com/MDAnalysis/mdanalysis
@@ -49,3 +49,4 @@ twitter:
 
 signature:
   orbeckst:       "[orbeckst](https://github.com/orbeckst)"
+  
