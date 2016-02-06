@@ -11,15 +11,6 @@ You can upgrade with `pip install --upgrade MDAnalysis`
 
 # Noticable Changes
 
-## Rewrite of TRR and XTC file handling
-
-Our implementation of the Gromacs
-[xdrlib](http://www.gromacs.org/Developer_Zone/Programming_Guide/XTC_Library)
-has been completely rewritten in cython this release. This changes brings us one
-step closer towards supporting Python 3. The only user facing API change is that
-we don't save persistent frame offsets with the pickle module anymore but
-with numpy's 'npz' format. This improves reopening of xtc/trr files.
-
 ## Impicit OR in selections
 
 Many long selection strings used in select_atoms have been simplified through
@@ -57,11 +48,21 @@ This new behaviour works for name, type, resname, segid, altLoc, resid,
 resnum and bynum selections!  The old behaviour will still work,
 but we feel this should save a lot of typing!
 
-## Going strong towards Python 3
+## Rewrite of TRR and XTC file handling
 
-We are planning to support Python 3 as well in the future. This release has
-started our process of adapting MDAnalysis to be compatible with Python 2.7 and
-Python 3.
+Our implementation of the Gromacs
+[xdrlib](http://www.gromacs.org/Developer_Zone/Programming_Guide/XTC_Library)
+has been completely rewritten in cython this release. This changes brings us one
+step closer towards supporting Python 3. The only user facing API change is that
+we don't save persistent frame offsets with the pickle module anymore but
+with numpy's 'npz' format. This improves reopening of xtc/trr files.
+
+## Experimental Python 3 Support
+
+With this release it is possible to run MDAnalysis under python 3. We have
+ported most of our coordinate readers and topology readers to be python2/3
+compatible. Most features should already work but expect there to be some minor
+glitches.
 
 ## Others
 
