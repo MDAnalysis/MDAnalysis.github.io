@@ -7,12 +7,15 @@ permalink:        pretty
 
 # Setup
 title:            MDAnalysis
-tagline:          A Python toolkit for the analysis of molecular dynamics simulations.
+name:             MDAnalysis
+tagline:          A Python package for the analysis of molecular dynamics simulations.
+description:      A Python package for the analysis of molecular dynamics simulations.
 url:              http://www.mdanalysis.org
 baseurl:          /
 author:
   name:           The MDAnalysis Team
   url:            https://twitter.com/mdanalysis
+  email:          mdnalysis-devel@googlegroups.com
 
 images:           /public/images/
 blog:             /blog/
@@ -28,10 +31,18 @@ gems:
 paginate_path:   "/blog/page:num/"
 paginate:        3
 
+# jekyll-feed
+# - our previous feed was called atom.xml so we use it instead
+#   of the default feed.xml
+feed:
+  path: atom.xml
+
 # Custom vars
 version:          0.13.0
+
+# see also https://help.github.com/articles/repository-metadata-on-github-pages/
+# for what GitHub makes available in site.github
 github:
-#  repo:           http://source.mdanalysis.org
   repo:           https://github.com/MDAnalysis/mdanalysis
   docs:           http://devdocs.mdanalysis.org
   issues:         http://issues.mdanalysis.org
