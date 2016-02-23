@@ -22,9 +22,7 @@ gems:
   - jekyll-paginate
   - jekyll-mentions
   - jekyll-sitemap
-
-# We currently have our own atom.xml
-#  - jekyll-feed
+  - jekyll-feed
 
 # Blog pagination
 paginate_path:   "/blog/page:num/"
