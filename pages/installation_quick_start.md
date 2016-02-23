@@ -7,14 +7,14 @@ To install the latest stable release, use
 [pip](http://www.pip-installer.org/en/latest/index.html):
 
 {% highlight bash %}
-pip install MDAnalysis
+pip install --upgrade MDAnalysis
 {% endhighlight %}
 
 To run the test cases and examples, also install the unit tests (about 20 MiB
 in size):
 
 {% highlight bash %}
-pip install MDAnalysisTests
+pip install --upgrade MDAnalysisTests
 {% endhighlight %}
 
 For more details on installation and alternative ways to install MDAnalysis
