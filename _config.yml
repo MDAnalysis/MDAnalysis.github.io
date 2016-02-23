@@ -17,7 +17,14 @@ author:
 images:           /public/images/
 blog:             /blog/
 
-gems:            ['jekyll-paginate']
+# see https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
+gems:
+  - jekyll-paginate
+  - jekyll-mentions
+  - jekyll-sitemap
+
+# We currently have our own atom.xml
+#  - jekyll-feed
 
 # Blog pagination
 paginate_path:   "/blog/page:num/"
@@ -47,6 +54,3 @@ twitter:
   url:            https://twitter.com/mdanalysis
 
 
-signature:
-  orbeckst:       "[orbeckst](https://github.com/orbeckst)"
-  

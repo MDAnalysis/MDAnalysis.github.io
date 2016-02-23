@@ -49,5 +49,5 @@ working on a platform that makes it (mostly) enjoyable for them, is
 rather valuable. And maybe, before trying it, we just slightly
 underestimated the social component of writing code.
 
-— {{site.signature.orbeckst}}
+— @orbeckst
 
