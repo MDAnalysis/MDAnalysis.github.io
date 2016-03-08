@@ -54,10 +54,10 @@ pypi:
 mailinglists:
   discussion:
     name:         mdnalysis-discussion
-    url:          http://groups.google.com/group/mdnalysis-discussion
+    url:          https://groups.google.com/group/mdnalysis-discussion
   developer: 
     name:         developer
-    url:          http://groups.google.com/group/mdnalysis-devel
+    url:          https://groups.google.com/group/mdnalysis-devel
 twitter:
   name:           mdanalysis
   url:            https://twitter.com/mdanalysis
