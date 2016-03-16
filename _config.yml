@@ -18,6 +18,8 @@ author:
   email:          mdnalysis-devel@googlegroups.com
 
 images:           /public/images/
+data:             /public/data
+js:               /js
 blog:             /blog/
 
 # see https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
