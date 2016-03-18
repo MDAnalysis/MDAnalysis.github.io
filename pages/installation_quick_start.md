@@ -34,9 +34,9 @@ To upgrade to the latest stable release.
 conda update mdanalysis
 {% endhighlight %}
 
-The conda packages currently only support serial distance calculations. If you
-plan to use the parralel openMP algorithms you need to install MDAnalysis with
-[pip][pip] and have a working openMP installation.
+The conda packages currently only support serial calculations. If you
+plan to use the parallel [OpenMP][OpenMP] algorithms you need to install
+MDAnalysis with [pip][pip] and have a working OpenMP installation.
 
 # More
 
@@ -49,4 +49,5 @@ If you have questions with the installation, please ask on the
 mailing list.
 
 [pip]: http://www.pip-installer.org/en/latest/index.html
-[conda]: https://github.com/conda/conda
+[conda]: http://conda.pydata.org/docs/
+[OpenMP]: http://openmp.org
