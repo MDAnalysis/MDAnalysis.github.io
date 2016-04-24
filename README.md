@@ -39,10 +39,10 @@ not be touched, as this is only here to set the paginator.
 ## Web development
 
 Check out the repository, edit the pages, and push commits. The
-published pages are on the *master* branch.  
+published pages are on the *master* branch.
 
 We are using the minimalist [Hyde](https://github.com/poole/hyde) theme for
-[Jekyll](https://help.github.com/articles/using-jekyll-with-pages/). 
+[Jekyll](https://help.github.com/articles/using-jekyll-with-pages/).
 
 Additional static pages go under `pages`. If they have the layout type "page"
 they will be automatically included in the sidebar. We've left the static
@@ -104,14 +104,19 @@ described in the docs.
 #### Build site locally
 
 To run Jekyll in a way that matches the GitHub Pages build server, run `Jekyll`
-with `Bundler`. Use the command 
+with `Bundler`. Use the command
 
-    bundle exec jekyll serve 
+    bundle exec jekyll serve
 
 in the root of your repository (after switching to the gh-pages branch for
 project repositories), and your site should be available at
 <http://localhost:4000>. For a full list of Jekyll commands, see the Jekyll
 documentation.
+
+**NOTE:**
+
+In case the you get an error that a javascript environment is missing. Install a
+javascript environment like `nodejs` from your distribution repositories.
 
 #### Updating the github-pages plugin
 
@@ -122,8 +127,3 @@ with
 
 
     bundle update github-pages
-
-
-
-
-
