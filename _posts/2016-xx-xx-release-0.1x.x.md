@@ -36,6 +36,16 @@ The [*rmsd*][rmsd-docs] function now doesn't super position the given
 coordinates by default. The coordinates aren't changed now by default, instead
 you can control it with the new *center* and *superposition* keywords.
 
+## PDB Format
+
+Our own PDB parser has seen a lot of love in the last year. It has been the
+default for a long time now and all problems that occur for PDB's are fixed only
+in this parser. Because of that we have removed the Biopython PDB parser. This
+means the `permissive` keyword argument for Universes isn't used anymore.
+
+Additionally we have added **.ent* files to the list of supported PDB file
+formats.
+
 [contacts-docs]: http://www.mdanalysis.org/mdanalysis/documentation_pages/analysis/contacts.html
 [best-hummer-paper]: http://www.pnas.org/content/110/44/17874
 [rmsd-docs]: http://www.mdanalysis.org/mdanalysis/documentation_pages/analysis/rms.html#MDAnalysis.analysis.rms.rmsd
