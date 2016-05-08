@@ -1,32 +1,50 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown:         kramdown
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
 
 # Setup
 title:            MDAnalysis
-tagline:          A Python toolkit for the analysis of molecular dynamics simulations.
+name:             MDAnalysis
+tagline:          A Python package for the analysis of molecular dynamics simulations.
+description:      A Python package for the analysis of molecular dynamics simulations.
 url:              http://www.mdanalysis.org
 baseurl:          /
 author:
   name:           The MDAnalysis Team
   url:            https://twitter.com/mdanalysis
+  email:          mdnalysis-devel@googlegroups.com
 
 images:           /public/images/
+data:             /public/data
+js:               /js
 blog:             /blog/
 
-gems:            ['jekyll-paginate']
+# see https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
+gems:
+  - jekyll-paginate
+  - jekyll-mentions
+  - jekyll-sitemap
+  - jekyll-feed
 
 # Blog pagination
 paginate_path:   "/blog/page:num/"
 paginate:        3
 
+# jekyll-feed
+# - our previous feed was called atom.xml so we use it instead
+#   of the default feed.xml
+feed:
+  path: atom.xml
+
 # Custom vars
-version:          0.12.1
+version:          0.13.0
+
+# see also https://help.github.com/articles/repository-metadata-on-github-pages/
+# for what GitHub makes available in site.github
 github:
-#  repo:           http://source.mdanalysis.org
   repo:           https://github.com/MDAnalysis/mdanalysis
   docs:           http://devdocs.mdanalysis.org
   issues:         http://issues.mdanalysis.org
@@ -38,14 +56,12 @@ pypi:
 mailinglists:
   discussion:
     name:         mdnalysis-discussion
-    url:          http://groups.google.com/group/mdnalysis-discussion
+    url:          https://groups.google.com/group/mdnalysis-discussion
   developer: 
     name:         developer
-    url:          http://groups.google.com/group/mdnalysis-devel
+    url:          https://groups.google.com/group/mdnalysis-devel
 twitter:
   name:           mdanalysis
   url:            https://twitter.com/mdanalysis
 
 
-signature:
-  orbeckst:       "[orbeckst](https://github.com/orbeckst)"
