@@ -37,7 +37,8 @@ for time_step in universe.trajectory:
 @fiona-naugthon worked at offering several convenient way to iterate through your
 data. Read the [documentation](aux-doc) or [Fiona's blog posts](fiona-blog) to learn more about the feature.
 
-This feature is still in it's beginning and will be expanded in future releases.
+This feature is still in it's beginning and will be expanded in future releases. You can
+follow the conversation on the [initial issue](issue785) or on the [pull request](pr868).
 So far, only the XVG format used by [gromacs] and [grace] are supported. Open an issue
 if you need support for other time series formats.
 
@@ -89,5 +90,7 @@ A list of all changes can be found in the [CHANGELOG](https://github.com/MDAnaly
 [adk-sim]: link to download instructions
 [aux-doc]: link to auxiliary doc
 [fiona-blog]: http://fiona-naughton.github.io/blog/
+[isue785]: https://github.com/MDAnalysis/mdanalysis/issues/785
+[pr868]: https://github.com/MDAnalysis/mdanalysis/pull/868
 [gromacs]: http://www.gromacs.org
 [grace]: http://plasma-gate.weizmann.ac.il/Grace/
