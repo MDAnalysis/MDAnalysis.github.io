@@ -88,7 +88,7 @@ A list of all changes can be found in the [CHANGELOG](https://github.com/MDAnaly
 [dmaps-paper]: http://look.me.up.a.clementi.md.paper
 [pca]: http://wikipedia?
 [adk-sim]: link to download instructions
-[aux-doc]: link to auxiliary doc
+[aux-doc]: http://www.mdanalysis.org/MDAnalysis/documentation_pages/auxiliary/init.html
 [fiona-blog]: http://fiona-naughton.github.io/blog/
 [isue785]: https://github.com/MDAnalysis/mdanalysis/issues/785
 [pr868]: https://github.com/MDAnalysis/mdanalysis/pull/868
