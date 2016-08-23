@@ -7,7 +7,9 @@ We have just released MDAnalysis version 0.16.0. This release contains new
 features as well as bug fixes. Highlights are listed below but for more details
 see the [release notes](https://github.com/MDanalysis/mdanalysis/wiki/...).
 
-13 People contributed to this release.
+This release includes the work of our GSoC students Fiona Naughton
+(@fiona-naughton) and John Detlefs (@jdetle). In total **XX** People contributed
+to this release.
 
 # Upgrade
 
@@ -66,6 +68,45 @@ ax.set(xlabel='PC_1', ylabel='PC_2', title='PCA of ADK')
 
 **TODO**: add picture
 
+## Convenience functions to create a new analysis
+
+A while back we introduced a new frame work for analysis to unify the API for
+the different analysis methods we offer. With this release we also add a new
+class `AnalysisFromFunction` to make it easier to calculate observables from a
+simulation. Now code like this with a handwritten loop.
+
+```python
+result = []
+for ts in u.trajectory:
+    result.append(u.atoms.center_of_geometry())
+results = np.asarray(results)
+```
+
+Can now be converted into this.
+
+```python
+from MDAnalyis.analysis.base import AnalysisFromFunction
+cog = AnalysisFromFunction(lambda ag : ag.center_of_geometry(), u.atoms).run()
+cog.results
+```
+
+This class also takes arguments to adjust the iteration (`start`,`stop`,`step`)
+and you can add verbosity with `quiet=False`. You will also profit from any
+performance improvements in the analysis class in the future without changing
+your code. If you have a specific observable that you want to calculate several
+times you can also create a new analysis class with `analysis_class` like this.
+
+```python
+from MDAnalyis.analysis.base import analysis_class
+
+def cog(ag):
+    return ag.center_of_geometry()
+
+COG = analysis_class(cog)
+
+cog_results = COG(u.atoms, step=2, quiet=False).run()
+```
+
 ## Speed improvements in RMSD
 
 Thanks for work from @rbrtdlgd our RMSD calculations are about 40% faster now.
@@ -78,8 +119,7 @@ the [CHANGELOG].
 - No more deprecation warning spam when MDAnalyis is imported
 - analysis.align has a new AlignTraj class following the analysis class style
 - all new analysis classes now print additional information with the `quiet=False`.
-- new analysis ported to new style: AlignTraj, RMSD,
-
+- RMSD has been ported to the new analysis class style
 
 # Other Changes
 
