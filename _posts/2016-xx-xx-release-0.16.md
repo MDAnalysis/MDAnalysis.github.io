@@ -130,8 +130,8 @@ the [CHANGELOG].
 
 A list of all changes can be found in the [CHANGELOG](https://github.com/MDAnalysis/mdanalysis/blob/develop/package/CHANGELOG).
 
-[dmaps-paper]: http://look.me.up.a.clementi.md.paper
-[pca]: http://wikipedia?
+[dmaps-paper]: dx.doi.org/10.1073/pnas.0500334102
+[pca]: https://en.wikipedia.org/wiki/Principal_component_analysis
 [aux-doc]: http://www.mdanalysis.org/MDAnalysis/documentation_pages/auxiliary/init.html
 [fiona-blog]: http://fiona-naughton.github.io/blog/
 [isue785]: https://github.com/MDAnalysis/mdanalysis/issues/785
