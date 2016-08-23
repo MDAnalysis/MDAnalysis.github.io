@@ -8,8 +8,9 @@ features as well as bug fixes. Highlights are listed below but for more details
 see the [release notes](https://github.com/MDanalysis/mdanalysis/wiki/...).
 
 This release includes the work of our GSoC students Fiona Naughton
-(@fiona-naughton) and John Detlefs (@jdetle). In total **XX** People contributed
-to this release.
+(@fiona-naughton) and John Detlefs (@jdetle). We have a big release this time
+with tones of new features, performance improvements and bug fixes. In total
+**XX** People contributed to this release.
 
 # Upgrade
 
@@ -49,24 +50,28 @@ if you need support for other time series formats.
 @jdetle has implemented two new dimension reduction algorithms,
 [Principal Component Analysis](pca) and [Diffusion Maps](dmaps-paper). Both can
 be found in the analysis submodule. As an example lets look at the first two PCA
-dimensions of [ADK](adk-sim).
+dimensions of ADK from our test files.
 
 ```python
+import matplotlib.pyplot as plt
 import MDAnalyis as mda
 from MDAnalysis.analysis.pca import PCA
+from MDAnalyisTests.datafiles import PSF, DCD
 
-u = mda.Universe(ADK_SIMULATION)
-backbone = u.select_atoms('backbone)
+plt.style.use('ggplot')
 
-pca = PCA(backbone).run()
-reduced_data = pca.transform(backbone, n_components=2)
+u = mda.Universe(PSF, DCD)
+ca = u.select_atoms('protein and name CA')
+
+pca = PCA(u, select='protein and name CA', quiet=False).run()
+reduced_data = pca.transform(ca, n_components=2)
 
 f, ax = plt.subplots()
-ax.scatter(reduced_data[:, 0], reduced_data[:, 1], edgecolor='none')
-ax.set(xlabel='PC_1', ylabel='PC_2', title='PCA of ADK')
+ax.plot(d[:, 0], d[:, 1], 'o')
+ax.set(xlabel=r'PC$_1$ [$\AA$]', ylabel=r'PC$_2$ [$\AA$]', title='PCA of ADK')
 ```
 
-**TODO**: add picture
+![PCA projection]({{site.images}}pca-release-0.16.png)
 
 ## Convenience functions to create a new analysis
 
@@ -127,7 +132,6 @@ A list of all changes can be found in the [CHANGELOG](https://github.com/MDAnaly
 
 [dmaps-paper]: http://look.me.up.a.clementi.md.paper
 [pca]: http://wikipedia?
-[adk-sim]: link to download instructions
 [aux-doc]: http://www.mdanalysis.org/MDAnalysis/documentation_pages/auxiliary/init.html
 [fiona-blog]: http://fiona-naughton.github.io/blog/
 [isue785]: https://github.com/MDAnalysis/mdanalysis/issues/785
