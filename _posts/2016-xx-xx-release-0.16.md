@@ -161,9 +161,7 @@ Likewise, the `rms_fit_trj` function in the analysis/align.py module also has an
 
 The ENCORE ensemble similarity library has been integrated with MDAnalysis. It implements a variety of techniques for calculating similarities between structural ensembles (trajectories), as described in this publication:
 
-    Tiberti M, Papaleo E, Bengtsen T, Boomsma W, Lindorff-Larsen K (2015) 
-    ENCORE: Software for Quantitative Ensemble Comparison. 
-    PLoS Comput Biol 11(10): e1004415. doi:10.1371/journal.pcbi.1004415
+    Tiberti M, Papaleo E, Bengtsen T, Boomsma W, Lindorff-Larsen K (2015), ENCORE: Software for Quantitative Ensemble Comparison. PLoS Comput Biol 11(10): e1004415. doi:10.1371/journal.pcbi.1004415.
 
 Using the similarity measures is simply a matter of loading the trajectories or experimental ensembles that one would like to compare as MDAnalysis.Universe objects:
 
@@ -222,8 +220,7 @@ print cluster_collection
 ```
 In addition to standard cluster membership information, the `cluster_collection` output keep track of the origin of each conformation, so you check how the different trajectories are represented in each cluster:
 ```python
-[ccfor cluster in cluster_collection:
-    print cluster.metadata["ensemble_membership"]
+print [cluster.metadata["ensemble_membership"] for cluster in cluster_collection]
 ```
 ```
 [array([1, 1, 1, 1, 2]), array([1, 1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1]), array([1, 1, 1, 1, 1]), array([1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1, 1]), array([2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2]), array([2, 2, 2, 2]), array([2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2, 2]), array([2, 2, 2, 2]), array([2, 2, 2, 2, 2, 2]), array([2, 2, 2, 2]), array([2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2, 2, 2])]
