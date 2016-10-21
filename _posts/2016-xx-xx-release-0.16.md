@@ -18,7 +18,7 @@ You can upgrade with `pip install --upgrade MDAnalysis`
 
 # Noticable Changes
 
-## Attach arbitraty time series to your trajectories
+## Attach arbitrary time series to your trajectories
 
 Our GSoC student @fiona-naughton has implemented an auxillary reader to add
 arbitrary time series to a universe. The time series are kept in sync with the
@@ -118,6 +118,119 @@ Thanks for work from @rbrtdlgd our RMSD calculations are about 40% faster now.
 If you are using the low-level qcprot algorithm your self intead of our provided
 wrappers you have to change your code since the API has changed. For more see
 the [CHANGELOG].
+
+## MemoryReader: Reading trajectories from memory
+
+MDAnalysis typically reads trajectories from files on-demand, so that it can efficiently deal with large trajectories - even those that do not fit in memory. However, in some cases, both for convenience and for efficiency, it can be an advantage to work with trajectories directly in memory. In this release, we have introduced a MemoryReader, which makes this possible.
+
+The MemoryReader works with numpy arrays, using the same format as that used by for instance `DCDReader.timeseries()`. You can create a Universe directly from such an array:
+
+```python
+from MDAnalysis import Universe
+from MDAnalysisTests.datafiles import DCD, PDB_small
+from MDAnalysis.coordinates.memory import MemoryReader
+
+# Create a Universe using a DCD reader
+universe = Universe(PDB_small, DCD)
+
+# Extract coordinates
+coordinates = universe.trajectory.timeseries()
+
+# Create a new Universe directly from these coordinates
+# using the MemoryReader
+universe2 = Universe(PDB_small, coordinates,
+                     format=MemoryReader)
+```
+
+The MemoryReader will work just as any other reader. In particular, you can iterate over it as usual, or use the `.timeseries()` method to retrieve a reference to the raw array in any format:
+
+```python
+coordinates_fac = universe2.trajectory.timeseries(format='fac')
+```
+
+Certain operations can be speeded up by moving a trajectory to memory. To facilitate this operation, the constructor of `Universe` takes an `in_memory` flag which will automatically convert any trajectory to a MemoryReader:
+
+```python
+universe = Universe(PDB_small, DCD, in_memory=True)
+```
+
+Likewise, the `rms_fit_trj` function in the analysis/align.py module also has an `in_memory` flag, allowing it to do in-place alignments in memory.
+
+
+## Incorporation of the ENCORE ensemble similarity library
+
+The ENCORE ensemble similarity library has been integrated with MDAnalysis. It implements a variety of techniques for calculating similarities between structural ensembles (trajectories), as described in this publication:
+
+    Tiberti M, Papaleo E, Bengtsen T, Boomsma W, Lindorff-Larsen K (2015) 
+    ENCORE: Software for Quantitative Ensemble Comparison. 
+    PLoS Comput Biol 11(10): e1004415. doi:10.1371/journal.pcbi.1004415
+
+Using the similarity measures is simply a matter of loading the trajectories or experimental ensembles that one would like to compare as MDAnalysis.Universe objects:
+
+```python
+from MDAnalysis import Universe
+import MDAnalysis.analysis.encore as encore
+from MDAnalysis.tests.datafiles import PSF, DCD, DCD2
+u1 = Universe(PSF, DCD)
+u2 = Universe(PSF, DCD2)
+```
+
+and running the similarity measures on them, choosing among 1) the Harmonic Ensemble Similarity measure:
+
+```python
+hes_similarities, details = encore.hes([u1, u2])
+print hes_similarities
+```
+```
+[[        0.         38279683.9587939]
+ [ 38279683.9587939         0.       ]]
+```
+
+2) the Clustering Ensemble Similarity measure:
+
+```python
+ces_similarities, details = encore.ces([u1, u2])
+print ces_similarities
+```
+```
+[[ 0.          0.68070702]
+ [ 0.68070702  0.        ]]
+```
+
+or 3) the Dimensionality Reduction Ensemble Similarity measure:
+
+```python
+dres_similarities, details = encore.dres([u1, u2])
+print dres_similarities
+```
+```
+[[ 0.          0.65434461]
+ [ 0.65434461  0.        ]]
+```
+Similarities are written in a square symmetric matrix having the same dimensions and ordering as the input list, with each element being the similarity value for a pair of the input ensembles. 
+
+The encore library includes a general interface to various clustering and dimensionality reduction algorithms (through the scikit-learn package), which makes it easy to switch between clustering and dimensionality reduction algorithms when using the `ces` and `dres` functions. The clustering and dimensionality reduction functionality is also directly available through the `cluster` and `reduce_dimensionality` functions. For instance, to cluster the conformations from the two universes defined above, we can write:
+```python
+cluster_collection = encore.cluster([u1,u2])
+print cluster_collection
+```
+```
+0 (size:5,centroid:1): array([ 0,  1,  2,  3, 98])
+1 (size:5,centroid:6): array([4, 5, 6, 7, 8])
+2 (size:7,centroid:12): array([ 9, 10, 11, 12, 13, 14, 15])
+…
+```
+In addition to standard cluster membership information, the `cluster_collection` output keep track of the origin of each conformation, so you check how the different trajectories are represented in each cluster:
+```python
+[ccfor cluster in cluster_collection:
+    print cluster.metadata["ensemble_membership"]
+```
+```
+[array([1, 1, 1, 1, 2]), array([1, 1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1]), array([1, 1, 1, 1, 1]), array([1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1, 1]), array([2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2]), array([2, 2, 2, 2]), array([2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2, 2]), array([2, 2, 2, 2]), array([2, 2, 2, 2, 2, 2]), array([2, 2, 2, 2]), array([2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2, 2, 2])]
+```
+
+For further details, see the documentation of the individual functions within Encore.
+
 
 # Minor Enhancements
 
