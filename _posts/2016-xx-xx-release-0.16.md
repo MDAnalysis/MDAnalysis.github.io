@@ -127,31 +127,38 @@ The MemoryReader works with numpy arrays, using the same format as that used by 
 
 ```python
 from MDAnalysis import Universe
-from MDAnalysisTests.datafiles import DCD, PDB_small
+from MDAnalysisTests.datafiles import DCD, PSF
 from MDAnalysis.coordinates.memory import MemoryReader
 
 # Create a Universe using a DCD reader
-universe = Universe(PDB_small, DCD)
+universe = Universe(PSF, DCD)
 
-# Extract coordinates
-coordinates = universe.trajectory.timeseries()
+# Create a numpy array with random coordinates (100 frames)
+# for the same topology
+coordinates = np.random.uniform(size=(100, universe.atoms.n_atoms, 3)).cumsum(0)
 
 # Create a new Universe directly from these coordinates
-# using the MemoryReader
-universe2 = Universe(PDB_small, coordinates,
-                     format=MemoryReader)
+universe2 = Universe(PDB_small, coordinates, format=MemoryReader)
 ```
 
-The MemoryReader will work just as any other reader. In particular, you can iterate over it as usual, or use the `.timeseries()` method to retrieve a reference to the raw array in any format:
+The MemoryReader will work just as any other reader. In particular, you can iterate over it as usual, or use the `.timeseries()` method to retrieve a reference to the raw array in any order of the dimensions ('fac'='(frames,atoms,coordinates)):
 
 ```python
 coordinates_fac = universe2.trajectory.timeseries(format='fac')
 ```
 
-Certain operations can be speeded up by moving a trajectory to memory. To facilitate this operation, the constructor of `Universe` takes an `in_memory` flag which will automatically convert any trajectory to a MemoryReader:
+Certain operations can be speeded up by moving a trajectory to memory, and we have therefore
+added functionality to directly transfer any existing trajectory to a MemoryReader using `Universe.transfer_to_memory`:
 
 ```python
-universe = Universe(PDB_small, DCD, in_memory=True)
+universe = Universe(PSF, DCD)
+universe.transfer_to_memory()     # Switches to a MemoryReader representation
+```
+
+You can also do this directly upon construction of a Universe, by using the `in_memory` flag:
+
+```python
+universe = Universe(PSF, DCD, in_memory=True)
 ```
 
 Likewise, the `rms_fit_trj` function in the analysis/align.py module also has an `in_memory` flag, allowing it to do in-place alignments in memory.
@@ -159,9 +166,9 @@ Likewise, the `rms_fit_trj` function in the analysis/align.py module also has an
 
 ## Incorporation of the ENCORE ensemble similarity library
 
-The ENCORE ensemble similarity library has been integrated with MDAnalysis. It implements a variety of techniques for calculating similarities between structural ensembles (trajectories), as described in this publication:
+The **ENCORE** ensemble similarity library has been integrated with MDAnalysis as [MDAnalysis.analysis.encore](http://www.mdanalysis.org/mdanalysis/documentation_pages/analysis/encore.html). It implements a variety of techniques for calculating similarities between structural ensembles (trajectories), as described in this publication:
 
-    Tiberti M, Papaleo E, Bengtsen T, Boomsma W, Lindorff-Larsen K (2015), ENCORE: Software for Quantitative Ensemble Comparison. PLoS Comput Biol 11(10): e1004415. doi:10.1371/journal.pcbi.1004415.
+    Tiberti M, Papaleo E, Bengtsen T, Boomsma W, Lindorff-Larsen K (2015), ENCORE: Software for Quantitative Ensemble Comparison. PLoS Comput Biol 11(10): e1004415. doi:[10.1371/journal.pcbi.1004415](http://doi.org/10.1371/journal.pcbi.1004415).
 
 Using the similarity measures is simply a matter of loading the trajectories or experimental ensembles that one would like to compare as MDAnalysis.Universe objects:
 
@@ -207,7 +214,7 @@ print dres_similarities
 ```
 Similarities are written in a square symmetric matrix having the same dimensions and ordering as the input list, with each element being the similarity value for a pair of the input ensembles. 
 
-The encore library includes a general interface to various clustering and dimensionality reduction algorithms (through the scikit-learn package), which makes it easy to switch between clustering and dimensionality reduction algorithms when using the `ces` and `dres` functions. The clustering and dimensionality reduction functionality is also directly available through the `cluster` and `reduce_dimensionality` functions. For instance, to cluster the conformations from the two universes defined above, we can write:
+The encore library includes a general interface to various clustering and dimensionality reduction algorithms (through the [scikit-learn](http://scikit-learn.org/) package), which makes it easy to switch between clustering and dimensionality reduction algorithms when using the `ces` and `dres` functions. The clustering and dimensionality reduction functionality is also directly available through the `cluster` and `reduce_dimensionality` functions. For instance, to cluster the conformations from the two universes defined above, we can write:
 ```python
 cluster_collection = encore.cluster([u1,u2])
 print cluster_collection
@@ -218,15 +225,7 @@ print cluster_collection
 2 (size:7,centroid:12): array([ 9, 10, 11, 12, 13, 14, 15])
 …
 ```
-In addition to standard cluster membership information, the `cluster_collection` output keep track of the origin of each conformation, so you check how the different trajectories are represented in each cluster:
-```python
-print [cluster.metadata["ensemble_membership"] for cluster in cluster_collection]
-```
-```
-[array([1, 1, 1, 1, 2]), array([1, 1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1]), array([1, 1, 1, 1, 1]), array([1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1, 1]), array([1, 1, 1, 1, 1, 1, 1]), array([2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2]), array([2, 2, 2, 2]), array([2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2, 2]), array([2, 2, 2, 2]), array([2, 2, 2, 2, 2, 2]), array([2, 2, 2, 2]), array([2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2, 2, 2]), array([2, 2, 2, 2, 2, 2, 2])]
-```
-
-For further details, see the documentation of the individual functions within Encore.
+In addition to standard cluster membership information, the `cluster_collection` output keep track of the origin of each conformation, so you check how the different trajectories are represented in each cluster. For further details, see the documentation of the individual functions within Encore.
 
 
 # Minor Enhancements
