@@ -126,6 +126,7 @@ MDAnalysis typically reads trajectories from files on-demand, so that it can eff
 The MemoryReader works with numpy arrays, using the same format as that used by for instance `DCDReader.timeseries()`. You can create a Universe directly from such an array:
 
 ```python
+import numpy as np
 from MDAnalysis import Universe
 from MDAnalysisTests.datafiles import DCD, PSF
 from MDAnalysis.coordinates.memory import MemoryReader
@@ -133,15 +134,14 @@ from MDAnalysis.coordinates.memory import MemoryReader
 # Create a Universe using a DCD reader
 universe = Universe(PSF, DCD)
 
-# Create a numpy array with random coordinates (100 frames)
-# for the same topology
-coordinates = np.random.uniform(size=(100, universe.atoms.n_atoms, 3)).cumsum(0)
+# Create a numpy array with random coordinates (100 frames) for the same topology
+coordinates = np.random.uniform(size=(universe.atoms.n_atoms, 100, 3)).cumsum(0)
 
 # Create a new Universe directly from these coordinates
-universe2 = Universe(PDB_small, coordinates, format=MemoryReader)
+universe2 = Universe(PSF, coordinates, format=MemoryReader)
 ```
 
-The MemoryReader will work just as any other reader. In particular, you can iterate over it as usual, or use the `.timeseries()` method to retrieve a reference to the raw array in any order of the dimensions ('fac'='(frames,atoms,coordinates)):
+The MemoryReader will work just as any other reader. In particular, you can iterate over it as usual, or use the `.timeseries()` method to retrieve a reference to the raw array in any order of the dimensions ('fac' means ('frames','atoms','coordinates')):
 
 ```python
 coordinates_fac = universe2.trajectory.timeseries(format='fac')
@@ -168,7 +168,7 @@ Likewise, the `rms_fit_trj` function in the analysis/align.py module also has an
 
 The **ENCORE** ensemble similarity library has been integrated with MDAnalysis as [MDAnalysis.analysis.encore](http://www.mdanalysis.org/mdanalysis/documentation_pages/analysis/encore.html). It implements a variety of techniques for calculating similarities between structural ensembles (trajectories), as described in this publication:
 
-    Tiberti M, Papaleo E, Bengtsen T, Boomsma W, Lindorff-Larsen K (2015), ENCORE: Software for Quantitative Ensemble Comparison. PLoS Comput Biol 11(10): e1004415. doi:[10.1371/journal.pcbi.1004415](http://doi.org/10.1371/journal.pcbi.1004415).
+Tiberti M, Papaleo E, Bengtsen T, Boomsma W, Lindorff-Larsen K (2015), ENCORE: Software for Quantitative Ensemble Comparison. PLoS Comput Biol 11(10): e1004415. doi:[10.1371/journal.pcbi.1004415](http://doi.org/10.1371/journal.pcbi.1004415).
 
 Using the similarity measures is simply a matter of loading the trajectories or experimental ensembles that one would like to compare as MDAnalysis.Universe objects:
 
