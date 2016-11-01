@@ -141,7 +141,7 @@ coordinates = np.random.uniform(size=(universe.atoms.n_atoms, 100, 3)).cumsum(0)
 universe2 = Universe(PSF, coordinates, format=MemoryReader)
 ```
 
-The MemoryReader will work just as any other reader. In particular, you can iterate over it as usual, or use the `.timeseries()` method to retrieve a reference to the raw array in any order of the dimensions ('fac' means ('frames','atoms','coordinates')):
+The MemoryReader will work just as any other reader. In particular, you can iterate over it as usual, or use the `.timeseries()` method to retrieve a reference to the raw array:
 
 ```python
 coordinates_fac = universe2.trajectory.timeseries(format='fac')
@@ -161,12 +161,12 @@ You can also do this directly upon construction of a Universe, by using the `in_
 universe = Universe(PSF, DCD, in_memory=True)
 ```
 
-Likewise, the `rms_fit_trj` function in the analysis/align.py module also has an `in_memory` flag, allowing it to do in-place alignments in memory.
+Likewise, the `AlignTraj` class in the analysis/align.py module also has an `in_memory` flag, allowing it to do in-place alignments in memory.
 
 
 ## Incorporation of the ENCORE ensemble similarity library
 
-The **ENCORE** ensemble similarity library has been integrated with MDAnalysis as [MDAnalysis.analysis.encore](http://www.mdanalysis.org/mdanalysis/documentation_pages/analysis/encore.html). It implements a variety of techniques for calculating similarities between structural ensembles (trajectories), as described in this publication:
+The **ENCORE** ensemble similarity library has been integrated with MDAnalysis as [MDAnalysis.analysis.encore](http://docs.mdanalysis.org/documentation_pages/analysis/encore.html). It implements a variety of techniques for calculating similarities between structural ensembles (trajectories), as described in this publication:
 
 Tiberti M, Papaleo E, Bengtsen T, Boomsma W, Lindorff-Larsen K (2015), ENCORE: Software for Quantitative Ensemble Comparison. PLoS Comput Biol 11(10): e1004415. doi:[10.1371/journal.pcbi.1004415](http://doi.org/10.1371/journal.pcbi.1004415).
 
