@@ -45,7 +45,7 @@ follow the conversation on the [initial issue](issue785) or on the [pull request
 So far, only the XVG format used by [gromacs] and [grace] are supported. Open an issue
 if you need support for other time series formats.
 
-## Do a dimension reduction with PCA and Dmaps
+## Do a dimension reduction with PCA and Diffusion Maps
 
 @jdetle has implemented two new dimension reduction algorithms,
 [Principal Component Analysis](pca) and [Diffusion Maps](dmaps-paper). Both can
@@ -114,8 +114,8 @@ cog_results = COG(u.atoms, step=2, quiet=False).run()
 
 ## Speed improvements in RMSD
 
-Thanks for work from @rbrtdlgd our RMSD calculations are about 40% faster now.
-If you are using the low-level qcprot algorithm your self intead of our provided
+Thanks for work from our NSF REU student @rbrtdlgd our RMSD calculations are about 40% faster now.
+If you are using the low-level qcprot algorithm yourself instead of our provided
 wrappers you have to change your code since the API has changed. For more see
 the [CHANGELOG].
 
