@@ -18,7 +18,7 @@ You can upgrade with `pip install --upgrade MDAnalysis`
 
 # Noticable Changes
 
-## Attach arbitraty time series to your trajectories
+## Attach arbitrary time series to your trajectories
 
 Our GSoC student @fiona-naughton has implemented an auxillary reader to add
 arbitrary time series to a universe. The time series are kept in sync with the
@@ -40,7 +40,7 @@ for time_step in universe.trajectory:
 @fiona-naugthon worked at offering several convenient way to iterate through your
 data. Read the [documentation](aux-doc) or [Fiona's blog posts](fiona-blog) to learn more about the feature.
 
-This feature is still in it's beginning and will be expanded in future releases. You can
+This feature is still in its beginning and will be expanded in future releases. You can
 follow the conversation on the [initial issue](issue785) or on the [pull request](pr868).
 So far, only the XVG format used by [gromacs] and [grace] are supported. Open an issue
 if you need support for other time series formats.
