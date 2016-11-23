@@ -24,6 +24,9 @@ u = mda.fetch_mmtf('3J3Q')
 
 The performance of loading MMTF files is a large improvement over traditional ascii PDB files,
 with the above system of approximately 2.4M atoms taking under 10 seconds to load.
+The compressed format and [efficient algorithms](https://github.com/rcsb/mmtf/blob/v1.0/spec.md)
+for storing the data mean that downloading structures will also require much less bandwidth,
+making this possible even on slow connections.
 
 MMTF files can support many different models for a given structure and this is made available
 through the `.models` attribute of a MDAnalysis Universe.  This provides a list of AtomGroup
