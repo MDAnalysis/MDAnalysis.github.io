@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Support for MMTF has arrived!
+title: Support for MMTF has arrived in MDAnalysis!
 ---
 
 The upcoming 0.16.0 release of MDAnalysis will have
@@ -26,7 +26,8 @@ The performance of loading MMTF files is a large improvement over traditional as
 with the above system of approximately 2.4M atoms taking under 10 seconds to load.
 
 MMTF files can support many different models for a given structure and this is made available
-through the `.models` attribute of a MDAnalysis Universe. These models are able to each have a
+through the `.models` attribute of a MDAnalysis Universe.  This provides a list of AtomGroup
+objects each representing a different model.  These models are able to each have a
 different topology.
 
 ```python
