@@ -18,6 +18,10 @@ You can upgrade with `pip install --upgrade MDAnalysis`
 
 # Noticable Changes
 
+# encore (TODO link to post)
+
+# mmtf (TODO link to post)
+
 ## Attach arbitrary time series to your trajectories
 
 Our GSoC student @fiona-naughton has implemented an auxillary reader to add
@@ -162,70 +166,6 @@ universe = Universe(PSF, DCD, in_memory=True)
 ```
 
 Likewise, the `AlignTraj` class in the analysis/align.py module also has an `in_memory` flag, allowing it to do in-place alignments in memory.
-
-
-## Incorporation of the ENCORE ensemble similarity library
-
-The **ENCORE** ensemble similarity library has been integrated with MDAnalysis as [MDAnalysis.analysis.encore](http://docs.mdanalysis.org/documentation_pages/analysis/encore.html). It implements a variety of techniques for calculating similarities between structural ensembles (trajectories), as described in this publication:
-
-Tiberti M, Papaleo E, Bengtsen T, Boomsma W, Lindorff-Larsen K (2015), ENCORE: Software for Quantitative Ensemble Comparison. PLoS Comput Biol 11(10): e1004415. doi:[10.1371/journal.pcbi.1004415](http://doi.org/10.1371/journal.pcbi.1004415).
-
-Using the similarity measures is simply a matter of loading the trajectories or experimental ensembles that one would like to compare as MDAnalysis.Universe objects:
-
-```python
-from MDAnalysis import Universe
-import MDAnalysis.analysis.encore as encore
-from MDAnalysis.tests.datafiles import PSF, DCD, DCD2
-u1 = Universe(PSF, DCD)
-u2 = Universe(PSF, DCD2)
-```
-
-and running the similarity measures on them, choosing among 1) the Harmonic Ensemble Similarity measure:
-
-```python
-hes_similarities, details = encore.hes([u1, u2])
-print hes_similarities
-```
-```
-[[        0.         38279683.9587939]
- [ 38279683.9587939         0.       ]]
-```
-
-2) the Clustering Ensemble Similarity measure:
-
-```python
-ces_similarities, details = encore.ces([u1, u2])
-print ces_similarities
-```
-```
-[[ 0.          0.68070702]
- [ 0.68070702  0.        ]]
-```
-
-or 3) the Dimensionality Reduction Ensemble Similarity measure:
-
-```python
-dres_similarities, details = encore.dres([u1, u2])
-print dres_similarities
-```
-```
-[[ 0.          0.65434461]
- [ 0.65434461  0.        ]]
-```
-Similarities are written in a square symmetric matrix having the same dimensions and ordering as the input list, with each element being the similarity value for a pair of the input ensembles. 
-
-The encore library includes a general interface to various clustering and dimensionality reduction algorithms (through the [scikit-learn](http://scikit-learn.org/) package), which makes it easy to switch between clustering and dimensionality reduction algorithms when using the `ces` and `dres` functions. The clustering and dimensionality reduction functionality is also directly available through the `cluster` and `reduce_dimensionality` functions. For instance, to cluster the conformations from the two universes defined above, we can write:
-```python
-cluster_collection = encore.cluster([u1,u2])
-print cluster_collection
-```
-```
-0 (size:5,centroid:1): array([ 0,  1,  2,  3, 98])
-1 (size:5,centroid:6): array([4, 5, 6, 7, 8])
-2 (size:7,centroid:12): array([ 9, 10, 11, 12, 13, 14, 15])
-…
-```
-In addition to standard cluster membership information, the `cluster_collection` output keep track of the origin of each conformation, so you check how the different trajectories are represented in each cluster. For further details, see the documentation of the individual functions within Encore.
 
 
 # Minor Enhancements
