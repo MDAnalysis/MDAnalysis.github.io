@@ -187,11 +187,8 @@ a.sidebar-nav-item:focus {
 }
 
 /* Orange */
-/* original Hyde:   background-color: #d28445; */
-/* MDAnalysis orange: #FF9200 */
-/* MDAnalysis gray: #808080 */
 .theme-base-09 .sidebar {
-  background-color: #808080;
+  background-color: #d28445;
 }
 .theme-base-09 .content a,
 .theme-base-09 .related-posts li a:hover {
@@ -252,16 +249,16 @@ a.sidebar-nav-item:focus {
   color: #8f5536;
 }
 
-/* MDAnalysis */
-/* MDA orange: #ff9200;
-   MDA gray: #FFC980
-
-... needs work
+/* MDAnalysis theme */
+/* MDA orange: #FF9200
+   MDA gray:   #808080
+   MDA black:  #000000
+   MDA white:  #FFFFFF
  */
 .theme-base-MDAnalysis .sidebar {
-  background-color: #FFC980;
+  background-color: #808080;
 }
 .theme-base-MDAnalysis .content a,
 .theme-base-MDAnalysis .related-posts li a:hover {
-  color: #BF6E00;
+  color: #FF9200;
 }
