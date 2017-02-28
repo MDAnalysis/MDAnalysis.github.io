@@ -92,6 +92,12 @@ Tracker]({{site.github.issues}}).
 
 When using MDAnalysis in published work, please cite
 
+ * <a name="Gowers2016"></a>R. J. Gowers, M. Linke, J. Barnoud, T. J. E. Reddy,
+   M. N. Melo, S. L. Seyler, D. L. Dotson, J. Domanski, S. Buchoux,
+   I. M. Kenney, and
+   O. Beckstein. [MDAnalysis: A Python package for the rapid analysis of molecular dynamics simulations](http://conference.scipy.org/proceedings/scipy2016/oliver_beckstein.html). In
+   S. Benthall and S. Rostrup, editors, *Proceedings of the 15th Python in
+   Science Conference*, pages 102-109, Austin, TX, 2016. SciPy.
  * <a name="MichaudAgrawal2011"></a>N. Michaud-Agrawal, E. J. Denning, T. B. Woolf, and
    O. Beckstein. MDAnalysis: A Toolkit for the Analysis of Molecular Dynamics
    Simulations. *J. Comput. Chem.* **32** (2011), 2319—2327,
