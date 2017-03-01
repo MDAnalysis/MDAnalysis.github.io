@@ -4,7 +4,7 @@ title: A shiny, new topology system
 ---
 
 With MDAnalysis 0.16.0 on the horizon, we wanted to showcase a major development that most users will probably not notice if we've done our job well.
-In fall 2015, @richardjgowers and I set to work on redesigning the topology system from scratch.
+In fall 2015, we (@richardjgowers and @dotsdl) set to work on redesigning the topology system from scratch.
 This system determines how atom, residue, and segment information is internally represented and exposed to everything in the API (``Universe``, ``AtomGroup``, etc.), and the old scheme had issues with data duplication, maintaining consistency between atom and residue attributes, and performance for large systems.
 We hoped to resolve all of these issues with our new design.
 
@@ -99,4 +99,4 @@ Making these things work is an ongoing effort, but the MDAnalysis [coredevs](htt
 We look forward to the benefits this brings not only to the project, but also to all our users going forward.
 We hope you like what we've done here.
 
--- @dotsdl
+-- @dotsdl @richardjgowers
