@@ -10,10 +10,8 @@ scripts will stop working. It can also be that you need a new library version
 for another project you are working on. The solution to this problem is to
 install the same programs multiple times.
 
-On this post I will explain several ways to keep maintain different versions of
-the same program on a computer. For this I'm introducing several ways to create
-isolated environments. The guide will mostly focus on python packages but large
-parts can independently be applied to other languages and programs as well.
+In this post I will explain how conda and python virtual envs can be used to
+manage different package versions.
 
 # Conda Environments
 
@@ -27,17 +25,24 @@ In this guide we will only concentrate on creating and managing environments
 with conda. For more information on general installation of package please refer
 to the [official documentation]().
 
-To create a new environment for your next project that uses numpy in version
-0.10.0 run:
+As a preparation add our conda-channel to your configuration
 
 {% highlight bash %}
-conda create -n awesome_project numpy=0.10.0 -y
+conda config  --add channels MDAnalysis
 {% endhighlight %}
 
-This only create a new environment 
+To create a new environment for your next project that uses MDAnalysis in version
+0.15.0 run:
 
 {% highlight bash %}
-source activate awesome_project
+conda create -n mda-15 MDAnalysis=0.15.0 -y
+{% endhighlight %}
+
+This only create a new environment. You still have to activate it to be able to
+use it.
+
+{% highlight bash %}
+source activate mda-15
 {% endhighlight %}
 
 To list your environments
@@ -46,76 +51,30 @@ To list your environments
 conda env list
 {% endhighlight %}
 
-To remove an environment
+A nice feature of using conda-environments is that they are easy to share with
+colleagues or transferred to other computers. To store the state of the
+environment we created in a file called `mda-15-environment`
 
 {% highlight bash %}
-conda remove -all -n awesome_project
+conda list --explicit --md5 -n mda-15 > mda-15-environment
 {% endhighlight %}
+
+You can now copy this file to a colleague or onto another computer. The first 3
+lines also contain instructions how this file can be used with conda.
+
+{% highlight bash %}
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: linux-64
+{% endhighlight %}
+
+Instead of just creating environments for specific versions of software packages
+you can of course also create a new environment for each project you are working
+on.
 
 
 More information about conda environments can be found in
 the [official documentation]().
-
-# Linux Environment Modules
-
-You likely already use environment modules if you ever used a super computer.
-They have been a part of most unix systems for decades now. To see if you
-currently have any modules installed run.
-
-{% highlight bash %}
-module avail
-{% endhighlight %}
-
-Since the command is called `module` we will refer to environments as modules in
-this section. You can show information about a module with
-
-{% highlight bash %}
-module info <module-name>
-{% endhighlight %}
-
-Modules work by changing environment variables like `PATH` and `LDD_PATH` to
-point to software packages you want to use. This means that you should be
-familiar with common unix environment variables and installing software in
-custom locations. The advantage of this approach though is that you don't have
-to install anything new and it can be easier to use software that hasn't been
-packaged with conda.
-
-
-## Create a Environment Module
-
-To start we will create some example environments and later we will show how to
-install different versions of vmd. Modules are defined using module-files. So we
-first need to create a folder and change into it.
-
-{% highlight bash %}
-mkdir -p ~/modules/modulefiles
-cd ~/modules/modulefiles
-{% endhighlight %}
-
-We also need to tell the module system that it should look for module-files in
-that folder. Assuming you are using bash run
-
-{% highlight bash %}
-echo "export MODULEPATH=$MODULEPATH:~/modules/modulefiles" >> .bashrc
-source .bashrc
-{% endhighlight %}
-
-Our first environment will just set a new environment variable called `TEST`
-
-{% highlight bash %}
-{% endhighlight %}
-
-More information on linux modules can be found with `man module` and `man modulefile`. 
-
-
-## Installing software into an environment
-
-## Handling conflicts
-
-The module command allows you to have several modules active at the same time.
-To avoid potential version conflicts you have to tell specify in the module file
-which other modules are incompatible.
-
 
 # Python Virtual Environments
 
