@@ -43,11 +43,11 @@ mailing list]({{site.mailinglists.discussion.url}}).
 
 # Availability
 
-All source code is available under the [GNU General Public License,
-version 2](https://www.gnu.org/licenses/gpl-2.0.html) (or an open
-source licence compatible with GPLv2) from
-[github.com/MDAnalysis](https://github.com/MDAnalysis) and the Python
-Package index
+All source code is available under the
+[GNU General Public License, version 2](https://www.gnu.org/licenses/gpl-2.0.html)
+(or any later version at your choice) from
+[github.com/MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
+and the Python Package index
 [pypi.python.org/pypi/MDAnalysis](http://pypi.python.org/pypi/MDAnalysis).
 
 
