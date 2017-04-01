@@ -20,15 +20,16 @@ research projects.
 
 # Conda Environments
 
-[Conda](https://conda.io/docs/index.html) is a general package manager for scientific
-applications. It is mostly used for Python packages but the system can be used with
-any programs. The [conda-forge] community also provides a large collection of scientific software
-for Python, R and perl. Conda should be your first choice to manage different
-software versions.
+[Conda](https://conda.io/docs/index.html) is a general package manager for
+scientific applications. It is mostly used for Python packages but the system
+can be used with any programs. The [conda-forge](https://conda-forge.github.io/)
+community also provides a large collection of scientific software for Python, R
+and perl. Conda should be your first choice to manage different software
+versions.
 
 In this guide we will concentrate only on creating and managing environments
 with conda. For more information on general installation of package please refer
-to the [official documentation]().
+to the [official documentation](https://conda.io/docs/using/pkgs.html).
 
 Software is made available through different conda channels, which each act as a
 source for different software.  When attempting to install packages into a conda
@@ -45,7 +46,7 @@ To create a new environment for your next project that uses MDAnalysis in versio
 0.15.0 run:
 
 {% highlight bash %}
-conda create -n myproject MDAnalysis=0.15.0 -y
+conda create -n myproject mdanalysis=0.15.0 -y
 {% endhighlight %}
 
 This has created a new software environment called `myproject` but has not affected
@@ -63,10 +64,10 @@ conda env list
 {% endhighlight %}
 
 A nice feature of using conda-environments is that they are easy to share with
-colleagues or transferred to other computers.  This allows all team members on
-a project to use an identical set of software and makes your research projects
-to be reproducible.  To store the state of the environment we created in a file
-called `myproject-environment`
+colleagues or transferred to other computers. This allows all collaborators on a
+project to use an identical set of software and makes your research projects
+reproducible. To store the state of the environment we created in a file called
+`myproject-environment`
 
 {% highlight bash %}
 conda list --explicit --md5 -n myproject > myproject-environment
@@ -82,18 +83,33 @@ lines also contain instructions how this file can be used with conda.
 {% endhighlight %}
 
 More information about conda environments can be found in
-the [official documentation]().
+the [official documentation](https://conda.io/docs/using/envs.html).
 
 # Python Virtual Environments
 
-Virtual environments will only work for python packages.
+Virtual environments are a tool to manage different versions of python packages. 
+To use virtual environments you have to install the virtualenv package first with.
 
-# Automatically Change Environment Based On Folder
+{% highlight bash %}
+pip install virtualenv
+{% endhighlight %}
 
-After you created an isolated environment for a project it would be nice if it
-would be activated automatically when ever you work on the project. If you use
-bash/zsh this can be done on a per folder basis.
+Virtual environments can be created per project directory.
 
+{% highlight bash %}
+cd myproject
+virtualenv myproject-env
+{% endhighlight %}
 
+This will create a new folder `myproject-env`. This folder contains the virtual
+environment and all packages you have installed in it. To activate it run.
 
+{% highlight bash %}
+source myproject-env/bin/activate
+{% endhighlight %}
 
+Now you can install packages via `pip` without affecting your global environment.
+
+The Hitchhikers Guide to Python has a
+good [tutorial](http://docs.python-guide.org/en/latest/dev/virtualenvs/) that
+gives a more in depth explanation of virtual environments.
