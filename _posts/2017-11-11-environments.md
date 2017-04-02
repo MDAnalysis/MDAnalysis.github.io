@@ -90,29 +90,107 @@ the [official documentation](https://conda.io/docs/using/envs.html).
 
 # Python Virtual Environments
 
-Virtual environments are a tool to manage different versions of python packages. 
-To use virtual environments you have to install the virtualenv package first with.
+Like conda, virtual environments managed with virtualenv allow you to use
+different versions of python and python packages for your different project. On
+the contrary to conda, however, virtualenv is not a general-purpose package
+manager; it leverages what is available on your system, and let you install
+python packages using pip.
+
+To use virtual environments you have to install the virtualenv package first.
+This can be done with either pip or the package manager of your system:
 
 {% highlight bash %}
 pip install virtualenv
+# or on ubuntu
+sudo apt install virtualenv
+# or on fedora
+sudo dnf install python-virtualenv
 {% endhighlight %}
 
 Virtual environments can be created per project directory.
 
 {% highlight bash %}
 cd myproject
+# if you want to use the default python interpretor
 virtualenv myproject-env
+# or if you want to explicitly use python 2.7
+virtualenv -p /usr/bin/python2.7 myproject-env
+# or if you want to use python 3.5
+virtualenv -p /usr/bin/python3.5 myproject-env
+# or maybe you want to use pypy
+virtualenv -p /usr/bin/pypy myproject-env
 {% endhighlight %}
 
 This will create a new folder `myproject-env`. This folder contains the virtual
-environment and all packages you have installed in it. To activate it run.
+environment and all packages you have installed in it. To activate it in the
+current terminal run:
 
 {% highlight bash %}
 source myproject-env/bin/activate
 {% endhighlight %}
 
-Now you can install packages via `pip` without affecting your global environment.
+Now you can install packages via `pip` without affecting your global
+environment. The packages you install when the environment is activated will be
+available in terminal sessions that have the environment activated. You can
+deactivate the virtual environment by running
 
-The Hitchhikers Guide to Python has a
-good [tutorial](http://docs.python-guide.org/en/latest/dev/virtualenvs/) that
-gives a more in depth explanation of virtual environments.
+{% highlight bash %}
+deactivate
+{% endhighlight %}
+
+The [`virtualenvwrapper` package](https://virtualenvwrapper.readthedocs.io)
+makes virtual environment easier to use. It provides some very useful features:
+
+* it organizes the virtual environment in a single directory, avoiding to have
+  them scattered throughout the file system;
+* it defines command to easy the creation, deletion, and copy of virtual
+  environments;
+* it defines a command to activate a virtual environment using its name;
+* all commands defined by `virtualenvwrapper` have tab-completion for virtual
+  environment names.
+
+To use `virtualenvwrapper` you first need to install it *outside* of a virtual
+environment:
+
+{% highlight bash %}
+pip install virtualenvwrapper
+# or on ubuntu
+sudo apt install virtualenvwrapper
+# or on fedora
+sudo dnf install python-virtualenvwrapper
+{% endhighlight %}
+
+Then, you need to have it loaded in your terminal session. Add the following
+lines in `~/.bashrc`, they will be executed every time you open a new terminal
+session:
+
+{% highlight bash %}
+# Decide where to store the virtual environments
+export WORKON_HOME=~/Envs
+# Make sure the directory exists
+mkdir -p ${WORKON_HOME}
+# Load virtualenvwrapper
+source /usr/local/bin/virtualenvwrapper.sh
+{% endhighlight %}
+
+Open a new terminal or run `source ~/.bashrc` to update your session. You can
+now create a virtual environment with
+
+{% highlight bash %}
+mkvirtualenv my-project
+{% endhighlight %}
+
+Like the `virtualenv` command we saw earlier, `mkvirtualenv` lets you choose
+your python interpretor with the `-p` option. Regardless of your current
+working directory, we created the virtual environment in `~/Envs/` and it is
+now loaded in our terminal session.
+
+You can load your virtual environments by running `workon my-project`, and
+exit them by running `deactivate`.
+
+Virtual environments, especially with `virtualenvwrapper`, can do much more.
+The Hitchhikers Guide to Python has a good
+[tutorial](http://docs.python-guide.org/en/latest/dev/virtualenvs/) that
+gives a more in depth explanation of virtual environments. The
+[`virtualenvwrapper` documentation](https://virtualenvwrapper.readthedocs.io)
+is also a good resource to read.
