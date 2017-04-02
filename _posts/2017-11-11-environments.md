@@ -3,7 +3,7 @@ layout: post
 title: Managing software versioning using Conda environments
 ---
 
-Research projects can often take months to years to complete, however the
+Research projects can often take months to years to complete, but the
 precise version of software they use will often have a shorter lifetime than
 this.  These new versions of software will often include new features which
 might be of great use, but they might also introduce changes which break
@@ -13,7 +13,7 @@ all pieces of software installed, for newer projects we instead want to
 use the most up-to-date versions, leaving us needing to install multiple
 versions of multiple different pieces of software.
 
-In this post we will try to explain how conda and Python virtual environments
+In this post we will try to explain how Python virtual environments
 can be used to precisely manage the software used across many independent
 research projects.
 
@@ -24,11 +24,10 @@ research projects.
 scientific applications. It is mostly used for Python packages but the system
 can be used with any programs. The [conda-forge](https://conda-forge.github.io/)
 community also provides a large collection of scientific software for Python, R
-and perl. Conda should be your first choice to manage different software
-versions.
+and perl.
 
 In this guide we will concentrate only on creating and managing environments
-with conda. For more information on general installation of package please refer
+with conda. For more general information on installing conda please refer
 to the [official documentation](https://conda.io/docs/using/pkgs.html).
 
 Software is made available through different conda channels, which each act as a
@@ -41,7 +40,7 @@ conda config  --add channels MDAnalysis
 {% endhighlight %}
 
 For each research project, it is advised that you create a new environment so that
-the software used in each project does interfere across different projects.
+the software used in each project does not interfere across different projects.
 To create a new environment for your next project that uses MDAnalysis in version
 0.15.0 run:
 
