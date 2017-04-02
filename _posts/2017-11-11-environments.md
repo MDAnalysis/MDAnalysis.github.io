@@ -15,13 +15,10 @@ software across our various research projects.
 
 With the upcoming release of 0.16.0 of MDAnalysis, alongside various
 improvements, we are also introducing some changes which could break existing
-code. In this post we will try to explain
-how [conda environments](#conda-environments)
-and [Python virtual environments](#python-virtual-environments) can be used to
+code. In this post we will explain how [conda environments](#conda-environments)
+or [Python virtual environments](#python-virtual-environments) can be used to
 manage this transition, allowing you to finish existing projects with version
 0.15.0, while also enjoying the benefits provided in version 0.16.0.
-
-
 
 # Conda Environments
 
