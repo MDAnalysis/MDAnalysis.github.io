@@ -8,14 +8,18 @@ precise version of software they use will often have a shorter lifetime than
 this.  These new versions of software will often include new features which
 might be of great use, but they might also introduce changes which break
 your existing work and introduce compatibility issues with other pieces
-of software.  So whilst for existing projects we might wish to freeze
-all pieces of software installed, for newer projects we instead want to
-use the most up-to-date versions, leaving us needing to install multiple
-versions of multiple different pieces of software.
-
-In this post we will try to explain how Python virtual environments
-can be used to precisely manage the software used across many independent
+of software.  So whilst for newer projects we might want to use the most
+up-to-date versions of software, for existing projects we want to be able
+to freeze the versions of software that are in use.  This leads to us needing
+to install and manage multiple versions of software across our various
 research projects.
+
+With the upcoming release of 0.16 of MDAnalysis, alongside various improvements,
+we are also introducing some changes which could break existing code.
+In this post we will try to explain how Python virtual environments
+can be used to manage this transition, allowing you to finish existing
+projects with version 0.15, while also enjoying the benefits provided in
+version 0.16.
 
 
 # Conda Environments
