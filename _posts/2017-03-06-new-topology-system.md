@@ -77,9 +77,9 @@ Segment
 
 Now each object only contains information pertaining to that particular object.
 A ``Residue`` object only yields information about the residue; to get to the atoms, use ``Residue.atoms``.
-Similarly, to get the atoms from a Segment or a SegmentGroup use Segment.atoms or SegmentGroup.atoms. 
-As before, you can get all residues associated with a group with Group.residues (which returns a ResidueGroup) and all segments with Group.segments (a SegmentGroup). 
-Bottom line: you should now always be explicit about what you want.
+Similarly, to get the atoms from a ``Segment`` or a ``SegmentGroup`` use ``Segment.atoms`` or ``SegmentGroup.atoms``. 
+As before, you can get all residues associated with a group with ``Group.residues`` (which returns a ``ResidueGroup``) and all segments with ``Group.segments`` (a ``SegmentGroup``). 
+Bottom line: you should now *always be explicit about what you want*.
 
 ### Why this was changed
 
@@ -96,11 +96,13 @@ For example, changing all `.positions` calls on anything that isn't an `AtomGrou
 
 A major benefit of the new topology system is that information about the topology of a ``Universe`` is now completely encapsulated in the ``Topology`` object.
 This not only makes development and maintenance easier, but also opens the door to some exciting new possibilities as simulation systems grow larger.
-A single ``Topology`` object can now be cleanly shared by multiple ``Universe`` instances, each with their own trajectory reader(s), making common operations such as fitting a trajectory to a reference structure or doing parallel analysis of many trajectories more feasible for large systems.
-The ``Topology`` object can also be serialized more easily, making parallelization on workers without shared memory (using libraries such as [``distributed``](http://distributed.readthedocs.io/en/latest/)) within the realm of possibility out-of-the-box.
+A single ``Topology`` object can now be cleanly shared by multiple ``Universe`` instances, each with their own trajectory reader(s).
+This could  make common operations such as fitting a trajectory to a reference structure or doing parallel analysis of many trajectories more efficient for large systems.
+The ``Topology`` object can also be serialized more easily.
+This should enable parallelization on workers without shared memory (using libraries such as [``distributed``](http://distributed.readthedocs.io/en/latest/)) out-of-the-box.
 
 Making these things work is an ongoing effort, but the MDAnalysis [coredevs](https://github.com/orgs/MDAnalysis/teams/coredevs) are working to take advantage of all these possibilities.
 We look forward to the benefits this brings not only to the project, but also to all our users going forward.
 We hope you like what we've done here.
 
--- @dotsdl @richardjgowers
+-- @dotsdl and @richardjgowers
