@@ -1,0 +1,8 @@
+/* local CSS extensions */
+
+.caption {
+    font-size: 75%;
+    color: #303030;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
