@@ -106,3 +106,9 @@ We look forward to the benefits this brings not only to the project, but also to
 We hope you like what we've done here.
 
 -- @dotsdl and @richardjgowers
+
+<img src="{{ site.baseurl }}public/images/mda_new_topology_system_blackboard.jpg"
+style="float: center" alt="MDAnalysis" width="90%"/>
+<div class="caption">Original draft of the new topology system by
+@richardjgowers and @dotsdl, November 2015 at ASU.</div>
+
