@@ -35,10 +35,10 @@ to the [official documentation](https://conda.io/docs/using/pkgs.html).
 Software is made available through different conda channels, which each act as a
 source for different software.  When attempting to install packages into a conda
 environment, these channels are searched.  In this post we will be using the
-MDAnalysis channel which you can add to your configuration like so:
+conda-forge channel which you can add to your configuration like so:
 
 {% highlight bash %}
-conda config  --add channels MDAnalysis
+conda config  --add channels conda-forge
 {% endhighlight %}
 
 For each research project, it is advised that you create a new environment so that
