@@ -24,7 +24,7 @@ pip install --upgrade MDAnalysisTests
 To install the lastest stable release with [conda][conda] do:
 
 {% highlight bash %}
-conda config --add channels MDAnalysis
+conda config --add channels conda-forge
 conda install mdanalysis
 {% endhighlight %}
 
@@ -32,6 +32,13 @@ To upgrade to the latest stable release.
 
 {% highlight bash %}
 conda update mdanalysis
+{% endhighlight %}
+
+To run the test cases and examples, also install the unit tests (about 20 MiB
+in size):
+
+{% highlight bash %}
+conda install MDAnalysisTests
 {% endhighlight %}
 
 The conda packages currently only support serial calculations. If you
