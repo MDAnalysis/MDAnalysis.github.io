@@ -53,7 +53,7 @@ ag = u.select_atoms('model 4 and name Ca')
 
 Finally, full interoperability between different formats is provided in MDAnalysis, allowing
 MMTF files to be written to any of our
-[supported formats](http://pythonhosted.org/MDAnalysis/documentation_pages/coordinates/init.html#id1).
+[supported formats](http://docs.mdanalysis.org/documentation_pages/coordinates/init.html#id1).
 For example to download a MMTF file and write out to Gromacs GRO file:
 
 ```python

@@ -29,9 +29,9 @@ When using MDAnalysis in published work, please cite the following two papers:
 ## <a name="IncludedAlgorithms"></a>Included algorithms ##
 
 If you use the [RMSD alignment
-code](https://pythonhosted.org/MDAnalysis/documentation_pages/analysis/align.html)
+code](http://docs.mdanalysis.org/documentation_pages/analysis/align.html)
 that uses the [QCProt
-module](https://pythonhosted.org/MDAnalysis/documentation_pages/core/qcprot.html)
+module](http://docs.mdanalysis.org/documentation_pages/core/qcprot.html)
 please also cite
 
  * Douglas L. Theobald. Rapid calculation of RMSD using a quaternion-based
@@ -44,7 +44,7 @@ please also cite
    [10.1002/jcc.21439](http://doi.org/10.1002/jcc.21439)
 
 If you use the helix analysis algorithm HELANAL in
-[MDAnalysis.analysis.helanal](https://pythonhosted.org/MDAnalysis/documentation_pages/analysis/helanal.html)
+[MDAnalysis.analysis.helanal](http://docs.mdanalysis.org/documentation_pages/analysis/helanal.html)
 please cite
 
  * Bansal M, Kumar S, Velavan R. HELANAL - A program to characterise helix
@@ -53,7 +53,7 @@ please cite
    [10.1080/07391102.2000.10506570](http://doi.org/10.1080/07391102.2000.10506570)
 
 If you use the GNM trajectory analysis code in
-[MDAnalysis.analysis.gnm](https://pythonhosted.org/MDAnalysis/documentation_pages/analysis/gnm.html)
+[MDAnalysis.analysis.gnm](http://docs.mdanalysis.org/documentation_pages/analysis/gnm.html)
 please cite
 
  * Benjamin A. Hall, Samantha L. Kaye, Andy Pang, Rafael Perera, and Philip
@@ -62,7 +62,7 @@ please cite
    [10.1021/ja071797y](http://doi.org/10.1021/ja071797y)
 
 If you use the water analysis code in
-[MDAnalysis.analysis.waterdynamics](https://pythonhosted.org/MDAnalysis/documentation_pages/analysis/waterdynamics.html)
+[MDAnalysis.analysis.waterdynamics](http://docs.mdanalysis.org/documentation_pages/analysis/waterdynamics.html)
 please cite
 
  * Araya-Secchi, R., Tomas Perez-Acle, Seung-gu Kang, Tien Huynh,
@@ -73,7 +73,7 @@ please cite
    599-612. doi: [10.1016/j.bpj.2014.05.037](http://doi.org/10.1016/j.bpj.2014.05.037)
 
 If you use the Path Similarity Analysis (PSA) code in
-[MDAnalysis.analysis.psa](https://pythonhosted.org/MDAnalysis/documentation_pages/analysis/psa.html)
+[MDAnalysis.analysis.psa](http://docs.mdanalysis.org/documentation_pages/analysis/psa.html)
 please cite
 
  * Seyler SL, Kumar A, Thorpe MF, Beckstein O (2015) Path Similarity
