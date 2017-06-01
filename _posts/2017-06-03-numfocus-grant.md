@@ -2,12 +2,16 @@
 layout: post
 title: NumFOCUS small grant for Python 3 support
 ---
+<img
+src="http://www.numfocus.org/uploads/6/0/6/9/60696727/1457562110.png"
+title="NumFOCUS Foundation" alt="NumFOCUS Foundation"
+style="float: right; width: 10em;" />
 
 We have generously been awarded a [small development grant][grant-post] by
-NumFOCUS to finally add
-Python 3 support to MDAnalysis. To do this [Richard Gowers][rg] and [Tyler Reddy][tr] will
-be hosted at [Oliver Beckstein's][ob] [lab at Arizona State University][beckstlab]
-in the summer for a week of hacking.
+NumFOCUS to fully support Python 3. To do this [Richard Gowers][rg]
+and [Tyler Reddy][tr] will be hosted at [Oliver
+Beckstein's][ob] [lab at Arizona State University][beckstlab] in the summer for
+a week of hacking.
 
 MDAnalysis started almost 10 years ago
 when Python was around version 2.4 and interfacing with existing C code was
