@@ -24,7 +24,10 @@ use pytests and we are happy to see the switch happening for MDAnalysis as well.
 Utkarsh will [blog][utkarsh-blog] continuously during the summer to let you know
 how far the transition has come and how to best write unit-tests in python.
 
-**TODO** Add some personal information
+Utkarsh is currently pursuing a bachelors in Computer Science and Engineering
+and will be graduating this summer. He hopes to learn new things about python
+and testing in general this summer and is planning to continue his career as a
+software developer.
 
 # Other NumFOCUS students
 
