@@ -4,7 +4,7 @@ title: Google Summer of Code Student 2017
 ---
 
 We are happy to anounce that MDAnalysis is hosting a [GSoC][gsoc] student for
-the [NumFOCUS][numfocus] this year, [Utkarsh Bansal][utkarsh-blog] (@utkbansal
+[NumFOCUS][numfocus] this year, [Utkarsh Bansal][utkarsh-blog] (@utkbansal
 on GitHub), with his project ["Port to pytest"][utkarsh-gsoc].
 
 # Utkarsh Bansal: Port unit tests to pytest
