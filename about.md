@@ -3,7 +3,7 @@ layout: page
 title: About MDAnalysis
 ---
 
-<img src="{{ site.baseurl }}public/mdanalysis-logo_square.png"
+<img src="{{ site.baseurl }}/public/mdanalysis-logo_square.png"
 style="float: right" alt="MDAnalysis" width="30%"/>
 
 **MDAnalysis** is an object-oriented python toolkit to analyze
@@ -113,7 +113,7 @@ When using MDAnalysis in published work, please cite
    has correct code, which can be copied and pasted.)
 
 Please also see the list of [included
-algorithms]({{site.baseurl}}pages/citations#IncludedAlgorithms) with
+algorithms]({{ site.baseurl }}/pages/citations#IncludedAlgorithms) with
 additional citations.
 
 # Historical, Technical and Artistic Remarks
@@ -143,7 +143,7 @@ alt="Fork me on GitHub"
 data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
 
 # Testing
-* `site.baseurl`: "{{ site.baseurl }}"
+* `site.baseurl`: "{{ site.baseurl }}/"
 * `site.url`: "{{ site.url }}"
 * `site.images`: "{{ site.images }}"
 * `site.version`: "{{ site.version }}"

@@ -82,12 +82,12 @@ For links between pages to work, generate absolute links with `site.baseurl`
 liquid tag:
 
 ```
-[see citations]({{site.baseurl}}pages/citations
+[see citations]({{ site.baseurl }}/pages/citations
 ```
 
 The example will link to the file `/pages/citations`. Also note that one does
 not need spaces between the configuration variable and the curly braces (i.e.
-`{{ site.baseurl }}` as typical seen), so I avoid them to prevent the editor
+`{{ site.baseurl }}/` as typical seen), so I avoid them to prevent the editor
 breaking the line inside the curly braces (which upsets Jekyll greatly).
 
 We define additional variables in `_config.yml` and use them with liquid tags.

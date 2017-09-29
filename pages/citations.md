@@ -21,7 +21,7 @@ When using MDAnalysis in published work, please cite the following two papers:
    (If you are reading the [HTML version of the
    paper](http://onlinelibrary.wiley.com/doi/10.1002/jcc.21787/full),
    have a look at the [paper
-   errata]({{site.baseurl}}pages/errata).
+   errata]({{ site.baseurl }}/pages/errata).
    The free PubmedCentral manuscript
    [PMC3144279](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3144279/)
    has correct code, which can be copied and pasted.)

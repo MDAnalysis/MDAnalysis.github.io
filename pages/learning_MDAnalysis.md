@@ -4,7 +4,7 @@ title: Learning MDAnalysis
 ---
 
 Once you had a look at the 
-[basic example]({{site.baseurl}}pages/basic_example) 
+[basic example]({{ site.baseurl }}/pages/basic_example) 
 you might want to learn more about how to use
 MDAnalysis. MDAnalysis is primarily a library that helps you to build
 your own tools but it also works very well for **interactive data
@@ -31,7 +31,7 @@ available, too.
 See the [Online Documentation]({{site.pypi.docs}})
 for more information on how to use MDAnalysis and the available
 documentation on the Wiki. The [paper on
-MDAnalysis]({{site.baseurl}}pages/citations#MichaudAgrawal2011) contains a
+MDAnalysis]({{ site.baseurl }}/pages/citations#MichaudAgrawal2011) contains a
 high-level description of the structure and philosophy of the library
 together with examples of its use.
 

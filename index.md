@@ -4,7 +4,7 @@ title: MDAnalysis
 ---
 
 
-<img src="{{ site.baseurl }}public/mdanalysis-logo_square.png"
+<img src="{{ site.baseurl }}/public/mdanalysis-logo_square.png"
 style="float: right" alt="MDAnalysis" width="30%"/>
 
 **MDAnalysis** is an object-oriented Python library to analyze
@@ -23,16 +23,16 @@ powerful atom
 [selection commands]({{site.pypi.docs}}/documentation_pages/selections.html)
 are implemented. Trajectories can also be manipulated (for instance,
 fit to a reference structure) and written out. The
-[basic example]({{site.baseurl}}pages/basic_example) demonstrates some
+[basic example]({{ site.baseurl }}/pages/basic_example) demonstrates some
 of these features.
 
 Read more:
 
-* [installation quick start]({{site.baseurl}}pages/installation_quick_start)
-* [learning MDAnalysis]({{site.baseurl}}pages/learning_MDAnalysis)
+* [installation quick start]({{ site.baseurl }}/pages/installation_quick_start)
+* [learning MDAnalysis]({{ site.baseurl }}/pages/learning_MDAnalysis)
 
-Also, check out the [blog]({{site.baseurl}}blog) or subscribe to our 
-[news feed]({{site.baseurl}}{{site.feed.path}}) to follow development
+Also, check out the [blog]({{ site.baseurl }}/blog) or subscribe to our 
+[news feed]({{ site.baseurl }}/{{site.feed.path}}) to follow development
 updates and events.
 
 ### Availability

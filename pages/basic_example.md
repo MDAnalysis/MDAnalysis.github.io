@@ -27,5 +27,5 @@ for ts in u.trajectory:     # iterate through all frames
 {% endhighlight %}
 
 To find out what else you can do, head over to [learning
-MDAnalysis]({{site.baseurl}}pages/learning_MDAnalysis) to have a look
+MDAnalysis]({{ site.baseurl }}/pages/learning_MDAnalysis) to have a look
 at the tutorials and the docs.
