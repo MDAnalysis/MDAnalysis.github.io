@@ -10,7 +10,7 @@ title:            MDAnalysis
 name:             MDAnalysis
 tagline:          A Python package for the analysis of molecular dynamics simulations.
 description:      A Python package for the analysis of molecular dynamics simulations.
-url:              http://www.mdanalysis.org
+url:              https://www.mdanalysis.org
 baseurl:          /
 author:
   name:           The MDAnalysis Team
@@ -40,19 +40,19 @@ feed:
   path: atom.xml
 
 # Custom vars
-version:          0.13.0
+version:          0.16.2
 
 # see also https://help.github.com/articles/repository-metadata-on-github-pages/
 # for what GitHub makes available in site.github
 github:
   repo:           https://github.com/MDAnalysis/mdanalysis
-  docs:           http://devdocs.mdanalysis.org
-  issues:         http://issues.mdanalysis.org
-  wiki:           http://wiki.mdanalysis.org
+  docs:           https://www.mdanalysis.org/mdanalysis
+  issues:         https://github.com/MDAnalysis/mdanalysis/issues
+  wiki:           https://github.com/MDAnalysis/mdanalysis/wiki
 pypi:
-  package:        http://download.mdanalysis.org
+  package:        https://pypi.python.org/pypi/MDAnalysis
   tests:          https://pypi.python.org/pypi/MDAnalysisTests
-  docs:           http://docs.mdanalysis.org
+  docs:           https://www.mdanalysis.org/docs
 mailinglists:
   discussion:
     name:         mdnalysis-discussion
