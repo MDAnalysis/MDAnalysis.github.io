@@ -55,7 +55,7 @@ analyse the results of molecular dynamics simulationations and this GSoC
 project is an opportunity to contribute to the community. He expects to
 learn a lot about python and software development during this summer.
 
-Davide will describe his progress on [his blog](https://davidercruz.github.io).
+Davide will describe his progress on [his blog][davide-blog].
 
 
 # Other NumFOCUS students
