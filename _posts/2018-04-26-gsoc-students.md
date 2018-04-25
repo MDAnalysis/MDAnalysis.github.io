@@ -49,9 +49,13 @@ multiple intermediate steps of modifying and saving the trajectory,
 and giving users a more efficient and simple workflow for simulation
 data analysis.
 
-Davide is ... (ADD SHORT BIO)
+Davide is currently on the last year of his PhD on Molecular Biosciences
+at ITQB-NOVA in Lisbon, Portugal. For his thesis he is using MDAnalysis to
+analyse the results of molecular dynamics simulationations and this GSoC
+project is an opportunity to contribute to the community. He expects to
+learn a lot about python and software development during this summer.
 
-Davide will describe his progress on [his blog][davide-blog].
+Davide will describe his progress on [his blog](https://davidercruz.github.io).
 
 
 # Other NumFOCUS students
@@ -66,4 +70,4 @@ students
 [ayush-gsoc]: https://summerofcode.withgoogle.com/projects/#5050592943144960
 [ayush-blog]: XXX
 [davide-gsoc]: https://summerofcode.withgoogle.com/projects/#5194121086500864
-[davide-blog]: XXX
+[davide-blog]: https://davidercruz.github.io
