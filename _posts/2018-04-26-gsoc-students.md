@@ -32,9 +32,12 @@ project is to identify the data structure based on the requirements of
 the use case and implement in the MDAnalysis library along with clear
 documentations and test cases.
 
-Ayush is ... (ADD SHORT BIO)
+Ayush is a graduate student in Materials Engineering at UBC, Canada. He is working with Molecular dynamics simulations
+for his Master's thesis. He wishes to contribute to the open source community by simplifying the complex analysis and visualization involved in MD. During GSoC, he aims to use the opportunity to learn from the already established open source 
+contributors and continue the tradition by becoming an active member of the community. In his free time, he also likes to read books and play computer games. 
 
-Ayush will describe his progress on [his blog][ayush-blog].
+
+Ayush will describe his progress on [his blog][https://ayushsuhane.github.io/].
 
 # Davide Cruz: Implementing on-the-fly coordinate transformations
 
@@ -68,6 +71,6 @@ students
 [gsoc]: https://summerofcode.withgoogle.com
 [numfocus]: https://www.numfocus.org/
 [ayush-gsoc]: https://summerofcode.withgoogle.com/projects/#5050592943144960
-[ayush-blog]: XXX
+[ayush-blog]: https://ayushsuhane.github.io/
 [davide-gsoc]: https://summerofcode.withgoogle.com/projects/#5194121086500864
 [davide-blog]: https://davidercruz.github.io
