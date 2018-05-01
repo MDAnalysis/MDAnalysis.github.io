@@ -1,11 +1,11 @@
 # MDAnalysis Web Site
 
-The home page [www.mdanalysis.org](http://www.mdanalysis.org) is maintained as
+The home page [www.mdanalysis.org](https://www.mdanalysis.org) is maintained as
 a [GitHub pages](https://pages.github.com) site. The home page is also
-accessible as [mdanalysis.github.io](http://mdanalysis.github.io).
+accessible as [mdanalysis.github.io](https://mdanalysis.github.io).
 
 
-## Blog [blog.mdanalysis.org](http://blog.mdanalysis.org)
+## Blog [blog.mdanalysis.org](https://blog.mdanalysis.org)
 
 Check out the repository, edit the pages under `_posts`, and push
 commits. The published pages are on the *master* branch.
@@ -66,13 +66,13 @@ including MathJax.
 Drop images into the `public/images` directory and include them like
 
 ```html
-  <img src="{{site.images}}imagename.png"
+  <img src="{{site.images}}/imagename.png"
    style="float: right" alt="alternative text" width="30%"/>
    ```
 
 or use Markdown
 ```markdown
-![alternative text]({{site.images}}imagename.png)
+![alternative text]({{site.images}}/imagename.png)
 ```
 
 
