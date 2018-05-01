@@ -11,7 +11,9 @@ name:             MDAnalysis
 tagline:          A Python package for the analysis of molecular dynamics simulations.
 description:      A Python package for the analysis of molecular dynamics simulations.
 url:              https://www.mdanalysis.org
-baseurl:          /
+# leave baseurl empty,
+# see https://github.com/MDAnalysis/MDAnalysis.github.io/issues/16#issuecomment-385572553
+baseurl:          
 author:
   name:           The MDAnalysis Team
   url:            https://twitter.com/mdanalysis
@@ -65,3 +67,6 @@ twitter:
   url:            https://twitter.com/mdanalysis
 
 
+algolia:
+  index_name: mdanalysis
+  read_only_api_key: 307d780013d06fdde7a4eae462db0e74
