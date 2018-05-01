@@ -3,7 +3,7 @@ layout: post
 title: NumFOCUS small grant for Python 3 support
 ---
 <img
-src="{{site.images}}numfocus.png"
+src="{{site.images}}/numfocus.png"
 title="NumFOCUS Foundation" alt="NumFOCUS Foundation"
 style="float: right; width: 10em;" />
 
