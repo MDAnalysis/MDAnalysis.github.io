@@ -12,7 +12,8 @@
     <input type="text" class="searchbox" autocomplete="off" name="query" placeholder="Search mdanalysis.org..." />
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+      {% assign site_base_url = site.baseurl | append: "/" %}
+      <a class="sidebar-nav-item{% if page.url == site_base_url %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
