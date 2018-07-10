@@ -6,3 +6,21 @@
     margin-top: 0;
     margin-bottom: 2em;
 }
+
+/* responsive YouTube video container
+
+Thanks to https://stackoverflow.com/a/41491566/
+*/
+.container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.42%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
