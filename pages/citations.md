@@ -58,6 +58,7 @@ licenses; for instance the dcd reading code is under the [UIUC Open Source
 Licence](http://www.ks.uiuc.edu/Development/MDTools/catdcd/license.html). See
 the files AUTHORS and LICENSE in the distribution for details.
 
-The **MDAnalysis 'Atom' Logo** was designed by **Christian Beckstein** and is
-licensed under a [Creative Commons Attribution-NoDerivs 3.0 Unported
+The **MDAnalysis 'Atom' Logo** was designed by [**Christian
+Beckstein**](https://www.linkedin.com/in/beckstein/) and is licensed
+under a [Creative Commons Attribution-NoDerivs 3.0 Unported
 License](http://creativecommons.org/licenses/by-nd/3.0/).
