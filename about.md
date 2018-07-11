@@ -22,7 +22,7 @@ mdanalysis](https://github.com/MDAnalysis/mdanalysis/blob/develop/package/AUTHOR
 and the [contributors for
 MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis/graphs/contributors).
 
-MDAnalysis and the algorithm implemented in the library and the subprojects are
+MDAnalysis and the algorithms implemented in the library and the subprojects are
 scientifc software that are described in [academic
 publications]({{site.baseurl}}/pages/citations/).
 
