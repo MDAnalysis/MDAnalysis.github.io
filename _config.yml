@@ -42,7 +42,7 @@ feed:
   path: atom.xml
 
 # Custom vars
-version:          0.16.2
+version:          0.18.0
 
 # see also https://help.github.com/articles/repository-metadata-on-github-pages/
 # for what GitHub makes available in site.github
@@ -52,8 +52,8 @@ github:
   issues:         https://github.com/MDAnalysis/mdanalysis/issues
   wiki:           https://github.com/MDAnalysis/mdanalysis/wiki
 pypi:
-  package:        https://pypi.python.org/pypi/MDAnalysis
-  tests:          https://pypi.python.org/pypi/MDAnalysisTests
+  package:        https://pypi.org/project/MDAnalysis
+  tests:          https://pypi.org/project/MDAnalysisTests
   docs:           https://www.mdanalysis.org/docs
 mailinglists:
   discussion:

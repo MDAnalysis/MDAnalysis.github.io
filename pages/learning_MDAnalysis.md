@@ -25,15 +25,32 @@ introduction to the library and there are [other
 tutorials]({{site.github.wiki}}/Tutorials)
 available, too.
 
+[Interactive Jupyter
+notebooks](http://nbviewer.jupyter.org/github/MDAnalysis/binder-notebook/tree/master/notebooks/)
+show how to accomplish specific tasks (including visualizing
+trajectories with [nglview](http://nglviewer.org/nglview/latest/));
+these notebooks can be run in the cloud on Binder (click the "launch
+binder" button to start a notebook server).
+
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/MDAnalysis/binder-notebook/master?filepath=notebooks)
+
 
 ## Documentation ##
 
 See the [Online Documentation]({{site.pypi.docs}})
 for more information on how to use MDAnalysis and the available
 documentation on the Wiki. The [paper on
-MDAnalysis]({{ site.baseurl }}/pages/citations#MichaudAgrawal2011) contains a
+MDAnalysis]({{ site.baseurl }}/pages/citations#Gowers2016) contains a
 high-level description of the structure and philosophy of the library
 together with examples of its use.
+
+@orbeckst's talk at [SciPy 2016](http://scipy2016.scipy.org/) provides an introduction to the
+library, its uses, and underlying philosophy:
+
+<div class="container">
+	<iframe src="http://www.youtube.com/embed/zVQGFysYDew" frameborder="0"
+	allowfullscreen class="video"></iframe>
+</div>
 
 
 ## Mailing list ##
