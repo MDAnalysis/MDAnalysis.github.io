@@ -3,6 +3,20 @@ layout: page
 title: Citations
 ---
 
+MDAnalysis and the included algorithms are scientific software that
+are described in academic publications. Please cite them when you use
+them in published work. 
+
+It is possible to [automatically generate a list of
+references]({{site.pypi.docs}}/documentation_pages/references.html#citations-using-duecredit)
+for any program that uses MDAnalysis. This list (in common reference
+manager formats) contains the citations associated with the specific
+algorithms and libraries that were used in the program.
+
+
+
+## MDAnalysis (library) ##
+
 When using MDAnalysis in published work, please cite the following two papers:
 
  * <a name="Gowers2016"></a>R. J. Gowers, M. Linke, J. Barnoud, T. J. E. Reddy,
