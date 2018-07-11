@@ -30,11 +30,16 @@ publications]({{site.baseurl}}/pages/citations/).
 ## Open source
 
 All our [code]({{site.baseurl}}/#availability) and our [teaching
-materials]({[site.baseurl}}/pages/learning_MDAnalysis/) are available under
-open source licenses from repositories at
-[https://github.com/MDAnalysis/](https://github.com/MDAnalysis/) and through
-the popular ``pip`` and ``conda`` package managers as well as some Linux
-distributions.
+materials]({[site.baseurl}}/pages/learning_MDAnalysis/) are available
+under open source licenses from repositories at
+[https://github.com/MDAnalysis/](https://github.com/MDAnalysis/). The
+MDAnalysis library itself is published under the [GNU General Public
+License, version 2](https://www.gnu.org/licenses/gpl-2.0.html); other
+supporting libraries are published under the MIT or the BSD-3 clause
+licence. 
+
+Installable packages are available through the popular ``pip`` and
+``conda`` package managers as well as some Linux distributions.
 
 
 ## Governance

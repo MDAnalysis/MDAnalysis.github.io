@@ -28,8 +28,9 @@ available, too.
 [Interactive Jupyter
 notebooks](http://nbviewer.jupyter.org/github/MDAnalysis/binder-notebook/tree/master/notebooks/)
 show how to accomplish specific tasks (including visualizing
-trajectories with nglview); these notebooks can be run in the cloud on
-Binder (click the "launch binder" button to start a notebook server).
+trajectories with [nglview](http://nglviewer.org/nglview/latest/));
+these notebooks can be run in the cloud on Binder (click the "launch
+binder" button to start a notebook server).
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/MDAnalysis/binder-notebook/master?filepath=notebooks)
 
