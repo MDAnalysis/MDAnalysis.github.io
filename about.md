@@ -28,9 +28,11 @@ MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis/graphs/contribut
 
 All our [code]({{site.baseurl}}/#availability) and our [teaching
 materials]({[site.baseurl}}/pages/learning_MDAnalysis/) are available under
-open source licenses from repositories at https://github.com/MDAnalysis/ and
-through the popular ``pip`` and ``conda`` package managers as well as some
-Linux distributions.
+open source licenses from repositories at
+[https://github.com/MDAnalysis/](https://github.com/MDAnalysis/) and through
+the popular ``pip`` and ``conda`` package managers as well as some Linux
+distributions.
+
 
 ## Governance
 
