@@ -44,15 +44,6 @@ MDAnalysis]({{ site.baseurl }}/pages/citations#Gowers2016) contains a
 high-level description of the structure and philosophy of the library
 together with examples of its use.
 
-@orbeckst's talk at [SciPy 2016](http://scipy2016.scipy.org/) provides an introduction to the
-library, its uses, and underlying philosophy:
-
-<div class="container">
-	<iframe src="http://www.youtube.com/embed/zVQGFysYDew" frameborder="0"
-	allowfullscreen class="video"></iframe>
-</div>
-
-
 ## Mailing list ##
 
 Finally, you can also ask for advice or help on the
@@ -62,3 +53,30 @@ find *bugs* or want to *request enhancements* please [file a
 report]({{site.github.wiki}}/ReportingProblems)
 in the [Issue
 Tracker]({{sitemap.github.issues}}).
+
+## Videos ##
+
+### Introductory ###
+@orbeckst's talk at [SciPy 2016](http://scipy2016.scipy.org/) provides an introduction to the
+library, its uses, and underlying philosophy:
+
+<div class="container">
+	<iframe src="https://www.youtube.com/embed/zVQGFysYDew" frameborder="0"
+	allowfullscreen class="video"></iframe>
+</div>
+
+### Intermediate ###
+
+@jbarnoud presented at the PyGrunn 2017 conference _Looking at
+molecules using Python_ where he shows how to use a whole range of
+MDAnalysis from the simple to the advanced in Jupyter notebooks (he
+also shows off [nglview](http://nglviewer.org/nglview/latest/) for
+visualization and [datreant](http://datreant.org) for organizing his
+data):
+
+<div class="container">
+	<iframe src="https://www.youtube.com/embed/RWgt1WMwMUs" frameborder="0"
+	allowfullscreen class="video"></iframe>
+</div>
+
+
