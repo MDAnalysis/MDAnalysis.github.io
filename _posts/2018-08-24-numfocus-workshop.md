@@ -19,6 +19,7 @@ The second day will cover how to apply MDAnalysis to your own research data.
 The workshop will conclude with a hackathon which will teach you how to start
 contributing to open source software.
 
-To register to attend, please visit: https://goo.gl/forms/eoEthZEts8junr3V2
+To attend the Workshop [please register here.](https://goo.gl/forms/eoEthZEts8junr3V2)
+Space is limited and registration will close on October 15th.
 
 [numfocus]: https://numfocus.org/blog/summer-2018-open-source-development-grants
