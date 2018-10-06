@@ -17,7 +17,15 @@ algorithms and libraries that were used in the program.
 
 ## MDAnalysis library ##
 
-When using MDAnalysis in published work, please cite the following two papers:
+When using MDAnalysis in published work, please cite the following two
+papers. 
+
+(We are asking you to cite *both* papers if at all possible because
+the 2016 paper describes many updates to the original 2011 paper and
+neither paper on its own provides a comprehensive description of the
+library. We will publish a complete self-contained paper with the
+upcoming 1.0 release of MDAnalysis, which will then supersede these
+two citations.)
 
  * <a name="Gowers2016"></a>R. J. Gowers, M. Linke, J. Barnoud, T. J. E. Reddy,
    M. N. Melo, S. L. Seyler, D. L. Dotson, J. Domanski, S. Buchoux,
