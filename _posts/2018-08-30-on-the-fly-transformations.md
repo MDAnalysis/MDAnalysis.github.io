@@ -3,11 +3,13 @@ layout: post
 title: On-the-fly transformations
 ---
 
-On-the-fly transformations have been introduced in version 0.18.1 of MDAnalysis.
-This feature is part of [davidercruz](https://github.com/davidercruz) Google Summer of Code
-2018 project and brings to MDAnalysis a whole new level of functionality, allowing for new and
+**On-the-fly transformations** have been introduced in version 0.19.0 of MDAnalysis.
+This feature is part of @davidercruz 's [Google Summer of Code
+2018 project]({{ site.baseurl }}{% post_url 2018-04-26-gsoc-students %}) and brings to 
+MDAnalysis a whole new level of functionality, allowing for new and
 more efficient workflows when analyzing and visualizing simulation trajectories. 
-The documentation for these new functions can be found in the [online docs of MDAnalysis](https://www.mdanalysis.org/mdanalysis).
+The documentation for these new functions can be found in the docs for 
+[`MDAnalysis.transformations`](https://www.mdanalysis.org/docs/documentation_pages/trajectory_transformations.html).
 
 ## Why do we need transformations?
 When visualizing and analyzing trajectories from molecular dynamics simulations, some
@@ -21,7 +23,7 @@ These transformations help us better identifying patterns in the behavior of our
 biological systems, and, more importantly, showing them to the world.
 
 ## The advantage of using MDAnalysis for trajectory transformations
-Each simulation package is often bundled with tools to transform and analyze trajectories,
+Many simulation packages often contain tools to transform and analyze trajectories,
 such as GROMACS' `trjconv`. However, most of the times, the user is required to apply
 all the intended transformations to the whole trajectory (or the portion of interest)
 prior to visualization and analysis. This often requires processing huge files, sometimes
@@ -33,7 +35,7 @@ are performed on-the-fly for each frame that is read. Transformations are added 
 as a transformation workflow containing one or more transformations. The API also makes it easy
 to add new transformations for your own projects.
 Another things that really makes the "on-the-fly" aspect of the MDAnalysis transformations
-really shine is coupling it to a visualization widget such as
+shine is coupling it to a visualization widget such as
 [NGL Viewer](http://nglviewer.org/ngl/api/index.html).
 
 ## Using MDAnalysis transformations
@@ -78,14 +80,14 @@ This can be done as follows:
 u = mda.Universe('pept_in_memb.tpr', 'pept_in_memb.xtc')
 ag = u.atoms
 # we define the transformation
-transformation = mda.transformations.unwrap(ag)
+transformations = mda.transformations.unwrap(ag)
 ```
 
 Now that we have a workflow - in this case it is only a single transformation - we add
 it to the `trajectory` object so it can be applied in each frame that we want to read.
 
 ```python
-u.trajectory.add_transformations(transformation)
+u.trajectory.add_transformations(transformations)
 ```
 
 If we want to, we can do other things with the trajectory without having to generate a new file
