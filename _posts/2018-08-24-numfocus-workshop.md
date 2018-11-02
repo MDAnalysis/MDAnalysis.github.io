@@ -23,7 +23,15 @@ contributing to open source software.
 style="center" alt="Workshop program details"
 width="100%"/>
 
+## Registration
+
 To attend the Workshop [please register here.](https://goo.gl/forms/eoEthZEts8junr3V2)
-Space is limited and registration will close on October 15th.
+Space is limited and registration closes on October 15th.
+
+## Program and Materials
+
+The [workshop materials] are online and are available for attendants
+and anyone else interested.
 
 [numfocus]: https://numfocus.org/blog/summer-2018-open-source-development-grants
+[workshop materials]: {{site.baseurl}}/WorkshopHackathon2018/
