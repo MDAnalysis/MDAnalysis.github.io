@@ -97,7 +97,7 @@ This was a flavor of what work was done during GSoC'18. Apart from performance i
 [Google Summer of Code]: https://summerofcode.withgoogle.com/projects/#5050592943144960 
 [NumFOCUS]: https://numfocus.org/
 [Ayush Suhane]: https://github.com/ayushsuhane
-[to improve the performance of pairwise distance computations]: {% post_url 2018-04-26-gsoc-students %}#ayush-suhane-improve-distance-search-methods-in-mdanalysis
+[to improve the performance of pairwise distance computations]: {{ site.baseurl }}{% post_url 2018-04-26-gsoc-students %}#ayush-suhane-improve-distance-search-methods-in-mdanalysis
 [`MDAnalysis.lib.distances.capped_distance`]: https://www.mdanalysis.org/docs/documentation_pages/lib/distances.html#MDAnalysis.lib.distances.capped_distance
 [`MDAnalysis.lib.distances.self_capped_distance`]: https://www.mdanalysis.org/docs/documentation_pages/lib/distances.html#MDAnalysis.lib.distances.self_capped_distance
 [report]: https://gist.github.com/ayushsuhane/fd114cda20e93b0f61a8acb6d25d3276
