@@ -60,7 +60,7 @@ Tracker]({{sitemap.github.issues}}).
 @orbeckst's talk at [SciPy 2016](http://scipy2016.scipy.org/) provides an introduction to the
 library, its uses, and underlying philosophy:
 
-<div class="container">
+<div class="js-video">
 	<iframe src="https://www.youtube.com/embed/zVQGFysYDew" frameborder="0"
 	allowfullscreen class="video"></iframe>
 </div>
@@ -74,7 +74,7 @@ also shows off [nglview](http://nglviewer.org/nglview/latest/) for
 visualization and [datreant](http://datreant.org) for organizing his
 data):
 
-<div class="container">
+<div class="js-video">
 	<iframe src="https://www.youtube.com/embed/RWgt1WMwMUs" frameborder="0"
 	allowfullscreen class="video"></iframe>
 </div>

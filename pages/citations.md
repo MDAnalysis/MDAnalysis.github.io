@@ -17,14 +17,23 @@ algorithms and libraries that were used in the program.
 
 ## MDAnalysis library ##
 
-When using MDAnalysis in published work, please cite the following two papers:
+When using MDAnalysis in published work, please cite the following two
+papers. 
+
+(We are asking you to cite *both* papers if at all possible because
+the 2016 paper describes many updates to the original 2011 paper and
+neither paper on its own provides a comprehensive description of the
+library. We will publish a complete self-contained paper with the
+upcoming 1.0 release of MDAnalysis, which will then supersede these
+two citations.)
 
  * <a name="Gowers2016"></a>R. J. Gowers, M. Linke, J. Barnoud, T. J. E. Reddy,
    M. N. Melo, S. L. Seyler, D. L. Dotson, J. Domanski, S. Buchoux,
    I. M. Kenney, and
    O. Beckstein. [MDAnalysis: A Python package for the rapid analysis of molecular dynamics simulations](http://conference.scipy.org/proceedings/scipy2016/oliver_beckstein.html). In
    S. Benthall and S. Rostrup, editors, *Proceedings of the 15th Python in
-   Science Conference*, pages 102-109, Austin, TX, 2016. SciPy.
+   Science Conference*, pages 98-105, Austin, TX, 2016. SciPy,
+   doi:[10.25080/majora-629e541a-00e](https://doi.org/10.25080/majora-629e541a-00e).
 
  * <a name="MichaudAgrawal2011"></a>N. Michaud-Agrawal, E. J. Denning, T. B. Woolf, and
    O. Beckstein. MDAnalysis: A Toolkit for the Analysis of Molecular Dynamics

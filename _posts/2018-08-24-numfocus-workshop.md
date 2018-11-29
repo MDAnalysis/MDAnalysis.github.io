@@ -10,7 +10,7 @@ style="float: right; width: 10em;" />
 We are happy to announce that thanks to a [NumFOCUS development grant][numfocus]
 we will be hosting a 2 day workshop and hackathon aimed at introducing researchers to MDAnalysis.
 The event will be free to attend and will be held at Northwestern University, Evanston IL on the 12th and 13th of November 2018.
-In addition, there are travel grants available for people attending from outside Chicago
+In addition, there are small travel grants available for people attending from other US institutions
 aimed at promoting diversity in STEM.  Women and minorities are especially encouraged to apply!
 
 The first day of the workshop will focus on covering the basics of the Python programming language
@@ -23,7 +23,15 @@ contributing to open source software.
 style="center" alt="Workshop program details"
 width="100%"/>
 
+## Registration
+
 To attend the Workshop [please register here.](https://goo.gl/forms/eoEthZEts8junr3V2)
-Space is limited and registration will close on October 15th.
+Space is limited and registration closes on October 15th.
+
+## Program and Materials
+
+The [workshop materials] are online and are available for attendants
+and anyone else interested.
 
 [numfocus]: https://numfocus.org/blog/summer-2018-open-source-development-grants
+[workshop materials]: {{site.baseurl}}/WorkshopHackathon2018/
