@@ -5,7 +5,7 @@ title: "GSOC 2018: Improvements in distance search methods"
 
 We are pleased to announce another successful year of [Google Summer of Code][] with the [NumFOCUS][] organization,
 thanks to [Richard Gowers][] and [Jonathan Barnoud][] for mentoring the GSoC students.
-This year one of the projects was [to improve the performance of pairwise distance computations][], which is used quite frequently in MDAnalysis in different forms.
+This year one of the projects was [to improve the performance of pairwise distance computations][project], which is used quite frequently in MDAnalysis in different forms.
 
 MDAnalysis v0.19.0 and higher now include the _new functions [`MDAnalysis.lib.distances.capped_distance`][] and [`MDAnalysis.lib.distances.self_capped_distance`][]_
 which offer a much faster way to calculate all pairwise distances up to a certain maximum distance.
@@ -97,7 +97,7 @@ This was a flavor of what work was done during GSoC'18. Apart from performance i
 [Google Summer of Code]: https://summerofcode.withgoogle.com/projects/#5050592943144960 
 [NumFOCUS]: https://numfocus.org/
 [Ayush Suhane]: https://github.com/ayushsuhane
-[to improve the performance of pairwise distance computations]: {{ site.baseurl }}{% post_url 2018-04-26-gsoc-students %}#ayush-suhane-improve-distance-search-methods-in-mdanalysis
+[project]: {{ site.baseurl }}{% post_url 2018-04-26-gsoc-students %}#ayush-suhane-improve-distance-search-methods-in-mdanalysis
 [`MDAnalysis.lib.distances.capped_distance`]: https://www.mdanalysis.org/docs/documentation_pages/lib/distances.html#MDAnalysis.lib.distances.capped_distance
 [`MDAnalysis.lib.distances.self_capped_distance`]: https://www.mdanalysis.org/docs/documentation_pages/lib/distances.html#MDAnalysis.lib.distances.self_capped_distance
 [report]: https://gist.github.com/ayushsuhane/fd114cda20e93b0f61a8acb6d25d3276
