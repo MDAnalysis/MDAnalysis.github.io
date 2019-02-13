@@ -3,22 +3,6 @@ layout: page
 title: Installation Quick Start
 ---
 
-## Python Package Index ##
-
-To install the latest stable release with
-[pip][pip] do:
-
-{% highlight bash %}
-pip install --upgrade MDAnalysis
-{% endhighlight %}
-
-To run the test cases and examples, also install the unit tests (about 20 MiB
-in size):
-
-{% highlight bash %}
-pip install --upgrade MDAnalysisTests
-{% endhighlight %}
-
 ## Conda ##
 
 To install the lastest stable release with [conda][conda] do:
@@ -44,6 +28,22 @@ conda install MDAnalysisTests
 The conda packages currently only support serial calculations. If you
 plan to use the parallel [OpenMP][OpenMP] algorithms you need to install
 MDAnalysis with [pip][pip] and have a working OpenMP installation.
+
+## Python Package Index ##
+
+To install the latest stable release with
+[pip][pip] do:
+
+{% highlight bash %}
+pip install --upgrade MDAnalysis
+{% endhighlight %}
+
+To run the test cases and examples, also install the unit tests (about 20 MiB
+in size):
+
+{% highlight bash %}
+pip install --upgrade MDAnalysisTests
+{% endhighlight %}
 
 ## More ##
 
