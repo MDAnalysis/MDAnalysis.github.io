@@ -45,4 +45,4 @@ common software to analyze NMR measurements.
 
 
 If you know of other tools that are build on MDAnalysis please share them with
-us on twitter.
+us on [Twitter]({{ site.twitter.url }}).
