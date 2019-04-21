@@ -7,7 +7,7 @@ While our documentation is mostly focused on using MDAnalysis for exploratory
 analysis it is equally well suited to build your own analysis library on top of
 it. Below is a list of all projects we know about that use MDAnalysis.
 
-# Visualization tools
+## Visualization tools
 
 1. [nglview](https://github.com/arose/nglview): nglview is a tool to visualize
    trajectories in jupyter notebooks.
@@ -15,7 +15,7 @@ it. Below is a list of all projects we know about that use MDAnalysis.
    MDAnalysis has been embedded into PyMOL to read many different MD formats
    directly
 
-# Analysis tools
+## Analysis tools
 
 1. [pydiffusion](https://github.com/bio-phys/pydiffusion): Analyze the
    rotational diffusion of your molecules.
@@ -38,7 +38,7 @@ it. Below is a list of all projects we know about that use MDAnalysis.
    This is the framework for running accelerated sampling with data-augmented
    autoencoders.
 
-# Distributions
+## Distributions
 
 MDAnalysis is also included in [NMRBox](https://nmrbox.org/) a distribution of
 common software to analyze NMR measurements.
