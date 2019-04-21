@@ -26,6 +26,8 @@ MDAnalysis and the algorithms implemented in the library and the subprojects are
 scientifc software that are described in [academic
 publications]({{site.baseurl}}/pages/citations/).
 
+MDAnalysis is used in a variety of [other molecular dynamics tools]({{site.baseurl}}/pages/used-by/).
+
 
 ## Open source
 
