@@ -24,8 +24,6 @@ it. Below is a list of all projects we know about that use MDAnalysis.
    configuration files or in trajectories from molecular dynamics simulations.
 -  [pycontact](https://github.com/maxscheurer/pycontact): Analysis of
    non-covalent interactions in MD trajectories.
--  [pyPcazip](https://www.sciencedirect.com/science/article/pii/S2352711016300036):
-   A PCA-based toolkit for compression and analysis of molecular simulation data
 -  [RotamerConvolveMD](https://github.com/MDAnalysis/RotamerConvolveMD):
    Analysis of molecular dynamics trajectories or conformational ensembles in
    terms of spin-label distances as probed in double electron-electron resonance
