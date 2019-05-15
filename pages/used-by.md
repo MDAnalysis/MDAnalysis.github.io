@@ -35,6 +35,7 @@ it. Below is a list of all projects we know about that use MDAnalysis.
 -  [accelerated_sampling_with_autoencoder](https://github.com/weiHelloWorld/accelerated_sampling_with_autoencoder):
    This is the framework for running accelerated sampling with data-augmented
    autoencoders.
+-  [BioEn](https://github.com/bio-phys/BioEn): BioEn integrates a broad range of experimental data to refine ensembles of structures.
 
 ## Distributions
 
