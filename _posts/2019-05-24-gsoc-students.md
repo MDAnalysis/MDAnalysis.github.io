@@ -24,7 +24,13 @@ center of mass. In order to improve performance, the wrapping and
 unwrapping methods will be implemented in Cython.
 
 
-Ninad is a researcher in materials science at IIT Bombay (Mumbai).
+Ninad is a senior undergraduate at IIT Bombay. He is working with
+Phase Field Modelling for his master thesis and has also used
+molecular dynamics for some of his projects. He has been contributing
+to different open source projects since 2016 and credits most of his
+programming knowledge to it. During GSoC, he aims to improve his
+software development skills while also getting a deeper understanding
+of molecular dynamics.
 
 
 Ninad will describe his progress on [his blog][ninad-blog].
