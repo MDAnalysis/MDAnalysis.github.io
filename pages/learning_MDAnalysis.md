@@ -44,7 +44,7 @@ MDAnalysis]({{ site.baseurl }}/pages/citations#Gowers2016) contains a
 high-level description of the structure and philosophy of the library
 together with examples of its use.
 
-The [FAQ](https://github.com/MDAnalysis/mdanalysis/wiki/FAQ) contains a 
+The [FAQ]({{ site.github.wiki }}/FAQ) contains a 
 growing list of specific (frequently asked) questions and answers.
 
 ## Mailing list ##
@@ -54,8 +54,7 @@ Finally, you can also ask for advice or help on the
 list](http://groups.google.com/group/mdnalysis-discussion). If you
 find *bugs* or want to *request enhancements* please [file a
 report]({{site.github.wiki}}/ReportingProblems)
-in the [Issue
-Tracker]({{sitemap.github.issues}}).
+in the [Issue Tracker]({{sitemap.github.issues}}).
 
 ## Videos ##
 
