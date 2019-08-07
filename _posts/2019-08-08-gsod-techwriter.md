@@ -11,8 +11,9 @@ style="float: right; height: 8em; " />
 </p>
 
 This year MDAnalysis is hosting Lily Wang (@lilyminium on GitHub) for
-the first iteration of [Google Season of Docs][GSoD]. She will work with us
-over the coming months on a user guide for MDAnalysis.
+the first iteration of [Google Season of Docs][GSoD]. She will work
+with us over the coming months on [a user guide for MDAnalysis,
+structured by topic][GSoD-project].
 
 ## Lily Wang: A User Guide for MDAnalysis
 
@@ -47,4 +48,5 @@ blog][lily-blog].
 — @richardjgowers @orbeckst (mentors)
 
 [GSoD]: https://developers.google.com/season-of-docs/
+[GSoD-project]: https://developers.google.com/season-of-docs/docs/participants/project-mdanalysis
 [lily-blog]: https://blog.minium.com.au/categories#GSOD
