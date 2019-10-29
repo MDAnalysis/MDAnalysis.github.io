@@ -36,6 +36,7 @@ it. Below is a list of all projects we know about that use MDAnalysis.
    This is the framework for running accelerated sampling with data-augmented
    autoencoders.
 -  [BioEn](https://github.com/bio-phys/BioEn): BioEn integrates a broad range of experimental data to refine ensembles of structures.
+-  [kugupu](https://github.com/kugupu/kugupu): A molecular network generator to study charge transport pathways in amorphous materials
 
 ## Distributions
 
