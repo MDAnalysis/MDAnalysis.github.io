@@ -46,19 +46,18 @@ Installable packages are available through the popular ``pip`` and
 
 ## Governance
 
-Project leadership is currently provided by a subset of contributors, the *Core
-Developers*
+Project leadership is currently provided by a subset of contributors,
+the *MDAnalysis Core Developers*
 ([@MDAnalysis/coredevs](https://github.com/orgs/MDAnalysis/teams/coredevs)) who
 have produced substantial contributions over extended lengths of time and who
 remain active in reviewing issues and discussions on the various mailing
-lists. Core Developers are granted commit rights (write access) to the GitHub
-source code repository. New Core Developers are elected with a simple majority
-of current Core Developers.
+lists. MDAnalysis Core Developers are granted commit rights (write access) to the GitHub
+source code repository. New MDAnalysis Core Developers are elected with a simple majority
+of current MDAnalysis Core Developers.
 
-*In general, all project decisions are made through consensus among the Core
-Developers.*
+All decisions by the MDAnalysis Core Developers are made by simple majority.
 
-A rotating subset of three Core Developers is tasked to respond to and to
+A rotating subset of three MDAnalysis Core Developers is tasked to respond to and to
 investigate Code of Conduct violations.
 
 
