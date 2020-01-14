@@ -55,7 +55,7 @@ lists. MDAnalysis Core Developers are granted commit rights (write access) to th
 source code repository. New MDAnalysis Core Developers are elected with a simple majority
 of current MDAnalysis Core Developers.
 
-All decisions by the MDAnalysis Core Developers are made by simple majority.
+All decisions are made by simple majority of the MDAnalysis Core Developers.
 
 A rotating subset of three MDAnalysis Core Developers is tasked to respond to and to
 investigate [Code of Conduct]({{site.baseurl}}/pages/conduct/) violations.
