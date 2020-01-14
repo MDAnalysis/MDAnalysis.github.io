@@ -46,20 +46,19 @@ Installable packages are available through the popular ``pip`` and
 
 ## Governance
 
-Project leadership is currently provided by a subset of contributors, the *Core
-Developers*
+Project leadership is currently provided by a subset of contributors,
+the *MDAnalysis Core Developers*
 ([@MDAnalysis/coredevs](https://github.com/orgs/MDAnalysis/teams/coredevs)) who
 have produced substantial contributions over extended lengths of time and who
 remain active in reviewing issues and discussions on the various mailing
-lists. Core Developers are granted commit rights (write access) to the GitHub
-source code repository. New Core Developers are elected with a simple majority
-of current Core Developers.
+lists. MDAnalysis Core Developers are granted commit rights (write access) to the GitHub
+source code repository. New MDAnalysis Core Developers are elected with a simple majority
+of current MDAnalysis Core Developers.
 
-*In general, all project decisions are made through consensus among the Core
-Developers.*
+All decisions are made by simple majority of the MDAnalysis Core Developers.
 
-A rotating subset of three Core Developers is tasked to respond to and to
-investigate Code of Conduct violations.
+A rotating subset of three MDAnalysis Core Developers is tasked to respond to and to
+investigate [Code of Conduct]({{site.baseurl}}/pages/conduct/) violations.
 
 
 ## Partners
@@ -81,7 +80,7 @@ Foundation](https://www.nsf.gov/) and [NumFOCUS](https://www.numfocus.org).
 	
 <img
 	src="https://developers.google.com/open-source/gsoc/images/gsoc2016-sun-373x373.png"
-	title="Google Summer of Code 2018" alt="Google Summer of Code 2018"
+	title="Google Summer of Code" alt="Google Summer of Code"
 	style="display: inline; float: left; height: 4em;" />
 
 <img src="{{site.images}}/nsf.jpg" title="National Science Foundation"
