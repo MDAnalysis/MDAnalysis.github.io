@@ -37,6 +37,9 @@ it. Below is a list of all projects we know about that use MDAnalysis.
    autoencoders.
 -  [BioEn](https://github.com/bio-phys/BioEn): BioEn integrates a broad range of experimental data to refine ensembles of structures.
 -  [kugupu](https://github.com/kugupu/kugupu): A molecular network generator to study charge transport pathways in amorphous materials
+-  [PyInteraph](https://github.com/ELELAB/pyinteraph): A software tool
+   for the analysis of structural communication in protein ensembles,
+   including a PyMOL plugin and an InteractionPlotter.
 
 ## Distributions
 
