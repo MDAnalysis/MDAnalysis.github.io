@@ -63,20 +63,22 @@ investigate [Code of Conduct]({{site.baseurl}}/pages/conduct/) violations.
 
 ## Partners
 
-MDAnalysis is a fiscally sponsored project of NumFOCUS,
+MDAnalysis is a [fiscally sponsored
+project]({{site.numfocus.sponsored_project}}) 
+of [NumFOCUS][],
 a nonprofit dedicated to supporting the open source 
 scientific computing community. If you like MDAnalysis
 and want to support our mission, please consider making
-a [donation](https://numfocus.salsalabs.org/supportmdanalysis) to support our efforts. NumFOCUS is 501(c)(3)
+a [donation]({{site.numfocus.donate}}) to support our efforts. NumFOCUS is 501(c)(3)
 non-profit charity in the United States; as such, 
 donations to NumFOCUS are tax-deductible as allowed by law.
 As with any donation, you should consult with your 
 personal tax adviser or the IRS about your particular 
 tax situation.
 
-<a href="https://numfocus.salsalabs.org/supportmdanalysis" target="_blank" style="background:#FFA500;padding:10px;margin:10px 0px;text-align:center;text-decoration:none;font-size:12pt;color:#222222;font-family:Arial, Helvetica, sans-serif;display:inline-block;">Donate Now!</a>
+<a href="{{site.numfocus.donate}}" target="_blank" style="background:#FF9200;padding:10px;margin:10px 0px;text-align:center;text-decoration:none;font-size:12pt;color:#000000;font-family:Arial, Helvetica, sans-serif;display:inline-block;">Donate Now!</a>
 
-Through [NumFOCUS](https://www.numfocus.org) (and previously the [Python Software
+Through [NumFOCUS][] (and previously the [Python Software
 Foundation](https://www.python.org/psf/)) we have been participating in [Google
 Summer of Code](https://summerofcode.withgoogle.com/) since 2016. 
 
@@ -86,7 +88,7 @@ Foundation](https://www.nsf.gov/) and [NumFOCUS](https://www.numfocus.org).
 
 
 
-<a href="https://numfocus.org/project/mdanalysis">
+<a href="{{site.numfocus.sponsored_project}}">
 <img src="{{site.images}}/numfocus-sponsored.png" title="NumFOCUS sponsored project"
 	alt="NumFOCUS Sponsored" style="display: inline; float: left; height: 4em;" />
 </a>
@@ -102,3 +104,4 @@ Foundation](https://www.nsf.gov/) and [NumFOCUS](https://www.numfocus.org).
 
 
 
+[NumFOCUS]: https://www.numfocus.org

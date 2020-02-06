@@ -70,3 +70,8 @@ twitter:
 algolia:
   index_name: mdanalysis
   read_only_api_key: 307d780013d06fdde7a4eae462db0e74
+
+numfocus:
+  donate:         https://numfocus.salsalabs.org/supportmdanalysis
+  sponsored_project: https://numfocus.org/project/mdanalysis
+  
