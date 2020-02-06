@@ -72,6 +72,6 @@ algolia:
   read_only_api_key: 307d780013d06fdde7a4eae462db0e74
 
 numfocus:
-  donate:         https://numfocus.salsalabs.org/supportmdanalysis
+  donate:            https://numfocus.org/donate-to-mdanalysis
   sponsored_project: https://numfocus.org/project/mdanalysis
   

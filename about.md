@@ -64,26 +64,23 @@ investigate [Code of Conduct]({{site.baseurl}}/pages/conduct/) violations.
 ## Partners
 
 MDAnalysis is a [fiscally sponsored
-project]({{site.numfocus.sponsored_project}}) 
-of [NumFOCUS][],
-a nonprofit dedicated to supporting the open source 
-scientific computing community. If you like MDAnalysis
-and want to support our mission, please consider making
-a [donation]({{site.numfocus.donate}}) to support our efforts. NumFOCUS is 501(c)(3)
-non-profit charity in the United States; as such, 
-donations to NumFOCUS are tax-deductible as allowed by law.
-As with any donation, you should consult with your 
-personal tax adviser or the IRS about your particular 
+project]({{site.numfocus.sponsored_project}}) of [NumFOCUS][], a nonprofit
+dedicated to supporting the open source scientific computing community. If you
+like MDAnalysis and want to support our mission, please consider making a
+[donation]({{site.numfocus.donate}}) to support our efforts. NumFOCUS is a
+501(c)(3) non-profit charity in the United States; as such, donations to
+NumFOCUS are tax-deductible as allowed by law.  As with any donation, you
+should consult with your personal tax adviser or the IRS about your particular
 tax situation.
 
-<a href="{{site.numfocus.donate}}" target="_blank" style="background:#FF9200;padding:10px;margin:10px 0px;text-align:center;text-decoration:none;font-size:12pt;color:#000000;font-family:Arial, Helvetica, sans-serif;display:inline-block;">Donate Now!</a>
+<a href="{{site.numfocus.donate}}" target="_blank" style="background:#FF9200;padding:10px;margin:10px 0px;text-align:center;text-decoration:none;font-size:12pt;color:#000000;display:inline-block;border-radius:3px">Donate Now</a>
 
 Through [NumFOCUS][] (and previously the [Python Software
 Foundation](https://www.python.org/psf/)) we have been participating in [Google
 Summer of Code](https://summerofcode.withgoogle.com/) since 2016. 
 
-We are grateful for financial support from the [National Science
-Foundation](https://www.nsf.gov/) and [NumFOCUS](https://www.numfocus.org).
+We are grateful for financial support from [NumFOCUS][] and the [National Science
+Foundation](https://www.nsf.gov/) (as part of award ACI-1443054).
 
 
 
