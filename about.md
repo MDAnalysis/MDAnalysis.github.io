@@ -73,7 +73,7 @@ NumFOCUS are tax-deductible as allowed by law.  As with any donation, you
 should consult with your personal tax adviser or the IRS about your particular
 tax situation.
 
-<a href="{{site.numfocus.donate}}" target="_blank" style="background:#FF9200;padding:10px;margin:10px 0px;text-align:center;text-decoration:none;font-size:12pt;color:#000000;display:inline-block;border-radius:3px">Donate Now</a>
+{{ site.numfocus.donate_button }}
 
 Through [NumFOCUS][] (and previously the [Python Software
 Foundation](https://www.python.org/psf/)) we have been participating in [Google
