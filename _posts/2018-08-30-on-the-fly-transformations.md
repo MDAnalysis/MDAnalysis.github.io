@@ -19,8 +19,8 @@ from periodic boundary conditions, which cause some issues with some molecular
 viewers (PyMol for example), removing the rotation and translation of a particular
 molecule and/or centering it in the unit cell, which helps focus on the its actual
 conformational changes by removing their natural movement in solution.
-These transformations help us better identifying patterns in the behavior of our
-biological systems, and, more importantly, showing them to the world.
+These transformations help us better identify patterns in the behavior of our
+biological systems, and, more importantly, show them to the world.
 
 ## The advantage of using MDAnalysis for trajectory transformations
 Many simulation packages often contain tools to transform and analyze trajectories,
@@ -42,7 +42,7 @@ shine is coupling it to a visualization widget such as
 Now it's time to learn how to use the trajectory transformations in MDAnalysis. During the
 following steps, we will apply some transformations on a 1 ns trajectory of a simple
 19-residue peptide embeded in a 128-DMPC membrane, showing the GROMACS `trjconv` command
-and the equivalent MDAnalysis code and output. To keep thinks lightweight, frames are
+and the equivalent MDAnalysis code and output. To keep things lightweight, frames are
 were taken every 100 ps, and water molecules were removed. This can be easily done with
 MDAnalysis.
 
@@ -60,6 +60,7 @@ of our system, things become more cluttered and confusing:
 import warnings
 warnings.filterwarnings('ignore') # some attributes are missing 
 import MDAnalysis as mda
+from MDAnalysis import transformations
 import nglview as nv
 u = mda.Universe('pept_in_memb.tpr', 'pept_in_memb.xtc')
 nv.show_mdanalysis(u)
@@ -80,7 +81,7 @@ This can be done as follows:
 u = mda.Universe('pept_in_memb.tpr', 'pept_in_memb.xtc')
 ag = u.atoms
 # we define the transformation
-transformations = mda.transformations.unwrap(ag)
+transformations = transformations.unwrap(ag)
 ```
 
 Now that we have a workflow - in this case it is only a single transformation - we add
@@ -109,14 +110,14 @@ In that case, using `trjconv` we would do something like this:
 And we choose `Protein` as the group to be centered.
 
 In MDAnalysis we use the `center_in_box` transformation. As the name says, this transformation will move all the
-atoms of the frame, so that a given Atomgroup is centered in the unit cell.
-`center_in_box` takes an Atomgroup as a mandatory argumenty. Optional arguments include `weights`, which is used
+atoms of the frame, so that a given AtomGroup is centered in the unit cell.
+`center_in_box` takes an AtomGroup as a mandatory argument. Optional arguments include `weights`, which is used
 to calculate the weighted center of the given AtomGroup (if weights='mass' then the center of mass is calculated),
 `center_to` which is used when the user needs to center the AtomGroup in a custom point instead of the center of
 the unit cell, and `wrap` which, if `True`, causes all the atoms of the AtomGroup to be moved to the unit cell
 before calculating the weighted center.
 
-You can see that the `transformations` workflow bellow has three steps:
+You can see that the `transformations` workflow below has three steps:
  - make everything molecule whole again with `unwrap` ;
  - center the protein in the unit cell with `center_in_box` - this causes some of the phospholipids to
  fall outside the unit cell ;
@@ -129,16 +130,13 @@ u = mda.Universe('pept_in_memb.tpr', 'pept_in_memb.xtc')
 prot = u.select_atoms("protein")
 ag = u.atoms
 # we will use mass as weights for the center calculation
-transformations = (mda.transformations.unwrap(ag),
-                   mda.transformations.center_in_box(prot, weights='mass'),
-                   mda.transformations.wrap(ag, compound='fragments'))
+transformations = (transformations.unwrap(ag),
+                   transformations.center_in_box(prot, center='mass'),
+                   transformations.wrap(ag, compound='fragments'))
 u.trajectory.add_transformations(*transformations)
 nv.show_mdanalysis(u)
 ```
  
-Two other centering transformations are availabe - `center_in_plane` and `center_in_axis` - and just as
-the names say, they are used to center molecules in the `xy`, `xz` and `yz` planes, and the `x`, `y` and `z`
-axes, respectively.
  
 ### Example 3: what if we want to do a fitting of the protein?
 Fitting is useful when processing trajectories for visualization and analyses - it removes the translations
@@ -166,20 +164,17 @@ u = mda.Universe('pept_in_memb.tpr', 'pept_in_memb.xtc')
 prot = u.select_atoms("protein")
 # we load another universe to define the reference
 # it uses the same input files, but this doesn't have to be always the case
-ref_u = mda.Universe('pept_in_memb.tpr', 'pept_in_memb.xtc')
+ref_u = u.copy()
 reference = ref_u.select_atoms("protein")
 ag = u.atoms
-transformations = (mda.transformations.unwrap(ag),
-                   mda.transformations.center_in_box(prot, weights='mass'),
-                   mda.transformations.wrap(ag, compound='fragments'),
-                   mda.transformations.fit_rot_trans(prot, reference))
+transformations = (transformations.unwrap(ag),
+                   transformations.center_in_box(prot, center='mass'),
+                   transformations.wrap(ag, compound='fragments'),
+                   transformations.fit_rot_trans(prot, reference))
 u.trajectory.add_transformations(*transformations)
 nv.show_mdanalysis(u)
 
 ```
-
-
-    NGLWidget(count=11)
 
 
 It looks a bit confusing with the membrane...
@@ -193,10 +188,7 @@ w
 ```
 
 
-    NGLWidget(count=11)
-
-
-This transformations is good when we want to see how the conformation of the protein evolves with time. 
+This transformation is good when we want to see how the conformation of the protein evolves with time. 
 
 But, in this case, we also have a membrane. How does the protein behave in the membrane? Doing a least
 squares fitting in the `xy` plane can help us have a better look. Here's how it goes:
@@ -205,13 +197,13 @@ squares fitting in the `xy` plane can help us have a better look. Here's how it 
 ```python
 u = mda.Universe('pept_in_memb.tpr', 'pept_in_memb.xtc')
 prot = u.select_atoms("protein")
-ref_u = mda.Universe('pept_in_memb.tpr', 'pept_in_memb.xtc')
+ref_u = u.copy()
 reference = ref_u.select_atoms("protein")
 ag = u.atoms
-transformations = (mda.transformations.unwrap(ag),
-                   mda.transformations.center_in_box(prot),
-                   mda.transformations.wrap(ag, compound='fragments'),
-                   mda.transformations.fit_rot_trans(prot, reference, plane='xy', weights="mass"))
+transformations = (transformations.unwrap(ag),
+                   transformations.center_in_box(prot),
+                   transformations.wrap(ag, compound='fragments'),
+                   transformations.fit_rot_trans(prot, reference, plane='xy', weights="mass"))
 u.trajectory.add_transformations(*transformations)
 # let's hide the lipid tails to have a better view
 view_selection = u.select_atoms("protein or name P")
@@ -220,9 +212,6 @@ w = nv.NGLWidget(t)
 w.add_line()
 w
 ```
-
-
-    NGLWidget(count=11)
 
 
 This transformation keeps the membrane horizontal, while the protein rotation in the z-axis is removed, and
@@ -277,7 +266,7 @@ previous.trajectory.add_transformations(mda.transformations.unwrap(previous.atom
 
 ag = u.atoms
 
-transformations = (mda.transformations.unwrap(ag),
+transformations = (transformations.unwrap(ag),
                    up_by_2())
 u.trajectory.add_transformations(*transformations)
 view_selection = previous.select_atoms("protein or name P")
@@ -289,10 +278,7 @@ w
 ```
 
 
-    NGLWidget(count=11)
-
-
-As you can see, the atoms in the `u` Universe have been shift up by 20 angstroms.
+As you can see, the atoms in the `u` Universe have been shifted up by 20 angstroms.
 
 The transformations can accept arguments. Let's modify `up_by_2` so that only the peptide is translated
 in the z coordinate:
@@ -312,28 +298,22 @@ def protein_up_by_2(agroup):
     return wrapped
 ```
 
-And we'll see what happens. Now is a good opportunity to showcase the `center_in_axis` transformation.
-The `center_in_axis` transformation snaps the the weighted center of the Atomgroup to the chosen axis.
-This transformation is useful to visualize particle insertion in membranes, for example.
+We'll add the new transformation to the workflow and see what happens.
 
 
 ```python
 u = mda.Universe('pept_in_memb.tpr', 'pept_in_memb.xtc')
 ag = u.atoms
 prot = u.select_atoms("protein")
-transformations = (mda.transformations.unwrap(ag),
+transformations = (transformations.unwrap(ag),
                    protein_up_by_2(prot),
-                   mda.transformations.center_in_axis(prot, axis="z", weights='mass'),
-                   mda.transformations.wrap(ag, compound='fragments'))
+                   transformations.wrap(ag, compound='fragments'))
 u.trajectory.add_transformations(*transformations)
 nv.show_mdanalysis(u)
 ```
 
 
-    NGLWidget(count=11)
-
-
-The two examples of custom transformations show here are very simple. But 
+The two examples of custom transformations shown here are very simple. But 
 more complex things can be done, and we encourage you to try them!
 
 This has been a quick demonstration on the power of the new on-the-fly transformations
