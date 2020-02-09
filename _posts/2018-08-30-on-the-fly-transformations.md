@@ -66,7 +66,6 @@ u = mda.Universe('pept_in_memb.tpr', 'pept_in_memb.xtc')
 nv.show_mdanalysis(u)
 ```
 
-
 Using `trjconv`, one way to may every molecules whole again would be:
 
     gmx trjconv -f pept_in_memb.xtc -s pept_in_memb.tpr -pbc mol -o output.xtc
@@ -81,14 +80,14 @@ This can be done as follows:
 u = mda.Universe('pept_in_memb.tpr', 'pept_in_memb.xtc')
 ag = u.atoms
 # we define the transformation
-transformations = transformations.unwrap(ag)
+workflow = transformations.unwrap(ag)
 ```
 
 Now that we have a workflow - in this case it is only a single transformation - we add
 it to the `trajectory` object so it can be applied in each frame that we want to read.
 
 ```python
-u.trajectory.add_transformations(transformations)
+u.trajectory.add_transformations(*workflow)
 ```
 
 If we want to, we can do other things with the trajectory without having to generate a new file
@@ -130,10 +129,10 @@ u = mda.Universe('pept_in_memb.tpr', 'pept_in_memb.xtc')
 prot = u.select_atoms("protein")
 ag = u.atoms
 # we will use mass as weights for the center calculation
-transformations = (transformations.unwrap(ag),
+workflow = (transformations.unwrap(ag),
                    transformations.center_in_box(prot, center='mass'),
                    transformations.wrap(ag, compound='fragments'))
-u.trajectory.add_transformations(*transformations)
+u.trajectory.add_transformations(*workflow)
 nv.show_mdanalysis(u)
 ```
  
@@ -167,11 +166,11 @@ prot = u.select_atoms("protein")
 ref_u = u.copy()
 reference = ref_u.select_atoms("protein")
 ag = u.atoms
-transformations = (transformations.unwrap(ag),
+workflow = (transformations.unwrap(ag),
                    transformations.center_in_box(prot, center='mass'),
                    transformations.wrap(ag, compound='fragments'),
                    transformations.fit_rot_trans(prot, reference))
-u.trajectory.add_transformations(*transformations)
+u.trajectory.add_transformations(*workflow)
 nv.show_mdanalysis(u)
 
 ```
@@ -200,11 +199,11 @@ prot = u.select_atoms("protein")
 ref_u = u.copy()
 reference = ref_u.select_atoms("protein")
 ag = u.atoms
-transformations = (transformations.unwrap(ag),
+workflow = (transformations.unwrap(ag),
                    transformations.center_in_box(prot),
                    transformations.wrap(ag, compound='fragments'),
                    transformations.fit_rot_trans(prot, reference, plane='xy', weights="mass"))
-u.trajectory.add_transformations(*transformations)
+u.trajectory.add_transformations(*workflow)
 # let's hide the lipid tails to have a better view
 view_selection = u.select_atoms("protein or name P")
 t = nv.MDAnalysisTrajectory(view_selection)
@@ -260,15 +259,15 @@ import numpy as np
 u = mda.Universe('pept_in_memb.tpr', 'pept_in_memb.xtc')
 
 # loading another universe to better see the changes made by our transformation
-previous = mda.Universe('pept_in_memb.tpr', 'pept_in_memb.xtc')
+previous = u.copy()
 # making the unmodified universe whole accross the trajectory
 previous.trajectory.add_transformations(mda.transformations.unwrap(previous.atoms))
 
 ag = u.atoms
 
-transformations = (transformations.unwrap(ag),
+workflow = (transformations.unwrap(ag),
                    up_by_2())
-u.trajectory.add_transformations(*transformations)
+u.trajectory.add_transformations(*workflow)
 view_selection = previous.select_atoms("protein or name P")
 t = nv.MDAnalysisTrajectory(view_selection)
 w = nv.NGLWidget(t)
@@ -305,10 +304,10 @@ We'll add the new transformation to the workflow and see what happens.
 u = mda.Universe('pept_in_memb.tpr', 'pept_in_memb.xtc')
 ag = u.atoms
 prot = u.select_atoms("protein")
-transformations = (transformations.unwrap(ag),
+workflow = (transformations.unwrap(ag),
                    protein_up_by_2(prot),
                    transformations.wrap(ag, compound='fragments'))
-u.trajectory.add_transformations(*transformations)
+u.trajectory.add_transformations(*workflow)
 nv.show_mdanalysis(u)
 ```
 
@@ -320,3 +319,5 @@ This has been a quick demonstration on the power of the new on-the-fly transform
 of MDAnalysis. There are more transformations available for you to explore and a whole
 lot more for you to create for your own molecular system. More information on trajectory
 transformations can be found in the [online docs of MDAnalysis](https://www.mdanalysis.org/mdanalysis).
+nv.show_mdanalysis(u)
+```
