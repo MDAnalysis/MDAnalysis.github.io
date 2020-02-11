@@ -26,37 +26,36 @@ open practices in research, data, and scientific computing by serving
 as a fiscal sponsor for open source projects and organizing
 community-driven educational programs. In brief, they provide
 financial and logistic infrastructure to [many open source
-projects](https://numfocus.org/sponsored-projects) that fullfil
+projects](https://numfocus.org/sponsored-projects) that fulfill
 important roles in their communities. NumFOCUS is a 501(c)(3) public
 charity in the United States and it is able to accept
 donations for and on-behalf of projects and act as a grantee.
 
 NumFOCUS will accept funds on behalf of the MDAnalysis Project and
-then make it available to us. By becoming a [fiscally sponsored
+then make them available to us. By becoming a [fiscally sponsored
 project](https://numfocus.org/projects-overview), we agreed that **all
 software produced under the MDAnalysis umbrella is and will be free
-Open Source software** and that any funds will be spend compliant with
+Open Source software** and that any funds will be spent compliant with
 NumFOCUS' tax-exempt status: what this means in practice is that **all
 funds will go to further the growth and well-being of the project**.
 
 So if you want to donate to MDAnalysis: you can now do this easily
-with the click of this button:
+by clicking this button:
 
 {{ site.numfocus.donate_button }}
 
 More importantly, with NumFOCUS as a partner, MDAnalysis gains a
 long-term perspective for stable development that becomes less
 dependent on individuals and academic institutions. It allows the
-project obtain its own funding and move in directions that best
+project to obtain its own funding and move in directions that best
 benefit its community. For example, it will become easier to organize
 workshops, arrange for developers to travel, and to hire developers.
 
-For users and developers there really are not any changes to how the
-MDAnalysis Project operates: it remains a friendly and respectful
-community that welcomes everyone's contributions and that is
-committed to producing good software that helps us all do interesting
-science. But together with NumFOCUS, we will be able to do
-more than before... stay tuned!
+For users and developers, the way the MDAnalysis Project operates will
+not change: it remains a friendly and respectful community that
+welcomes everyone's contributions and that is committed to producing
+good software that helps us all do interesting science. But together
+with NumFOCUS, we will be able to do more than before... stay tuned!
 
 — [@MDAnalysis/coredevs](https://github.com/orgs/MDAnalysis/teams/coredevs)
 
