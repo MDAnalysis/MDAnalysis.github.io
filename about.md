@@ -46,19 +46,46 @@ Installable packages are available through the popular ``pip`` and
 
 ## Governance
 
-Project leadership is currently provided by a subset of contributors,
+Project leadership is provided by a subset of contributors,
 the *MDAnalysis Core Developers*
-([@MDAnalysis/coredevs](https://github.com/orgs/MDAnalysis/teams/coredevs)) who
-have produced substantial contributions over extended lengths of time and who
-remain active in reviewing issues and discussions on the various mailing
-lists. MDAnalysis Core Developers are granted commit rights (write access) to the GitHub
-source code repository. New MDAnalysis Core Developers are elected with a simple majority
-of current MDAnalysis Core Developers.
+([@MDAnalysis/coredevs](https://github.com/orgs/MDAnalysis/teams/coredevs))
+who have produced substantial contributions over extended lengths of
+time and who remain active in reviewing issues and discussions on the
+various mailing lists. MDAnalysis Core Developers are granted commit
+rights (write access) to the GitHub source code repository.
 
-All decisions are made by simple majority of the MDAnalysis Core Developers.
+### MDAnalysis Core Developers
 
-A rotating subset of three MDAnalysis Core Developers is tasked to respond to and to
-investigate [Code of Conduct]({{site.baseurl}}/pages/conduct/) violations.
+The current
+[@MDAnalysis/coredevs](https://github.com/orgs/MDAnalysis/teams/coredevs/members)
+team ("MDAnalysis Core Developers") consists of:
+
+1. @dotsdl
+2. @jandom
+3. @jbarnoud
+4. @kain88-de
+5. @mnmelo
+6. @mtiberti
+7. @orbeckst
+8. @richardjgowers
+9. @seb-buch
+10. @tylerjereddy
+11. @zemanj
+
+
+### Decision Making Process
+
+1. All decisions are made by simple majority of the MDAnalysis Core
+   Developers.
+2. New MDAnalysis Core Developers are elected with a simple majority
+   of current MDAnalysis Core Developers.
+
+### Code of Conduct
+
+Everyone in the MDAnalysis community adheres to our [Code of
+Conduct]({{site.baseurl}}/pages/conduct/).  A rotating subset of three
+MDAnalysis Core Developers is tasked to respond to and to investigate
+[Code of Conduct]({{site.baseurl}}/pages/conduct/) violations.
 
 
 ## Partners
