@@ -6,11 +6,10 @@ title: MDAnalysis is a NumFOCUS Sponsored Project!
 <img src="{{ site.baseurl }}{{ site.images }}/numfocus-sponsored.png"
 style="float: right" alt="NumFOCUS Sponsored" width="40%"/>
 
-**[MDAnalysis is now a NumFOCUS Sponsored Project]({{
-site.numfocus.sponsored_project }})!**
-
-Let us explain who MDAnalysis and NumFOCUS are and what being a
-sponsored project means:
+**MDAnalysis is now a [NumFOCUS Sponsored Project]({{
+site.numfocus.sponsored_project }})!** 
+Let us explain who *MDAnalysis* and *NumFOCUS* are and what being a
+*sponsored project* means:
 
 [**MDAnalysis**]({{ site.baseurl }}/about) is an open source software
 project that produces the *MDAnalysis Python library* for the analysis
@@ -29,7 +28,7 @@ financial and logistic infrastructure to [many open source
 projects](https://numfocus.org/sponsored-projects) that fulfill
 important roles in their communities. NumFOCUS is a 501(c)(3) public
 charity in the United States and it is able to accept
-donations for and on-behalf of projects and act as a grantee.
+donations for and on-behalf of projects and to act as a grantee.
 
 NumFOCUS will accept funds on behalf of the MDAnalysis Project and
 then make them available to us. By becoming a [fiscally sponsored
