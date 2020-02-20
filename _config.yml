@@ -74,4 +74,5 @@ algolia:
 numfocus:
   donate:            https://numfocus.org/donate-to-mdanalysis
   sponsored_project: https://numfocus.org/project/mdanalysis
+  donate_button:     <a href="https://numfocus.org/donate-to-mdanalysis" target="_blank" style="background:#FF9200;padding:10px;margin:10px 0px;text-align:center;text-decoration:none;font-size:12pt;color:#000000;display:inline-block;border-radius:3px">Donate Now</a>
   
