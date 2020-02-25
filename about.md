@@ -70,7 +70,8 @@ team ("MDAnalysis Core Developers") consists of:
 8. @richardjgowers
 9. @seb-buch
 10. @tylerjereddy
-11. @zemanj
+11. @lilyminium
+12. @zemanj
 
 
 ### Decision Making Process
