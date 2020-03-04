@@ -60,10 +60,11 @@ in the [Issue Tracker]({{sitemap.github.issues}}).
 
 ### Introductory ###
 
+#### The universe as balls and springs: molecular dynamics in Python
 @lilyminium's talk at [PyCon AU 2019](https://2019.pycon-au.org/) *The universe as balls and
 springs: molecular dynamics in Python* gives a general introduction to
 molecular dynamics and shows how to use MDAnalysis (and other tools
-such as [OpenMM](http://openmm.org/), [nglviewer](nglviewer.org/nglview/latest/)
+such as [OpenMM](http://openmm.org/), [nglviewer](nglviewer.org/nglview/latest/),
 [pandas](https://pandas.pydata.org/),
 [plotly](https://pandas.pydata.org/)). If you want to better
 understand what MD simulations are and how scientists can make use of
@@ -74,6 +75,7 @@ the vast Python eco-system to analyze (and run) MD simulations, start here:
 	allowfullscreen class="video"></iframe>
 </div>
 
+#### MDAnalysis: A Python package for the rapid analysis of molecular dynamics simulations
 
 @orbeckst's talk at [SciPy 2016](http://scipy2016.scipy.org/) provides
 an introduction to the MDAnalysis library, its uses, and underlying philosophy:
@@ -92,6 +94,7 @@ which adds detail to the concepts outlined in this talk.
 
 ### Intermediate ###
 
+#### Looking at molecules using Python
 @jbarnoud presented at the PyGrunn 2017 conference _Looking at
 molecules using Python_ where he shows how to use a whole range of
 MDAnalysis from the simple to the advanced in Jupyter notebooks (he
