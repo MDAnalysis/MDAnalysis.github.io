@@ -59,13 +59,36 @@ in the [Issue Tracker]({{sitemap.github.issues}}).
 ## Videos ##
 
 ### Introductory ###
-@orbeckst's talk at [SciPy 2016](http://scipy2016.scipy.org/) provides an introduction to the
-library, its uses, and underlying philosophy:
+
+@lilyminium's talk at [PyCon AU 2019](https://2019.pycon-au.org/) *The universe as balls and
+springs: molecular dynamics in Python* gives a general introduction to
+molecular dynamics and shows how to use MDAnalysis (and other tools
+such as [OpenMM](http://openmm.org/), [nglviewer](nglviewer.org/nglview/latest/)
+[pandas](https://pandas.pydata.org/),
+[plotly](https://pandas.pydata.org/)). If you want to better
+understand what MD simulations are and how scientists can make use of
+the vast Python eco-system to analyze (and run) MD simulations, start here:
+
+<div class="js-video">
+	<iframe src="https://www.youtube.com/embed/X5umNQDqfqQ" frameborder="0"
+	allowfullscreen class="video"></iframe>
+</div>
+
+
+@orbeckst's talk at [SciPy 2016](http://scipy2016.scipy.org/) provides
+an introduction to the MDAnalysis library, its uses, and underlying philosophy:
 
 <div class="js-video">
 	<iframe src="https://www.youtube.com/embed/zVQGFysYDew" frameborder="0"
 	allowfullscreen class="video"></iframe>
 </div>
+
+Also read the paper [MDAnalysis: A Python package for the rapid
+analysis of molecular dynamics
+simulations](http://conference.scipy.org/proceedings/scipy2016/oliver_beckstein.html)
+which adds detail to the concepts outlined in this talk.
+
+
 
 ### Intermediate ###
 
