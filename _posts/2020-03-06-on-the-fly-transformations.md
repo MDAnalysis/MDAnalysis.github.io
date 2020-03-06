@@ -9,7 +9,7 @@ This feature is part of @davidercruz 's [Google Summer of Code
 MDAnalysis a whole new level of functionality, allowing for new and
 more efficient workflows when analyzing and visualizing simulation trajectories. 
 The documentation for these new functions can be found in the docs for 
-[`MDAnalysis.transformations`](https://www.mdanalysis.org/docs/documentation_pages/trajectory_transformations.html).
+[`MDAnalysis.transformations`][otf-docs]
 
 ## Why do we need transformations?
 When visualizing and analyzing trajectories from molecular dynamics simulations, some
@@ -23,26 +23,24 @@ These transformations help us better identify patterns in the behavior of our
 biological systems, and, more importantly, show them to the world.
 
 ## The advantage of using MDAnalysis for trajectory transformations
-Many simulation packages often contain tools to transform and analyze trajectories,
-such as GROMACS' `trjconv`. However, most of the times, the user is required to apply
-all the intended transformations to the whole trajectory (or the portion of interest)
-prior to visualization and analysis. This often requires processing huge files, sometimes
-more than once. Moreover, some tools such as `trjconv` do not support frame indexing
-for the most popular trajectory formats, requiring iterating over frames that are not
-needed for that particular analysis.
-Trajectory transformations in MDAnalysis, on the other end, have one great advantage - they
-are performed on-the-fly for each frame that is read. Transformations are added to a universe
-as a transformation workflow containing one or more transformations. The API also makes it easy
-to add new transformations for your own projects.
-Another things that really makes the "on-the-fly" aspect of the MDAnalysis transformations
-shine is coupling it to a visualization widget such as
-[NGL Viewer](http://nglviewer.org/ngl/api/index.html).
+Many simulation packages often contain tools to transform and analyze trajectories, such
+as [Gromacs][] `gmx trjconv` command. However, most of the times, the user is required to
+apply all the intended transformations to the whole trajectory (or the portion of
+interest) prior to visualization and analysis. This often requires processing huge files,
+sometimes more than once. Moreover, some tools such as `trjconv` do not support frame
+indexing for the most popular trajectory formats, requiring iterating over frames that are
+not needed for that particular analysis.  Trajectory transformations in MDAnalysis, on the
+other end, have one great advantage - they are performed on-the-fly for each frame that is
+read. Transformations are added to a universe as a transformation workflow containing one
+or more transformations. The API also makes it easy to add new transformations for your
+own projects.  Another things that really makes the "on-the-fly" aspect of the MDAnalysis
+transformations shine is coupling it to a visualization widget such as [NGL Viewer][].
 
 ## Using MDAnalysis transformations
 Now it's time to learn how to use the trajectory transformations in MDAnalysis. During the
 following steps, we will apply some transformations on a 1 ns trajectory of a simple
 19-residue peptide embeded in a 128-DMPC membrane, showing the
-[Gromacs](https://www.gromacs.org) `trjconv` command and the equivalent MDAnalysis code
+[Gromacs][] `gmx trjconv` command and the equivalent MDAnalysis code
 and output. To keep things lightweight, frames are were taken every 100 ps, and water
 molecules were removed. This can be easily done with MDAnalysis.
 
@@ -143,9 +141,8 @@ and rotations of the molecule, allowing us to have a better look at the structur
 our simulations.
 If we want to do this using `trjconv` we would do have to do this in two steps:
 
-     gmx trjconv -f pept_in_memb.xtc -s pept_in_memb.tpr -pbc mol -center -o midstep.xtc
-    
-     gmx trjconv -f midstep.xtc -s pept_in_memb.tpr -fit rot+trans -o output.xtc
+    gmx trjconv -f pept_in_memb.xtc -s pept_in_memb.tpr -pbc mol -center -o midstep.xtc
+    gmx trjconv -f midstep.xtc -s pept_in_memb.tpr -fit rot+trans -o output.xtc
 
 And we choose `Protein` as the group to be centered and for the least squares fitting.
 
@@ -220,14 +217,14 @@ it becomes particularly useful when observing protein insertion.
 The beauty of MDAnalysis transformations is the ability to easily create custom transformations.
 All transformations must have the following structure:
     
-```Python
+```python
 def custom_transform(args): # arguments at this point are not mandatory
     #do some things
         
     def wrapped(ts): 
-        # this wrapped function must only take a Timestep as argument
-        # this is where the actual changes to the timestep must be done
-            
+        # This wrapped function must only take a Timestep as argument
+        # and perform the actual changes to the timestep
+        
         return ts
         
     return wrapped
@@ -315,9 +312,15 @@ nv.show_mdanalysis(u)
 The two examples of custom transformations shown here are very simple. But 
 more complex things can be done, and we encourage you to try them!
 
-This has been a quick demonstration on the power of the new on-the-fly transformations
-of MDAnalysis. There are more transformations available for you to explore and a whole
-lot more for you to create for your own molecular system. More information on trajectory
-transformations can be found in the [online docs of MDAnalysis](https://www.mdanalysis.org/mdanalysis).
-nv.show_mdanalysis(u)
-```
+This has been a quick demonstration on the power of the new on-the-fly transformations of
+MDAnalysis. There are more transformations available for you to explore and a whole lot
+more for you to create for your own molecular system. More [information on trajectory
+transformations][otf-docs] can be found in the online docs of
+MDAnalysis .
+
+
+— @davidercruz
+
+[Gromacs]: http://www.gromacs.org
+[NGL Viewer]: http://nglviewer.org/ngl/api/index.html
+[otf-docs]: {{ site.docs.mdanalysis.url }}/documentation_pages/trajectory_transformations.html
