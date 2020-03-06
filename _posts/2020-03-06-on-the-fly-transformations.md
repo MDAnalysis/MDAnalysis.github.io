@@ -41,10 +41,10 @@ shine is coupling it to a visualization widget such as
 ## Using MDAnalysis transformations
 Now it's time to learn how to use the trajectory transformations in MDAnalysis. During the
 following steps, we will apply some transformations on a 1 ns trajectory of a simple
-19-residue peptide embeded in a 128-DMPC membrane, showing the GROMACS `trjconv` command
-and the equivalent MDAnalysis code and output. To keep things lightweight, frames are
-were taken every 100 ps, and water molecules were removed. This can be easily done with
-MDAnalysis.
+19-residue peptide embeded in a 128-DMPC membrane, showing the
+[Gromacs](https://www.gromacs.org) `trjconv` command and the equivalent MDAnalysis code
+and output. To keep things lightweight, frames are were taken every 100 ps, and water
+molecules were removed. This can be easily done with MDAnalysis.
 
 ### Example 1: making everything whole again
 When performing MD simulations using periodic boundary conditions, molecules will often
