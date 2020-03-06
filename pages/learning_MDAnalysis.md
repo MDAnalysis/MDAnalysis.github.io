@@ -19,11 +19,13 @@ MDAnalysis for your own specific uses.
 
 ## Tutorials ##
 
-The [MDAnalysis
-Tutorial](http://www.mdanalysis.org/MDAnalysisTutorial/) serves as an
-introduction to the library and there are [other
-tutorials]({{site.github.wiki}}/Tutorials)
-available, too.
+Start with the [{{ site.docs.quickstart.name }}]({{
+site.docs.quickstart.url }}) when you are new MDAnalysis.
+
+You can then browse through the [MDAnalysis
+Tutorial](http://www.mdanalysis.org/MDAnalysisTutorial/) for anything
+that was not covered in the {{ site.docs.quickstart.name }}. There are [other
+tutorials]({{site.github.wiki}}/Tutorials) available, too.
 
 [Interactive Jupyter
 notebooks](http://nbviewer.jupyter.org/github/MDAnalysis/binder-notebook/tree/master/notebooks/)
@@ -37,26 +39,36 @@ binder" button to start a notebook server).
 
 ## Documentation ##
 
-See the [Online Documentation]({{site.pypi.docs}})
-for more information on how to use MDAnalysis and the available
-documentation on the Wiki. The [paper on
-MDAnalysis]({{ site.baseurl }}/pages/citations#Gowers2016) contains a
-high-level description of the structure and philosophy of the library
-together with examples of its use.
+The [{{ site.docs.userguide.name }}]({{ site.docs.userguide.url }})
+contains installation instructions, the [{{ site.docs.quickstart.name
+}}]({{ site.docs.quickstart.url }}), and comprehensive description of
+the functionality of MDAnalysis from a user's perspective. **New users
+should start here!**
+
+The [{{ site.docs.mdanalysis.name }}]({{ site.docs.mdanalysis.url }})
+contains technical information on how to use MDAnalysis. 
+
+The [paper on MDAnalysis]({{ site.baseurl
+}}/pages/citations#Gowers2016) contains a high-level description of
+the structure and philosophy of the library together with examples of
+its use.
 
 The [FAQ]({{ site.github.wiki }}/FAQ) contains a 
 growing list of specific (frequently asked) questions and answers.
 
 ## Mailing list ##
 
-Finally, you can also ask for advice or help on the
-[mdnalysis-discussion mailing
-list](http://groups.google.com/group/mdnalysis-discussion). If you
-find *bugs* or want to *request enhancements* please [file a
-report]({{site.github.wiki}}/ReportingProblems)
-in the [Issue Tracker]({{sitemap.github.issues}}).
+You can ask for advice or help on the [mdnalysis-discussion mailing
+list]({{ site.mailinglists.discussion.url }}). If you find *bugs* or
+want to *request enhancements* please [file a report]({{
+site.github.wiki }}/ReportingProblems) in the [Issue Tracker]({{
+sitemap.github.issues }}).
 
 ## Videos ##
+
+The videos listed below were given by core developers at
+conferences. They highlight various aspects of MDAnalysis and show how
+to use it in a research context.
 
 ### Introductory ###
 

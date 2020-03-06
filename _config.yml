@@ -65,7 +65,16 @@ mailinglists:
 twitter:
   name:           mdanalysis
   url:            https://twitter.com/mdanalysis
-
+docs:
+  mdanalysis:
+     name:        Online Documentation
+     url:         https://www.mdanalysis.org/docs
+  userguide:
+    name:         User Guide
+    url:          https://www.mdanalysis.org/UserGuide
+  quickstart:
+    name:         Quick Start Guide
+    url:          https://www.mdanalysis.org/UserGuide/examples/quickstart.html
 
 algolia:
   index_name: mdanalysis
