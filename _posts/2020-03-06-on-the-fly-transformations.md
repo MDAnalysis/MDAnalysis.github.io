@@ -44,6 +44,59 @@ following steps, we will apply some transformations on a 1 ns trajectory of a si
 and output. To keep things lightweight, frames are were taken every 100 ps, and water
 molecules were removed. This can be easily done with MDAnalysis.
 
+### Preparation: Example trajectory
+We get our example trajectory from
+[`MDAnalysisData.membrane_peptide`](https://www.mdanalysis.org/MDAnalysisData/membrane_peptide.html):
+
+```python
+import MDAnalysis as mda
+import MDAnalysisData
+
+peptide = MDAnalysisData.datasets.fetch_membrane_peptide()
+u = mda.Universe(peptide.topology, peptide.trajectory)
+u.transfer_to_memory(step=10)
+```
+
+The above commands will download the `peptide.topology` (a Gromacs TPR file name
+"memb_pept.tpr") and the `peptide.trajectory` "memb_pept.xtc" in XTC format.
+
+The original trajectory has 1000 frames but for making the visualizations in this post
+shorter, we will only keep every 10th frame by using an in-memory representation (see
+[Universe.transfer_to_memory()]({{ site.docs.mdanalysis.url
+}}/documentation_pages/core/universe.html#MDAnalysis.core.universe.Universe.transfer_to_memory));
+when trying these examples yourself you can omit the line
+`u.transfer_to_memory(step=10)`. In the following we just write
+```python
+u = mda.Universe(peptide.topology, peptide.trajectory)
+```
+
+### Visualization
+We use nglview for visualizing our trajectory in the jupyter notebook. In all cases we add
+a unit cell representation and rotate the view with commands such as 
+```python
+import nglview as nv
+import numpy as np
+
+view = nv.show_mdanalysis(u)
+view.add_unitcell()
+view.control.rotate(
+    mda.lib.transformations.quaternion_from_euler(
+        -np.pi/2, np.pi/3, np.pi/6, 'rzyz').tolist())
+view.control.zoom(-0.3)
+view
+```
+but for simplicity, in the following we only write
+```
+nv.show_mdanalysis(u)
+```
+
+The movies were rendered as animated GIFs with 
+```python
+from nglview.contrib.movie import MovieMaker
+movie = MovieMaker(view, fps=24, output=movie.gif')
+movie.make()
+```
+
 ### Example 1: making everything whole again
 When performing MD simulations using periodic boundary conditions, molecules will often
 cross the limits of the unit cell. When this happens, some atoms of the molecule will
@@ -56,15 +109,20 @@ of our system, things become more cluttered and confusing:
 
 ```python
 import warnings
-warnings.filterwarnings('ignore') # some attributes are missing 
+warnings.filterwarnings('ignore') # nglview is missing some PDB-only attributes and complains 
+
 import MDAnalysis as mda
-from MDAnalysis import transformations
 import nglview as nv
-u = mda.Universe('pept_in_memb.tpr', 'pept_in_memb.xtc')
+
+u = mda.Universe(peptide.topology, peptide.trajectory)
+
 nv.show_mdanalysis(u)
 ```
 
-Using `trjconv`, one way to may every molecules whole again would be:
+<img src="{{ site.baseurl }}{{ site.images }}/otf/peptide_raw.gif" title="raw trajectory"
+alt="raw trajectory" />
+
+Using `trjconv`, one way to make every molecules whole again would be:
 
     gmx trjconv -f pept_in_memb.xtc -s pept_in_memb.tpr -pbc mol -o output.xtc
     
@@ -73,12 +131,14 @@ This can be done as follows:
 
 
 ```python
+from MDAnalysis import transformations
+
 # a custom atom group can be passed as an argument. In this case we will use all the atoms
 # in the Universe u
-u = mda.Universe('pept_in_memb.tpr', 'pept_in_memb.xtc')
-ag = u.atoms
+u = mda.Universe(peptide.topology, peptide.trajectory)
+
 # we define the transformation
-workflow = transformations.unwrap(ag)
+workflow = [transformations.unwrap(u.atoms)]
 ```
 
 Now that we have a workflow - in this case it is only a single transformation - we add
@@ -97,7 +157,11 @@ This is how our trajectory looks like:
 nv.show_mdanalysis(u)
 ```
 
-as you can see, the artifacts caused by the atoms crossing the boundaries of the unit cell are now gone.
+<img src="{{ site.baseurl }}{{ site.images }}/otf/peptide_wrapped.gif" title="unwrapped trajectory"
+alt="unwrapped trajectory" />
+
+
+As you can see, the artifacts caused by the atoms crossing the boundaries of the unit cell are now gone.
 
 ### Example 2: what if we also want to center the peptide in the unit cell?
 In that case, using `trjconv` we would do something like this:
@@ -123,7 +187,7 @@ You can see that the `transformations` workflow below has three steps:
 This is how it looks:
 
 ```python
-u = mda.Universe('pept_in_memb.tpr', 'pept_in_memb.xtc')
+u = mda.Universe(peptide.topology, peptide.trajectory)
 prot = u.select_atoms("protein")
 ag = u.atoms
 # we will use mass as weights for the center calculation
@@ -134,6 +198,8 @@ u.trajectory.add_transformations(*workflow)
 nv.show_mdanalysis(u)
 ```
  
+<img src="{{ site.baseurl }}{{ site.images }}/otf/peptide_centered.gif" title="centered
+and unwrapped trajectory" alt="centered and unwrapped trajectory" />
  
 ### Example 3: what if we want to do a fitting of the protein?
 Fitting is useful when processing trajectories for visualization and analyses - it removes the translations
@@ -156,7 +222,7 @@ Here's what the workflow looks like:
 
 
 ```python
-u = mda.Universe('pept_in_memb.tpr', 'pept_in_memb.xtc')
+u = mda.Universe(peptide.topology, peptide.trajectory)
 prot = u.select_atoms("protein")
 # we load another universe to define the reference
 # it uses the same input files, but this doesn't have to be always the case
@@ -169,19 +235,23 @@ workflow = (transformations.unwrap(ag),
                    transformations.fit_rot_trans(prot, reference))
 u.trajectory.add_transformations(*workflow)
 nv.show_mdanalysis(u)
-
 ```
 
+<img src="{{ site.baseurl }}{{ site.images }}/otf/peptide_fitted.gif" title="fitted on protein
+and unwrapped trajectory" alt="fitted on protein and unwrapped trajectory" />
 
-It looks a bit confusing with the membrane...
+It looks a bit confusing with the membrane so we can also look at only the protein
 
 
 ```python
-t = nv.MDAnalysisTrajectory(prot)
-w = nv.NGLWidget(t)
-w.add_line()
-w
+view = nv.show_mdanalysis(prot)
+view.w.add_line()
+view
 ```
+
+<img src="{{ site.baseurl }}{{ site.images }}/otf/peptideonly_fitted.gif" title="fitted on protein
+and unwrapped trajectory (protein only)" alt="fitted on protein and unwrapped trajectory
+(protein only)" />
 
 
 This transformation is good when we want to see how the conformation of the protein evolves with time. 
@@ -191,7 +261,7 @@ squares fitting in the `xy` plane can help us have a better look. Here's how it 
 
 
 ```python
-u = mda.Universe('pept_in_memb.tpr', 'pept_in_memb.xtc')
+u = mda.Universe(peptide.topology, peptide.trajectory)
 prot = u.select_atoms("protein")
 ref_u = u.copy()
 reference = ref_u.select_atoms("protein")
@@ -201,13 +271,21 @@ workflow = (transformations.unwrap(ag),
                    transformations.wrap(ag, compound='fragments'),
                    transformations.fit_rot_trans(prot, reference, plane='xy', weights="mass"))
 u.trajectory.add_transformations(*workflow)
-# let's hide the lipid tails to have a better view
-view_selection = u.select_atoms("protein or name P")
-t = nv.MDAnalysisTrajectory(view_selection)
-w = nv.NGLWidget(t)
-w.add_line()
-w
 ```
+
+For the visualization we will hide the lipid tails and only indicate the phosphorous
+atoms:
+
+```python
+protein_P = u.select_atoms("protein or name P")
+view = nv.show_mdanalysis(protein_P)
+view.add_line()
+view
+```
+
+<img src="{{ site.baseurl }}{{ site.images }}/otf/peptide_P_fitted_xy.gif" title="fitted on
+protein in x-y plane and unwrapped trajectory, protein and lipid phosphorous atoms are
+shown" alt="fitted on protein in x-y plane and unwrapped trajectory" />
 
 
 This transformation keeps the membrane horizontal, while the protein rotation in the z-axis is removed, and
@@ -235,15 +313,12 @@ Let's create one here:
 
 ```python
 def up_by_2():
-    
     def wrapped(ts):
         # here's where the magic happens 
         # we create a numpy float32 array to avoid reduce floating
         # point errors
         ts.positions += np.asarray([0,0,20])
-        
         return ts
-    
     return wrapped
 ```
 
@@ -253,7 +328,7 @@ Now lets add our transformation to a workflow.
 
 ```python
 import numpy as np
-u = mda.Universe('pept_in_memb.tpr', 'pept_in_memb.xtc')
+u = mda.Universe(peptide.topology, peptide.trajectory)
 
 # loading another universe to better see the changes made by our transformation
 previous = u.copy()
@@ -265,32 +340,25 @@ ag = u.atoms
 workflow = (transformations.unwrap(ag),
                    up_by_2())
 u.trajectory.add_transformations(*workflow)
-view_selection = previous.select_atoms("protein or name P")
-t = nv.MDAnalysisTrajectory(view_selection)
-w = nv.NGLWidget(t)
-w.add_line()
-w.add_trajectory(u)
-w
 ```
 
 
-As you can see, the atoms in the `u` Universe have been shifted up by 20 angstroms.
+All atoms in the `u` Universe are shifted up by 20 angstroms but this does not look
+much different from what we have seen before. So let's do something more interesting and
+just move a selection such as the peptide.
 
 The transformations can accept arguments. Let's modify `up_by_2` so that only the peptide is translated
 in the z coordinate:
 
 
 ```python
-def protein_up_by_2(agroup):
-    
+def protein_up_by_2(ag):
     def wrapped(ts):
         # here's where the magic happens 
         # we create a numpy float32 array to avoid reduce floating
         # point errors
-        agroup.positions += np.asarray([0,0,20])
-        
+        ag.positions += np.asarray([0,0,20])
         return ts
-    
     return wrapped
 ```
 
@@ -298,7 +366,7 @@ We'll add the new transformation to the workflow and see what happens.
 
 
 ```python
-u = mda.Universe('pept_in_memb.tpr', 'pept_in_memb.xtc')
+u = mda.Universe(peptide.topology, peptide.trajectory)
 ag = u.atoms
 prot = u.select_atoms("protein")
 workflow = (transformations.unwrap(ag),
@@ -309,10 +377,14 @@ nv.show_mdanalysis(u)
 ```
 
 
+<img src="{{ site.baseurl }}{{ site.images }}/otf/peptide_up2.gif" title="peptide
+translated by 20 Å upwards" alt="peptide translated by 20 Å upwards" />
+
+
 The two examples of custom transformations shown here are very simple. But 
 more complex things can be done, and we encourage you to try them!
 
-This has been a quick demonstration on the power of the new on-the-fly transformations of
+This has been a quick demonstration of the power of the new on-the-fly transformations of
 MDAnalysis. There are more transformations available for you to explore and a whole lot
 more for you to create for your own molecular system. More [information on trajectory
 transformations][otf-docs] can be found in the online docs of
