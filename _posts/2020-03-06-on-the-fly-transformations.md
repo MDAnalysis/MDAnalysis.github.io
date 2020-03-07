@@ -384,11 +384,30 @@ translated by 20 Å upwards" alt="peptide translated by 20 Å upwards" />
 The two examples of custom transformations shown here are very simple. But 
 more complex things can be done, and we encourage you to try them!
 
+## Final remarks
+
+These transformations are a new feature in MDAnalysis and some transformations such as
+wrap/unwrap are still comparatively slow but this post should have given you some ideas
+what you will now be able to do. In particular, one can transform a trajectory before any
+analysis code sees it so one could implement trajectory smoothing or projections and then
+directly analyze the pre-processed trajectory without having to write any intermediate
+files or change any of the existing analysis functions.
+
+Transformations behave differently when used with "out of core" trajectories (the normal
+approach in MDAnalysis, where each trajectory frame is read from disk into memory when
+needed) and "in core" trajectories (generated with `Universe.transfer_to_memory()`, also
+known as the "MemoryReader"). For on-disk trajectories, the transformations are performed
+whenever a frame is read from disk. For in-memory trajectories, the transformations are
+applied once to and the modified trajectory is stored in memory. Therefore, in-memory
+trajectories with transformations can appear to take a long time to load because all
+calculations are done immediately.
+
 This has been a quick demonstration of the power of the new on-the-fly transformations of
 MDAnalysis. There are more transformations available for you to explore and a whole lot
 more for you to create for your own molecular system. More [information on trajectory
-transformations][otf-docs] can be found in the online docs of
-MDAnalysis .
+transformations][otf-docs] can be found in the online docs of MDAnalysis. 
+
+
 
 
 — @davidercruz
