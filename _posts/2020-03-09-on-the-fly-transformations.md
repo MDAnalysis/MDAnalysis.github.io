@@ -57,7 +57,7 @@ u = mda.Universe(peptide.topology, peptide.trajectory)
 u.transfer_to_memory(step=10)
 ```
 
-The above commands will download the `peptide.topology` (a Gromacs TPR file name
+The above commands will download the `peptide.topology` (a Gromacs TPR file named
 "memb_pept.tpr") and the `peptide.trajectory` "memb_pept.xtc" in XTC format.
 
 The original trajectory has 1000 frames but for making the visualizations in this post
@@ -93,7 +93,7 @@ nv.show_mdanalysis(u)
 The movies were rendered as animated GIFs with 
 ```python
 from nglview.contrib.movie import MovieMaker
-movie = MovieMaker(view, fps=24, output=movie.gif')
+movie = MovieMaker(view, fps=24, output='movie.gif')
 movie.make()
 ```
 
