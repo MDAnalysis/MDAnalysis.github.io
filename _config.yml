@@ -69,6 +69,9 @@ docs:
   mdanalysis:
      name:        Online Documentation
      url:         https://www.mdanalysis.org/docs
+  development:
+     name:        Development Version Online Documentation
+     url:         https://www.mdanalysis.org/mdanalysis     
   userguide:
     name:         User Guide
     url:          https://www.mdanalysis.org/UserGuide
