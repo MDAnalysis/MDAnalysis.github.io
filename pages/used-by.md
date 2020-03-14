@@ -42,6 +42,7 @@ it. Below is a list of all projects we know about that use MDAnalysis.
    including a PyMOL plugin and an InteractionPlotter.
 -  [MAICoS](https://gitlab.com/netzlab/maicos): Analyze molecular dynamics simulations of 
    interfacial and confined systems.
+-  [taurenmd](https://taurenmd.readthedocs.io/en/latest/): A command-line interface for analysis of Molecular Dynamics simulations.
 
 ## Distributions
 
