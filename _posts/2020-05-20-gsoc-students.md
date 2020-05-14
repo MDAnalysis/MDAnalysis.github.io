@@ -55,7 +55,7 @@ format to the simulation community and he will document his experience at
 ## Cédric Bouysset: From RDKit to the Universe and back
 
 <img
-src=""
+src="https://cbouy.github.io/assets/img/photo-CV.jpeg"
 title="Cédric Bouysset" alt="Cédric Bouysset"
 style="float: left; width: 110px; height: 110px; border-radius: 20px; border: 15px solid white" />
 
@@ -71,7 +71,12 @@ MDAnalysis the ability to switch back and forth between a `Universe`
 and an RDKit `molecule` to perform typical chemoinformatics
 calculations and so add a lot of value to both packages.
 
-> BIOGRAPHY HERE
+Cédric is a PhD student at the Institute of Chemistry of Nice, in the
+south of France. His research project tackles taste perception (and
+sometimes olfaction) using computational approaches. His day-to-day
+work includes homology modeling of bitter taste receptors, building
+machine-learning models to predict taste modalities from chemical
+structures, writing Python or Bash scripts, and a bit of teaching.
 
 Cédric will describe his progress in [his blog][cbouy-blog].
 
