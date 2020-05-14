@@ -21,23 +21,22 @@ Trajectory storage has always proved problematic for the molecular
 simulation community, as large volumes of data can be generated
 quickly. Traditional trajectory formats suffer from poor portability,
 large file sizes and limited ability to include metadata relevant to
-simulation. The Trajectory New Generation format developed by the
-[Gromacs][] team represents the first trajectory format with small
+simulation. The Trajectory New Generation (TNG) format developed by
+the [GROMACS][] team represents the first trajectory format with small
 file sizes, metadata storage, archive integrity verification and
-user/software signatures. In [this
-project](https://summerofcode.withgoogle.com/projects/#5116604104310784),
-@hmacdope will refactor this code into C++ to provide clarity and
-usability for both the Gromacs project and for other simulation
-packages and analysis tools and is the primary goal of this
-project. Thin FORTRAN and Python layers are also desirable to
+user/software signatures. The primary goal of [this
+project](https://summerofcode.withgoogle.com/projects/#5116604104310784)
+is for @hmacdope to refactor the existing TNG code into C++ to provide
+clarity and usability for GROMACS, other simulation packages and
+analysis tools. Thin FORTRAN and Python layers are also desirable to
 encourage widespread adoption and are a secondary goal of the
 project. An efficient and transferable implementation of the TNG
 format will represent a major step forward for the computational
 molecular sciences community, enabling easy storage and replication of
 simulations.
 
-This project is a collaboration with the [Gromacs][] developer team
-with @acmnpv from Gromacs serving as a co-mentor.
+This project is a collaboration with the [GROMACS][] developer team
+with @acmnpv from GROMACS serving as a co-mentor.
 
 Hugo MacDermott-Opeskin is a PhD student in computational chemistry at
 the Australian National University. His work focuses on studying
@@ -62,7 +61,7 @@ style="float: left; width: 110px; height: 110px; border-radius: 20px; border: 15
 The aim of the [RDKit interoperability
 project](https://summerofcode.withgoogle.com/projects/#6750913248624640)
 is to give MDAnalysis the ability to use [RDKit][]’s `Chem.Mol`
-structure as an input to an MDAnalysis’ `Universe`, but also to
+structure as an input to an MDAnalysis `Universe`, but also to
 convert a `Universe` or `AtomGroup` to an RDKit `molecule`. RDKit is
 one of the most complete and one of the most commonly used
 chemoinformatics package, yet it lacks file readers for formats
@@ -98,12 +97,11 @@ serialization functionality into Dask, multiprocessing, or
 MPI. Additionally, he will run tests, write documentation, and run
 benchmarks.
 
-Yuxuan is a first-year PhD student at Stockholm University. He mainly
-works on understanding ion channels from MD simulations in Prof. Erik
-Lindahl’s group. My daily workflow involves setting up simulations,
-running simulations on our own clusters or the HPC center, and
-performing various analyses on the trajectories in my jupyter
-notebook.
+Yuxuan is a PhD student at Stockholm University. He mainly works on
+understanding pentameric ligand-gated ion channels from MD simulations.
+His daily workflow involves setting up and running simulations,
+on lab clusters or HPC centers, and performing various analyses on the
+MD trajectories in his jupyter notebook.
 
 Yuxuan will chronicle his work on [his blog
 "Simulacrum"][yuxuanzhuang-blog].
@@ -113,12 +111,9 @@ Yuxuan will chronicle his work on [his blog
 
 [gsoc]: https://summerofcode.withgoogle.com
 [mda-gsoc]: https://summerofcode.withgoogle.com/organizations/4891814374408192/
-[Gromacs]: http://www.gromacs.org
+[GROMACS]: http://www.gromacs.org
 [RDKit]: http://rdkit.org/
-[hmacdope-gsoc]: https://summerofcode.withgoogle.com/projects/
 [hmacdope-blog]: https://hmacdope.github.io
 [hmacdope-twitter]: https://twitter.com/hugomacdermott
-[cbouy-gsoc]: https://summerofcode.withgoogle.com/projects/
 [cbouy-blog]: https://cbouy.github.io/blog/
-[yuxuanzhuang-gsoc]: https://summerofcode.withgoogle.com/projects/
 [yuxuanzhuang-blog]: http://wsygzyx.com/
