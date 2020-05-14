@@ -116,4 +116,4 @@ Yuxuan will chronicle his work on [his blog
 [hmacdope-blog]: https://hmacdope.github.io
 [hmacdope-twitter]: https://twitter.com/hugomacdermott
 [cbouy-blog]: https://cbouy.github.io/blog/
-[yuxuanzhuang-blog]: http://wsygzyx.com/
+[yuxuanzhuang-blog]: https://yuxuanzhuang.github.io/
