@@ -98,7 +98,12 @@ serialization functionality into Dask, multiprocessing, or
 MPI. Additionally, he will run tests, write documentation, and run
 benchmarks.
 
-> BIOGRAPHY HERE
+Yuxuan is a first-year PhD student at Stockholm University. He mainly
+works on understanding ion channels from MD simulations in Prof. Erik
+Lindahl’s group. My daily workflow involves setting up simulations,
+running simulations on our own clusters or the HPC center, and
+performing various analyses on the trajectories in my jupyter
+notebook.
 
 Yuxuan will chronicle his work on [his blog
 "Simulacrum"][yuxuanzhuang-blog].
@@ -108,7 +113,7 @@ Yuxuan will chronicle his work on [his blog
 
 [gsoc]: https://summerofcode.withgoogle.com
 [mda-gsoc]: https://summerofcode.withgoogle.com/organizations/4891814374408192/
-[Gromacs]: https://www.gromacs.org
+[Gromacs]: http://www.gromacs.org
 [RDKit]: http://rdkit.org/
 [hmacdope-gsoc]: https://summerofcode.withgoogle.com/projects/
 [hmacdope-blog]: https://hmacdope.github.io
