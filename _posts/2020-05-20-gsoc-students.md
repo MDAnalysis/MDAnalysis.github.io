@@ -89,15 +89,19 @@ src="https://i0.wp.com/www.biophysics.se/wp-content/uploads/2018/06/IMG_4767.jpg
 title="Yuxuan Zhuang" alt="Yuxuan Zhuang"
 style="float: left; width: 110px; height: 110px; border-radius: 20px; border: 15px solid white" />
 
+As we approach the exascale barrier, researchers are handling
+increasingly large volumes of molecular dynamics (MD) data. Whilst
 MDAnalysis is a flexible and relatively fast framework for complex
-analysis tasks in molecular dynamics (MD) simulations. To achieve a
-flawless implementation of parallelism, @yuxuanzhuang will implement
+analysis tasks in MD simulations, implementing a parallel computing
+framework would play a pivotal role in accelerating the time to
+solution for such large datasets. To achieve a flawless
+implementation of parallelism, @yuxuanzhuang will implement
 [serialization support for
 `Universe`](https://summerofcode.withgoogle.com/projects/#5812065073102848),
 the core of MDAnalysis. Furthermore, he will adapt this new
-serialization functionality into Dask, multiprocessing, or
-MPI. Additionally, he will run tests, write documentation, and run
-benchmarks.
+serialization functionality to accelerate MDAnalysis' analysis modules
+using distributed computing frameworks, e.g. Dask, multiprocessing, or
+MPI.
 
 Yuxuan is a PhD student at Stockholm University. He mainly works on
 understanding pentameric ligand-gated ion channels from MD simulations.
@@ -105,8 +109,7 @@ His daily workflow involves setting up and running simulations,
 on lab clusters or HPC centers, and performing various analyses on the
 MD trajectories in his jupyter notebook.
 
-Yuxuan will chronicle his work on [his blog
-"Simulacrum"][yuxuanzhuang-blog].
+Yuxuan will chronicle his work on [his blog][yuxuanzhuang-blog].
 
 
 — @richardjgowers @IAlibay @acmnpv @fiona-naughton @orbeckst (mentors)
