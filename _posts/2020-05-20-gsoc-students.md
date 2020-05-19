@@ -70,12 +70,14 @@ MDAnalysis the ability to switch back and forth between a `Universe`
 and an RDKit `molecule` to perform typical chemoinformatics
 calculations and so add a lot of value to both packages.
 
-Cédric is a PhD student at the Institute of Chemistry of Nice, in the
-south of France. His research project tackles taste perception (and
-sometimes olfaction) using computational approaches. His day-to-day
-work includes homology modeling of bitter taste receptors, building
-machine-learning models to predict taste modalities from chemical
-structures, writing Python or Bash scripts, and a bit of teaching.
+Cédric is a PhD student in molecular modelling at Université Côte
+D'Azur, France. His research aims to decipher the molecular basis
+of chemosensory perception (smell and taste) using computational
+tools. His day-to-day work includes; modelling bitter taste receptors,
+building machine-learning models to search for molecules with
+interesting olfactive or sapid properties, maintaining the website
+of the Global Consortium of Chemosensory Researchers, and a bit of
+teaching. In his free time he enjoys cooking and playing video games. 
 
 Cédric will describe his progress in [his blog][cbouy-blog].
 
