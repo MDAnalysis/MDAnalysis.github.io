@@ -42,9 +42,9 @@ Hugo MacDermott-Opeskin is a PhD student in computational chemistry at
 the Australian National University. His work focuses on studying
 membrane biophysics through molecular dynamics simulations coupled
 with enhanced sampling techniques.  Hugo can be found on github as
-@hmacdope and on twitter as [@hugomacdermott][hmacdope-twitter]. When
-not hard at work Hugo can be found running or mountain biking in the
-Canberra hills.
+[@hmacdope][hmacdope-github] and on twitter as
+[@hugomacdermott][hmacdope-twitter]. When not hard at work Hugo can
+be found running or mountain biking in the Canberra hills.
 
 Through GSoC Hugo aims to bring the TNG next generation trajectory
 format to the simulation community and he will document his experience at
@@ -77,7 +77,9 @@ tools. His day-to-day work includes; modelling bitter taste receptors,
 building machine-learning models to search for molecules with
 interesting olfactive or sapid properties, maintaining the website
 of the Global Consortium of Chemosensory Researchers, and a bit of
-teaching. In his free time he enjoys cooking and playing video games. 
+teaching. In his free time he enjoys cooking and playing video games.
+Cédric can be found on github as [@cbouy][cbouy-github] and on twitter
+as [@cedricbouysset][cbouy-twitter].
 
 Cédric will describe his progress in [his blog][cbouy-blog].
 
@@ -107,7 +109,8 @@ Yuxuan is a PhD student at Stockholm University. He mainly works on
 understanding pentameric ligand-gated ion channels from MD simulations.
 His daily workflow involves setting up and running simulations,
 on lab clusters or HPC centers, and performing various analyses on the
-MD trajectories in his jupyter notebook.
+MD trajectories in his jupyter notebook. Yuxuan can be found on github
+as [@yuxuanzhuang][yuxuanzhuang-github].
 
 Yuxuan will chronicle his work on [his blog][yuxuanzhuang-blog].
 
@@ -120,5 +123,9 @@ Yuxuan will chronicle his work on [his blog][yuxuanzhuang-blog].
 [RDKit]: http://rdkit.org/
 [hmacdope-blog]: https://hmacdope.github.io
 [hmacdope-twitter]: https://twitter.com/hugomacdermott
+[hmacdope-github]: https://github.com/hmacdope
 [cbouy-blog]: https://cbouy.github.io/blog/
+[cbouy-twitter]: https://twitter.com/cedricbouysset
+[cbouy-github]: https://github.com/cbouy
 [yuxuanzhuang-blog]: https://yuxuanzhuang.github.io/
+[yuxuanzhuang-github]: https://github.com/yuxuanzhuang
