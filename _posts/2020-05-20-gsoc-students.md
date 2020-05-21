@@ -3,7 +3,7 @@ layout: post
 title: Google Summer of Code Students 2020
 ---
 
-We are happy to anounce that MDAnalysis is hosting three [GSoC][gsoc]
+We are happy to announce that MDAnalysis is hosting three [GSoC][gsoc]
 students this year -- @hmacdope, @cbouy, and @yuxuanzhuang. This is
 the first year that MDAnalysis has been accepted as its own
 [organization with GSoC][mda-gsoc] and we are grateful to Google for granting us
