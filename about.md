@@ -32,7 +32,7 @@ MDAnalysis is used in a variety of [other molecular dynamics tools]({{site.baseu
 ## Open source
 
 All our [code]({{site.baseurl}}/#availability) and our [teaching
-materials]({[site.baseurl}}/pages/learning_MDAnalysis/) are available
+materials]({{site.baseurl}}/pages/learning_MDAnalysis/) are available
 under open source licenses from repositories at
 [https://github.com/MDAnalysis/](https://github.com/MDAnalysis/). The
 MDAnalysis library itself is published under the [GNU General Public
