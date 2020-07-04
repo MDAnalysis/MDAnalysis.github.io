@@ -66,8 +66,26 @@ GitHub](https://github.com/MDAnalysis/mdanalysis#fork-destination-box)
 and submit a pull request. Participate on the [{{site.mailinglists.developer.name}}
 mailing list]({{site.mailinglists.developer.url}}).
 
+
+### Supporting
+
+If you like MDAnalysis and want to support our mission, please
+consider making a donation to support our efforts.
+
+{{ site.numfocus.donate_button }}
+
+(Donations are made through [our fiscal sponsor][], [NumFOCUS][], which is
+a 501(c)(3) non-profit charity in the United States; as such,
+donations to NumFOCUS are tax-deductible as allowed by law.  As with
+any donation, you should consult with your personal tax adviser or the
+IRS about your particular tax situation.)
+
 <a href="https://github.com/MDAnalysis/mdanalysis"><img style="position: absolute; top:
 0; right: 0; border: 0;"
 src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67"
 alt="Fork me on GitHub"
 data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
+
+
+[NumFOCUS]: https://www.numfocus.org
+[our fiscal sponsor]: {{site.baseurl}}/about#partners
