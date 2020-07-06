@@ -60,18 +60,19 @@ The current
 [@MDAnalysis/coredevs](https://github.com/orgs/MDAnalysis/teams/coredevs/members)
 team ("MDAnalysis Core Developers") consists of:
 
-1. @dotsdl
-2. @jandom
-3. @jbarnoud
-4. @kain88-de
-5. @mnmelo
-6. @mtiberti
-7. @orbeckst
-8. @richardjgowers
-9. @seb-buch
-10. @tylerjereddy
-11. @lilyminium
-12. @zemanj
+- @dotsdl
+- @IAlibay
+- @jandom
+- @jbarnoud
+- @kain88-de
+- @lilyminium
+- @mnmelo
+- @mtiberti
+- @orbeckst
+- @richardjgowers
+- @seb-buch
+- @tylerjereddy
+- @zemanj
 
 
 ### Decision Making Process
