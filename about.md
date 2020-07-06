@@ -77,7 +77,7 @@ team ("MDAnalysis Core Developers") consists of:
 
 ### Decision Making Process
 
-1. All decisions are made by simple majority of the MDAnalysis Core
+1. All decisions are made by [simple majority][] of the MDAnalysis Core
    Developers.
 2. New MDAnalysis Core Developers are elected with a simple majority
    of current MDAnalysis Core Developers.
@@ -131,3 +131,4 @@ Foundation](https://www.nsf.gov/) (as part of award ACI-1443054).
 
 
 [NumFOCUS]: https://www.numfocus.org
+[simple majority]: https://en.wikipedia.org/wiki/Majority#Majority_vote
