@@ -25,6 +25,8 @@ We only collect anonymous per-page *usage statistics* using
 [GoatCounter][] with details explained in the [GoatCounter privacy
 policy][]. These statistics are publicly visible at
 [https://mdanalysis.goatcounter.com](https://mdanalysis.goatcounter.com/).
+You can *disable statistics collection* by blocking the JavaScript
+coming from *gc.zgo.at*.
 
 *Online payments* (donations) are processed through NumFOCUS; as soon
 as you follow a "donate" button or link on a MDAnalysis website, you
