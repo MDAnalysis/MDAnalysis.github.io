@@ -50,9 +50,11 @@ We only share information with the following third parties:
   under Section *9. Subscriber Data submitted to our Services or collected through
   our Services (on behalf of our subscribers)* to learn how algolia
   uses your data.
-* Usage statistics: [GoatCounter][] collects
-  anonymous page visit statistics, as explained in
+* Usage statistics: [GoatCounter][] collects anonymous page visit
+  statistics, as explained in
   [https://www.goatcounter.com/privacy](https://www.goatcounter.com/privacy).
+  These statistics are publicly visible at
+  [https://mdanalysis.goatcounter.com](https://mdanalysis.goatcounter.com/).
 * Website hosting: [GitHub](https://github.com/) hosts the web pages
   as GitHub Pages; please see GitHub's privacy policy
   [https://help.github.com/en/github/site-policy/github-privacy-statement#additional-services](https://help.github.com/en/github/site-policy/github-privacy-statement#additional-services)
