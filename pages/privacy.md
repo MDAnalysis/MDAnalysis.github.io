@@ -53,6 +53,7 @@ We only share information with the following third parties:
 * Usage statistics: [GoatCounter][] collects anonymous page visit
   statistics, as explained in
   [https://www.goatcounter.com/privacy](https://www.goatcounter.com/privacy).
+  Data are stored for up to 182 days on GoatCounter's servers.
   These statistics are publicly visible at
   [https://mdanalysis.goatcounter.com](https://mdanalysis.goatcounter.com/).
 * Website hosting: [GitHub](https://github.com/) hosts the web pages
