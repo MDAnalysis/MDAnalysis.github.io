@@ -6,24 +6,18 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <loc>https://www.mdanalysis.org/docs/sitemap.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://www.mdanalysis.org/UserGuide/sitemap.xml</loc>
+  </sitemap>  
+  <sitemap>
     <loc>https://www.mdanalysis.org/pmda/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://www.mdanalysis.org/GridDataFormats/sitemap.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://www.mdanalysis.org/pytng/sitemap.xml</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://www.mdanalysis.org/MDAnalysisTutorial/sitemap.xml</loc>
-  </sitemap>
-  <sitemap>
     <loc>https://www.mdanalysis.org/MDAnalysisData/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://www.mdanalysis.org/RotamerConvolveMD/sitemap.xml</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://www.mdanalysis.org/SPIDAL-MDAnalysis-Midas-tutorial/sitemap.xml</loc>
   </sitemap>
 </sitemapindex> 
