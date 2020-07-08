@@ -77,10 +77,24 @@ team ("MDAnalysis Core Developers") consists of:
 
 ### Decision Making Process
 
-1. All decisions are made by simple majority of the MDAnalysis Core
+1. All decisions are made by *simple majority*[^1] of the MDAnalysis Core
    Developers.
 2. New MDAnalysis Core Developers are elected with a simple majority
    of current MDAnalysis Core Developers.
+   
+
+[^1]: A [simple majority][] is defined as *more than half the votes
+     cast*. Abstentions or blanks are excluded in calculating a
+     majority vote. Totals do not include votes cast by someone not
+     entitled to vote[^2] or improper multiple votes by a single
+     member.  Illegal votes[^3] are counted as votes cast;  
+     if only two choices (such as a binary "yes"/"no" vote) are
+     possible, a majority vote is more "yes" than "no" votes.
+	 	
+[^2]: See [MDAnalysis Core Developers](#mdanalysis-core-developers)
+    for the list of *individuals entitled to vote*.
+	
+[^3]: *Illegal votes* are votes that were cast for ineligible choices.
 
 ### Code of Conduct
 
@@ -126,8 +140,11 @@ Foundation](https://www.nsf.gov/) (as part of award ACI-1443054).
 
 <img src="{{site.images}}/nsf.jpg" title="National Science Foundation"
 	alt="National Science Foundation" style="display: inline; float: left; height: 4em;" />
-	
 
+<div style="clear: both"></div>
+
+------
 
 
 [NumFOCUS]: https://www.numfocus.org
+[simple majority]: https://en.wikipedia.org/wiki/Majority#Majority_vote
