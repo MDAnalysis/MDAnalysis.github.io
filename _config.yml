@@ -42,19 +42,19 @@ feed:
   path: atom.xml
 
 # Custom vars
-version:          0.18.0
+version:          1.0.0
 
 # see also https://help.github.com/articles/repository-metadata-on-github-pages/
 # for what GitHub makes available in site.github
 github:
   repo:           https://github.com/MDAnalysis/mdanalysis
-  docs:           https://www.mdanalysis.org/mdanalysis
+  docs:           https://docs.mdanalysis.org/dev
   issues:         https://github.com/MDAnalysis/mdanalysis/issues
   wiki:           https://github.com/MDAnalysis/mdanalysis/wiki
 pypi:
   package:        https://pypi.org/project/MDAnalysis
   tests:          https://pypi.org/project/MDAnalysisTests
-  docs:           https://www.mdanalysis.org/docs
+  docs:           https://docs.mdanalysis.org
 mailinglists:
   discussion:
     name:         mdnalysis-discussion
@@ -68,16 +68,16 @@ twitter:
 docs:
   mdanalysis:
      name:        Online Documentation
-     url:         https://www.mdanalysis.org/docs
+     url:         https://docs.mdanalysis.org
   development:
      name:        Development Version Online Documentation
-     url:         https://www.mdanalysis.org/mdanalysis     
+     url:         https://docs.mdanalysis.org/dev
   userguide:
     name:         User Guide
-    url:          https://www.mdanalysis.org/UserGuide
+    url:          https://userguide.mdanalysis.org
   quickstart:
     name:         Quick Start Guide
-    url:          https://www.mdanalysis.org/UserGuide/examples/quickstart.html
+    url:          https://userguide.mdanalysis.org/examples/quickstart.html
 
 algolia:
   index_name: mdanalysis
