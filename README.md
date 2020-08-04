@@ -5,7 +5,7 @@ a [GitHub pages](https://pages.github.com) site. The home page is also
 accessible as [mdanalysis.github.io](https://mdanalysis.github.io).
 
 
-## Blog [blog.mdanalysis.org](https://blog.mdanalysis.org)
+## Blog [mdanalysis.org/blog](https://www.mdanalysis.org/blog)
 
 Check out the repository, edit the pages under `_posts`, and push
 commits. The published pages are on the *master* branch.
