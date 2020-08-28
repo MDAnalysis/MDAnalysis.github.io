@@ -38,7 +38,7 @@ It was also the occasion for me to increase my visibility in the community by wo
 
 ### In progress
 
-* **SMARTS selection**: [#2883](https://github.com/MDAnalysis/mdanalysis/pull/2883/files/55691558811a1091bd8ff7a1868bbde140f63d72)  
+* **SMARTS selection**: [#2883](https://github.com/MDAnalysis/mdanalysis/pull/2883/files/1d2bb91c088d43effbcc10f95abb5d8e246ea1f5)  
   [SMARTS][] is an extension of the SMILES language that is used for substructure searching. Being able to select atoms based on SMARTS queries, and combine these selections with those already available in MDAnalysis might be one of the key features that will come out of this project.  
   This is currently missing a few tests and clarification in the docs.
 
@@ -47,7 +47,7 @@ It was also the occasion for me to increase my visibility in the community by wo
   Before working on this, I thought the only way to use alternative representations for Python objects was to define a `_repr_*_` method for your class, where * is a MIME type such as png, html...*etc.* There is actually a second way, where you tell IPython directly how it's supposed to represent an object. This allows funky representations of any object, even python built-in types, *i.e.* `int` as roman numerals and so on. I also wrote my first metaclass here, to register different "viewer" classes when more become available in the future. It's also not straightforward to write tests for the images as different versions of RDKit or other packages will lead to slightly different outputs.
   More discussion, code review, and tests are needed before this is ready.
 
-* **Wrap RDKit descriptors and fingerprints**: [#2912](https://github.com/MDAnalysis/mdanalysis/pull/2912/files/76a51ece7b676a5f5ba3d683fdf942706f87c141)  
+* **Wrap RDKit descriptors and fingerprints**: [#2912](https://github.com/MDAnalysis/mdanalysis/pull/2912/files/d014e7c4fab2e05f76a870f81a586f19ccf1b6e0)  
   This PR adds new kinds of analysis that are typically performed on small molecules in the chemoinformatics field. Fingerprints are mostly used for calculating similarity metrics between molecules and a reference. Molecular descriptors could be used to describe all the sampled conformations of a ligand in a binding pocket during a simulation, and given as input to a machine-learning model for clustering, scoring binding poses...*etc.*  
   This is currently missing more discussion, documentation, and a few tests.
 
