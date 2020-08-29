@@ -36,11 +36,10 @@ It was also the occasion for me to increase my visibility in the community by wo
   On the left is what you would get from a typical topology file: elements and bonds between atoms, but nothing more. In the middle, we've inferred bond orders and charges but because of the order in which atoms were read, two carbon atoms that were supposed to be part of the conjugated system end up negatively charged, and the nitro group isn't represented in its usual form. On the right, we've corrected the purine ring and standardized the nitro group to obtain the final molecule.  
   This took more time than originally planned in the project timeline but was well worth it.
 
-### In progress
+* **SMARTS selection**: [#2883](https://github.com/MDAnalysis/mdanalysis/pull/2883)  
+  [SMARTS][] is an extension of the SMILES language that is used for substructure searching. Being able to select atoms based on SMARTS queries, and combine these selections with those already available in MDAnalysis might be one of the key features that will come out of this project.
 
-* **SMARTS selection**: [#2883](https://github.com/MDAnalysis/mdanalysis/pull/2883/files/1d2bb91c088d43effbcc10f95abb5d8e246ea1f5)  
-  [SMARTS][] is an extension of the SMILES language that is used for substructure searching. Being able to select atoms based on SMARTS queries, and combine these selections with those already available in MDAnalysis might be one of the key features that will come out of this project.  
-  This is currently missing a few tests and clarification in the docs.
+### In progress
 
 * **Wrap RDKit drawing code for AtomGroups**: [#2900](https://github.com/MDAnalysis/mdanalysis/pull/2900/files/1f9d3d04c14643a54aaf0cc89511f2811b51f35c)  
   This PR allows us to draw images (SVG, PNG, and GIF) of AtomGroups using RDKit. It also adds rich displays to AtomGroups in notebooks (a.k.a. `__repr__` methods).
