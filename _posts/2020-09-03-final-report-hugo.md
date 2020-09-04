@@ -7,7 +7,7 @@ categories:
 
 # This is the end?
 
-Well well well, here we are at the end of GSOC! What a ride it has been, giving
+Well well well, here we are at the end of GSoC! What a ride it has been, giving
 me a chance to improve my skills and contribute in ways I never thought would
 be possible. Thanks to all my mentors @acpmnv (Paul), @orbeckst (Oliver) and
 @richardjgowers (Richard) for all the help and guidance throughout. 
