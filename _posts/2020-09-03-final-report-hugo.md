@@ -21,7 +21,7 @@ Despite its many advantages, the TNG format has not seen widespread adoption, as
 
 # TNG time!
 
-I started GSOC working on the TNG library with the aim of adding tests,
+I started GSoC working on the TNG library with the aim of adding tests,
 understanding the API and converting the older C style API it to C++.  I worked
 on this for the majority of the bonding period as well as the first and some of
 the second coding period.
@@ -58,7 +58,7 @@ Now you can just `make test` to ensure your TNG times will be fun times!
 Once we had a test suite that could be used to check library correctness on the
 major routines we started to work on the TNG library itself.
 Key goals were C++ compilation and in turn modernisation of the library
-routines to modern C++. I acheived full C++ compilation in a combination of [!26](https://gitlab.com/gromacs/tng/-/merge_requests/26), [!27](https://gitlab.com/gromacs/tng/-/merge_requests/27), [!29](https://gitlab.com/gromacs/tng/-/merge_requests/29), [!33](https://gitlab.com/gromacs/tng/-/merge_requests/33) and [!34](https://gitlab.com/gromacs/tng/-/merge_requests/34). 
+routines to modern C++. I achieved full C++ compilation in a combination of [!26](https://gitlab.com/gromacs/tng/-/merge_requests/26), [!27](https://gitlab.com/gromacs/tng/-/merge_requests/27), [!29](https://gitlab.com/gromacs/tng/-/merge_requests/29), [!33](https://gitlab.com/gromacs/tng/-/merge_requests/33) and [!34](https://gitlab.com/gromacs/tng/-/merge_requests/34). 
 
 Moving the project to C++ appeared simple at the top level:
 
@@ -122,8 +122,8 @@ All the work I have done on TNG itself can be found in my TNG
 
 From here I switched focus to [PyTNG](https://github.com/MDAnalysis/pytng), a
 set of Python bindings designed for use by MDAnalysis although technically a
-separate library. I worked on PyTNG for most of the second half of GSOC. This required
-changing gears a little bit as well as learning Cython, which was initially a
+separate library. I worked on PyTNG for most of the second half of GSoC. This required
+changing gears a little bit as well as learning [Cython](https://cython.org), which was initially a
 bit of a learning curve for me. 
 
 Firstly I changed the TNG libraries exported with PyTNG itself to
@@ -140,7 +140,7 @@ maximal speed. This was achieved in merging
 redesign of the whole PyTNG API.
 
 The end result of this is a working implementation that can read any TNG block
-as of #32 with improvements close in #38.
+as of [#32](https://github.com/MDAnalysis/pytng/pull/32) with improvements close in [#38]((https://github.com/MDAnalysis/pytng/pull/38)).
 I also added docs and examples as
 part of [#38](https://github.com/MDAnalysis/pytng/pull/38). Profiling and
 timings indicated high performance of the bindings, with the library largely IO
@@ -185,12 +185,12 @@ An example of how to use PyTNG to read a TNG file and extract positions is shown
 # Looking forward
 
 I plan on extending PyTNG to TNG writing as well as integrating PyTNG into MDAnalysis
-following GSOC. I have raised issues in PyTNG to make sure things that still
+following GSoC. I have raised issues in PyTNG to make sure things that still
 need to be completed are apparent to people following on.  I also aim to keep working on TNG itself time permitting.
 
 # What have I learnt?
 
-Things I have learned in GSOC include
+Things I have learned in GSoC include
 
 * C++ class design
 * C++ for binary IO
@@ -200,7 +200,7 @@ Things I have learned in GSOC include
 
 # My experience
 
-GSOC was a fantastic experience for me, as I felt very welcome amongst two
+GSoC was a fantastic experience for me, as I felt very welcome amongst two
 communities (MDAnalysis and GROMACS). I hope I was able to give back! I was
 constantly challenged throughout and this helped me learn and grow with big
 improvements both in my technical skills and approach to computational problem
