@@ -14,7 +14,7 @@ be possible. Thanks to all my mentors @acpmnv (Paul), @orbeckst (Oliver) and
 
 
 # Why TNG?
-Trajectory storage has proved problematic for the molecular simulation community, due to large file sizes, poor portability and low metadata incorporation. As hardware and software advances enable the creation of larger and more complex datasets, shortcomings in trajectory formats have been highlighted.  The Trajectory New Generation (or **TNG**) format [<sup>1</sup>](http://link.springer.com/article/10.1007%2Fs00894-010-0948-5)[<sup>,2</sup>](http://onlinelibrary.wiley.com/doi/10.1002/jcc.23495/abstract) designed by [GROMACS](http://www.gromacs.org/) aims to remove these shortcomings, enabing flexible compression, metadata incorporation small file sizes combined with a lightweight API.
+Trajectory storage has proved problematic for the molecular simulation community, due to large file sizes, poor portability and low metadata incorporation. As hardware and software advances enable the creation of larger and more complex datasets, shortcomings in trajectory formats have been highlighted.  The Trajectory New Generation (or **TNG**) format [<sup>1</sup>](http://link.springer.com/article/10.1007%2Fs00894-010-0948-5)[<sup>,2</sup>](http://onlinelibrary.wiley.com/doi/10.1002/jcc.23495/abstract) designed by [GROMACS](http://www.gromacs.org/) aims to remove these shortcomings, enabling flexible compression, metadata incorporation small file sizes combined with a lightweight API.
 
 Despite its many advantages, the TNG format has not seen widespread adoption, as tooling to support the format is lacking. Creation of new TNG tooling has been hindered by the current design and implementation of the TNG library in older style C code. My [project](https://summerofcode.withgoogle.com/projects/#5116604104310784) centered around improving implementation and tooling for the TNG format. Our primary aims were two fold, with the first half of my project working on converting the original library to C++ and the second half on developing some Python bindings so that the format can be read into MDAnalysis.
 
@@ -28,10 +28,10 @@ the second coding period.
 
 First I added tests in [!3](https://gitlab.com/gromacs/tng/-/merge_requests/3) which then revealed problems in the base API that were fixed in [!6](https://gitlab.com/gromacs/tng/-/merge_requests/6), [!12](https://gitlab.com/gromacs/tng/-/merge_requests/12)
 and [!17](https://gitlab.com/gromacs/tng/-/merge_requests/17).  I then made these additional tests into a formal test suite employing
-googletest in [!16](https://gitlab.com/gromacs/tng/-/merge_requests/16), [!20](https://gitlab.com/gromacs/tng/-/merge_requests/20) and [!21](https://gitlab.com/gromacs/tng/-/merge_requests/21). This revealed some more API elements that could be improved which were
+GoogleTest in [!16](https://gitlab.com/gromacs/tng/-/merge_requests/16), [!20](https://gitlab.com/gromacs/tng/-/merge_requests/20) and [!21](https://gitlab.com/gromacs/tng/-/merge_requests/21). This revealed some more API elements that could be improved which were
 touched up in [!22](https://gitlab.com/gromacs/tng/-/merge_requests/22), [!23](https://gitlab.com/gromacs/tng/-/merge_requests/23) and [!25](https://gitlab.com/gromacs/tng/-/merge_requests/25).
 
-Using googletest, a typical regression test looked a lot like this:
+Using GoogleTest, a typical regression test looked a lot like this:
 
 ```c++
 TEST_F(ArgonCompressedTest, BoxShapeValues)
@@ -75,7 +75,7 @@ void DECLSPECDLLEXPORT* Ptngc_warnmalloc_x(size_t size, char* file, int line);
 Use of this macro performs a `void` to `T` implicit cast which has deprecated in C++ as being unsafe. In C++ this requires an explicit cast with `static_cast<T>()`:
 
 ```c++
-//explicily cast
+//explicitly cast
 unsigned int*  dict = static_cast<unsigned int*>(warnmalloc(0x20004 * sizeof *dict));
 ```
 
@@ -108,7 +108,7 @@ TngDataBlock<T>::TngDataBlock(const int64_t&     id,
 Template specialization is then used to do the correct operations for each datatype, reducing a lot of very repetitive code paths into a few simpler statements.
 
 
-Refactoring the TNG library was a huge task, much more so than intially anticipated. Due to this and some
+Refactoring the TNG library was a huge task, much more so than initially anticipated. Due to this and some
 changing circumstances, the aforementioned modernisation MRs are all still open with more work required. I
 plan on working on these into the future but progress will be slow as I do not
 have solid blocks of time to dedicate. 
