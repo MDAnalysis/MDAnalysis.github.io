@@ -134,7 +134,7 @@ calls in PyTNG in [#29](https://github.com/MDAnalysis/pytng/pull/29).
 
 Following some design discussions, we then moved towards a newer design for the
 bindings, so as to be able to read all the blocks available in a TNG file with
-maximal speed. This was acheived in merging
+maximal speed. This was achieved in merging
 [#32](https://github.com/MDAnalysis/pytng/pull/32) and ongoing work in
 [#38](https://github.com/MDAnalysis/pytng/pull/38), which are a total
 redesign of the whole PyTNG API.
