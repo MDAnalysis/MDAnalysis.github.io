@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GsoC Report: Trajectory New Generation: the trajectory format for the future of simulation"
+title:  "GSoC Report: Trajectory New Generation: the trajectory format for the future of simulation"
 date:   2020-09-03 08:58:08 +1000
 categories: 
 ---
