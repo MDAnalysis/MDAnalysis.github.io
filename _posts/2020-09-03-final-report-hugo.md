@@ -115,7 +115,7 @@ have solid blocks of time to dedicate.
 
 All the work I have done on TNG itself can be found in my TNG
 [fork](https://gitlab.com/hugomacdermott/tng) as well as open PRs on the
-library [itself](https://gitlab.com/gromacs/tng).
+[TNG library itself](https://gitlab.com/gromacs/tng).
 
 
 # PyTNG time!
@@ -209,5 +209,4 @@ solving.
 *Thanks all for having me along!*
 
 @hmacdope 
-
 
