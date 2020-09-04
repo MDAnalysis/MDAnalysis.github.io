@@ -121,7 +121,7 @@ All the work I have done on TNG itself can be found in my TNG
 # PyTNG time!
 
 From here I switched focus to [PyTNG](https://github.com/MDAnalysis/pytng), a
-set of python bindings designed for use by MDAnalysis although technically a
+set of Python bindings designed for use by MDAnalysis although technically a
 separate library. I worked on PyTNG for most of the second half of GSOC. This required
 changing gears a little bit as well as learning Cython, which was initially a
 bit of a learning curve for me. 
@@ -209,4 +209,3 @@ solving.
 *Thanks all for having me along!*
 
 @hmacdope 
-
