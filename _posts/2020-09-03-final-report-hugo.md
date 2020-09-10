@@ -5,7 +5,7 @@ date:   2020-09-03 08:58:08 +1000
 categories: 
 ---
 
-# This is the end?
+## This is the end?
 
 Well well well, here we are at the end of GSoC! What a ride it has been, giving
 me a chance to improve my skills and contribute in ways I never thought would
@@ -13,13 +13,13 @@ be possible. Thanks to all my mentors @acpmnv (Paul), @orbeckst (Oliver) and
 @richardjgowers (Richard) for all the help and guidance throughout. 
 
 
-# Why TNG?
+## Why TNG?
 Trajectory storage has proved problematic for the molecular simulation community, due to large file sizes, poor portability and low metadata incorporation. As hardware and software advances enable the creation of larger and more complex datasets, shortcomings in trajectory formats have been highlighted.  The Trajectory New Generation (or **TNG**) format [<sup>1</sup>](http://link.springer.com/article/10.1007%2Fs00894-010-0948-5)[<sup>,2</sup>](http://onlinelibrary.wiley.com/doi/10.1002/jcc.23495/abstract) designed by [GROMACS](http://www.gromacs.org/) aims to remove these shortcomings, enabling flexible compression, metadata incorporation small file sizes combined with a lightweight API.
 
 Despite its many advantages, the TNG format has not seen widespread adoption, as tooling to support the format is lacking. Creation of new TNG tooling has been hindered by the current design and implementation of the TNG library in older style C code. My [project](https://summerofcode.withgoogle.com/projects/#5116604104310784) centered around improving implementation and tooling for the TNG format. Our primary aims were two fold, with the first half of my project working on converting the original library to C++ and the second half on developing some Python bindings so that the format can be read into MDAnalysis.
 
 
-# TNG time!
+## TNG time!
 
 I started GSoC working on the TNG library with the aim of adding tests,
 understanding the API and converting the older C style API it to C++.  I worked
@@ -118,7 +118,7 @@ All the work I have done on TNG itself can be found in my TNG
 [TNG library itself](https://gitlab.com/gromacs/tng).
 
 
-# PyTNG time!
+## PyTNG time!
 
 From here I switched focus to [PyTNG](https://github.com/MDAnalysis/pytng), a
 set of Python bindings designed for use by MDAnalysis although technically a
@@ -173,7 +173,7 @@ An example of how to use PyTNG to read a TNG file and extract positions is shown
          ts.get_pos(positions)
 ```
 
-# What can we do now?
+## What can we do now?
 
 * The TNG library now has a regression-test suite
 * The TNG library can be compiled as C++ 14 with a modern compiler.
@@ -182,13 +182,13 @@ An example of how to use PyTNG to read a TNG file and extract positions is shown
 * PyTNG is now a set of (more) functional bindings for the TNG format that can read any TNG block!
 
 
-# Looking forward
+## Looking forward
 
 I plan on extending PyTNG to TNG writing as well as integrating PyTNG into MDAnalysis
 following GSoC. I have raised issues in PyTNG to make sure things that still
 need to be completed are apparent to people following on.  I also aim to keep working on TNG itself time permitting.
 
-# What have I learnt?
+## What have I learnt?
 
 Things I have learned in GSoC include
 
@@ -198,7 +198,7 @@ Things I have learned in GSoC include
 * Cython and Python/C integration
 * Working collaboratively on a diverse global team
 
-# My experience
+## My experience
 
 GSoC was a fantastic experience for me, as I felt very welcome amongst two
 communities (MDAnalysis and GROMACS). I hope I was able to give back! I was
