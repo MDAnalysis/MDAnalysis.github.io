@@ -54,6 +54,7 @@ can include them here.*
 -  [MAICoS](https://gitlab.com/netzlab/maicos): Analyze molecular dynamics simulations of 
    interfacial and confined systems.
 -  [taurenmd](https://taurenmd.readthedocs.io/en/latest/): A command-line interface for analysis of Molecular Dynamics simulations.
+-  [PENSA](https://github.com/drorlab/pensa): A toolkit for exploratory analysis and comparison of protein structural ensembles
 
 ## Molecular modeling tools
 
