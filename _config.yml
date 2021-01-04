@@ -77,7 +77,7 @@ docs:
     url:          https://userguide.mdanalysis.org
   quickstart:
     name:         Quick Start Guide
-    url:          https://userguide.mdanalysis.org/examples/quickstart.html
+    url:          https://userguide.mdanalysis.org/stable/quickstart.html
 
 algolia:
   index_name: mdanalysis
