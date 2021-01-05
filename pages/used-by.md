@@ -12,7 +12,7 @@ about that use MDAnalysis.
 *If you know of other tools that use MDAnalysis please share
 them with us on [Twitter]({{ site.twitter.url }}) or on our
 [mailinglist]({{ site.mailinglists.discussion.url }}) so that we
-can include them here.*
+can include them here* or open a pull request by [editing the file `used-by.md`](https://github.com/MDAnalysis/MDAnalysis.github.io/edit/master/pages/used-by.md).
 
 
 ## Visualization tools
