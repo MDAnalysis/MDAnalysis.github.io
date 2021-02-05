@@ -8,8 +8,8 @@ permalink:        pretty
 # Setup
 title:            MDAnalysis
 name:             MDAnalysis
-tagline:          A Python package for the analysis of molecular simulations.
-description:      MDAnalysis is a Python library for the analysis of computer simulations of many-body systems at the molecular scale, spanning use cases from interactions of drugs with proteins to novel materials. It is widely used in the scientific community and is written by scientists for scientists. 
+tagline:          A Python package for the handling and analysis of molecular simulations data.
+description:      MDAnalysis is a Python library which enables the handling and analysis of data from computer simulations of many-body systems at the molecular scale, spanning use cases from interactions of drugs with proteins to novel materials. It is widely used in the scientific community and is written by scientists for scientists. 
 url:              https://www.mdanalysis.org
 # leave baseurl empty,
 # see https://github.com/MDAnalysis/MDAnalysis.github.io/issues/16#issuecomment-385572553
