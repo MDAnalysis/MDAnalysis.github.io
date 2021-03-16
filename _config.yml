@@ -33,7 +33,7 @@ js:               /js
 blog:             /blog
 
 # see https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-mentions
   - jekyll-sitemap
