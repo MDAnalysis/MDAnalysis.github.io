@@ -53,18 +53,24 @@ and the Python Package index
 
 ### Participating
 
-Ask **questions** on the [{{site.mailinglists.discussion.name}}
-mailing list]({{site.mailinglists.discussion.url}}) and join the
-discussion.
+Ask **questions** on the [{{ site.mailinglists.discussion.name }}
+mailing list]({{ site.mailinglists.discussion.url }}) and **be part of the
+conversation**. You can also join the [{{ site.discord.name }}
+Discord Server]({{ site.discord.url }})  to talk with other users and
+developers. (In order to join our Discord server, use the invitation link
+[{{ site.discord.invite }}]({{ site.discord.invite }}).)
+
 
 Please report **bugs** or **enhancement requests** through the [Issue
-Tracker]({{site.github.issues}}). 
+Tracker]({{ site.github.issues }}). 
 
 MDAnalysis is **open source** and welcomes *your* contributions. [Fork
 the repository on
 GitHub](https://github.com/MDAnalysis/mdanalysis#fork-destination-box)
-and submit a pull request. Participate on the [{{site.mailinglists.developer.name}}
-mailing list]({{site.mailinglists.developer.url}}).
+and submit a pull request. Participate on the [{{
+site.mailinglists.developer.name }}
+mailing list]({{ site.mailinglists.developer.url }}).
+
 
 
 ### Supporting
