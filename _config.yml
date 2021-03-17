@@ -73,6 +73,10 @@ mailinglists:
 twitter:
   name:           mdanalysis
   url:            https://twitter.com/mdanalysis
+discord:
+  name:           MDAnalysis
+  url:            https://discord.com/channels/807348386012987462/
+  invite:         https://discord.gg/fXTSfDJyxE
 docs:
   mdanalysis:
      name:        Online Documentation
