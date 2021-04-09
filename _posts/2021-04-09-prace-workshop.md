@@ -5,7 +5,13 @@ title: MDAnalysis Workshop @ PRACE / SURF
 
 MDAnalysis will be delivering a 3 half-day remote workshop hosted by PRACE / SURF on the 26-28th of May.
 
-Workshop topics will range from the fundamentals of MDAnalysis all the way through to how to create your own AnalysisBase-derived methods and parallel analysis in a HPC setting.
+The workshop will include both lecture and practical portions. We will cover topics including:
+
+* The fundamentals and basics of MDAnalysis
+* How to use existing analyses
+* How to write your own analyses
+* Parallel analysis in an HPC setting
+* Advanced functionality such as universe construction and transformations
 
 
 ## Register soon [places limited]
