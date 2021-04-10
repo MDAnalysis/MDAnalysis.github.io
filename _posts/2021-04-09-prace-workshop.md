@@ -3,7 +3,7 @@ layout: post
 title: MDAnalysis Workshop @ PRACE / SURF
 ---
 
-MDAnalysis will be delivering a 3 half-day remote (online) workshop hosted by [PRACE](https://prace-ri.eu/) / [SURF](https://www.surf.nl/en) on the 26-28th of May.
+MDAnalysis will be delivering a 3 half-day remote (online) workshop hosted by [PRACE](https://prace-ri.eu/) / [SURF](https://www.surf.nl/en) on the 26-28th of May 2021.
 
 The workshop will include both lecture and practical portions. We will [cover topics](https://events.prace-ri.eu/event/1201/timetable/) including:
 
@@ -14,7 +14,8 @@ The workshop will include both lecture and practical portions. We will [cover to
 * Advanced functionality such as universe construction and transformations
 
 The workshop is aimed at users in academia and industry who are already familiar with Python and molecular dynamics. 
-As many people may have different levels of experience with MDAnalysis, each session is separate.
+As many people may have different levels of experience with MDAnalysis, we will have independent sessions ranging from introductory to advanced use.
+MDAnalysis developers will be present to help you during practical portions of the sessions and to answer your questions about how to work productively with MDAnalysis.
 
 ## Register soon (places limited)
 
