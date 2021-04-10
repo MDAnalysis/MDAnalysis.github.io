@@ -10,16 +10,19 @@ The workshop will include both lecture and practical portions. We will [cover to
 * The fundamentals and basics of MDAnalysis
 * How to use existing analyses
 * How to write your own analyses
-* Parallel analysis in an HPC setting
+* Parallel analysis in an HPC setting (using SURFsara supercomputing facilities)
 * Advanced functionality such as universe construction and transformations
 
-The workshop is aimed at users in academia and industry who are already familiar with Python and molecular dynamics. 
-As many people may have different levels of experience with MDAnalysis, we will have independent sessions ranging from introductory to advanced use.
+The workshop is aimed at users in academia and industry who are already familiar with Python and molecular dynamics.
+We will have separate sessions at different levels, ranging from introductory to
+advanced use.
 MDAnalysis developers will be present to help you during practical portions of the sessions and to answer your questions about how to work productively with MDAnalysis.
+We will also be holding office hours for extended tutoring -- ask us for help with
+the design of the your own workflows!
 
 ## Register soon (places limited)
 
-The workshop is open to everyone, but places are limited, apply early!
+The workshop is open to everyone, but places are limited. Apply early!
 
 For more information and the registration form, please see the [workshop overview](https://events.prace-ri.eu/event/1201/overview) website.
 
