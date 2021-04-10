@@ -18,7 +18,7 @@ We will have separate sessions at different levels, ranging from introductory to
 advanced use.
 MDAnalysis developers will be present to help you during practical portions of the sessions and to answer your questions about how to work productively with MDAnalysis.
 We will also be holding office hours for extended tutoring -- ask us for help with
-the design of the your own workflows!
+the design of your own workflows!
 
 ## Register soon (places limited)
 
