@@ -13,6 +13,7 @@ The workshop will include both lecture and practical portions. We will cover top
 * Parallel analysis in an HPC setting
 * Advanced functionality such as universe construction and transformations
 
+Our target audience is users in academia and industry who are already familiar with Python and molecular dynamics.
 
 ## Register soon [places limited]
 
