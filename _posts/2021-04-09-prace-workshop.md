@@ -12,8 +12,9 @@ The workshop will include both lecture and practical portions. We will cover top
 * How to write your own analyses
 * Parallel analysis in an HPC setting
 * Advanced functionality such as universe construction and transformations
-The workshop is aimed at users in academia and industry who are already familiar with Python and molecular dynamics. As many people may have different levels of experience with MDAnalysis, each session is separate.
-Our target audience is users in academia and industry who are already familiar with Python and molecular dynamics.
+
+The workshop is aimed at users in academia and industry who are already familiar with Python and molecular dynamics. 
+As many people may have different levels of experience with MDAnalysis, each session is separate.
 
 ## Register soon [places limited]
 
