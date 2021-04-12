@@ -8,10 +8,10 @@ We have created this nifty [Shields.io](https://shields.io/) badge for you to di
 
 By showcasing your use of MDAnalysis you are
 
-* Helping to spread the love ❤️ and strengthening the MDAnalysis user community
-* Rewarding our open-source effort and boosting our dev team's motivation 😊
-* Providing a non-intrusive way for us to know our user-base &mdash; increasingly relevant in raising funds for development
+* helping to spread the love ❤️ and strengthening the MDAnalysis user community,
+* rewarding our open-source effort and boosting our dev team's motivation 😊,
+* providing a non-intrusive way for us to know our user-base &mdash; increasingly relevant in raising funds for development.
 
-The above points all lead to happier users and devs, and ultimately to a better MDAnalysis overall 💪
+The above points all lead to happier users and devs, and ultimately to a better MDAnalysis overall 💪.
 
 So just choose from our available [badge-embedding markup examples]({{ site.baseurl }}/pages/citations/#powered-by-mdanalysis) and start spreading the word today!
