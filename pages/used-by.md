@@ -55,6 +55,7 @@ can include them here* or open a pull request by [editing the file `used-by.md`]
    interfacial and confined systems.
 -  [taurenmd](https://taurenmd.readthedocs.io/en/latest/): A command-line interface for analysis of Molecular Dynamics simulations.
 -  [PENSA](https://github.com/drorlab/pensa): A toolkit for exploratory analysis and comparison of protein structural ensembles
+-  [LiPyphilic](https://lipyphilic.readthedocs.io/en/latest/): A Python package for the analysis of lipid membrane simulations.
 
 ## Molecular modeling tools
 
