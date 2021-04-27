@@ -61,11 +61,13 @@ The current
 team ("MDAnalysis Core Developers") consists of:
 
 - @dotsdl
+- @fiona-naughton
 - @IAlibay
 - @jandom
 - @jbarnoud
 - @kain88-de
 - @lilyminium
+- @micaela-matta
 - @mnmelo
 - @mtiberti
 - @orbeckst
