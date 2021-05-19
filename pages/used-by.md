@@ -12,15 +12,15 @@ about that use MDAnalysis.
 *If you know of other tools that use MDAnalysis please share
 them with us on [Twitter]({{ site.twitter.url }}) or on our
 [mailinglist]({{ site.mailinglists.discussion.url }}) so that we
-can include them here.*
+can include them here* or open a pull request by [editing the file `used-by.md`](https://github.com/MDAnalysis/MDAnalysis.github.io/edit/master/pages/used-by.md).
 
 
 ## Visualization tools
 
-- [nglview](https://github.com/arose/nglview): nglview is a tool to visualize
+-  [nglview](https://github.com/arose/nglview): nglview is a tool to visualize
    trajectories in jupyter notebooks.
-- [MDSrv](https://github.com/nglviewer/mdsrv) streams and visualizes MD trajectories interactively within web browsers
-- [mda-pymol](https://nms.kcl.ac.uk/lorenz.lab/wp/?p=1768):
+-  [MDSrv](https://github.com/nglviewer/mdsrv) streams and visualizes MD trajectories interactively within web browsers
+-  [mda-pymol](https://nms.kcl.ac.uk/lorenz.lab/wp/?p=1768):
    MDAnalysis has been embedded into PyMOL to read many different MD formats
    directly (see
    [bieniekmateusz/pymol-mdanalysis](https://github.com/bieniekmateusz/pymol-mdanalysis)
@@ -54,13 +54,19 @@ can include them here.*
 -  [MAICoS](https://gitlab.com/netzlab/maicos): Analyze molecular dynamics simulations of 
    interfacial and confined systems.
 -  [taurenmd](https://taurenmd.readthedocs.io/en/latest/): A command-line interface for analysis of Molecular Dynamics simulations.
+-  [PENSA](https://github.com/drorlab/pensa): A toolkit for exploratory analysis and comparison of protein structural ensembles
+-  [LiPyphilic](https://lipyphilic.readthedocs.io/en/latest/): A Python package for the analysis of lipid membrane simulations.
+
+## Molecular modeling tools
+
+-  [Swarm-CG](https://github.com/GMPavanLab/Swarm-CG): Automatically optimizes the bonded terms of a MARTINI-like coarse-grained (CG) molecular model with respect to its reference all-atom (AA) trajectory, via [FST-PSO](https://github.com/aresio/fst-pso).
 
 ## Simulation packages
-- [ESPResSo](http://espressomd.org/) is a software package for
-  performing and analyzing Molecular Dynamics many-particle
-  simulations of coarse-grained atomistic or bead-spring models as
-  they are used in soft matter research in physics, chemistry and
-  molecular biology.
+-  [ESPResSo](http://espressomd.org/) is a software package for
+   performing and analyzing Molecular Dynamics many-particle
+   simulations of coarse-grained atomistic or bead-spring models as
+   they are used in soft matter research in physics, chemistry and
+   molecular biology.
 
 ## Distributions
 

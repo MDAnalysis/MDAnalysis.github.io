@@ -5,7 +5,7 @@ date:   2020-09-03 08:58:08 +1000
 categories: 
 ---
 
-# This is the end?
+## This is the end?
 
 Well well well, here we are at the end of GSoC! What a ride it has been, giving
 me a chance to improve my skills and contribute in ways I never thought would
@@ -13,25 +13,25 @@ be possible. Thanks to all my mentors @acpmnv (Paul), @orbeckst (Oliver) and
 @richardjgowers (Richard) for all the help and guidance throughout. 
 
 
-# Why TNG?
-Trajectory storage has proved problematic for the molecular simulation community, due to large file sizes, poor portability and low metadata incorporation. As hardware and software advances enable the creation of larger and more complex datasets, shortcomings in trajectory formats have been highlighted.  The Trajectory New Generation (or **TNG**) format [<sup>1</sup>](http://link.springer.com/article/10.1007%2Fs00894-010-0948-5)[<sup>,2</sup>](http://onlinelibrary.wiley.com/doi/10.1002/jcc.23495/abstract) designed by [GROMACS](http://www.gromacs.org/) aims to remove these shortcomings, enabing flexible compression, metadata incorporation small file sizes combined with a lightweight API.
+## Why TNG?
+Trajectory storage has proved problematic for the molecular simulation community, due to large file sizes, poor portability and low metadata incorporation. As hardware and software advances enable the creation of larger and more complex datasets, shortcomings in trajectory formats have been highlighted.  The Trajectory New Generation (or **TNG**) format [<sup>1</sup>](http://link.springer.com/article/10.1007%2Fs00894-010-0948-5)[<sup>,2</sup>](http://onlinelibrary.wiley.com/doi/10.1002/jcc.23495/abstract) designed by [GROMACS](http://www.gromacs.org/) aims to remove these shortcomings, enabling flexible compression, metadata incorporation small file sizes combined with a lightweight API.
 
 Despite its many advantages, the TNG format has not seen widespread adoption, as tooling to support the format is lacking. Creation of new TNG tooling has been hindered by the current design and implementation of the TNG library in older style C code. My [project](https://summerofcode.withgoogle.com/projects/#5116604104310784) centered around improving implementation and tooling for the TNG format. Our primary aims were two fold, with the first half of my project working on converting the original library to C++ and the second half on developing some Python bindings so that the format can be read into MDAnalysis.
 
 
-# TNG time!
+## TNG time!
 
-I started GSOC working on the TNG library with the aim of adding tests,
+I started GSoC working on the TNG library with the aim of adding tests,
 understanding the API and converting the older C style API it to C++.  I worked
 on this for the majority of the bonding period as well as the first and some of
 the second coding period.
 
 First I added tests in [!3](https://gitlab.com/gromacs/tng/-/merge_requests/3) which then revealed problems in the base API that were fixed in [!6](https://gitlab.com/gromacs/tng/-/merge_requests/6), [!12](https://gitlab.com/gromacs/tng/-/merge_requests/12)
 and [!17](https://gitlab.com/gromacs/tng/-/merge_requests/17).  I then made these additional tests into a formal test suite employing
-googletest in [!16](https://gitlab.com/gromacs/tng/-/merge_requests/16), [!20](https://gitlab.com/gromacs/tng/-/merge_requests/20) and [!21](https://gitlab.com/gromacs/tng/-/merge_requests/21). This revealed some more API elements that could be improved which were
+GoogleTest in [!16](https://gitlab.com/gromacs/tng/-/merge_requests/16), [!20](https://gitlab.com/gromacs/tng/-/merge_requests/20) and [!21](https://gitlab.com/gromacs/tng/-/merge_requests/21). This revealed some more API elements that could be improved which were
 touched up in [!22](https://gitlab.com/gromacs/tng/-/merge_requests/22), [!23](https://gitlab.com/gromacs/tng/-/merge_requests/23) and [!25](https://gitlab.com/gromacs/tng/-/merge_requests/25).
 
-Using googletest, a typical regression test looked a lot like this:
+Using GoogleTest, a typical regression test looked a lot like this:
 
 ```c++
 TEST_F(ArgonCompressedTest, BoxShapeValues)
@@ -58,7 +58,7 @@ Now you can just `make test` to ensure your TNG times will be fun times!
 Once we had a test suite that could be used to check library correctness on the
 major routines we started to work on the TNG library itself.
 Key goals were C++ compilation and in turn modernisation of the library
-routines to modern C++. I acheived full C++ compilation in a combination of [!26](https://gitlab.com/gromacs/tng/-/merge_requests/26), [!27](https://gitlab.com/gromacs/tng/-/merge_requests/27), [!29](https://gitlab.com/gromacs/tng/-/merge_requests/29), [!33](https://gitlab.com/gromacs/tng/-/merge_requests/33) and [!34](https://gitlab.com/gromacs/tng/-/merge_requests/34). 
+routines to modern C++. I achieved full C++ compilation in a combination of [!26](https://gitlab.com/gromacs/tng/-/merge_requests/26), [!27](https://gitlab.com/gromacs/tng/-/merge_requests/27), [!29](https://gitlab.com/gromacs/tng/-/merge_requests/29), [!33](https://gitlab.com/gromacs/tng/-/merge_requests/33) and [!34](https://gitlab.com/gromacs/tng/-/merge_requests/34). 
 
 Moving the project to C++ appeared simple at the top level:
 
@@ -75,7 +75,7 @@ void DECLSPECDLLEXPORT* Ptngc_warnmalloc_x(size_t size, char* file, int line);
 Use of this macro performs a `void` to `T` implicit cast which has deprecated in C++ as being unsafe. In C++ this requires an explicit cast with `static_cast<T>()`:
 
 ```c++
-//explicily cast
+//explicitly cast
 unsigned int*  dict = static_cast<unsigned int*>(warnmalloc(0x20004 * sizeof *dict));
 ```
 
@@ -108,7 +108,7 @@ TngDataBlock<T>::TngDataBlock(const int64_t&     id,
 Template specialization is then used to do the correct operations for each datatype, reducing a lot of very repetitive code paths into a few simpler statements.
 
 
-Refactoring the TNG library was a huge task, much more so than intially anticipated. Due to this and some
+Refactoring the TNG library was a huge task, much more so than initially anticipated. Due to this and some
 changing circumstances, the aforementioned modernisation MRs are all still open with more work required. I
 plan on working on these into the future but progress will be slow as I do not
 have solid blocks of time to dedicate. 
@@ -118,12 +118,12 @@ All the work I have done on TNG itself can be found in my TNG
 [TNG library itself](https://gitlab.com/gromacs/tng).
 
 
-# PyTNG time!
+## PyTNG time!
 
 From here I switched focus to [PyTNG](https://github.com/MDAnalysis/pytng), a
 set of Python bindings designed for use by MDAnalysis although technically a
-separate library. I worked on PyTNG for most of the second half of GSOC. This required
-changing gears a little bit as well as learning Cython, which was initially a
+separate library. I worked on PyTNG for most of the second half of GSoC. This required
+changing gears a little bit as well as learning [Cython](https://cython.org), which was initially a
 bit of a learning curve for me. 
 
 Firstly I changed the TNG libraries exported with PyTNG itself to
@@ -140,7 +140,7 @@ maximal speed. This was achieved in merging
 redesign of the whole PyTNG API.
 
 The end result of this is a working implementation that can read any TNG block
-as of #32 with improvements close in #38.
+as of [#32](https://github.com/MDAnalysis/pytng/pull/32) with improvements close in [#38]((https://github.com/MDAnalysis/pytng/pull/38)).
 I also added docs and examples as
 part of [#38](https://github.com/MDAnalysis/pytng/pull/38). Profiling and
 timings indicated high performance of the bindings, with the library largely IO
@@ -173,7 +173,7 @@ An example of how to use PyTNG to read a TNG file and extract positions is shown
          ts.get_pos(positions)
 ```
 
-# What can we do now?
+## What can we do now?
 
 * The TNG library now has a regression-test suite
 * The TNG library can be compiled as C++ 14 with a modern compiler.
@@ -182,15 +182,15 @@ An example of how to use PyTNG to read a TNG file and extract positions is shown
 * PyTNG is now a set of (more) functional bindings for the TNG format that can read any TNG block!
 
 
-# Looking forward
+## Looking forward
 
 I plan on extending PyTNG to TNG writing as well as integrating PyTNG into MDAnalysis
-following GSOC. I have raised issues in PyTNG to make sure things that still
+following GSoC. I have raised issues in PyTNG to make sure things that still
 need to be completed are apparent to people following on.  I also aim to keep working on TNG itself time permitting.
 
-# What have I learnt?
+## What have I learnt?
 
-Things I have learned in GSOC include
+Things I have learned in GSoC include
 
 * C++ class design
 * C++ for binary IO
@@ -198,9 +198,9 @@ Things I have learned in GSOC include
 * Cython and Python/C integration
 * Working collaboratively on a diverse global team
 
-# My experience
+## My experience
 
-GSOC was a fantastic experience for me, as I felt very welcome amongst two
+GSoC was a fantastic experience for me, as I felt very welcome amongst two
 communities (MDAnalysis and GROMACS). I hope I was able to give back! I was
 constantly challenged throughout and this helped me learn and grow with big
 improvements both in my technical skills and approach to computational problem

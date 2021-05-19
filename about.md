@@ -23,7 +23,7 @@ and the [contributors for
 MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis/graphs/contributors).
 
 MDAnalysis and the algorithms implemented in the library and the subprojects are
-scientifc software that are described in [academic
+scientific software that are described in [academic
 publications]({{site.baseurl}}/pages/citations/).
 
 MDAnalysis is used in a variety of [other molecular dynamics tools]({{site.baseurl}}/pages/used-by/).
@@ -61,11 +61,13 @@ The current
 team ("MDAnalysis Core Developers") consists of:
 
 - @dotsdl
+- @fiona-naughton
 - @IAlibay
 - @jandom
 - @jbarnoud
 - @kain88-de
 - @lilyminium
+- @micaela-matta
 - @mnmelo
 - @mtiberti
 - @orbeckst
