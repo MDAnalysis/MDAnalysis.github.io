@@ -8,14 +8,21 @@ students this year -- @ojeda-e, and @orioncohen. MDAnalysis has been accepted as
 [organization with GSoC][mda-gsoc] for a second year running and we are grateful to Google for granting us
 two student slots for two exciting projects. Both the students and mentors have a very exciting few months ahead!
 
-## Estefania Barreto-Ojeda: An MDAnalysis module to calculate membrane curvature
+## Estefania Barreto-Ojeda: Curvature analysis of biological membranes 
 
 <!-- <img
-src="your picture here"
+src="https://ojeda-e.github.io/assets/images/profile-photo.jpg"
 title="Estefania Barreto-Ojeda" alt="Estefania Barreto-Ojeda"
 style="float: left; width: 110px; height: 110px; border-radius: 20px; border: 15px solid white" /> -->
 
-Write something about your project and yourself here!
+Interested in contributing to an open-source initiative, Estefania will expand the capabilities of MDAnalysis by integrating a new [MDanalysis module to calculate membrane curvature][ojeda-project] to derive and visualize membrane curvature profiles of protein-membrane/membrane-only systems obtained from Molecular Dynamics (MD) simulations. With the introduction of this analysis module, users will rapidly extract mean and gaussian curvature of biological membranes and their respective visualization in 2D-profile maps.
+
+Estefania is a Ph.D. candidate in Biophysical Chemistry at The University of Calgary, Canada. Her research work is focused on membrane curvature induced by ABC transporters, a superfamily of transmembrane proteins involved in cancer and antibiotic resistance. A typical day for Estefania includes running Coarse-Grained (CG) MD simulations using the [Martini force field][martini-url], reading literature on ABCs, and working on cool data visualization workflows. In her free time, she enjoys camping and road tripping in the Canadian Rockie Mountains and going for long bike rides. 
+
+Estefania can be found on github as [@ojeda-e][ojeda-git] and on twitter as [@ebojeda][ojeda-twitter].
+
+Her journey will be documented on the blog [Le Mirroir][ojeda-blog].
+
 
 ## Orion Cohen: A Solvation Module for MDAnalysis
 
@@ -48,4 +55,9 @@ playing board games, camping, or relaxing in the temperate Berkeley sun.
 
 [gsoc]: https://summerofcode.withgoogle.com
 [mda-gsoc]: https://summerofcode.withgoogle.com/organizations/6414449348444160/
+[martini-url]: http://cgmartini.nl/
+[ojeda-git]: https://github.com/ojeda-e
+[ojeda-blog]: https://ojeda-e.github.io/
+[ojeda-twitter]: https://twitter.com/ebojeda
+[ojeda-project]: https://summerofcode.withgoogle.com/projects/#5098282306502
 
