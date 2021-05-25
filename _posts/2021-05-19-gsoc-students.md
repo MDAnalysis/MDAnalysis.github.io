@@ -60,5 +60,5 @@ playing board games, camping, or relaxing in the temperate Berkeley sun.
 [ojeda-blog]: https://ojeda-e.github.io/
 [ojeda-twitter]: https://twitter.com/ebojeda
 [ojeda-project]: https://summerofcode.withgoogle.com/projects/#5098282306502
-[tieleman-group]: https://live-ucalgary.ucalgary.ca/biocomputing/home
+[tieleman-group]: https://ucalgary.ca/biocomputing/home
 [persson-group]: https://perssongroup.lbl.gov/
