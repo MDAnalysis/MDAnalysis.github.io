@@ -19,7 +19,7 @@ Interested in contributing to an open-source initiative, Estefania will expand t
 
 Estefania is a Ph.D. candidate in Biophysical Chemistry at The University of Calgary, Canada in the research group of [Peter Tieleman][tieleman-group]. Her research work is focused on membrane curvature induced by ABC transporters, a superfamily of transmembrane proteins involved in cancer and antibiotic resistance. A typical day for Estefania includes running Coarse-Grained (CG) MD simulations using the [Martini force field][martini-url], reading literature on ABCs, and working on cool data visualization workflows. In her free time, she enjoys camping and road tripping in the Canadian Rockie Mountains and going for long bike rides. 
 
-Estefania can be found on github as [@ojeda-e][ojeda-git] and on twitter as [@ebojeda][ojeda-twitter].
+Estefania can be found on github as @ojeda-e and on twitter as [@ebojeda][ojeda-twitter].
 
 Her journey will be documented on the blog [Le Mirroir][ojeda-blog].
 
@@ -51,7 +51,7 @@ making science more accessible, reproducible, and efficient with powerful
 open-source software. If he isn't toiling at his computer, Orion is probably
 playing board games, camping, or relaxing in the temperate Berkeley sun.
 
-Orion is on Github as [@orioncohen][orion-git] and on twitter as [@orion__archer][orion-twitter].
+Orion is on Github as @orioncohen and on twitter as [@orion__archer][orion-twitter].
 
 He will be sharing his experience with GSoC on [his website][orion-blog].
 
@@ -60,12 +60,10 @@ He will be sharing his experience with GSoC on [his website][orion-blog].
 [gsoc]: https://summerofcode.withgoogle.com
 [mda-gsoc]: https://summerofcode.withgoogle.com/organizations/6414449348444160/
 [martini-url]: http://cgmartini.nl/
-[ojeda-git]: https://github.com/ojeda-e
 [ojeda-blog]: https://ojeda-e.github.io/
 [ojeda-twitter]: https://twitter.com/ebojeda
-[ojeda-project]: https://summerofcode.withgoogle.com/projects/#5098282306502
+[ojeda-project]: https://summerofcode.withgoogle.com/projects/#5098282306502656
 [tieleman-group]: https://ucalgary.ca/biocomputing/home
-[orion-git]: https://github.com/orioncohen
 [orion-blog]: https://orioncohen.com/
 [orion-twitter]: https://twitter.com/orion__archer
 [orion-project]: https://summerofcode.withgoogle.com/projects/#6227159028334592
