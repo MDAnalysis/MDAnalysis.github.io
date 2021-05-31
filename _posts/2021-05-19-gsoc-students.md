@@ -51,6 +51,10 @@ making science more accessible, reproducible, and efficient with powerful
 open-source software. If he isn't toiling at his computer, Orion is probably
 playing board games, camping, or relaxing in the temperate Berkeley sun.
 
+Orion is on Github as [@orioncohen][orion-git] and on twitter as [@orion__archer][orion-twitter].
+
+He will be sharing his experience with GSoC on [his website][orion-blog].
+
 — @richardjgowers @IAlibay @fiona-naughton @orbeckst @lilyminium @hmacdope (mentors)
 
 [gsoc]: https://summerofcode.withgoogle.com
@@ -61,4 +65,8 @@ playing board games, camping, or relaxing in the temperate Berkeley sun.
 [ojeda-twitter]: https://twitter.com/ebojeda
 [ojeda-project]: https://summerofcode.withgoogle.com/projects/#5098282306502
 [tieleman-group]: https://ucalgary.ca/biocomputing/home
+[orion-git]: https://github.com/orioncohen
+[orion-blog]: https://orioncohen.com/
+[orion-twitter]: https://twitter.com/orion__archer
+[orion-project]: https://summerofcode.withgoogle.com/projects/#6227159028334592
 [persson-group]: https://perssongroup.lbl.gov/
