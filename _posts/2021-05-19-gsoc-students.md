@@ -62,7 +62,7 @@ He will be sharing his experience with GSoC on [his website][orion-blog].
 [martini-url]: http://cgmartini.nl/
 [ojeda-blog]: https://ojeda-e.github.io/
 [ojeda-twitter]: https://twitter.com/ebojeda
-[ojeda-project]: https://summerofcode.withgoogle.com/projects/#5098282306502
+[ojeda-project]: https://summerofcode.withgoogle.com/projects/#5098282306502656
 [tieleman-group]: https://ucalgary.ca/biocomputing/home
 [orion-blog]: https://orioncohen.com/
 [orion-twitter]: https://twitter.com/orion__archer
