@@ -35,10 +35,10 @@ The macroscopic behavior of a liquid is determined by its microscopic
 structure. For ionic systems, like batteries and many enzymes, the solvation
 environment surrounding ions is especially important. By studying the solvation
 of interesting materials, scientists can better understand, engineer, and
-design new technologies. The aim of this project is to implement a robust
-and cohesive set of methods for solvation analysis that would be widely
+design new technologies. The aim of this project is to implement [a robust
+and cohesive set of methods for solvation analysis][orion-project] that would be widely
 useful in both biomolecular and battery electrolyte simulations. The core of
-the solvation module will be a cohesive set of functions for easily working
+the solvation module will be a set of functions for easily working
 with ionic solvation shells. Building from that core functionality, the
 module will implement several analysis methods for analyzing ion pairing,
 ion speciation, residence times, and shell association and dissociation.
