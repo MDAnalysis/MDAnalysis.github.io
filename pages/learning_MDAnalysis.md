@@ -22,10 +22,7 @@ MDAnalysis for your own specific uses.
 Start with the [{{ site.docs.quickstart.name }}]({{
 site.docs.quickstart.url }}) when you are new MDAnalysis.
 
-You can then browse through the [MDAnalysis
-Tutorial](http://www.mdanalysis.org/MDAnalysisTutorial/) for anything
-that was not covered in the {{ site.docs.quickstart.name }}. There are [other
-tutorials]({{site.github.wiki}}/Tutorials) available, too.
+Then browse the [{{ site.docs.userguide.name }}]({{ site.docs.userguide.url }}), which contains detailed documentation for all the important parts of MDAnalysis and many self-contained tutorials.
 
 [Interactive Jupyter
 notebooks](http://nbviewer.jupyter.org/github/MDAnalysis/binder-notebook/tree/master/notebooks/)
@@ -35,6 +32,9 @@ these notebooks can be run in the cloud on Binder (click the "launch
 binder" button to start a notebook server).
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/MDAnalysis/binder-notebook/master?filepath=notebooks)
+
+There are a number of [older tutorials]({{site.github.wiki}}/Tutorials) available, too, although we recommend new users start  with [{{ site.docs.quickstart.name }}]({{
+site.docs.quickstart.url }}) and then start reading the [{{ site.docs.userguide.name }}]({{ site.docs.userguide.url }}).
 
 
 ## Documentation ##
