@@ -26,4 +26,13 @@ The workshop is open to everyone, but places are limited. Apply early!
 
 For more information and the registration form, please see the [workshop overview](https://events.prace-ri.eu/event/1201/overview) website.
 
+## Workshop materials
+
+All workshop materials are publicly available in the repository [MDAnalysis/WorkshopPrace2021](https://github.com/MDAnalysis/WorkshopPrace2021). 
+You can run the Jupyter notebooks locally on your own computer.
+All materials use the *beta version of MDAnalysis 2.0.0*, which you can easily install by following the [installation instructions for 2,0,0b](https://github.com/MDAnalysis/WorkshopPrace2021/blob/main/INSTALL.md)
+
+Alternatively, run the notebooks in the [WorkshopPrace2021 binder environment](https://mybinder.org/v2/gh/MDAnalysis/WorkshopPrace2021/HEAD) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MDAnalysis/WorkshopPrace2021/HEAD)
+
+
 - @micaela-matta, @IAlibay, @orbeckst, @jbarnoud, @fiona-naughton, @lilyminium, @mnmelo, @richardjgowers (the workshop organising committee)
