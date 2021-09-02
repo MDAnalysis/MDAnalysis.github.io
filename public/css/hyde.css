@@ -252,11 +252,13 @@ a.sidebar-nav-item:focus {
 /* MDAnalysis theme */
 /* MDA orange: #FF9200
    MDA gray:   #808080
+   RTD dark gray: #343131      (from User Guide RTD dark gray)
+   RTD light grey: #e6e6e6
    MDA black:  #000000
    MDA white:  #FFFFFF
  */
 .theme-base-MDAnalysis .sidebar {
-  background-color: #808080;
+  background-color: #343131;
 }
 .theme-base-MDAnalysis .content a,
 .theme-base-MDAnalysis .related-posts li a:hover {
