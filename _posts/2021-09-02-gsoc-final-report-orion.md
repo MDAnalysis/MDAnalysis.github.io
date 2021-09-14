@@ -146,7 +146,7 @@ atoms = solution.solvation_shell(6, 0)
 visualize(atoms)
 ```
 
-![shell visualization]({{site.images}}/final_report_orion/shell.png#center)
+![shell visualization]({{site.images}}/final_report_orion/shell.png)
 
 Using that approach, you can find all the common solvation shells and generate visualizations for each. For example, see this speciation plot of the BN:FEC system from the example. I've plotted the percentage of each solvation shell at two temperatures and then visualized examples of those shells in the margin.
 
