@@ -1,17 +1,19 @@
 ---
 layout: post
-title: "GSoC Report: Curvature for MDA Universes"
+title: "GSoC Report: Solvation Analysis"
 ---
 
 ## Retrospective
 
-At the outset of my [GSoC project], my goals were a) specific to ionic simulations and b) not terribly well-defined. I hoped to create a package with:
+At the outset of my [GSoC project], I hoped to create a package with:
 
 - Functions for selecting the solvation shells of ions.
 - Automated analysis of ion coordination environment.
 - Documentation, testing, and well-written code.
 
-After 10 weeks of working with the [MDAnalysis] team, the [solvation_analysis] package vastly exceeds that original intent. There is a robust and simple API, the functionality generalizes to non-ionic systems, solvation distances are automatically identified, and it's <b>really fast.</b> Further, I've learned a huge amount about the software development, the package release cycle, and the world of open-source. 
+After 10 weeks of working with the [MDAnalysis] team, the [solvation_analysis] package vastly exceeds that original intent. There is a robust and simple API, the functionality generalizes to non-ionic systems, solvation distances are automatically identified, and it's <b>really fast.</b> Further, I've learned a huge amount about the software development, the package release cycle, and the world of open-source.
+
+In this post, I will summarize my contributions to `solvation_analysis` and several features of the package.
 
 ## My Summer in Pull Requests
 
@@ -28,26 +30,26 @@ Robust testing is part of a finished package. PR #6 introduced the initial code 
 ### Cutting off radial distribution functions
 PR [#25]
 
-PR #25 was a science challenge in addition to a software challenge. I needed a method to robustly find the first minima of noisy RDF data. This was needed to automate the instantiation of the solution class. I settled on a polynomial interpolation of the RDF followed by 2nd-order differentiation to find the minima. This worked well for smooth RDFs but failed for RDFs with noise. As quick fix, I added in several heuristics to get the solvation distances identified on my noisy test data. For now, the RDF parser works reasonably well for smooth data and warns users when it fails. A interpolation of an RDF is shown below. 
+PR #25 was a science challenge in addition to a software challenge. I needed to robustly identify the first minima of noisy RDF data so I could automate the solvation analysis. My approach was to perform a polynomial interpolation of the RDF and then take the 2nd-derivative to find the minima. This worked well for smooth RDFs but failed for RDFs with noise. As a quick fix, I added in several heuristics to get the solvation distances identified on my noisy test data. For now, the RDF parser works reasonably well for smooth data and warns users when it fails. A interpolation of an RDF is shown below. 
 
-![interpolation]({{site.images}}/final_report_estefania/interpolation.png)
+![interpolation]({{site.images}}/final_report_orion/interpolation.png)
 
 ### Analysis: the mega-PR
 PR [#29]
 
-PR #29 is responsible for the majority of functionality in solvation_analysis. It implemented the Solution class and all of the analysis functions, reaching 250 comments from myself and my mentors. Much of the discourse focused on iterating through API designs, which eventually led to a very clean Solution-centered package. The underlying data structure is a simple `Pandas.DataFrame` that allows all analyses to be vectorized.
+PR #29 is responsible for the majority of functionality in solvation_analysis. It implemented the Solution class and all of the analysis functions, reaching 250 comments from myself and my mentors. Much of the discourse focused on iterating through API designs, which eventually led to a very clean Solution-centered package. The underlying data structure is a simple `Pandas.DataFrame` that allows all analyses to be vectorized. As shown below, the `DataFrame` is indexed by step in the analysis (`frame`), the `solvated_atom` from the solute, and the solvent atoms `atom_id`. This provides a unique identifier for each atom participating in solvation.
 
-![solvation dataframe]({{site.images}}/final_report_estefania/solvation_data.png)
+![solvation dataframe]({{site.images}}/final_report_orion/solvation_data_new.png)
 
 ### In pursuit of user number one
 PR [#36]
 
-PR #36 introduced a [tutorial] to walk users the basic functionality of solvation_analysis and how to respond to common errors. If you are interested in using the package, this is definitely the best place to start!
+PR #36 introduced a [tutorial] to walk users the basic functionality of solvation_analysis and how to respond to common errors. If you are interested in using the `solvation_analysis`, this is definitely the best place to start!
 
 ### Release and versioning
 PR [#37]
 
-I was shocked by how easy it is to release a package to PyPI. For this PR, I learned to use [versioneer] and [twine] for Python release management. With just a few terminal commands and file edits, I was able to set up a functioning release management system and put out version 0.1.1 on PyPI.
+I was shocked by how easy it is to release a package to PyPI. For this PR, I learned to use [versioneer] and [twine] for Python release management. With just a few terminal commands and file edits, I was able to set up a functioning release management system and put out version 0.1.1.
 
 
 ## Solvation Analysis in Practice
@@ -58,7 +60,7 @@ Since solvation analysis is up on PyPI, it can be installed with a pip!
 >>> pip install solvation_analysis
 ```
 
-As in any MDAnalysis workflow, we start by importing the package and instantiating a MDAnalysis Universe.
+As in any MDAnalysis workflow, we start by importing the package and instantiating an MDAnalysis Universe.
 
 ```python
 # imports
@@ -72,7 +74,7 @@ traj = "../solvation_analysis/tests/data/bn_fec_short_unwrap.dcd"
 u = mda.Universe(data, traj)
 ```
 
-Next, we need to define the solute and solvents of interest. The example system here is a LiPF<sub>6</sub> electrolyte with BN and FEC as solvents. Here, we treat the Li<sup>+</sup> ion as the solute and all other molecules as solvents.
+Next, we need to define the solute and solvents of interest. The example system is a LiPF<sub>6</sub> electrolyte with BN and FEC as solvents. Here, we treat the Li<sup>+</sup> ion as the solute and all other molecules as solvents.
 
 ```python
 # define solute AtomGroup
@@ -84,7 +86,7 @@ BN = u.atoms.select_atoms("byres type 5")
 FEC = u.atoms.select_atoms("byres type 19")
 ```
 
-Now that we are set up, it is quite simple to instantiate and run a solution! Solution, like all MDA analysis classes, subclasses the AnalysisBase class and requires `Solution.run()` to initiate the analysis.
+Once we have the universe, solute, and solvents defined, it is quite simple to instantiate and run a solution! Solution, like all MDA analysis classes, subclasses the [AnalysisBase] class and requires `Solution.run()` call to initiate the analysis.
 
 ```python
 # instantiate solution
@@ -95,33 +97,77 @@ solution = Solution(li_atoms, {'PF6': PF6, 'BN': BN, 'FEC': FEC})
 solution.run()
 ```
 
-Over the course of a few seconds, the solvation radii are automatically identified and the solvation shell of each ion is identified. We can examine how well the solvation radii were identified by calling `solution.plot_solvation_radius('<<solvent name>>')`. For example,
+Over the course of a few seconds, the solvation radii and the solvation shell of each ion are automatically identified and stored in a `pandas.DataFrame` (as described above). We can then examine how well the solvation radii were characterized by calling `solution.plot_solvation_radius('<<solvent name>>')`. For example,
 
 ```python
-# we need this just to display our plot
+# we just need this to display our plot
 import matplotlib.pyplot as plt
 
 solution.plot_solvation_radius('BN')
 plt.show()
 ```
-![bn plot]({{site.images}}/final_report_estefania/bn_plot.png)
+![bn plot]({{site.images}}/final_report_orion/bn_plot.png)
 
 
+Now that we have a completed solution, we can easily print the ion pairing, coordination numbers, and solvation radii.
 
+```python
+>>> solution.coordination.cn_dict
+{'BN': 4.33, 'FEC': 0.25, 'PF6': 0.12}
+>>> solution.pairing.pairing_dict
+{'BN': 1.0, 'FEC': 0.21, 'PF6': 0.12}
+>>> solution.radii
+{'PF6': 2.60, 'BN': 2.61, 'FEC': 2.43}
+```
+
+We can also use `solvation_analysis` to identify the most common solvation shell compositions and find examples of them for visualization. Below, we are using the `speciation` class to find the most common compositions of solvation shells and then filtering out all shells with a frequency less than 2%.
+
+```python
+solution.speciation.speciation_percent.query("count > 0.02")
+```
+
+![speciation dataframe]({{site.images}}/final_report_orion/speciation_frame_new.png)
+
+We can pick out a specific examples of that shell for visualization. First we find all shells with a given composition.
+
+```python
+# find all shells matching the given dictionary
+solution.speciation.find_shells({'BN': 4, 'FEC': 0, 'PF6': 1})
+```
+![selection dataframe]({{site.images}}/final_report_orion/selection_frame.png)
+
+Then we select the solvation shell and use our favorite visualization package to view it!
+
+```python
+# get the shell atoms
+atoms = solution.solvation_shell(6, 0)
+
+# visualization is not covered here. I suggest nglview!
+visualize(atoms)
+```
+
+![shell visualization]({{site.images}}/final_report_orion/shell.png#center)
+
+Using that approach, you can find all the common solvation shells and generate visualizations for each. For example, see this speciation plot of the BN:FEC system from the example. I've plotted the percentage of each solvation shell at two temperatures and then visualized examples of those shells in the margin.
+
+![speciation]({{site.images}}/final_report_orion/speciation_chart.png)
+
+Together, the tools described above are a powerful and convenient workflow for analyzing the solvation structure of a liquid. Several analyses are pre-implemented and the core solvation data structure makes it easy to create new methods. I sincerely hope that it is useful to thethe community!
 
 ---
 
-### The Future
+## The Future
 PR [#39] and [#40]
 
-While GSoC is ending, development of solvation_analysis is not. PR #39 adds solvent correlation analysis, statistics on uncoordinated solvents, and a new Valency class. PR #40 introduces a tutorial on interactive visualization.  These are all features I am excited for and look forward to developing. 
+While GSoC has ended, development of solvation_analysis has not. PR #39 adds solvent correlation analysis, statistics on uncoordinated solvents, and a new Valency class. PR #40 introduces a tutorial on interactive visualization.  These are all features I am excited for and look forward to developing. As a teaser, I'll include a correlation plot that I generated below:
 
-
-Several weeks ago, I wrote a [blog post] and I'd like to summarize that work here.
+![correlation]({{site.images}}/final_report_orion/correlation.png)
 
 ---
-### Acknowledgements
+## Acknowledgements
  As a whole, the [MDAnalysis] was incredibly welcoming and helpful. I am genuinly inspired by the dedication and competence of the core developers of the package. I am especially grateful for the help of @hmacdope (Hugo), @richardjgowers (Ricahrd), and @IAlibay (Irfan), who were excellent mentors and are generally talented and kind individuals.
+
+ I am also thankful for Google's generous support of open source software.
 
 ---
 [GSoC Project]: https://summerofcode.withgoogle.com/projects/?sp-search=orion#6227159028334592
@@ -133,6 +179,7 @@ Several weeks ago, I wrote a [blog post] and I'd like to summarize that work her
 [tutorial]: https://github.com/MDAnalysis/solvation-analysis/blob/main/tutorials/rdf_fitting_demo.ipynb
 [versioneer]: https://github.com/python-versioneer/python-versioneer
 [twine]: https://pypi.org/project/twine/
+[AnalysisBase]: https://membrane-curvature.readthedocs.io/en/latest/api/membrane_curvature.html
 
 [#7]:  https://github.com/MDAnalysis/solvation-analysis/pull/7
 [#6]:  https://github.com/MDAnalysis/solvation-analysis/pull/6
@@ -145,308 +192,3 @@ Several weeks ago, I wrote a [blog post] and I'd like to summarize that work her
 [#37]: https://github.com/MDAnalysis/solvation-analysis/pull/37
 [#39]: https://github.com/MDAnalysis/solvation-analysis/pull/39
 [#40]: https://github.com/MDAnalysis/solvation-analysis/pull/40
-
-
-The main goal of my [GSoC project]
-was to develop a tool to calculate membrane curvature
-from MD simulations using [MDAnalysis]. We
-aimed to have the following features in the membrane curvature analysis tool:
-
-<img src="{{ site.baseurl }}{{ site.images }}/final_report_estefania/patch.png"
-style="float: right; width: 300px; border-radius: 20px; border: 20px solid white" alt="patch" width="30%"/>
-
-- Surfaces derived from an `AtomGroup` of reference.
-- Calculation of mean and Gaussian curvature.
-- Multiframe and averaged-over-frames analysis.
-- Plug-and-play with visualization libraries to obtain 2D curvature profiles.
-- Data visualization made easy.
-
-
-
-# Why Membrane Curvature?
-
-In the wide range of tools that are available to analyze Molecular Dynamics (MD)
-simulations, user-friendly, actively-maintained, and well-documented tools to
-calculate membrane curvature are still difficult to find. I was motivated to
-share a tool to calculate membrane curvature that I initially developed as part
-of my PhD at the [Biocomputing Group](https://ucalgary.ca/biocomputing/home).
-Membrane curvature is a phenomenon that can be investigated via MD simulations, and
-I had an interest to share this tool with the wider MD community. 
-
-
-# Contributions
-Keeping in mind the goals and motivations behind my GSoC project,
-I would like to hightlight three areas of contributions that were key to the
-MembraneCurvature MDAnalysis tool: [Core functions](#core-functions-9-34-40-44),
-[AnalysisBase](#analysis-base-43-48), and [Documentation](#documentation-57-62-64-69).
-
-## Core functions ([#9], [#34], [#40], [#44])
-The initial version of the code contained functions to map elements from
-the `AtomGroup` of reference into a grid of dimensions defined by the simulation
-box. The initial version also included the functions to calculate mean and Gaussian curvature.
-After refactoring, the core functions of MembraneCurvature were cleaned
-and tuned up. In summary, our core functions can be split into two groups:
-
-- [Surface] : `derive_surface()`, `get_z_surface()`, `normalize_grid()`.
-- [Curvature] : `mean_curvature()`, `gaussian_curvature()`.
-
-These functions are our bricks to build the MembraneCurvature AnalysisBase.
-
-
-## Analysis Base ([#43], [#48])
-The analysis in MembraneCurvature used the 
-[MDAnalysis AnalysisBase]({{ site.docs.mdanalysis.url }}/stable/documentation_pages/analysis/base.html) 
-building block, from where we obtained the basic structure to run multilframe analysis. 
-
-In the [MembraneCurvature subclass](https://membrane-curvature.readthedocs.io/en/latest/api/membrane_curvature.html) of AnalysisBase,
-we define the initial arrays for surface, mean, and Gaussian curvature in the
-[`_prepare()`] method.  In [`_single_frame()`], AnalysisBase runs the
-membrane curvature analysis in every frame, and populates the arrays previously
-defined in `_prepare()`. In [`_conclude`](https://github.com/MDAnalysis/membrane-curvature/blob/4bb851efdeaaeb894b7c354fd019f5f6a97079de/membrane_curvature/base.py#L183), we compute the average over frames for
-the surface and curvature arrays ([#43]).
-
-The derived surface and calculated arrays of mean and Gaussian curvature values
-are stored in the `results` attribute. This makes AnalysisBase the most
-fundamental part of the MembraneCurvature analysis, allowing us to perform
-multiframe and average-over-frame curvature analysis.
-
-We also added [coordinate wrapping]({{ site.docs.mdanalysis.url }}/stable/documentation_pages/transformations/wrap.html)
- to our Analysis base, which enables users to run MembraneCurvature with all
-atoms in the primary unit cell ([#48]). Having an option to wrap coordinates is
-particularly useful when we want to calculate curvature with elements in the
-`AtomGroup` that may fall outside the boundaries of the grid.
-
-With [#48], we also achieved a significant milestone: reaching [100% code
-coverage](https://app.codecov.io/gh/MDAnalysis/membrane-curvature/)
-in MembraneCurvature! 100% coverage means that every line of
-code included was executed by [pytest], the test suite used by MDAnalysis, to check that the code works as it
-should.
-
-## Documentation ([#57], [#62], [#64], [#69])
-One of the strongest motivations to contribute an [MDAnalysis] 
-curvature tool was to provide a well-documented package 
-to analyze membrane curvature from MD simulations.
-
-The membrane curvature tool includes solid documentation that can be found in
-the following pages:
-
-- [API documentation](https://membrane-curvature.readthedocs.io/en/latest/api/membrane_curvature.html)
-- [Algorithm], [Usage] and [Visualization] pages.
-- [Tutorials].
-
-We included two different tutorials: One where we use Membrane Curvature to
-derive surfaces and calculate curvature of a [membrane-only system](https://membrane-curvature.readthedocs.io/en/latest/source/pages/Curvature_membrane-only_systems.html). A second tutorial to calculate curvature in a membrane-protein system is currently under development ([#69]).
-
-
-# How can I use it?
-Membrane-curvature uses [MDAnalysis] under the hood. We can install
-Membrane-curvature via `pip`:
-
-```
-pip install membrane-curvature
-```
-
-[Here](https://github.com/MDAnalysis/membrane-curvature#installation) you can find more installation instructions.
-
-## Running MembraneCurvature
-
-MembraneCurvature was designed to be user friendly. No counterintuitive
-commands, and no long lines of code. With MembraneCurvature you can calculate
-curvature in just a few lines! The snippet below illustrates how easy it
-gets to extract mean and Gaussian curvature from MD simulations using MembraneCurvature:
-
-```python
-import MDAnalysis as mda
-from membrane_curvature.base import MembraneCurvature
-from membrane_curvature.tests.datafiles import (MEMB_GRO, 
-                                                MEMB_XTC)
-
-u = mda.Universe(MEMB_GRO, MEMB_XTC)
-
-mc_upper = MembraneCurvature(u, 
-                             select="resid 103-1023 and name PO4",
-                             n_x_bins=12, 
-                             n_y_bins=12).run()
-
-mc_lower = MembraneCurvature(u, 
-                             select='resid 1024-2046 and name PO4', 
-                             n_x_bins=12, 
-                             n_y_bins=12).run()
-```
-
-
-In the example above, we use two files included in the MembraneCurvature tests:
-`MEMB_GRO` and `XTC_GRO`, which comprises a membrane of lipid composition 
-<span style="color:#A23333">POPC:POPE</span><span style="color:grey">:CHOL</span>, in a 
-<span style="color:#A23333">5:4</span><span style="color:grey">:1</span> ratio:
-
-![membrane_gif]({{site.images}}/final_report_estefania/movie_red.gif)
-
-We use the selection <span style="color:#92ad6a">`"resid 103-1023 and name PO4"`</span> as an
-`AtomGroup` of reference to derive the surface associated to the upper leaflet.
-Similarly, we derive the surface from the lower leaflet with the `AtomGroup`
-defined by the selection <span style="color:#92ad6a">`"resid 1024-2046 and name PO4"`</span> . In this example,
-`PO4` is the name of the phospholipid head groups.
-
-After running MembraneCurvature, the calculated values of the derived surface
-(_H_), and Gaussian curvature (_K_) are stored in the `_results()` attribute. We
-can easily extract the average results with:
-
-```python
-# surface
-surf_upper = mc_upper.results.average_z_surface
-surf_lower = mc_lower.results.average_z_surface
-
-# mean curvature
-mean_upper = mc_upper.results.average_mean
-mean_lower = mc_lower.results.average_mean
-
-# Gaussian curvature
-gauss_upper = mc_upper.results.average_gaussian
-gauss_lower = mc_lower.results.average_gaussian
-```
-
-## Plots
-To visualize the results from `MembraneCurvature.run()`, we can use [contourf] or [imshow] from Matplotlib. 
-For example, here is the plot of the averaged results for the upper leaflet using contours:
-
-![results]({{site.images}}/final_report_estefania/results_dark.png)
-
-In biological membranes of higher complexity, lipid composition between leaflets
-is commonly assymetric. With the results obtained from
-MembraneCurvature, direct comparison between leaflets can be easily performed. The following snippet generates a
-side-by-side plot of the mean curvature results for each leaflet with its respective color bar:
-
-```python
-import matplotlib.pyplot as plt
-from scipy import ndimage
-import numpy as np
-
-results = [mean_lower, mean_upper]
-leaflets = ["Lower", "Upper"]
-
-fig, [ax1, ax2] = plt.subplots(ncols=2, figsize=(4,3.5))
-max_ = max([np.max(abs(h)) for h in results])
-
-for ax, rs, lf in zip((ax1, ax2), results, leaflets):
-    rs = ndimage.zoom(rs, 4, mode='wrap', order=1)
-    levs = np.linspace(-max_, max_, 40)
-    im = ax.contourf(rs, cmap='bwr', 
-                     origin='lower', levels=levs,
-                     vmin=-max_, vmax=max_)
-
-    ax.set_aspect('equal')
-    ax.set_title('{} Leaflet'.format(lf), fontsize=6)
-    ax.axis('off')
-
-cbar = plt.colorbar(im, ticks=[-max_, 0, max_], 
-                    orientation='vertical', 
-                    ax=[ax1, ax2], shrink=0.4, 
-                    aspect=10, pad=0.05)
-cbar.ax.tick_params(labelsize=4, width=0.5)
-cbar.set_label('H (nm$^{-1}$)', fontsize=6, labelpad=2) 
-```
-
-![contours]({{site.images}}/final_report_estefania/contours_dark.png)
-
-Mean curvature plots provide information about the "inverted shape" of the surface, 
-which in this example is derived from phospholipids headgroups in each leaflet.
-Positive mean curvature indicates valleys (red coloured), negative mean curvature is associated
-with peaks (blue coloured). Regions where _H=0_ indicates a flat region (white coloured). In the
-example considered here, the contour plot of mean curvature shows:
-
-* Coupling between leaflets. Regions of positive curvature (red coloured) in the
-  lower leaflet match those in the upper leaflet. The same is observed for
-  regions of negative curvature (blue coloured).
-
-* A central region of negative curvature. For both upper and lower leaflets,
-  there is a central region of negative mean curvature (blue coloured) along the
-  _y_ axis, while regions of positive curvature (red coloured) are localized in
-  the bulk of the membrane, in particular bottom left and upper right regions.
-
-
-# In progress
-Currently, we are working on implementing interpolation as an option for the
-user [#52].
-
-In some situations, when selecting a very high number of bins in the grid, or
-when having regions of the grid with low sampling we may find regions of undefined values.
-For example, think of a membrane-protein system, where the bins occupied by the protein won't be
-populated by lipids, and therefore, will have a region of undefined values in
-the grid. Such undefined values spread in the array during the calculation of
-curvature, which may result in meaningless output.
-
-By adding an optional interpolation, we will be able to patch up undefined values 
-in bins inside the embedded element (i.e. protein). With this improvement, calculation
-of membrane curvature won't be hamstrung by the presence of undefined values in the grid.
-
-# What's next?
-There is always room for improvement, and MembraneCurvature is not an exception.
-One of the main limitations of the current version of MembraneCurvature is the
-inability to calculate curvature in systems like vesicles, capsids, or micelles.
-This would definitely be a nice improvement for a future release of
-MembraneCurvature!
-
-![vesicles]({{site.images}}/final_report_estefania/vesicles.png)
-
-We acknowledge that scientific research would benefit from a
-tool to calculate membrane curvature in these types of systems, so we are
-considering possible approaches to include more topologies in MembraneCurvature!
-
-# Summary
-MembraneCurvature is a well-documented and easy-to-use tool to derive 2D maps of mean and Gaussian
-curvature from Molecular Dynamics (MD) simulations. Since it uses the
-[MDAnalysis AnalysisBase]({{ site.docs.mdanalysis.url }}/stable/documentation_pages/analysis/base.html) 
-building block, MembraneCurvature enable users to perform multiframe and
-average-over-frames curvature analyses.
-
-From MD simulations to 2D curvature profiles in only a few lines of code!
-
-![patches]({{site.images}}/final_report_estefania/MembraneCurvature_summary.png)
-
-## Acknowledgments
-Participating in GSoC with MDAnalysis has been a unique experience. I had the
-opportunity to learn best practices in software development mentored by a group
-of incredibly talented people:
-- @lilyminium (Lily),
-- @IAlibay (Irfan), 
-- @fiona-naughton (Fiona), and
-- @orbeckst (Oliver). 
-
-I also would like to thank @richardjgowers (Richard) and @tylerjereddy (Tyler)
-from the MDA community, who participated in our discussions and provided
-valuable insights. <br> Thanks for all your valuable lessons. 
-
-[MembraneCurvature] has launched! 🚀
-
-— @ojeda-e
-
----
-[#9]: https://github.com/MDAnalysis/membrane-curvature/pull/9
-[#34]: https://github.com/MDAnalysis/membrane-curvature/pull/34
-[#40]: https://github.com/MDAnalysis/membrane-curvature/pull/40
-[#48]: https://github.com/MDAnalysis/membrane-curvature/pull/48
-[#43]: https://github.com/MDAnalysis/membrane-curvature/pull/43
-[#44]: https://github.com/MDAnalysis/membrane-curvature/pull/44
-[#52]: https://github.com/MDAnalysis/membrane-curvature/pull/52
-[#57]: https://github.com/MDAnalysis/membrane-curvature/pull/57
-[#62]: https://github.com/MDAnalysis/membrane-curvature/pull/62
-[#64]: https://github.com/MDAnalysis/membrane-curvature/pull/64
-[#66]: https://github.com/MDAnalysis/membrane-curvature/pull/66
-[#69]: https://github.com/MDAnalysis/membrane-curvature/pull/69
-
-[Surface]: https://membrane-curvature.readthedocs.io/en/latest/api/surface.html#membrane_curvature.surface
-[Curvature]: https://membrane-curvature.readthedocs.io/en/latest/api/curvature.html#membrane_curvature.curvature
-
-[MDAnalysis]: https://www.mdanalysis.org/
-[Algorithm]: https://membrane-curvature.readthedocs.io/en/latest/source/pages/Algorithm.html
-[Usage]: https://membrane-curvature.readthedocs.io/en/latest/source/pages/Usage.html
-[Visualization]: https://membrane-curvature.readthedocs.io/en/latest/source/pages/Visualization.html
-[Tutorials]: https://membrane-curvature.readthedocs.io/en/latest/source/pages/Tutorials.html
-[AnalysisBase]: https://membrane-curvature.readthedocs.io/en/latest/api/membrane_curvature.html
-[contourf]: https://membrane-curvature.readthedocs.io/en/latest/source/pages/Visualization.html#contourf
-[imshow]: https://membrane-curvature.readthedocs.io/en/latest/source/pages/Visualization.html#imshow
-[`_single_frame()`]: https://github.com/MDAnalysis/membrane-curvature/blob/4bb851efdeaaeb894b7c354fd019f5f6a97079de/membrane_curvature/base.py#L170
-[`_prepare()`]: https://github.com/MDAnalysis/membrane-curvature/blob/4bb851efdeaaeb894b7c354fd019f5f6a97079de/membrane_curvature/base.py#L158
-[pytest]: https://docs.pytest.org/en/6.2.x/
-[MembraneCurvature]: https://github.com/MDAnalysis/membrane-curvature
