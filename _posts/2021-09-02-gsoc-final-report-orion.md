@@ -11,7 +11,7 @@ At the outset of my [GSoC project], I hoped to create a package with:
 - Automated analysis of ion coordination environment.
 - Documentation, testing, and well-written code.
 
-After 10 weeks of working with the [MDAnalysis] team, the [solvation_analysis] package vastly exceeds that original intent. There is a robust and simple API, the functionality generalizes to non-ionic systems, solvation distances are automatically identified, and it's <b>really fast.</b> Further, I've learned a huge amount about the software development, the package release cycle, and the world of open-source.
+After 10 weeks of working with the [MDAnalysis] team, the [solvation_analysis] package vastly exceeds that original intent. There is a robust and simple API, the functionality generalizes to non-ionic systems, solvation distances are automatically identified, and it's <b>really fast.</b> Further, I've learned a huge amount about software development, the package release cycle, and the world of open-source.
 
 In this post, I will summarize my contributions to `solvation_analysis` and several features of the package.
 
@@ -30,7 +30,7 @@ Robust testing is part of a finished package. PR #6 introduced the initial code 
 ### Cutting off radial distribution functions
 PR [#25]
 
-PR #25 was a science challenge in addition to a software challenge. I needed to robustly identify the first minima of noisy RDF data so I could automate the solvation analysis. My approach was to perform a polynomial interpolation of the RDF and then take the 2nd-derivative to find the minima. This worked well for smooth RDFs but failed for RDFs with noise. As a quick fix, I added in several heuristics to get the solvation distances identified on my noisy test data. For now, the RDF parser works reasonably well for smooth data and warns users when it fails. A interpolation of an RDF is shown below. 
+PR #25 was a science challenge in addition to a software challenge. I needed to robustly identify the first minima of noisy RDF data so I could automate the solvation analysis. My approach was to perform a polynomial interpolation of the RDF and then take the 2nd-derivative to find the minima. This worked well for smooth RDFs but failed for RDFs with noise. As a quick fix, I added in several heuristics to get the solvation distances identified on my noisy test data. For now, the RDF parser works reasonably well for smooth data and warns users when it fails. An interpolation of an RDF is shown below. 
 
 ![interpolation]({{site.images}}/final_report_orion/interpolation.png)
 
@@ -44,7 +44,7 @@ PR #29 is responsible for the majority of functionality in solvation_analysis. I
 ### In pursuit of user number one
 PR [#36]
 
-PR #36 introduced a [tutorial] to walk users the basic functionality of solvation_analysis and how to respond to common errors. If you are interested in using the `solvation_analysis`, this is definitely the best place to start!
+PR #36 introduced a [tutorial] to walk users through the basic functionality of solvation_analysis and how to respond to common errors. If you are interested in using the `solvation_analysis`, this is definitely the best place to start!
 
 ### Release and versioning
 PR [#37]
@@ -86,7 +86,7 @@ BN = u.atoms.select_atoms("byres type 5")
 FEC = u.atoms.select_atoms("byres type 19")
 ```
 
-Once we have the universe, solute, and solvents defined, it is quite simple to instantiate and run a solution! Solution, like all MDA analysis classes, subclasses the [AnalysisBase] class and requires `Solution.run()` call to initiate the analysis.
+Once we have the universe, solute, and solvents defined, it is quite simple to instantiate and run a solution! Solution, like all MDA analysis classes, subclasses the [AnalysisBase] class and requires a `Solution.run()` call to initiate the analysis.
 
 ```python
 # instantiate solution
@@ -120,7 +120,7 @@ Now that we have a completed solution, we can easily print the ion pairing, coor
 {'PF6': 2.60, 'BN': 2.61, 'FEC': 2.43}
 ```
 
-We can also use `solvation_analysis` to identify the most common solvation shell compositions and find examples of them for visualization. Below, we are using the `speciation` class to find the most common compositions of solvation shells and then filtering out all shells with a frequency less than 2%.
+We can also use `solvation_analysis` and a simple Pandas operation to identify the most common solvation shell compositions and find examples of them for visualization. Below, we are using the `speciation` class to find the most common compositions of solvation shells and then filtering out all shells with a frequency less than 2%.
 
 ```python
 solution.speciation.speciation_percent.query("count > 0.02")
@@ -148,11 +148,11 @@ visualize(atoms)
 
 ![shell visualization]({{site.images}}/final_report_orion/shell.png)
 
-Using that approach, you can find all the common solvation shells and generate visualizations for each. For example, see this speciation plot of the BN:FEC system from the example. I've plotted the percentage of each solvation shell at two temperatures and then visualized examples of those shells in the margin.
+Using that approach, you can find all the common solvation shells and generate visualizations for each. For example, see this speciation plot of the BN:FEC system from the example. I've plotted the fraction of each solvation shell at two temperatures and then visualized examples of those shells in the margin.
 
 ![speciation]({{site.images}}/final_report_orion/speciation_chart.png)
 
-Together, the tools described above are a powerful and convenient workflow for analyzing the solvation structure of a liquid. Several analyses are pre-implemented and the core solvation data structure makes it easy to create new methods. I sincerely hope that it is useful to thethe community!
+Together, the tools described above are a powerful and convenient workflow for analyzing the solvation structure of a liquid. Several analyses are pre-implemented and the core solvation data structure makes it easy to create new methods. I sincerely hope that it is useful to the community!
 
 ---
 
