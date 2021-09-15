@@ -32,7 +32,7 @@ My summer began with a duo of pull requests. PRs #7 and #20 filled out the templ
 ### Testing, testing, one-two-three
 PR [#6], [#16], and [#17]
 
-Robust testing is part of a finished package. PR #6 introduced the initial code base and some rudimentary testing. In PR #16, I started using [pytest], which made writing and using tests much easier. Finally, PR #17, integrated testing with GitHub CI, finalizing a critical component of my development workflow. 
+Robust testing is part of a finished package. PR #6 introduced the initial code base and some rudimentary testing. In PR #16, I started using [pytest], which made writing and using tests much easier. Finally, PR #17 integrated testing with GitHub CI, finalizing a critical component of my development workflow. 
 
 ### Cutting off radial distribution functions
 PR [#25]
