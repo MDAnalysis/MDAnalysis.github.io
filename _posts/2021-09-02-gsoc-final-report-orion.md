@@ -3,6 +3,13 @@ layout: post
 title: "GSoC Report: Solvation Analysis"
 ---
 
+## Motivation
+
+My research seeks to discover new materials for battery electrolytes. In particular, I use molecular dynamics and ab initio methods to computationally probe new electrolyte compositions. In my work, a core challenge is scaling up. A molecular dynamics trajectory is a rich and complex data structure, thorough analysis requires interactive visualization and data labeling. Automating this sort of interactive analysis is difficult, but to scale up to hundreds or thousands of electrolytes, it needs to be done. 
+![workflow]({{site.images}}/final_report_orion/md_workflow.png)
+
+I applied for Google Summer of Code because I felt that MDAnalysis was the best available tool for the automated analysis of MD trajectories. My aim was to build an abstraction around solvation that would make writing automated analysis methods much easier. Over the past few months, I've done that. I am now working to refine the API and implement new methods to extract more information from MD simulations. In time, this will fit into a broader workflow that will enable the autonomous exploration of novel electrolytes.
+
 ## Retrospective
 
 At the outset of my [GSoC project], I hoped to create a package with:
@@ -37,7 +44,7 @@ PR #25 was a science challenge in addition to a software challenge. I needed to 
 ### Analysis: the mega-PR
 PR [#29]
 
-PR #29 is responsible for the majority of functionality in solvation_analysis. It implemented the Solution class and all of the analysis functions, reaching 250 comments from myself and my mentors. Much of the discourse focused on iterating through API designs, which eventually led to a very clean Solution-centered package. The underlying data structure is a simple `Pandas.DataFrame` that allows all analyses to be vectorized. As shown below, the `DataFrame` is indexed by step in the analysis (`frame`), the `solvated_atom` from the solute, and the solvent atoms `atom_id`. This provides a unique identifier for each atom participating in solvation.
+PR #29 is responsible for the majority of functionality in solvation_analysis. It implemented the Solution class and all of the analysis functions, reaching 250 comments from myself and my mentors. Much of the discourse focused on iterating through API designs, which eventually led to a very clean Solution-centered package. The underlying data structure uses the '[tidy data]' concept, implementing a tidy `Pandas.DataFrame` that allows analyses to be easily vectorized. As shown below, the `DataFrame` is indexed by step in the analysis (`frame`), the `solvated_atom` from the solute, and the solvent atoms `atom_id`. This solution provides a unique identifier for each atom participating in solvation.
 
 ![solvation dataframe]({{site.images}}/final_report_orion/solvation_data_new.png)
 
@@ -151,7 +158,7 @@ visualize(atoms)
 
 Using that approach, you can find all the common solvation shells and generate visualizations for each. For example, see this speciation plot of the BN:FEC system from the example. I've plotted the fraction of each solvation shell at two temperatures and then visualized examples of those shells in the margin.
 
-![speciation]({{site.images}}/final_report_orion/speciation_chart.png)
+![speciation]({{site.images}}/final_report_orion/speciation_plot.png)
 
 Together, the tools described above are a powerful and convenient workflow for analyzing the solvation structure of a liquid. Several analyses are pre-implemented and the core solvation data structure makes it easy to create new methods. I sincerely hope that it is useful to the community!
 
@@ -160,13 +167,13 @@ Together, the tools described above are a powerful and convenient workflow for a
 ## The Future
 PR [#39] and [#40]
 
-While GSoC has ended, development of solvation_analysis has not. PR #39 adds solvent correlation analysis, statistics on uncoordinated solvents, and a new Valency class. PR #40 introduces a tutorial on interactive visualization.  These are all features I am excited for and look forward to developing. As a teaser, I'll include a correlation plot that I generated below:
+While GSoC has ended, development of solvation_analysis has not. PR #39 adds solvent correlation analysis, statistics on uncoordinated solvents, and a new Valency class. PR #40 introduces a tutorial on interactive visualization.  These are all features I am excited for and look forward to developing. As a teaser, I'll include a correlation plot below:
 
-![correlation]({{site.images}}/final_report_orion/correlation.png)
+![correlation]({{site.images}}/final_report_orion/correlation_new.png)
 
 ---
 ## Acknowledgements
- As a whole, the [MDAnalysis] was incredibly welcoming and helpful. I am genuinly inspired by the dedication and competence of the core developers of the package. I am especially grateful for the help of @hmacdope (Hugo), @richardjgowers (Ricahrd), and @IAlibay (Irfan), who were excellent mentors and are generally talented and kind individuals.
+ As a whole, the [MDAnalysis] was incredibly welcoming and helpful. I am genuinly inspired by the dedication and competence of the core developers of the package. I am especially grateful for the help of @hmacdope (Hugo), @richardjgowers (Richard), and @IAlibay (Irfan), who were excellent mentors and are generally talented and kind individuals.
 
  I am also thankful for Google's generous support of open source software.
 
@@ -181,6 +188,7 @@ While GSoC has ended, development of solvation_analysis has not. PR #39 adds sol
 [versioneer]: https://github.com/python-versioneer/python-versioneer
 [twine]: https://pypi.org/project/twine/
 [AnalysisBase]: https://membrane-curvature.readthedocs.io/en/latest/api/membrane_curvature.html
+[tidy data]: https://tidyr.tidyverse.org/articles/tidy-data.html
 
 [#7]:  https://github.com/MDAnalysis/solvation-analysis/pull/7
 [#6]:  https://github.com/MDAnalysis/solvation-analysis/pull/6
