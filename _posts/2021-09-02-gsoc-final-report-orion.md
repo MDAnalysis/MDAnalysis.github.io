@@ -112,13 +112,14 @@ plt.show()
 Now that we have a completed solution, we can easily print the ion pairing, coordination numbers, and solvation radii.
 
 ```python
->>> solution.coordination.cn_dict
-{'BN': 4.33, 'FEC': 0.25, 'PF6': 0.12}
 >>> solution.pairing.pairing_dict
 {'BN': 1.0, 'FEC': 0.21, 'PF6': 0.12}
+>>> solution.coordination.cn_dict
+{'BN': 4.33, 'FEC': 0.25, 'PF6': 0.12}
 >>> solution.radii
 {'PF6': 2.60, 'BN': 2.61, 'FEC': 2.43}
 ```
+We can see that the Li<sup>+</sup> ions coordinate most strongly with BN. The pairing shows that 100% of Li<sup>+</sup> are coordinated with BN and on average there are 4.33 BN coordinated to each Li<sup>+</sup>. Similar information is available for FEC and PF<sub>6</sub>.
 
 We can also use `solvation_analysis` and a simple Pandas operation to identify the most common solvation shell compositions and find examples of them for visualization. Below, we are using the `speciation` class to find the most common compositions of solvation shells and then filtering out all shells with a frequency less than 2%.
 
