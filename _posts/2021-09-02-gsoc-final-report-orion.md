@@ -177,7 +177,7 @@ While GSoC has ended, development of solvation_analysis has not. PR #39 adds sol
 
  I am also thankful for Google's generous support of open source software.
 
-It has been an awesome ride 🎢
+It has been an amazing ride 🎢
 
 -- @orioncohen
 
