@@ -177,6 +177,10 @@ While GSoC has ended, development of solvation_analysis has not. PR #39 adds sol
 
  I am also thankful for Google's generous support of open source software.
 
+It's been an awesome ride 🎢
+
+-- @orioncohen
+
 ---
 [GSoC Project]: https://summerofcode.withgoogle.com/projects/?sp-search=orion#6227159028334592
 [MDAnalysis]: https://www.mdanalysis.org/
