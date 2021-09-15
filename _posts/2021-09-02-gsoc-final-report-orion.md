@@ -167,7 +167,7 @@ Together, the tools described above are a powerful and convenient workflow for a
 ## The Future
 PR [#39] and [#40]
 
-While GSoC has ended, development of solvation_analysis has not. PR #39 adds solvent correlation analysis, statistics on uncoordinated solvents, and a new Valency class. PR #40 introduces a tutorial on interactive visualization.  These are all features I am excited for and look forward to developing. As a teaser, I'll include a correlation plot below:
+While GSoC has ended, development of `solvation_analysis` has not. PR #39 adds solvent correlation analysis, statistics on uncoordinated solvents, and a new Valency class. PR #40 introduces a tutorial on interactive visualization.  These are all features I am excited for and look forward to developing. As a teaser, I'll include a correlation plot below:
 
 ![correlation]({{site.images}}/final_report_orion/correlation_new.png)
 
