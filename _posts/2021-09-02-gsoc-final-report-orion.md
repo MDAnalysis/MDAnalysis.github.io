@@ -187,7 +187,7 @@ It has been an amazing ride 🎢
 [solvation_analysis]: https://pypi.org/project/solvation-analysis/
 [blog post]: https://orioncohen.com/blog/2021_08_20_gsoc_conclusion/
 [pytest]: https://docs.pytest.org/en/6.2.x/
-[MolSSI cookiecutter]: (https://github.com/MolSSI/cookiecutter-cms)
+[MolSSI cookiecutter]: https://github.com/MolSSI/cookiecutter-cms
 [tutorial]: https://github.com/MDAnalysis/solvation-analysis/blob/main/tutorials/rdf_fitting_demo.ipynb
 [versioneer]: https://github.com/python-versioneer/python-versioneer
 [twine]: https://pypi.org/project/twine/
