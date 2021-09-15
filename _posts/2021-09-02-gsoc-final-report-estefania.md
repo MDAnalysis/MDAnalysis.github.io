@@ -21,7 +21,7 @@ style="float: right; width: 300px; border-radius: 20px; border: 20px solid white
 
 
 
-# Why Membrane Curvature?
+## Why Membrane Curvature?
 
 In the wide range of tools that are available to analyze Molecular Dynamics (MD)
 simulations, user-friendly, actively-maintained, and well-documented tools to
@@ -32,13 +32,13 @@ Membrane curvature is a phenomenon that can be investigated via MD simulations, 
 I had an interest to share this tool with the wider MD community. 
 
 
-# Contributions
+## Contributions
 Keeping in mind the goals and motivations behind my GSoC project,
 I would like to hightlight three areas of contributions that were key to the
 MembraneCurvature MDAnalysis tool: [Core functions](#core-functions-9-34-40-44),
 [AnalysisBase](#analysis-base-43-48), and [Documentation](#documentation-57-62-64-69).
 
-## Core functions ([#9], [#34], [#40], [#44])
+### Core functions ([#9], [#34], [#40], [#44])
 The initial version of the code contained functions to map elements from
 the `AtomGroup` of reference into a grid of dimensions defined by the simulation
 box. The initial version also included the functions to calculate mean and Gaussian curvature.
@@ -51,7 +51,7 @@ and tuned up. In summary, our core functions can be split into two groups:
 These functions are our bricks to build the MembraneCurvature AnalysisBase.
 
 
-## Analysis Base ([#43], [#48])
+### Analysis Base ([#43], [#48])
 The analysis in MembraneCurvature used the 
 [MDAnalysis AnalysisBase]({{ site.docs.mdanalysis.url }}/stable/documentation_pages/analysis/base.html) 
 building block, from where we obtained the basic structure to run multilframe analysis. 
@@ -80,7 +80,7 @@ in MembraneCurvature! 100% coverage means that every line of
 code included was executed by [pytest], the test suite used by MDAnalysis, to check that the code works as it
 should.
 
-## Documentation ([#57], [#62], [#64], [#69])
+### Documentation ([#57], [#62], [#64], [#69])
 One of the strongest motivations to contribute an [MDAnalysis] 
 curvature tool was to provide a well-documented package 
 to analyze membrane curvature from MD simulations.
@@ -96,7 +96,7 @@ We included two different tutorials: One where we use Membrane Curvature to
 derive surfaces and calculate curvature of a [membrane-only system](https://membrane-curvature.readthedocs.io/en/latest/source/pages/Curvature_membrane-only_systems.html). A second tutorial to calculate curvature in a membrane-protein system is currently under development ([#69]).
 
 
-# How can I use it?
+## How can I use it?
 Membrane-curvature uses [MDAnalysis] under the hood. We can install
 Membrane-curvature via `pip`:
 
@@ -106,7 +106,7 @@ pip install membrane-curvature
 
 [Here](https://github.com/MDAnalysis/membrane-curvature#installation) you can find more installation instructions.
 
-## Running MembraneCurvature
+### Running MembraneCurvature
 
 MembraneCurvature was designed to be user friendly. No counterintuitive
 commands, and no long lines of code. With MembraneCurvature you can calculate
@@ -164,7 +164,7 @@ gauss_upper = mc_upper.results.average_gaussian
 gauss_lower = mc_lower.results.average_gaussian
 ```
 
-## Plots
+### Plots
 To visualize the results from `MembraneCurvature.run()`, we can use [contourf] or [imshow] from Matplotlib. 
 For example, here is the plot of the averaged results for the upper leaflet using contours:
 
@@ -223,7 +223,7 @@ example considered here, the contour plot of mean curvature shows:
   the bulk of the membrane, in particular bottom left and upper right regions.
 
 
-# In progress
+## In progress
 Currently, we are working on implementing interpolation as an option for the
 user [#52].
 
@@ -238,7 +238,7 @@ By adding an optional interpolation, we will be able to patch up undefined value
 in bins inside the embedded element (i.e. protein). With this improvement, calculation
 of membrane curvature won't be hamstrung by the presence of undefined values in the grid.
 
-# What's next?
+## What's next?
 There is always room for improvement, and MembraneCurvature is not an exception.
 One of the main limitations of the current version of MembraneCurvature is the
 inability to calculate curvature in systems like vesicles, capsids, or micelles.
@@ -251,7 +251,7 @@ We acknowledge that scientific research would benefit from a
 tool to calculate membrane curvature in these types of systems, so we are
 considering possible approaches to include more topologies in MembraneCurvature!
 
-# Summary
+## Summary
 MembraneCurvature is a well-documented and easy-to-use tool to derive 2D maps of mean and Gaussian
 curvature from Molecular Dynamics (MD) simulations. Since it uses the
 [MDAnalysis AnalysisBase]({{ site.docs.mdanalysis.url }}/stable/documentation_pages/analysis/base.html) 
@@ -262,7 +262,7 @@ From MD simulations to 2D curvature profiles in only a few lines of code!
 
 ![patches]({{site.images}}/final_report_estefania/MembraneCurvature_summary.png)
 
-## Acknowledgments
+### Acknowledgments
 Participating in GSoC with MDAnalysis has been a unique experience. I had the
 opportunity to learn best practices in software development mentored by a group
 of incredibly talented people:
