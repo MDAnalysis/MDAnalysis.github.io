@@ -46,44 +46,66 @@ Installable packages are available through the popular ``pip`` and
 
 ## Governance
 
-Project leadership is provided by a subset of contributors,
-the *MDAnalysis Core Developers*
+Project leadership is provided by a subset of contributors, the
+*MDAnalysis Core Developers*
 ([@MDAnalysis/coredevs](https://github.com/orgs/MDAnalysis/teams/coredevs))
 who have produced substantial contributions over extended lengths of
 time and who remain active in reviewing issues and discussions on the
-various mailing lists. MDAnalysis Core Developers are granted commit
-rights (write access) to the GitHub source code repository.
+various mailing lists and our Discord server. 
 
 ### MDAnalysis Core Developers
+
+The **Core Developers** lead the MDAnalysis project and are responsible to
+the community and to NumFOCUS, our fiscal sponsor. They **represent
+the project publicly** and **vote to make decisions for the project**.
+
+Core Developers are granted commit rights (write access) to the [GitHub source
+code repositories][orgrepo] and thus can approve pull requests for merges.
 
 The current
 [@MDAnalysis/coredevs](https://github.com/orgs/MDAnalysis/teams/coredevs/members)
 team ("MDAnalysis Core Developers") consists of:
 
-- @dotsdl
+
 - @fiona-naughton
 - @IAlibay
-- @jandom
 - @jbarnoud
-- @kain88-de
 - @lilyminium
+- @orbeckst
+- @richardjgowers
+- @tylerjereddy
+
+### MDAnalysis Emeriti Core Developers
+
+**Emerita/Emeritus Core Developers** are former Core Developers who remain
+connected to the project but have stepped back from the day-to-day
+decision making. Emeriti Core Developers can reinstate themselves to
+Core Developer status.
+
+Emeriti Core Developers maintain commit rights (write access) to the
+[GitHub source code repositories][orgrepo] and can approve pull requests for
+merges.
+
+The current *Emeriti Core Developers* are:
+
+- @dotsdl
+- @jandom
+- @kain88-de
 - @micaela-matta
 - @mnmelo
 - @mtiberti
-- @orbeckst
-- @richardjgowers
 - @seb-buch
-- @tylerjereddy
 - @zemanj
 
+### Decision Making Process and Membership
 
-### Decision Making Process
-
-1. All decisions are made by *simple majority*[^1] of the MDAnalysis Core
-   Developers.
-2. New MDAnalysis Core Developers are elected with a simple majority
-   of current MDAnalysis Core Developers.
-   
+1. All decisions are made by *simple majority*[^1] of the [MDAnalysis Core
+   Developers](#mdanalysis-core-developers).
+2. New *Core Developers* are elected with a simple majority of current
+   MDAnalysis Core Developers.
+3. Current Core Developers are polled annually to *opt-in* to remain
+   a Core Developer; otherwise they transition to [Emerita/Emeritus
+   Core Developer](#mdanalysis-emeriti-core-developers) status.
 
 [^1]: A [simple majority][] is defined as *more than half the votes
      cast*. Abstentions or blanks are excluded in calculating a
@@ -150,3 +172,4 @@ Foundation](https://www.nsf.gov/) (as part of award ACI-1443054).
 
 [NumFOCUS]: https://www.numfocus.org
 [simple majority]: https://en.wikipedia.org/wiki/Majority#Majority_vote
+[orgrepo]: https://github.com/MDAnalysis
