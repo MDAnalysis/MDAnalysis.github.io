@@ -89,11 +89,13 @@ merges.
 The current *Emeriti Core Developers* are:
 
 - @dotsdl
+- Elizabeth Denning
 - @jandom
 - @kain88-de
 - @micaela-matta
 - @mnmelo
 - @mtiberti
+- @nmichaud
 - @seb-buch
 - @zemanj
 
