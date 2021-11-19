@@ -134,38 +134,56 @@ MDAnalysis Core Developers is tasked to respond to and to investigate
 
 MDAnalysis is a [fiscally sponsored
 project]({{site.numfocus.sponsored_project}}) of [NumFOCUS][], a nonprofit
-dedicated to supporting the open source scientific computing community. If you
-like MDAnalysis and want to support our mission, please consider making a
-[donation]({{site.numfocus.donate}}) to support our efforts. NumFOCUS is a
-501(c)(3) non-profit charity in the United States; as such, donations to
-NumFOCUS are tax-deductible as allowed by law.  As with any donation, you
-should consult with your personal tax adviser or the IRS about your particular
-tax situation.
+dedicated to supporting the open source scientific computing
+community. 
+
+If you like MDAnalysis and want to support our mission, please
+consider making a [donation]({{site.numfocus.donate}}) to support our
+efforts. NumFOCUS is a 501(c)(3) non-profit charity in the United
+States; as such, donations to NumFOCUS are tax-deductible as allowed
+by law.  As with any donation, you should consult with your personal
+tax adviser or the IRS about your particular tax situation.
 
 {{ site.numfocus.donate_button }}
 
-Through [NumFOCUS][] (and previously the [Python Software
-Foundation](https://www.python.org/psf/)) we have been participating in [Google
-Summer of Code](https://summerofcode.withgoogle.com/) since 2016. 
 
-We are grateful for financial support from [NumFOCUS][] and the [National Science
-Foundation](https://www.nsf.gov/) (as part of award ACI-1443054).
+## Funding
+
+We are grateful for financial support from [NumFOCUS][] and the [Chan
+Zuckerberg Initiative][] (under an [EOSS4
+award](https://chanzuckerberg.com/eoss/proposals/mdanalysis-faster-extensible-molecular-analysis-for-reproducible-science/)).
+
+Earlier work was supported by the [National Science
+Foundation](https://www.nsf.gov/) (as part of award ACI-1443054). 
+
+We have been been participating in [Google Summer of
+Code](https://summerofcode.withgoogle.com/) since 2016 and are
+grateful for Google's support.
 
 
 
 
-<a href="{{site.numfocus.sponsored_project}}">
-<img src="{{site.images}}/numfocus-sponsored.png" title="NumFOCUS sponsored project"
-	alt="NumFOCUS Sponsored" style="display: inline; float: left; height: 4em;" />
-</a>
-	
-<img
-	src="https://developers.google.com/open-source/gsoc/images/gsoc2016-sun-373x373.png"
-	title="Google Summer of Code" alt="Google Summer of Code"
-	style="display: inline; float: left; height: 4em;" />
+<a href="{{site.numfocus.sponsored_project}}"><img
+    src="{{site.images}}/numfocus-sponsored.png" title="NumFOCUS
+    sponsored project" alt="NumFOCUS Sponsored" style="display:
+    inline; float: left; height: 4em; margin: 0 0.5em" /></a>
 
-<img src="{{site.images}}/nsf.jpg" title="National Science Foundation"
-	alt="National Science Foundation" style="display: inline; float: left; height: 4em;" />
+
+<a href="https://chanzuckerberg.com/"><img
+	src="{{site.images}}/CZI_Logo.jpg" title="Chan Zuckerberg
+	Initiative" alt="Chan Zuckerberg Initiative" style="display:
+	inline; float: left; height: 4em; margin: 0 0.5em" /></a>
+
+<a href="https://summerofcode.withgoogle.com/"> <img
+    src="https://developers.google.com/open-source/gsoc/images/gsoc2016-sun-373x373.png"
+    title="Google Summer of Code" alt="Google Summer of Code"
+    style="display: inline; float: left; height: 4em; margin: 0
+    0.5em" /></a>
+
+<a href="https://nsf.gov/">
+<img src="{{site.images}}/nsf.jpg" title="National Science
+	Foundation" alt="National Science Foundation" style="display:
+	inline; float: left; height: 4em; margin: 0 0.5em" /></a>
 
 <div style="clear: both"></div>
 
@@ -175,3 +193,4 @@ Foundation](https://www.nsf.gov/) (as part of award ACI-1443054).
 [NumFOCUS]: https://www.numfocus.org
 [simple majority]: https://en.wikipedia.org/wiki/Majority#Majority_vote
 [orgrepo]: https://github.com/MDAnalysis
+[Chan Zuckerberg Initiative]: https://chanzuckerberg.com/
