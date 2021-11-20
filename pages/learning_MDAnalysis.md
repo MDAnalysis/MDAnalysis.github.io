@@ -120,3 +120,15 @@ data):
 </div>
 
 
+#### BioExcel Webinar: MDAnalysis: Interoperable analysis of biomolecular simulations in Python
+
+In this [BioExcel](https://bioexcel.eu/) webinar, three of the MDAnalysis Core
+Developers (@orbeckst, @lilyminium, @IAlibay) summarize the **basics of
+MDAnalysis**, show more advanced ways to **hack MDAnalysis** and outline
+**future developments**.
+
+<div class="js-video">
+	<iframe src="https://www.youtube.com/embed/1Wot83DSt4E" frameborder="0"
+	allowfullscreen class="video"></iframe>
+</div>
+
