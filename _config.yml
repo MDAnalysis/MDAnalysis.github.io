@@ -91,9 +91,12 @@ docs:
     name:         Quick Start Guide
     url:          https://userguide.mdanalysis.org/stable/examples/quickstart.html
 
+# The algolia.read_only_api_key may be safely put into frontend code
+# and this is not a security issue.
 algolia:
-  index_name: mdanalysis
-  read_only_api_key: 307d780013d06fdde7a4eae462db0e74
+  index_name:        mdanalysis
+  appId:             Y8HJT3NO22
+  read_only_api_key: 68fa6789d0a275a311f68914e0c2366e
 
 numfocus:
   donate:            https://numfocus.org/donate-to-mdanalysis
