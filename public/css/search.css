@@ -1,0 +1,12 @@
+/* CSS for customizing Algolia search box */
+/* https://github.com/algolia/docsearch/tree/next/packages/docsearch-css/src */
+
+/* override variables in _variables.css */
+
+:root {
+    --docsearch-primary-color: #FF9200;    
+    --docsearch-text-color: #343131;    
+    --docsearch-muted-color: #808080;
+    --docsearch-logo-color: rgba(0, 0, 0);
+}
+
