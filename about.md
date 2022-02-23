@@ -68,10 +68,12 @@ team ("MDAnalysis Core Developers") consists of:
 
 
 - @fiona-naughton
+- @hmacdope
 - @IAlibay
 - @jbarnoud
 - @lilyminium
 - @orbeckst
+- @PicoCentauri
 - @richardjgowers
 - @tylerjereddy
 
