@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Call for participation: NumFOCUS open-source DEI research project
+title: Call for participation - NumFOCUS open-source DEI research project
 ---
 
 MDAnalysis is working with our fiscal sponsor [NumFOCUS][] on a [research project][] funded by the [Gordon & Betty Moore Foundation][] to understand the barriers to participation that contributors, particularly those from historically underrepresented groups, face in the open-source software community. The NumFOCUS research team would like to talk to past and current (both new or long-term) contributors, project developers and maintainers  about their experiences joining and contributing to MDAnalysis.
