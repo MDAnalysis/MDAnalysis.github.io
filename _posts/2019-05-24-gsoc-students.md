@@ -6,7 +6,7 @@ title: Google Summer of Code Student 2019
 We are happy to anounce that MDAnalysis is hosting one [GSoC][gsoc]
 students for [NumFOCUS][numfocus] this year, [Ninad Bhat][ninad-gsoc] (@NinadBhat) on GitHub).
 
-# Ninad Bhat: Better Periodic Boundary Handling
+## Ninad Bhat: Better Periodic Boundary Handling ##
 
 <img
 src="https://ninadbhat.github.io/images/profile.png"

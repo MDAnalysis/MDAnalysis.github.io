@@ -8,7 +8,7 @@ students for [NumFOCUS][numfocus] this year, [Ayush
 Suhane][ayush-gsoc] (@ayushsuhane) on GitHub) and [Davide
 Cruz][davide-gsoc] (@davidercruz).
 
-# Ayush Suhane: Improve Distance Search Methods in MDAnalysis
+## Ayush Suhane: Improve Distance Search Methods in MDAnalysis ##
 
 <img
 src="https://avatars0.githubusercontent.com/u/34154224?s=400&v=4"
@@ -45,7 +45,7 @@ read fiction novels and play computer games.
 
 Ayush will describe his progress on [his blog][ayush-blog].
 
-# Davide Cruz: Implementing on-the-fly coordinate transformations
+## Davide Cruz: Implementing on-the-fly coordinate transformations ##
 
 <img
 src="https://avatars0.githubusercontent.com/u/37750297?s=400&v=4"
@@ -67,7 +67,7 @@ learn a lot about python and software development during this summer.
 Davide will describe his progress on [his blog][davide-blog].
 
 
-# Other NumFOCUS students
+## Other NumFOCUS students ##
 
 NumFOCUS is hosting 45 students this year for several of their supported and
 affiliated projects. You can find out about the other

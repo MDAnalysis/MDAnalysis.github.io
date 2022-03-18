@@ -7,7 +7,7 @@ We are happy to anounce that MDAnalysis is hosting a [GSoC][gsoc] student for
 [NumFOCUS][numfocus] this year, [Utkarsh Bansal][utkarsh-blog] (@utkbansal
 on GitHub), with his project ["Port to pytest"][utkarsh-gsoc].
 
-# Utkarsh Bansal: Port unit tests to pytest
+## Utkarsh Bansal: Port unit tests to pytest ##
 
 <img
 src="https://avatars2.githubusercontent.com/u/8345336?v=3&s=460"
@@ -29,7 +29,7 @@ and will be graduating this summer. He hopes to learn new things about python
 and testing in general this summer and is planning to continue his career as a
 software developer.
 
-# Other NumFOCUS students
+## Other NumFOCUS students ##
 
 NumFOCUS is hosting 12 students this year for several of their supported and
 affiliated projects. You can find out about the other

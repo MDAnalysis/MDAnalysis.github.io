@@ -3,7 +3,7 @@ layout: post
 title: Support for MMTF has arrived in MDAnalysis!
 ---
 
-# Macromolecular Transmission Format support
+## Macromolecular Transmission Format support ##
 
 The upcoming 0.16.0 release of MDAnalysis will have
 [support for MMTF](https://twitter.com/mmtf_spec/status/799704395046760448)!
@@ -65,7 +65,7 @@ u.atoms.write('4ake.gro')
 
 ```
 
-# Trying this out today
+## Trying this out today ##
 
 These features will all be in the upcoming 0.16.0 release of MDAnalysis, but if you can't wait for that,
 it is also possible to install the latest development version.
