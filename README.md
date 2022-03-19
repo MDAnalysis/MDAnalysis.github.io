@@ -1,11 +1,24 @@
-# MDAnalysis Web Site
+# MDAnalysis Web Site #
 
 The home page [www.mdanalysis.org](https://www.mdanalysis.org) is maintained as
 a [GitHub pages](https://pages.github.com) site. The home page is also
 accessible as [mdanalysis.github.io](https://mdanalysis.github.io).
 
+Pages are generated 
 
-## Blog [mdanalysis.org/blog](https://www.mdanalysis.org/blog)
+## General page authoring guide ##
+
+- use [GitHub-flavored Markdown](https://github.github.com/gfm/)
+- use utf-8 encoding
+- The top-level heading (h1) is set by the *title:* attribute in the
+  front matter of each page.
+- In-text headings start at h2, i.e., `## heading title ##` in
+  Markdown. There should *not be any h1 headings inside the page*.
+  
+For further notes see [Web development](#web-development) below.
+
+
+## Blog [mdanalysis.org/blog](https://www.mdanalysis.org/blog) ##
 
 Check out the repository, edit the pages under `_posts`, and push
 commits. The published pages are on the *master* branch.
@@ -36,7 +49,7 @@ not be touched, as this is only here to set the paginator.
   or after the time of the post).
 
 
-## Web development
+## Web development ##
 
 Check out the repository, edit the pages, and push commits. The
 published pages are on the *master* branch.
@@ -49,7 +62,7 @@ they will be automatically included in the sidebar. We've left the static
 "about" page is left at the top level.
 
 
-### Mark-up format: Markdown
+### Mark-up format: Markdown ###
 
 The GitHub pages can either use HTML or
 [markdown](http://daringfireball.net/projects/markdown/) as processed by
@@ -61,7 +74,7 @@ markdown --- see the
 [kramdown syntax](http://kramdown.gettalong.org/syntax.html),
 including MathJax.
 
-### Images
+### Images ###
 
 Drop images into the `public/images` directory and include them like
 
@@ -76,7 +89,7 @@ or use Markdown
 ```
 
 
-### Notes on using Jekyll
+### Notes on using Jekyll ###
 
 For links between pages to work, generate absolute links with `site.baseurl`
 liquid tag:
@@ -95,13 +108,13 @@ In particular, the sidebar `_includes/sidebar.html` is configured with
 additional links that are all stored in the config file.
 
 
-### Local testing
+### Local testing ###
 
 To locally test that your edits look ok before pushing them, install
 [Jekyll](https://help.github.com/articles/using-jekyll-with-pages/) as
 described in the docs.
 
-#### Build site locally
+#### Build site locally ####
 
 To run Jekyll in a way that matches the GitHub Pages build server, run `Jekyll`
 with `Bundler`. Use the command
@@ -118,7 +131,7 @@ documentation.
 In case the you get an error that a javascript environment is missing. Install a
 javascript environment like `nodejs` from your distribution repositories.
 
-#### Updating the github-pages plugin
+#### Updating the github-pages plugin ####
 
 If you try out new functionality or plugins locally and you get error
 messages then try to
