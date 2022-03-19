@@ -20,7 +20,7 @@ or [Python virtual environments](#python-virtual-environments) can be used to
 manage this transition, allowing you to finish existing projects with version
 0.15.0, while also enjoying the benefits provided in version 0.16.0.
 
-# Conda Environments
+## Conda Environments ##
 
 [Conda](https://conda.io/docs/index.html) is a general package manager for
 scientific applications. It is mostly used for Python packages but the system
@@ -86,7 +86,7 @@ lines also contain instructions how this file can be used with conda.
 More information about conda environments can be found in
 the [official documentation](https://conda.io/docs/using/envs.html).
 
-# Python Virtual Environments
+## Python Virtual Environments ##
 
 Like conda, virtual environments managed with virtualenv allow you to use
 different versions of python and python packages for your different project. On

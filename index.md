@@ -35,7 +35,7 @@ Also, check out the [blog]({{ site.baseurl }}/blog) or subscribe to our
 [news feed]({{ site.baseurl }}/{{site.feed.path}}) to follow development
 updates and events.
 
-### Availability
+## Availability ##
 
 MDAnalysis can be [**easily
 installed**]({{site.baseurl}}/pages/installation_quick_start/) with
@@ -51,7 +51,7 @@ and the Python Package index
 
 
 
-### Participating
+## Participating ##
 
 Ask **questions** on the [{{ site.mailinglists.discussion.name }}
 mailing list]({{ site.mailinglists.discussion.url }}) and **be part of the
@@ -73,7 +73,7 @@ mailing list]({{ site.mailinglists.developer.url }}).
 
 
 
-### Supporting
+## Supporting ##
 
 If you like MDAnalysis and want to support our mission, please
 consider making a donation to support our efforts.
