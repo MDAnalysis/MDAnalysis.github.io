@@ -25,6 +25,7 @@ can include them here* or open a pull request by [editing the file `used-by.md`]
    directly (see
    [bieniekmateusz/pymol-mdanalysis](https://github.com/bieniekmateusz/pymol-mdanalysis)
    on GitHub)
+-  [MolecularNodes](https://github.com/BradyAJohnston/MolecularNodes) plugin for the [Blender](https://www.blender.org/) rendering package; the plugin provides a convenient method for importing structural biology files, including MD trajectories, into Blender, and several nodes for working with atomic data inside of Blender's Geometry Nodes.
 
 ## Analysis tools
 
