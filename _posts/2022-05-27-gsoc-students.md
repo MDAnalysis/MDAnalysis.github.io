@@ -25,7 +25,7 @@ Add a link to your blog here!
 ## Bjarne Feddersen: Adding Energy Readers to MDAnalysis
 
 <img
-src="https://media-exp1.licdn.com/dms/image/C4D03AQHiLg970LOylQ/profile-displayphoto-shrink_800_800/0/1590149425816?e=1658966400&v=beta&t=455KVO-rbXV4YqtG7EeO4dQju3-Ar3GDMFtlpFP355I"
+src="https://bfedder.github.io/assets/images/profile_photo.jpeg"
 title="Bjarne Feddersen" alt="Bjarne Feddersen"
 style="float: left; width: 110px; height: 110px; border-radius: 20px; border: 15px solid white" />
 
