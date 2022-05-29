@@ -33,7 +33,7 @@ Bjarne is joining us to work on the [auxiliary data framework][aux-guide]. This 
 
 Bjarne is a DPhil student in [Phil Biggin's group][bigginlab] at the University of Oxford, where he uses MD simulations and other computational tools to investigate the mechanism of action of voltage-gated sodium channels. To balance his desk job he likes to spend time outdoors, and especially enjoys cycling through the green English countryside. 
 
-Bjarne is on GitHub as @BFedder. He will be reporting on his project [on his blog][bjarne-blog].
+Bjarne is on GitHub as @BFedder and on [LinkedIn][bjarne-linkedin]. He will be reporting on his project [on his blog][bjarne-blog].
 
 
 — @jbarnoud @hmacdope @ojeda-e @IAlibay @fiona-naughton @orbeckst @lilyminium (mentors)
@@ -44,3 +44,4 @@ Bjarne is on GitHub as @BFedder. He will be reporting on his project [on his blo
 [bjarne-blog]: https://bfedder.github.io
 [aux-guide]: https://userguide.mdanalysis.org/stable/formats/auxiliary.html
 [bigginlab]: https://bigginlab.web.ox.ac.uk
+[bjarne-linkedin]: https://www.linkedin.com/in/bjarne-feddersen-407184187/
