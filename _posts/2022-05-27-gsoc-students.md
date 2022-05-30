@@ -21,7 +21,7 @@ Aya is pharmaceutical sciences graduate from Ain-Shams University (Egypt) and a 
 
 You can find Aya on [GitHub](https://github.com/aya9aladdin), [Twitter](https://twitter.com/AyaSalim0909), and [Facebook](https://www.facebook.com/)
 
-This is her personal blog for documenting her summer with MDAnalysis [Blog](https://sites.google.com/pharma.asu.edu.eg/aya-gsoc/home) 
+This is Aya's personal blog for documenting her summer with MDAnalysis [Blog](https://sites.google.com/pharma.asu.edu.eg/aya-gsoc/home) 
 
 
 
