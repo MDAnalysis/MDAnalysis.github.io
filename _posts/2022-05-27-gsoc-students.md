@@ -11,15 +11,21 @@ the opportunity to undertake _two very exciting GSoC projects_!
 ## Aya Mohamed Alaa: Context-aware guessers
 
 <img
-src="Aya's Picture Here"
+src="https://user-images.githubusercontent.com/27581535/170899701-bdb01612-8764-4d61-97f8-73777f2f1d44.jpg"
 title="Aya Mohamed Alaa" alt="Aya Mohamed Alaa"
-style="float: left; width: 110px; height: 110px; border-radius: 20px; border: 15px solid white" />
+style="float: left; width: 90px; height: 110px; border-radius: 20px; border: 15px solid white"/>
 
-Write something about your project and yourself here (don't forget to link to the project page on the GSoC website)!
+MDAnalysis supports many molecular dynamics simulation files and force fields, which brings the challenge of tailoring the guessing methods to each type of format. Aya is going to work on building a context-aware guesser API [Context-aware guesser (implementing implementing PDB and Martini guessers)](https://summerofcode.withgoogle.com/programs/2022/projects/B1Y0nTh2) that can provide a way for the user to pass the context of his work conveniently through an API so that the guessing of missing attributes would be more accurate and reliable. 
 
-Add where we can find you here! (github, twitter, others)
+Aya is pharmaceutical sciences graduate from Ain-Shams University (Egypt) and a premaster student at Arab Academy for science and technology (Egypt). She is interested in working on the link between computer science and biological sciences as she believes in the importance of finding a way to look at biological questions from the computational and engineering point of view. On the weekends, Aya enjoys outdoor sports, especially football, and tennis, additionally, Aya enjoys swimming as it helps reduce the feeling of stress (Egypt's sun will force you to spend the whole day at the pool though).
 
-Add a link to your blog here!
+You can find Aya on [GitHub](https://github.com/aya9aladdin), [Twitter](https://twitter.com/AyaSalim0909), and [Facebook](https://www.facebook.com/)
+
+This is her personal blog for documenting her summer with MDAnalysis [Blog](https://sites.google.com/pharma.asu.edu.eg/aya-gsoc/home) 
+
+
+
+
 
 
 ## Bjarne Feddersen: Adding Energy Readers to MDAnalysis
