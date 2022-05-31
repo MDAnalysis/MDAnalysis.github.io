@@ -19,7 +19,7 @@ MDAnalysis supports many molecular dynamics simulation files and force fields, w
 
 Aya is pharmaceutical sciences graduate from Ain-Shams University (Egypt) and a premaster student at Arab Academy for science and technology (Egypt). She is interested in working on the link between computer science and biological sciences as she believes in the importance of finding a way to look at biological questions from the computational and engineering point of view. On the weekends, Aya enjoys outdoor sports, especially football, and tennis, additionally, Aya enjoys swimming as it helps reduce the feeling of stress (Egypt's sun will force you to spend the whole day at the pool though).
 
-You can find Aya on [GitHub](https://github.com/aya9aladdin), [Twitter](https://twitter.com/AyaSalim0909), and [Facebook](https://www.facebook.com/)
+You can find Aya on [GitHub](https://github.com/aya9aladdin), [Twitter](https://twitter.com/AyaSalim0909), and [Facebook](https://www.facebook.com/aya.m.aladdin.9/)
 
 This is Aya's personal blog for documenting her summer with MDAnalysis [Blog](https://sites.google.com/pharma.asu.edu.eg/aya-gsoc/home) 
 
