@@ -42,7 +42,7 @@ Bjarne is a DPhil student in [Phil Biggin's group][bigginlab] at the University 
 Bjarne is on GitHub as @BFedder and on [LinkedIn][bjarne-linkedin]. He will be reporting on his project [on his blog][bjarne-blog].
 
 
-— @jbarnoud @hmacdope @ojeda-e @IAlibay @fiona-naughton @orbeckst @lilyminium (mentors)
+— @jbarnoud @hmacdope @ojeda-e @IAlibay @fiona-naughton @orbeckst @lilyminium @richardjgowers (mentors)
 
 [gsoc]: https://summerofcode.withgoogle.com
 [mda-gsoc]: https://summerofcode.withgoogle.com/programs/2022/organizations/mdanalysis
