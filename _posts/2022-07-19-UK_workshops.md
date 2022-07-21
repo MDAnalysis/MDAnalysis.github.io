@@ -22,6 +22,8 @@ Thanks to this success, @micaela-matta, @degiacom and @ppxasjsm will be running 
 
 We are glad to see such a high demand for training resources and events from the molecular simulation community. We look forward to continuing to deliver these workshops in the future.
  
+ ![workshop instructors introducing MDAnalysis](/public/images/workshop_edinburgh.png)
+ {:style="max-width: 100%"}
  
- - the MDAnalysis team
+  - the MDAnalysis team
  
