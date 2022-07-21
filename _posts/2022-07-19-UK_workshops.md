@@ -1,9 +1,9 @@
 ---
  layout: post
  title: MDAnalysis + Machine Learning Workshops 
- ---
+---
  
- In collaboration with CCPBioSim, 3 MDAnalysis core devs (@ialibay, @micaela-matta, @richardjgowers) in collaboration with [@ppxasjsm](https://mey-research.org) (University of Edinburgh) and [@degiacom](https://degiacomi.org) (University of Durham) organised and ran a 2-day hybrid (in person/online) workshop titled “MDAnalysis and Machine Learning for Molecular Simulations” on June 9-10 2022, immediately following the [8th Annual CCPBioSim Conference](https://web.cvent.com/event/7f574af0-1953-4a86-ab63-6334c7705ac8/summary).
+In collaboration with CCPBioSim, 3 MDAnalysis core devs (@ialibay, @micaela-matta, @richardjgowers) together with [@ppxasjsm](https://mey-research.org) (University of Edinburgh) and [@degiacom](https://degiacomi.org) (University of Durham) organised and ran a 2-day hybrid (in person/online) workshop titled “MDAnalysis and Machine Learning for Molecular Simulations” on June 9-10 2022, immediately following the [8th Annual CCPBioSim Conference](https://web.cvent.com/event/7f574af0-1953-4a86-ab63-6334c7705ac8/summary).
  The workshop received generous funding from the [MGMS](https://www.mgms.org/WordPress/) Early Career Workshop Initiative.
 
 The topics covered included: 
@@ -22,8 +22,7 @@ Thanks to this success, @micaela-matta, @degiacom and @ppxasjsm will be running 
 
 We are glad to see such a high demand for training resources and events from the molecular simulation community. We look forward to continuing to deliver these workshops in the future.
  
- ![workshop instructors introducing MDAnalysis](/public/images/workshop_edinburgh.png)
- {:style="max-width: 100%"}
+![workshop instructors introducing MDAnalysis](/public/images/workshop_edinburgh.png)
  
-  - the MDAnalysis team
+  — the MDAnalysis team
  
