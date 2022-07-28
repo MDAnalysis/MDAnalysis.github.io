@@ -24,7 +24,7 @@ To upgrade to the latest stable release.
 conda update mdanalysis
 {% endhighlight %}
 
-To [run the test cases][run_tests] and examples, also install the unit tests (about 70 MiB
+To [run the test cases][run_tests] and examples, also install the unit tests (about 53 MiB
 in size):
 
 {% highlight bash %}
@@ -45,7 +45,7 @@ To install the latest stable release with
 pip install --upgrade MDAnalysis
 {% endhighlight %}
 
-To [run the test cases][run_tests] and examples, also install the unit tests (about 70 MiB
+To [run the test cases][run_tests] and examples, also install the unit tests (about 53 MiB
 in size):
 
 {% highlight bash %}
@@ -55,7 +55,7 @@ pip install --upgrade MDAnalysisTests
 ## More ##
 
 For more details on installation and alternative ways to install MDAnalysis see [Installing
-MDAnalysis in the {{ site.docs.userguide.name }}]({{ site.docs.userguide.url }}/installation.html).
+MDAnalysis in the {{ site.docs.userguide.name }}]({{ site.docs.userguide.url }}/stable/installation.html).
 
 If you have questions with the installation, please ask on the
 [{{site.mailinglists.discussion.name}}]({{site.mailinglists.discussion.url}})
@@ -65,4 +65,4 @@ mailing list.
 [conda]: https://conda.io/
 [installation instructions for conda]: https://conda.io/projects/conda/en/latest/user-guide/install/index.html
 [OpenMP]: https://www.openmp.org/
-[run_tests]: {{ site.docs.userguide.url }}/testing.html#running-the-test-suite
+[run_tests]: {{ site.docs.userguide.url }}/stable/installation.html#testing
