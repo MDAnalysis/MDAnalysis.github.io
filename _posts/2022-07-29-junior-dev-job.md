@@ -40,4 +40,4 @@ Application requirements
 
 **Apply by September 1st by filling out this [form](https://forms.gle/wUwUCctRnnurbt2A7).** Shortlisted candidates will be invited to a zoom interview. 
 
-If you have any questions or would like to know more about this opportunity, reach out to Dr Micaela Matta via [email](mailto:micaela.matta@kcl.ac.uk) using the subject “MDAnalysis junior developer”, or via the [MDAnalysis Discord](https://discord.gg/5jbh3EQA) - post in the #jobs channel or DM @Micaela(she/her).
+If you have any questions or would like to know more about this opportunity, reach out to Dr Micaela Matta via [email](mailto:micaela.matta@kcl.ac.uk) using the subject “MDAnalysis junior developer”, or via the [MDAnalysis Discord](https://discord.gg/5jbh3EQA) - post in the #jobs channel or DM Micaela(she/her).
