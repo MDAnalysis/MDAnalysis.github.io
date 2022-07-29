@@ -1,7 +1,7 @@
 ---
- layout: post
- title: MDAnalysis Junior Developer
- ---
+layout: post
+title: MDAnalysis Junior Developer
+---
 
 Thanks to the support of a NumFOCUS Small Developer Grant, MDAnalysis is looking to hire a junior developer for 150h (1 month FTE) at 24 USD/hour (3600 USD) to improve the content and organisation of our teaching materials.
 
