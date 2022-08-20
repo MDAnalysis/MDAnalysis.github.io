@@ -62,11 +62,11 @@ started creating your own MDAKit:
 
 ### MDAKit project template
 
-The first one is the
+Our first tool is the
 [**cookiecutter-mdakit**](https://github.com/MDAnalysis/cookiecutter-mdakit),
 a [cookiecutter](https://github.com/audreyr/cookiecutter) template
-that generates a **skeleton project** that implements our recommended best
-practices. With [`cookiecutter`
+that generates a **skeleton project** that implements our recommended
+best practices. With [`cookiecutter`
 installed](https://cookiecutter.readthedocs.io/en/latest/installation.html#install-cookiecutter),
 execute the following command inside the folder you want to create the
 skeletal repository
@@ -75,8 +75,11 @@ skeletal repository
 cookiecutter gh:MDAnalysis/cookiecutter-mdakit
 ```
 
-Follow the prompts or hit enter for the default options. Add your own
-code. 
+Follow the prompts or hit enter for the default options. 
+
+Then add your own code to the project. Add tests --- you can extend
+the example tests in the template that are suitable for
+MDAnalysis-based. Commit and push your changes.
 
 
 <small>(The MDAKit cookiecutter is based off the [Cookiecutter for
