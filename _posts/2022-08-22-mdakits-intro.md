@@ -17,7 +17,7 @@ this post.
 
 ## What is an MDAKit?
 
-An MDAKit contains code based on MDAnalysis that solves a specific
+An MDAKit is a package containing code based on MDAnalysis that solves a specific
 scientific problems or in some form enhances the MDAnalysis core
 library. An MDAKit can be written by anyone and hosted
 anywhere.
