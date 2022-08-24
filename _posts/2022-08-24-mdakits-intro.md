@@ -26,7 +26,7 @@ open-source licensed, hosted in a version control system, clear
 designation of authors/maintainers, documentation, and tests and
 continuous integration. Registered MDAKits will be *listed publicly*
 and thus be advertised to the whole MDAnalysis community. They will
-also be *continuosly tested* against the latest released version and
+also be *continuously tested* against the latest released version and
 the current development version of the core MDAnalysis library so that
 users and developers have an up-to-date view of the code health of an
 MDAKit.
@@ -76,8 +76,8 @@ cookiecutter gh:MDAnalysis/cookiecutter-mdakit
 Follow the prompts or hit enter for the default options. 
 
 Then add your own code to the project. Add tests --- you can extend
-the example tests in the template that are suitable for
-MDAnalysis-based. Commit and push your changes.
+the example tests in the template that show how to test
+MDAnalysis-based code. Commit and push your changes.
 
 
 <small>(The MDAKit cookiecutter is based off the [Cookiecutter for
@@ -105,16 +105,16 @@ The best practices that we encourage MDAKits to fulfill essentially
 amount to the majority of the contribution criteria for submissions to
 software-focused journals such as the [Journal Open Source
 Software](https://joss.theoj.org) (JOSS). We encourage MDAKits to
-consider submission to a journal such as JOSS once they meet the
+consider submission to such a journal once they meet the
 required levels of best practices. We are working towards streamlining
-the submission process.
+the submission process for JOSS.
 
 
 ## Give us feedback!
 
 We are looking for **feedback from the community**: please let us know
 via our [malinglist or discord]({{ site.baseurl }}/#participating)
-channels or via the [MDAKits issue
+or via the [MDAKits issue
 tracker](https://github.com/MDAnalysis/MDAKits/issues) what your
 thoughts are:
 
