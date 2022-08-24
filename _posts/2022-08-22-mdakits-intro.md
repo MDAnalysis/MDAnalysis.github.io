@@ -4,21 +4,19 @@ title: MDAKits
 ---
 
 As part of our [CZI EOSS 4 grant]({% post_url 2021-08-31-CZI-EOSS4 %})
-we announced the **MDAKits ecosystem**. In this post we want to make
+we announced our plans to create an **MDAKit ecosystem**. With this post we aim to make
 our plans more concrete and solicit feedback from the community.
 
-We produced a *White Paper* named **MDAKits: Supporting and promoting
+Beyond the outline provided here, the complete details of our plans can be found in our *white paper* named **MDAKits: Supporting and promoting
 the development of community packages leveraging the MDAnalysis
 library [v0.1.0]**, available as a PDF at DOI
-[10.6084/m9.figshare.20520726.v1][]
-where you can read the details that go beyond the outline provided in
-this post.
+[10.6084/m9.figshare.20520726.v1][].
 
 
 ## What is an MDAKit?
 
-An MDAKit is a package containing code based on MDAnalysis that solves a specific
-scientific problems or in some form enhances the MDAnalysis core
+MDAKits are standalone packages containing code using MDAnalysis components that solves a specific
+scientific problems or in some form enhances the functionality of MDAnalysis core
 library. An MDAKit can be written by anyone and hosted
 anywhere.
 
