@@ -92,10 +92,10 @@ and Jessica A. Nash from the [Molecular Sciences Software Institute
 
 If you want to **register your MDAKit** then create a pull request to
 add a meta data entry `metadata.yaml` to [MDAnalysis:
-MDAKits/mdakits/<YOUR MDAKIT NAME>](https://github.com/MDAnalysis/MDAKits/tree/main/mdakits)
-(where you fill also find a template to get you started). Your PR will
-be reviewed for compliance with the requirements (for right now, see the [White
-Paper][10.6084/m9.figshare.20520726.v1] for specifics). Once
+MDAKits/mdakits/*{YOUR_MDAKIT_NAME}*](https://github.com/MDAnalysis/MDAKits/tree/main/mdakits)
+(where you will also find a template to get you started). Your PR will
+be reviewed for compliance with the requirements (for right now, see the [white
+paper][10.6084/m9.figshare.20520726.v1] for specifics). Once
 registered, your MDAKit will be continuously tested.
 
 
@@ -123,7 +123,8 @@ thoughts are:
 * As a **developer**: Would you be interested in creating an MDAKit?
   What should we do to make it easy for you?
   
-
+Get in touch! MDAKits are new and we look forward to adapting the
+initial (v0.1.0!) approach based on what we hear from the community.
 
 --- @IAlibay @jbarnoud @orbeckst @richardjgowers  @fiona-naughton @lilyminium 
 
