@@ -9,7 +9,7 @@ permalink:        pretty
 title:            MDAnalysis
 name:             MDAnalysis
 tagline:          molecular simulations data analysis
-description:      A Python package for the handling and analysis of molecular simulations data.
+description:      working with data in the molecular sciences
 # long_description is not currently used by the theme
 long_description: |
                   MDAnalysis is a Python library which enables the handling and
