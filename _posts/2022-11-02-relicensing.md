@@ -3,10 +3,14 @@ layout: post
 title: Relicensing MDAnalysis
 ---
 
-**We want to change the license of MDAnalysis from the GPL v2+ to the
-more permissive LGPL v3 licenses.** Both are *open source licenses*
-but the [LGPL][] gives developers more freedom in how they license any of
-their own code that makes use of MDAnalysis.
+<img src="https://www.gnu.org/graphics/lgplv3-with-text-154x68.png"
+title="LGPLv3" alt="LGPLv3 logo" style="float: right"/>
+
+We want to **change the license of MDAnalysis** from the [GNU General
+Public License][GPLv2] (GPL v2+) to the more permissive [Lesser GNU
+Lesser Public License][LGPL] (LGPL v3+) license. Both are *open source
+licenses* but the [LGPL][] gives developers more freedom in how they
+license any of their own code that makes use of MDAnalysis.
 
 The license is the legal basis that determines how code can be copied,
 changed, and incorporated into other code. The license is the only
@@ -16,7 +20,7 @@ license you cannot use it legally. Therefore, getting the license
 right is very important.
 
 **In order to change the MDAnalysis license, we need the agreement of
-all our contributors to change from GPL v2+ to [LGPL v3][LGPL].**
+all our contributors to change from GPL to LGPL.**
 
 In this post we want to share the motivation, outline the relicensing
 process, and invite questions from the community.
@@ -92,8 +96,8 @@ make an informed decision.
 ### Consultation period
 
 For the next month, the MDAnalysis Core Developers will answer your
-questions regarding the relicensing in our public forums (mailing
-lists, discord, twitter). 
+questions regarding the relicensing in our [public forums]({% link
+index.md %}#participating) (mailing lists, discord, twitter).
 
 ### Contacting contributors
 
@@ -107,15 +111,24 @@ version".
 Once we have the necessary agreement, we will switch over the license
 of MDAnalysis.
 
-(We do not know how long this process will take. We will keep the
-community updated.)
+### Timeline
+
+* November 2022: consultation period
+* December 2022: start contacting contributors
+* 2023?: We do not know how long the process will take. Our aim is to
+change the license as quickly as possible. We will keep the community
+updated.
 
 
 ## Acknowledgments
 
 We are very grateful for the administrative and legal support from our
-fiscal sponsor, NumFOCUS. 
+fiscal sponsor, [NumFOCUS][]. 
 
 
+-- The MDAnalysis [Core Developers][]
 
-.. [LGPL]: https://www.gnu.org/licenses/lgpl-3.0.en.html
+[GPLv2]: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+[LGPL]: https://www.gnu.org/licenses/lgpl-3.0.en.html
+[NumFOCUS]: https://www.numfocus.org
+[Core Developers]: {% link about.md %}#mdanalysis-core-developers
