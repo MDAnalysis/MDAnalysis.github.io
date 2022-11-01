@@ -6,6 +6,21 @@ title: Relicensing MDAnalysis
 <img src="https://www.gnu.org/graphics/lgplv3-with-text-154x68.png"
 title="LGPLv3" alt="LGPLv3 logo" style="float: right"/>
 
+> :warning: **Disclaimer**: The MDAnalysis core team members are not
+> lawyers, as such the information provided here __does not, and is not
+> intended to, constitute legal advice__. This blog post also does not
+> represent MDAnalysis' full legal position on software licensing, it
+> purely aims to inform MDAnalysis developers and users on why
+> we believe the library should be relicensed.
+>
+> Further information on open-source software licensing can be found
+> from sources such as the [Open Source Initiative][OSI] and the
+> [Software Sustainability Insitute][SSI licensing].
+>
+> Should you have any concerns about licensing, we always strongly
+> recommend getting legal advice before making any decisions on how
+> licensing changes may affect you.
+
 We want to **change the license of MDAnalysis** from the [GNU General
 Public License][GPLv2] (GPL v2+) to the more permissive [Lesser GNU
 Lesser Public License][LGPL] (LGPL v3+) license. Both are *open source
@@ -128,6 +143,8 @@ fiscal sponsor, [NumFOCUS][].
 
 -- The MDAnalysis [Core Developers][]
 
+[OSI]: https://opensource.org/osd
+[SSI licensing]: https://www.software.ac.uk/resources/guides/choosing-open-source-licence
 [GPLv2]: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 [LGPL]: https://www.gnu.org/licenses/lgpl-3.0.en.html
 [NumFOCUS]: https://www.numfocus.org
