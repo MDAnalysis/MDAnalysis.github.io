@@ -113,14 +113,18 @@ We considered other licenses but none fulfilled our requirements.
    
 ## How will the relicensing process work?
 
-MDAnalysis has over 150 contributors. They all contributed code under
-the GPL v2+. In order to relicense, we need *all our
-contributors to agree to the license change*. 
+As of writing, MDAnalysis has over 160 contributors. All of which have
+contributed code under the terms of the GPL v2+ license. We also have
+a large user community which uses the library for many wondering scientific
+applications, including several downstream libraries.
 
-We know that this is a big change for the MDAnalysis community (and
-it's a big administrative and legal undertaking for us). We therefore
-want to give everyone an opportunity to ask questions so that you can
-make an informed decision.
+Ultimately, the final decision on relicensing [rests with code authors](#Contacting-contributors).
+However, we fully recognise that this is a big change for the MDAnalysis
+user base and the wider molecular sciences community. We are, as always,
+fully invested in ensuring that our actions reflect the needs of our
+community. We therefore want to also give everyone an opportunity to
+[ask questions about or comment on the relicensing effort](#Consultation-period)
+as part of this process.
 
 ### Consultation period
 
