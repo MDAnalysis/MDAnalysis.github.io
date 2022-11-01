@@ -21,6 +21,18 @@ title="LGPLv3" alt="LGPLv3 logo" style="float: right"/>
 > recommend getting legal advice before making any decisions on how
 > licensing changes may affect you.
 
+
+## Short summary
+
+This blog post outlines MDAnalysis' proposal to change its license
+to the [Lesser GNU Lesser Public License][LGPL] (LGPL v3+).
+
+A summary of our [reasons for the attempting this license change](#Rationale-for-changing-licenses), alongside
+upcoming actions for [community members and library contributors](#How-will-the-relicensing-process-work?) are provided.
+
+
+## Overview
+
 We want to **change the license of MDAnalysis** from the [GNU General
 Public License][GPLv2] (GPL v2+) to the more permissive [Lesser GNU
 Lesser Public License][LGPL] (LGPL v3+) license. Both are *open source
@@ -41,8 +53,10 @@ In this post we want to share the motivation, outline the relicensing
 process, and invite questions from the community.
 
 
+## Rationale for license change
 
-## Why not GPL any more?
+
+### Why not GPL any more?
 
 Since its initial release in 2008, MDAnalysis has grown from a small
 Python package used by a handful of enthusiastic graduate students and
@@ -65,7 +79,7 @@ want to clearly signal that the work on MDAnalysis itself is
 guaranteed to remain open and free.
 
 
-## Why now the LGPL?
+### Why now the LGPL?
 
 We therefore decided to start the process to **relicense MDAnalysis
 under the Lesser GNU Public License v3 (LGPL)**. This open source
