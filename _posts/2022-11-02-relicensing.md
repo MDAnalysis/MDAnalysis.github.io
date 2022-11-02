@@ -128,9 +128,24 @@ as part of this process.
 
 ### Consultation period
 
-For the next month, the MDAnalysis Core Developers will answer your
-questions regarding the relicensing in our [public forums]({% link
-index.md %}#participating) (mailing lists, discord, twitter).
+We wish to start the process by having a 28 day open consultation period.
+
+During this period we would like to encourage members of the community, both
+developers and users alike, to comment on and ask questions about the proposed
+relicensing effort. The aim is to ensure that relicensing is indeed in the
+interest of the community. We will do our best to account for any raised
+concerns before attempting to continue with the long and time-consuming
+process of relicensing.
+
+We wish to open this converstation on our [public forums]({% link
+index.md %}#participating) (mailing lists, discord, twitter). As legal matters,
+such as licensing, can sometimes be sensitive in nature, we have also set up
+an email address (licensing@mdanalysis.org) monitored soley by the MDAnalysis
+Core Developers for any questions you may wish to ask privately.
+
+_Note: whilst the consultation will only last 28 days, we will continue
+to engage with conversations on this topic for the entire length of the
+relicensing process._
 
 ### Contacting contributors
 
