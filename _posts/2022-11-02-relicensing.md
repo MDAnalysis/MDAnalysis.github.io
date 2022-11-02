@@ -140,7 +140,7 @@ process of relicensing.
 We wish to open this converstation on our [public forums]({% link
 index.md %}#participating) (mailing lists, discord, twitter). As legal matters,
 such as licensing, can sometimes be sensitive in nature, we have also set up
-an email address (licensing@mdanalysis.org) monitored soley by the MDAnalysis
+an email address (licensing@mdanalysis.org) monitored solely by the MDAnalysis
 Core Developers for any questions you may wish to ask privately.
 
 _Note: whilst the consultation will only last 28 days, we will continue
