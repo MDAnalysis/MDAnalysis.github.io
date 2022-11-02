@@ -126,46 +126,48 @@ community. We therefore want to also give everyone an opportunity to
 [ask questions about or comment on the relicensing effort](#Consultation-period)
 as part of this process.
 
-### Consultation period
 
-We wish to start the process by having a 28 day open consultation period.
+### Consultation period (Today until XXth November 2022)
+
+We will start the process with a 28 days open consultation period.
 
 During this period we would like to encourage members of the community, both
 developers and users, to comment on and ask questions about the proposed
-relicensing effort. The aim is to ensure that relicensing is indeed in the
+relicensing efforts. The aim is to ensure that relicensing is indeed in the
 interest of the community. We will do our best to account for any concerns
 raised before attempting to continue with the long and time-consuming
 process of relicensing.
 
 We wish to open this converstation on our [public forums]({% link
 index.md %}#participating) (mailing lists, discord, twitter). As legal matters,
-such as licensing, can sometimes be sensitive in nature, we have also set up
+such as licensing, can sometimes be sensitive in nature we have also set up
 an email address (licensing@mdanalysis.org) monitored solely by the MDAnalysis
-Core Developers for any questions you may wish to ask privately.
+Core Developers for any private queries which you may have.
 
 _Note: whilst the consultation will only last 28 days, we will continue
 to engage with conversations on this topic for the entire length of the
 relicensing process._
 
-### Contacting contributors
 
-After the consultation period, we will contact every contributor to
-MDAnalysis with a request to agree to changing the license from the
-current "GPL v2 or any later version" to "LGPL v3 or any later
-version".
+### Contacting contributors (XXth November onwards)
+
+After the consultation period, we will contact every code contributor to
+the core MDAnalysis library with a request to agree to changing their
+contributitions' license from the current "GPL v2 or any later version" to 
+"LGPL v3 or any later version".
+
+It is important that we hear back from as many contributors as possible. If you have
+contributed to MDAnalysis in the past but have since changed your git-linked contact
+details, we would kindly ask if you could email licensing@mdanalysis.org to let us
+know how best to contact you.
+
 
 ### License change
 
-Once we have the necessary agreement, we will switch over the license
-of MDAnalysis.
-
-### Timeline
-
-* November 2022: consultation period
-* December 2022: start contacting contributors
-* 2023?: We do not know how long the process will take. Our aim is to
-change the license as quickly as possible. We will keep the community
-updated.
+We do not know how long relicensing will take, especially as contacting
+historical contributors will likely be a very slow process. Nevertheless,
+our aim is to change the license as quickly as possible. We will keep the
+community regularly updated on our progress.
 
 
 ## Acknowledgments
