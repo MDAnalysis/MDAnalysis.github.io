@@ -131,10 +131,10 @@ as part of this process.
 We wish to start the process by having a 28 day open consultation period.
 
 During this period we would like to encourage members of the community, both
-developers and users alike, to comment on and ask questions about the proposed
+developers and users, to comment on and ask questions about the proposed
 relicensing effort. The aim is to ensure that relicensing is indeed in the
-interest of the community. We will do our best to account for any raised
-concerns before attempting to continue with the long and time-consuming
+interest of the community. We will do our best to account for any concerns
+raised before attempting to continue with the long and time-consuming
 process of relicensing.
 
 We wish to open this converstation on our [public forums]({% link
