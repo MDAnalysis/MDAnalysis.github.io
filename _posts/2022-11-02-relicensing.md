@@ -11,8 +11,10 @@ title="LGPLv3" alt="LGPLv3 logo" style="float: right"/>
 This blog post outlines MDAnalysis' proposal to change its license
 to the [Lesser GNU Public License][LGPL] (LGPL v3+).
 
-A summary of our [reasons for the attempting this license change](#Rationale-for-changing-licenses), alongside
-upcoming actions for [community members and library contributors](#How-will-the-relicensing-process-work?) are provided.
+A summary of our [reasons for proposing this license
+change](#Rationale-for-changing-licenses), alongside upcoming actions
+for [community members and library
+contributors](#How-will-the-relicensing-process-work?) are provided.
 
 
 > ⚠️ **Disclaimer**
