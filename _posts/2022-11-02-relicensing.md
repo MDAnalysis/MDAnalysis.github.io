@@ -43,7 +43,7 @@ contributing to software that they could not use themselves in the
 future.
 
 However, the GPL has also created barriers to adoption of MDAnalysis
-in that it prevented developers to make their own code available under
+in that it prevented developers from making their own code available under
 other permissive open source licenses. Ultimately, we do not want to
 tell our developers and users how to license their code but we also
 want to clearly signal that the work on MDAnalysis itself is
