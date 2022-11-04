@@ -3,10 +3,20 @@ layout: post
 title: Relicensing MDAnalysis
 ---
 
+<a href="https://www.gnu.org/licenses/lgpl-3.0.en.html">
 <img src="https://www.gnu.org/graphics/lgplv3-with-text-154x68.png"
 title="LGPLv3" alt="LGPLv3 logo" style="float: right"/>
+</a>
 
-> :warning: **Disclaimer**: The MDAnalysis core team members are not
+This blog post outlines MDAnalysis' proposal to change its license
+to the [Lesser GNU Lesser Public License][LGPL] (LGPL v3+).
+
+A summary of our [reasons for the attempting this license change](#Rationale-for-changing-licenses), alongside
+upcoming actions for [community members and library contributors](#How-will-the-relicensing-process-work?) are provided.
+
+
+> ⚠️ **Disclaimer**
+> The MDAnalysis core team members are not
 > lawyers, as such the information provided here __does not, and is not
 > intended to, constitute legal advice__. This blog post also does not
 > represent MDAnalysis' full legal position on software licensing, it
@@ -20,15 +30,6 @@ title="LGPLv3" alt="LGPLv3 logo" style="float: right"/>
 > Should you have any concerns about licensing, we always strongly
 > recommend getting legal advice before making any decisions on how
 > licensing changes may affect you.
-
-
-## Short summary
-
-This blog post outlines MDAnalysis' proposal to change its license
-to the [Lesser GNU Lesser Public License][LGPL] (LGPL v3+).
-
-A summary of our [reasons for the attempting this license change](#Rationale-for-changing-licenses), alongside
-upcoming actions for [community members and library contributors](#How-will-the-relicensing-process-work?) are provided.
 
 
 ## Overview
