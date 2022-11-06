@@ -14,8 +14,8 @@ title="LGPLv3" alt="LGPLv3 logo" style="float: right"/>
 > we believe the library should be relicensed.
 >
 > Further information on open-source software licensing can be found
-> from sources such as the [Open Source Initiative][OSI] and the
-> [Software Sustainability Insitute][SSI licensing].
+> from sources such as the [Open Source Initiative][OSI],
+> [tl;drLegal][tldr legal] and the [Software Sustainability Insitute][SSI licensing].
 >
 > Should you have any concerns about licensing, we always strongly
 > recommend getting legal advice before making any decisions on how
@@ -34,12 +34,13 @@ upcoming actions for [community members and library contributors](#How-will-the-
 ## Overview
 
 We want to **change the license of MDAnalysis** from the [GNU General
-Public License][GPLv2] (GPL v2+) to the more permissive [Lesser GNU
-Lesser Public License][LGPL] (LGPL v3+) license. Both are *open source
-licenses* but the [LGPL][] gives developers more freedom in how they
-license any of their own code that makes use of MDAnalysis.
+Public License v2 (or any later versions)][GPLv2] (GPL v2+) to the less
+restrictive [Lesser GNU Lesser Public License v3 (or any later versions)][LGPL]
+(LGPL v3+) license. Both are [_open source licenses_][OSI] but we believe that
+the [LGPL][] will give developers more freedom in how they license any of their
+own codes that makes use of MDAnalysis.
 
-The license is the legal basis that determines how code can be copied,
+The license is the legal basis that determines how code can be used, copied,
 changed, and incorporated into other code. The license is the only
 reason that one can use someone else's code --- it does not matter if
 the code is publicly available somewhere. If it does not have a
@@ -179,6 +180,7 @@ fiscal sponsor, [NumFOCUS][].
 -- The MDAnalysis [Core Developers][]
 
 [OSI]: https://opensource.org/osd
+[tldr legal]: https://tldrlegal.com/
 [SSI licensing]: https://www.software.ac.uk/resources/guides/choosing-open-source-licence
 [GPLv2]: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 [LGPL]: https://www.gnu.org/licenses/lgpl-3.0.en.html
