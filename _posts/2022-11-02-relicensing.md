@@ -43,18 +43,17 @@ restrictive [Lesser GNU Lesser Public License v3 (or any later versions)][LGPL]
 that the [LGPL][] will give developers more freedom in how they license any of
 their own codes that makes use of MDAnalysis.
 
-The license is the legal basis that determines how code can be used, copied,
-changed, and incorporated into other code. The license is the only
-reason that one can use someone else's code --- it does not matter if
-the code is publicly available somewhere. If it does not have a
-license you cannot use it legally. Therefore, getting the license
-right is very important.
+As detailed by the [Open Source Definition][OSD], licenses are core to the
+definition of open source. "Open source doesn't just mean access to the 
+source code". The license defines how code can be used, copied, changed,
+and incorporated into other code.
 
-**In order to change the MDAnalysis license, we need the agreement of
-all our contributors to change from GPL to LGPL.**
+**License changes affect how folks interact with the MDAnalysis code base
+going forward. We need the agreement of our contributors and community
+members to change from GPL to LGPL.**
 
 In this post we want to share the motivation, outline the relicensing
-process, and invite questions from the community.
+process, and invite comments / questions from the community.
 
 
 ## Rationale for license change
@@ -186,6 +185,7 @@ fiscal sponsor, [NumFOCUS][].
 [OSI]: https://opensource.org/osd
 [tldr legal]: https://tldrlegal.com/
 [SSI licensing]: https://www.software.ac.uk/resources/guides/choosing-open-source-licence
+[OSD]: https://opensource.org/osd
 [GPLv2]: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 [LGPL]: https://www.gnu.org/licenses/lgpl-3.0.en.html
 [contributors]: https://github.com/MDAnalysis/mdanalysis/blob/develop/package/AUTHORS
