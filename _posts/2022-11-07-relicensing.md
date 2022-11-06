@@ -156,6 +156,9 @@ also set up an email address (*licensing@mdanalysis.org*) monitored
 solely by the MDAnalysis Core Developers for any private queries which
 you may have.
 
+A summary of open discussions and frequently asked questions will be
+made available on the [MDAnalysis wiki][faq wiki].
+
 _Note: Whilst the consultation will only last 28 days, we will continue
 to engage with conversations on this topic for the entire length of the
 relicensing process._
@@ -197,5 +200,6 @@ fiscal sponsor, [NumFOCUS][].
 [GPLv2]: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 [LGPL]: https://www.gnu.org/licenses/lgpl-3.0.en.html
 [contributors]: https://github.com/MDAnalysis/mdanalysis/blob/develop/package/AUTHORS
+[faq wiki]: https://github.com/MDAnalysis/mdanalysis/wiki/GPLv2--to-LGPLv3--relicensing-summary-and-FAQ
 [NumFOCUS]: https://www.numfocus.org
 [Core Developers]: {% link about.md %}#mdanalysis-core-developers
