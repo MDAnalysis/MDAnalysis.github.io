@@ -39,18 +39,18 @@ contributors](#How-will-the-relicensing-process-work?) are provided.
 We want to **change the license of MDAnalysis** from the [GNU General
 Public License v2 (or any later versions)][GPLv2] (GPL v2+) to the less
 restrictive [Lesser GNU Lesser Public License v3 (or any later versions)][LGPL]
-(LGPL v3+) license. Both are [_open source licenses_][OSI] but it is our view
-that the [LGPL][] will give developers more freedom in how they license any of
-their own codes that makes use of MDAnalysis.
+(LGPL v3+) license. Both are [_open source licenses_][OSI] but it is
+our view that the [LGPL][] will give developers more freedom in how
+they license any of their own codes that makes use of MDAnalysis.
 
-As detailed by the [Open Source Definition][OSD], licenses are core to the
-definition of open source. "Open source doesn't just mean access to the 
-source code". The license defines how code can be used, copied, changed,
-and incorporated into other code.
+As detailed by the [Open Source Definition][OSD], licenses are core to
+the definition of open source. "Open source doesn't just mean access
+to the source code". The license defines how code can be used, copied,
+changed, and incorporated into other code.
 
-**License changes affect how folks interact with the MDAnalysis code base
-going forward. We need the agreement of our contributors and community
-members to change from GPL to LGPL.**
+**License changes affect how folks interact with the MDAnalysis code
+base going forward. We need the agreement of our contributors and
+community members to change from GPL to LGPL.**
 
 In this post we want to share the motivation, outline the relicensing
 process, and invite comments / questions from the community.
@@ -75,17 +75,18 @@ contributing to software under non open-source licensing.
 
 However, the GPL has also created barriers to adoption of MDAnalysis.
 It has, under our (and many other's) interpretation of the GPL license,
-prevented developers to make their own code available under non-GPL licenses.
-Ultimately, it is the MDAnalysis core team's view that we do not want to
-dictate how our developers and users should license their code, but we also
-wish to ensure that the work on the MDAnalysis library remains open and free.
+prevented developers to make their own code available under non-GPL
+licenses. Ultimately, it is the MDAnalysis core team's view that we do
+not want to dictate how our developers and users should license their
+code, but we also wish to ensure that work on the MDAnalysis library
+remains open and free.
 
 
 ### Why now the LGPL?
 
-We therefore decided to start the process to **relicense MDAnalysis
-under the Lesser GNU Public License v3 ([LGPL][])**. This open source
-license fulfills a number of important requirements for us:
+We therefore propose to undergo the process of **relicensing MDAnalysis
+under the [Lesser GNU Public License v3 (or any later versions)][LGPL]**.
+This open source license fulfills a number of important requirements for us:
 
 1. Downstream codes are able to freely import or link to MDAnalysis
    library components without impacting the license choice of the
@@ -100,25 +101,25 @@ license fulfills a number of important requirements for us:
    fall under the copyleft license requirements of the MDAnalysis
    library license.
    
-Thus, the LGPL gives people the freedom to choose any license for
-their own code that *makes use* of the MDAnalysis library as a whole
-(namely ``import MDAnalysis`` or subclassing). They can also make a
-commercial product out of it with a restrictive license (although we
-encourage open source licenses). However, one cannot just take parts
-of the MDAnalysis code and put it into another piece of code unless
-the other code is then *also* licensed under the GPL/LGPL. The LGPL
-ensures that the MDAnalysis library itself remains open and free.
+Thus, it is our view that the LGPL gives people the freedom to choose
+any license for their own code that *makes use* of the MDAnalysis library
+as a whole (namely ``import MDAnalysis`` or subclassing). This includes
+closed / commercial licenses (although we encourage the use of open
+source licenses). However, one would not be able to just take parts of
+the MDAnalysis code and put it into another piece of code unless the
+other code is then *also* licensed under a compatible copyleft license
+(i.e. GPLv3+/LGPLv3+).
 
-We considered other popular licenses but none fulfilled our
-requirements.
+We considered other popular licenses but none fulfilled our requirements.
 
    
 ## How will the relicensing process work?
 
-As of writing, MDAnalysis has [over 160 contributors][contributors]. All of which have
-contributed code under the terms of the GPL v2+ license. We also have
-a large user community which uses the library for many wonderful scientific
-applications, including several downstream libraries.
+As of writing, MDAnalysis has [over 160 contributors][contributors].
+All of which have contributed code under the terms of the GPL v2+
+license. We also have a large user community which uses the library
+for many wonderful scientific applications, including several
+downstream libraries.
 
 Ultimately, the final decision on relicensing [rests with code
 authors](#Contacting-contributors).  However, we fully recognise that
@@ -134,18 +135,19 @@ this process.
 
 We will start the process with a 28 days open consultation period.
 
-During this period we would like to encourage members of the community, both
-developers and users, to comment on and ask questions about the proposed
-relicensing efforts. The aim is to ensure that relicensing is indeed in the
-interest of the community. We will do our best to account for any concerns
-raised before attempting to continue with the long and time-consuming
-process of relicensing.
+During this period we would like to encourage members of the community,
+both developers and users, to comment on and ask questions about the
+proposed relicensing efforts. The aim is to ensure that relicensing is
+indeed in the interest of the community. We will do our best to account
+for any concerns raised before attempting to continue with the long and
+time-consuming process of relicensing.
 
 We wish to open this converstation on our [public forums]({% link
-index.md %}#participating) (mailing lists, discord, twitter). As legal matters,
-such as licensing, can sometimes be sensitive in nature we have also set up
-an email address (*licensing@mdanalysis.org*) monitored solely by the MDAnalysis
-Core Developers for any private queries which you may have.
+index.md %}#participating) (mailing lists, discord, twitter). As legal
+matters, such as licensing, can sometimes be sensitive in nature we have
+also set up an email address (*licensing@mdanalysis.org*) monitored
+solely by the MDAnalysis Core Developers for any private queries which
+you may have.
 
 _Note: Whilst the consultation will only last 28 days, we will continue
 to engage with conversations on this topic for the entire length of the
@@ -156,13 +158,13 @@ relicensing process._
 
 After the consultation period, we will contact every code contributor to
 the core MDAnalysis library with a request to agree to changing their
-contributitions' license from the current "GPL v2 or any later version" to 
-"LGPL v3 or any later version".
+contributitions' license from the current "GPL v2 or any later version"
+to "LGPL v3 or any later version".
 
-It is important that we hear back from as many contributors as possible. If you have
-contributed to MDAnalysis in the past but have since changed your git-linked contact
-details, we would kindly ask if you could email *licensing@mdanalysis.org* to let us
-know how best to contact you.
+It is important that we hear back from as many contributors as possible.
+If you have contributed to MDAnalysis in the past but have since changed
+your git-linked contact details, we would kindly ask if you could email
+*licensing@mdanalysis.org* to let us know how best to contact you.
 
 
 ### License change
