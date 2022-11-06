@@ -71,15 +71,14 @@ it, contribute to it, and build on it. We chose the GNU Public License
 which requires anyone using MDAnalysis in their own code to also adopt
 the GPL for their code, contributors could feel that any time and work
 that they donated and invested into MDAnalysis would not end up
-contributing to software that they could not use themselves in the
-future.
+contributing to software under non open-source licensing.
 
-However, the GPL has also created barriers to adoption of MDAnalysis
-in that it prevented developers to make their own code available under
-other permissive open source licenses. Ultimately, we do not want to
-tell our developers and users how to license their code but we also
-want to clearly signal that the work on MDAnalysis itself is
-guaranteed to remain open and free.
+However, the GPL has also created barriers to adoption of MDAnalysis.
+It has, under our (and many other's) interpretation of the GPL license,
+prevented developers to make their own code available under non-GPL licenses.
+Ultimately, it is the MDAnalysis core team's view that we do not want to
+dictate how our developers and users should license their code, but we also
+wish to ensure that the work on the MDAnalysis library remains open and free.
 
 
 ### Why now the LGPL?
