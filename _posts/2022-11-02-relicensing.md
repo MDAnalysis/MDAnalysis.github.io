@@ -81,6 +81,12 @@ not want to dictate how our developers and users should license their
 code, but we also wish to ensure that work on the MDAnalysis library
 remains open and free.
 
+Doing so would ultimately benefit the MDAnalysis community, increasing
+the number of codes which can use MDAnalysis, and enabling users in
+corporate environments to use the library with more certainty. The
+reduced licensing complexity also paves the way for our proposed
+[MDAKit ecosystem]({{ site.baseurl }}{% post_url 2022-08-24-mdakits-intro %}).
+
 
 ### Why now the LGPL?
 
