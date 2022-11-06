@@ -149,7 +149,7 @@ indeed in the interest of the community. We will do our best to account
 for any concerns raised before attempting to continue with the long and
 time-consuming process of relicensing.
 
-We wish to open this converstation on our [public forums]({% link
+We wish to open this conversation on our [public forums]({% link
 index.md %}#participating) (mailing lists, discord, twitter). As legal
 matters such as licensing can sometimes be sensitive in nature we have
 also set up an email address (*licensing@mdanalysis.org*) monitored
