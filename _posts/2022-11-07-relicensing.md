@@ -137,7 +137,7 @@ or comment on the relicensing effort](#Consultation-period) as part of
 this process.
 
 
-### Consultation period (Today until XXth December 2022)
+### Consultation period (7th November until 5th December 2022)
 
 We will start the process with a 28 days open consultation period.
 
@@ -160,7 +160,7 @@ to engage with conversations on this topic for the entire length of the
 relicensing process._
 
 
-### Contacting contributors (XXth December onwards)
+### Contacting contributors (6th December onwards)
 
 After the consultation period, we will contact every code contributor to
 the core MDAnalysis library with a request to agree to changing their
