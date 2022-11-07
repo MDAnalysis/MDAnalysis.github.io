@@ -67,12 +67,12 @@ postdocs to a mature library that is used by thousands of researchers
 in the molecular sciences. The MDAnalysis library was published under
 an open source license from the start so that anyone could freely use
 it, contribute to it, and build on it. We chose the GNU Public License
-version 2+ for this purpose. Thanks to the "copy-left" portion of the
-GPL v2+, which requires anyone using MDAnalysis in their own code to
-also adopt a compatible version of the GPL for their code, contributors
-could feel that any time and work that they donated and invested into
-MDAnalysis would not end up contributing to software under non
-open-source licensing.
+version 2+ (GPL v2+) for this purpose. The GPL v2+ has a "copy-left"
+clause that requires anyone using MDAnalysis in their own code to
+also adopt a compatible version of the GPL for their code. This means
+that code contributors could feel that any time and work that they
+invested into MDAnalysis would not end up contributing to software
+without open-source licensing.
 
 However, the GPL v2+ has also created barriers to adoption of MDAnalysis.
 It has, under our (and many other's) interpretation of the GPL v2+
@@ -82,11 +82,11 @@ we do not want to dictate how our developers and users should license
 their code, but we also wish to ensure that work on the MDAnalysis
 library remains open and free.
 
-Changing to a less restrictive license would benefit the MDAnalysis community, increasing
-the number of codes which can use MDAnalysis, and enabling users in
-corporate environments to use the library with more certainty. The
-reduced licensing complexity also paves the way for our proposed
-[MDAKit ecosystem]({{ site.baseurl }}{% post_url 2022-08-24-mdakits-intro %}).
+Changing to a less restrictive license would benefit the MDAnalysis
+community, increasing the number of codes which can use MDAnalysis,
+and enabling users in corporate environments to use the library with more
+certainty. The reduced licensing complexity also paves the way for our
+proposed [MDAKit ecosystem]({{ site.baseurl }}{% post_url 2022-08-24-mdakits-intro %}).
 
 
 ### Why now the LGPL v3+?
