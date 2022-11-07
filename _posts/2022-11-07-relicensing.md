@@ -140,7 +140,8 @@ this process.
 
 ### Consultation period (7th November until 5th December 2022)
 
-We will start the process with a 28 days open consultation period.
+We will start the process with an open consultation period lasting
+28 days from 7th November to 5th December 2022.
 
 During this period we encourage members of the community,
 both developers and users, to comment on and ask questions about the
@@ -149,7 +150,7 @@ indeed in the interest of the community. We will do our best to account
 for any concerns raised before attempting to continue with the long and
 time-consuming process of relicensing.
 
-We wish to open this converstation on our [public forums]({% link
+We wish to open this conversation on our [public forums]({% link
 index.md %}#participating) (mailing lists, discord, twitter). As legal
 matters such as licensing can sometimes be sensitive in nature we have
 also set up an email address (*licensing@mdanalysis.org*) monitored
