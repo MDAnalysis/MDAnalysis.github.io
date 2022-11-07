@@ -140,7 +140,7 @@ this process.
 
 ### Consultation period (7th November until 5th December 2022)
 
-We will start the process with a 28 days open consultation period.
+We will start the process with an open consultation period lasting 28 days from 7th November to 5th December 2022 (anywhere on earth).
 
 During this period we encourage members of the community,
 both developers and users, to comment on and ask questions about the
