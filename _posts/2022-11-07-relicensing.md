@@ -116,7 +116,8 @@ the MDAnalysis code and add it into another codebase unless this
 other code is then *also* licensed under a compatible copyleft license
 (e.g. GPLv3+/LGPLv3+).
 
-We considered other popular licenses but none fulfilled the requirements listed above.
+We considered other popular licenses but none fulfilled the requirements
+listed above.
 
    
 ## How will the relicensing process work?
@@ -128,7 +129,7 @@ for many wonderful scientific applications, including several
 downstream libraries.
 
 Ultimately, the final decision on relicensing [rests with code
-authors](#Contacting-contributors).  However, we fully recognise that
+authors](#Contacting-contributors). However, we fully recognise that
 this is a big change for the MDAnalysis user base and the wider
 molecular sciences community. As always, we are fully invested in
 ensuring that our actions reflect the needs of our community. We
