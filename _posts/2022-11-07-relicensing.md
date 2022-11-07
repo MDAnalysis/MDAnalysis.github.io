@@ -169,7 +169,7 @@ relicensing process._
 
 After the consultation period, we will contact every code contributor to
 the core MDAnalysis library with a request to agree to changing their
-contributitions' license from the current "GPL v2 or any later version"
+contribution's license from the current "GPL v2 or any later version"
 to "LGPL v3 or any later version".
 
 It is important that we hear back from as many contributors as possible.
