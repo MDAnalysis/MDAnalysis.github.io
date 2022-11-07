@@ -75,12 +75,11 @@ invested into MDAnalysis would not end up contributing to software
 without open-source licensing.
 
 However, the GPL v2+ has also created barriers to adoption of MDAnalysis.
-It has, under our (and many other's) interpretation of the GPL v2+
-license, prevented developers from making their own code available under
-non-GPL licenses. Ultimately, it is the MDAnalysis core team's view that
-we do not want to dictate how our developers and users should license
-their code, but we also wish to ensure that work on the MDAnalysis
-library remains open and free.
+Under many interpretations, ours included, this prevents developers
+who use MDAnalysis from making their own code available under non-GPL
+licenses. It is the MDAnalysis core team's view that we **do not** want
+to dictate how our developers and users should license their code, but we
+**do** wish that work on the MDAnalysis library remains open and free.
 
 Changing to a less restrictive license would benefit the MDAnalysis
 community, increasing the number of codes which can use MDAnalysis,
