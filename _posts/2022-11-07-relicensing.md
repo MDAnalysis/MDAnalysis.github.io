@@ -9,7 +9,7 @@ title="LGPLv3" alt="LGPLv3 logo" style="float: right"/>
 </a>
 
 This blog post outlines MDAnalysis' proposal to change its license
-to the [Lesser GNU Public License][LGPL] (LGPL v3+).
+to the [GNU Lesser General Public License][LGPL] (LGPL v3+).
 
 A summary of our [reasons for proposing this license
 change](#rationale-for-license-change), alongside upcoming actions
@@ -66,7 +66,7 @@ Python package used by a handful of enthusiastic graduate students and
 postdocs to a mature library that is used by thousands of researchers
 in the molecular sciences. The MDAnalysis library was published under
 an open source license from the start so that anyone could freely use
-it, contribute to it, and build on it. We chose the GNU Public License
+it, contribute to it, and build on it. We chose the GNU General Public License
 version 2+ (GPL v2+) for this purpose. The GPL v2+ has a "copy-left"
 clause that requires anyone using MDAnalysis in their own code to
 also adopt a compatible version of the GPL for their code. This means
