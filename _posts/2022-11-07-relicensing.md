@@ -12,9 +12,9 @@ This blog post outlines MDAnalysis' proposal to change its license
 to the [Lesser GNU Public License][LGPL] (LGPL v3+).
 
 A summary of our [reasons for proposing this license
-change](#Rationale-for-changing-licenses), alongside upcoming actions
+change](#rationale-for-license-change), alongside upcoming actions
 for [community members and library
-contributors](#How-will-the-relicensing-process-work?) are provided.
+contributors](#how-will-the-relicensing-process-work) are provided.
 
 
 > ⚠️ **Disclaimer**
@@ -129,12 +129,12 @@ for many wonderful scientific applications, including several
 downstream libraries.
 
 Ultimately, the final decision on relicensing [rests with code
-authors](#Contacting-contributors). However, we fully recognise that
+authors](#contacting-contributors-6th-december-onwards). However, we fully recognise that
 this is a big change for the MDAnalysis user base and the wider
 molecular sciences community. As always, we are fully invested in
 ensuring that our actions reflect the needs of our community. We
 therefore want to give everyone an opportunity to [ask questions about
-or comment on the relicensing effort](#Consultation-period) as part of
+or comment on the relicensing effort](#consultation-period-7th-november-until-5th-december-2022) as part of
 this process.
 
 
