@@ -38,7 +38,7 @@ contributors](#how-will-the-relicensing-process-work) are provided.
 
 We want to **change the license of MDAnalysis** from the [GNU General
 Public License v2 (or any later versions)][GPLv2] (GPL v2+) to the less
-restrictive [Lesser GNU Lesser Public License v3 (or any later versions)][LGPL]
+restrictive [GNU Lesser General Public License v3 (or any later versions)][LGPL]
 (LGPL v3+) license. Both are [_open source licenses_][OSI] but it is
 our view that the [LGPL v3+][LGPL] will give developers more freedom
 in how they license any of their own codes that make use of MDAnalysis.
@@ -91,7 +91,7 @@ proposed [MDAKit ecosystem]({{ site.baseurl }}{% post_url 2022-08-24-mdakits-int
 ### Why now the LGPL v3+?
 
 We therefore propose to undergo the process of **relicensing MDAnalysis
-under the [Lesser GNU Public License v3 (or any later versions)][LGPL]**.
+under the [GNU Lesser General Public License v3 (or any later versions)][LGPL]**.
 This open source license fulfills a number of important requirements for us:
 
 1. Downstream codes are able to freely import or link to MDAnalysis
