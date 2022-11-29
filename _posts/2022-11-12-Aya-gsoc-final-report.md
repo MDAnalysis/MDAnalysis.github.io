@@ -10,18 +10,18 @@ title: GSoC Report: "Adding a new guessing methodology for molecular systems pro
 In [MDAnalysis]molecular topologies come from various file formats and forcefields, each of which has its own rules regarding formatting and molecular properties representation. Not all molecular properties are read from files, either because they are simply not provided in the file or because they can be inferred from the nature of the molecular system or forcefield definitions (e.g., for atomic systems masses can be inferred from atom type, while in the Martini forcefield there are only three definitions of masses for its known beads). MDAnalysis had different guessing methods that can infer missing molecular properties for the [Universe]'s topology (eg. [guessing Atom type, mass, and bond]). But those methods suffered from the main issue of being so generic, which causes the guessing output to be inaccurate and not reliable for some topologies as not all topologies speak the same language. That’s why we need to develop tailored context-aware guesser classes to serve different molecular dynamics worlds, in addition, we need to establish a way to pass this context to the [Universe], so the [Universe] uses the appropriate guesser class in guessing topology attributes. 
 
 So, my [GSoC project] was about developing a new guessing API, that will make the guessing process more convenient and context-specific, plus developing the first two context-specific guessers, which are [PDB] Guesser and             [Martini forcefield] Guesser.
----
+
 
 1. Developing the new guesser API
 
-The first thing to start with was the development of the new guesser API and the building of the DefaultGuesser class(which will represent a generic guesser that has the current general-purpose guesser methods). But before that, we must first remove all the usage of the old guessing methods inside the MDAnalysis library to prepare for the new stage of having context-aware guessers and the guessing API. But this can lead to unexpected wrong behavior if we did without being careful. Guessing mainly takes place inside 16 topology parsers (`types` and `mass` guessing specifically), and not all guessing inside those parsers happens the same way. So, to not break the current behavior, we must be careful with removing all the guessing from those parsers and yet keep the same default output while developing the new API.
+The first thing to start with was the development of the new guesser API and the building of the [DefaultGuesser] class (which will represent a generic guesser that has the current general-purpose guesser methods). But before that, we must first remove all the usage of the old guessing methods inside the MDAnalysis library to prepare for the new stage of having context-aware guessers and the guessing API. But this can lead to unexpected wrong behavior if we did without being careful. Guessing mainly takes place inside 16 topology parsers (`types` and `mass` guessing specifically), and not all guessing inside those parsers happens the same way. So, to not break the current behavior, we must be careful with removing all the guessing from those parsers and yet keep the same default output while developing the new API.
 
-N.B.: it was important to have all the work on developing both the guesser API and the DefaultGuesser plus changing parsers behavior to be done inside one pull request here: [#3753]; because all thoses changes have a direct effect on each others, for example, the optmization of the new guesser API must be measured by how far the topology output changed after removing all the guessings processes from parsers. This was the most challenging thing about the project; as all these required changes are interconnected and must be done simultaneously, to see how it reflects and interacts with each other, and accordingly we can achieve optimum implementation. So, working on this PR was not sequential as mentioned below, it was rather a continuous back-and-forth update on all touched parts of the library.
+N.B.: it was important to have all the work on developing both the guesser API and the [DefaultGuesser] plus changing parsers behavior to be done inside one pull request here: [#3753]; because all thoses changes have a direct effect on each others, for example, the optmization of the new guesser API must be measured by how far the topology output changed after removing all the guessings processes from parsers. This was the most challenging thing about the project; as all these required changes are interconnected and must be done simultaneously, to see how it reflects and interacts with each other, and accordingly we can achieve optimization. So, working on this PR was not sequential as mentioned below, it was rather a continuous back-and-forth update on all touched parts of the library.
 
 # 1- Removing types and mass guessing from Topology Parsers ([commit 0cbc497]) 
 First, I navigated through all parsers to see where and how types and mass guessing take place. The below table shows the behavior of types and masses guessing inside parsers.
 ![Guessing inside Parsers](public/images/final_report_aya/parsers_guessing.png)
-As we see, not all parsers use the same attribute in guessing masses. The DefaultGuesser guesses masses by first looking for the elements attribute and if not available, it looks for the types attribute, this behavior preserves the default behavior of all parsers except the ones that guess masses from names. Parsers that guess masses from types are [FHIAIMSParser], [TXYZParser], and [XYZParser]. For both FHIAIMSParser and XYZParser `element` attributes are provided, and luckily it is just a copy of the `names` attribute, so the default behavior of these parsers is not affected. For TXYZParser, I added a feature of publishing Elements attribute to its topology output in case all read names are valid elements ([merged PR #3836]).
+As we see, not all parsers use the same attribute in guessing masses. The [DefaultGuesser] guesses masses by first looking for the elements attribute and if not available, it looks for the types attribute, this behavior preserves the default behavior of all parsers except the ones that guess masses from names. Parsers that guess masses from types are [FHIAIMSParser], [TXYZParser], and [XYZParser]. For both FHIAIMSParser and XYZParser `element` attributes are provided, and luckily it is just a copy of the `names` attribute, so the default behavior of these parsers is not affected. For TXYZParser, I added a feature of publishing Elements attribute to its topology output in case all read names are valid elements ([merged PR #3836]).
 
 2. Developing the `guess_topologyAttributes` API
 As described in issue [# 3704], the new guesser API will have the tasks of guessing and adding new topology attributes to the [Universe]. The user only passes the context (eg. `default`, `pdb`, `martini`) and the attributes of interest to be guessed, either through the `to_guess` or `force_guess` parameters and the API does the rest. Since I was writing my proposal, I was keen to develop the guesser API with this high level of abstraction and make guessing attributes easy and straightforward to the user without bothering about which method should be called and which attribute(s) is used as a reference in guessing other attributes, so all this work is handled inside the API and the Guesser class. The `guess_topologyAttributes` make the following processes:
@@ -58,14 +58,14 @@ u.guess_TopologyAttributes(context='default', to_guess=['masses', 'types'])
 ```
 More explanation is found in the user guide here: [guess_topologyAttributes], [Guessing]
 
-3. DefaultGuesser class
+3. [DefaultGuesser] class
 The `DefaultGuesser` class holds the same old guessing methods but with modifying them to be compatible with the new guess_topologyAttrsibutes API. Moreover, I added a new feature to type guessing method so that it now can guess types from masses if names are not available ([commit 348f62d])
 
 4. Testing the old parser behavior is preserved
 The `to_guess` parameters of the [Universe] have a default value of (`types`, `masses`) to maintain the default behavior of the parsers. To make sure of not breaking old behavior, I added three tests in the parser's base.py module to check three things: 1- types and masses are guessed as expected in all [Universe]s created with the parsers after removing guessing from them 2- The values of the guessed types with the `guess_topologyAttributes` API are the same as those from the old behavior. 3- The values of the guessed masses with the `guess_topologyAttributes` API are the same as those from the old behavior. Once those three tests are passed, then it's safe to say that we are not breaking the default behavior of the code ([commit af84927]).
 
 I also discovered a bug in Topology's methods gussed_attributes and read_attributes  while working on developing the guesser API and fixed it ([merged PR # 3779])
----
+
 
 ## Working on PDBGuesser
 
@@ -90,24 +90,24 @@ Based on these rules, I developed the `guess_types` method for PDBGuesser [pr #3
 Mass guessing is the same as generic mass guessing methods, I just added a more detailed message about how many successful guessings happened and how many failed, in addition to which atom type/element the guesser failed to guess mass to.
 
 PDBGuesser is still under discussion, so some of the current implementations may be updated in the future.
----
+
 
 ## Future work
 I’m currently working on the PDBGuesser and plan to implement the MartiniGuesser after the GSoC period. Completing those context-aware guessers is not just important for having more tailored guessers, but also crucial for testing how the new guesser methodology is flexible and can work fine with different types of Guessers classes that will be implemented in the future.
 
----
+
 ## Lessons learned
 GSoC was my first software internship, and I feel lucky that I got the chance to participate in such a wonderful program under the MDAnalysis organization, where everyone is supportive and friendly. I have learned about contributing to the open-source community, and the value of being a part of it. I also learned more about software engineering principles and how to better estimate the time and effort needed for your work. Additionally, I learned how to set priorities in developing new features, and the importance of test-driven software development. Finally, I learned how to effectively communicate and represent my work, and the importance of clean code and well-documented steps.
 
 I’m happy with my experience with MDAnalysis and looking forward to increasing my contribution to the library, especially in the guessing and topology parts which I gained lots of experience at.
----
+
 ## Acknowledgements
 I'd like to thank all my mentors for their effort and valubale lesson they gave to me through the program period, and I'm 
 specially gratful for @jbarnoud (Jonathan Barnoud) for his endless guidance and patience through every step in the project.
 
 -- @aya9aladdin
 
----
+
 [MDAnalysis]: https://www.mdanalysis.org/
 [guessing Atom type, mass, and bond]: https://userguide.mdanalysis.org/stable/formats/guessing.html
 [GSoC project]: https://summerofcode.withgoogle.com/programs/2022/projects/B1Y0nTh2
@@ -120,6 +120,7 @@ specially gratful for @jbarnoud (Jonathan Barnoud) for his endless guidance and 
 [Guessing]: https://aya9aladdin.github.io/UserGuide/formats/guessing.html
 [chemical component dictionary (CCD)]: https://www.wwpdb.org/data/ccd
 [Universe]: https://userguide.mdanalysis.org/stable/universe.html
+[DefaultGuesser]: https://aya9aladdin.github.io/UserGuide/formats/guessers/default_guesser.html#default-guesser
 
 [#3753]: https://github.com/MDAnalysis/mdanalysis/pull/3753
 [commit 0cbc497]: https://github.com/MDAnalysis/mdanalysis/pull/3753/commits/0cbc4971bae924bd4d030022e5ff06faeb8c0aa6
