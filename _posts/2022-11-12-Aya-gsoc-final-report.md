@@ -12,31 +12,31 @@ In [MDAnalysis]molecular topologies come from various file formats and forcefiel
 So, my [GSoC project] was about developing a new guessing API, that will make the guessing process more convenient and context-specific, plus developing the first two context-specific guessers, which are [PDB] Guesser and             [Martini forcefield] Guesser.
 
 
-1. Developing the new guesser API
+### 1- Developing the new guesser API
 
 The first thing to start with was the development of the new guesser API and the building of the [DefaultGuesser] class (which will represent a generic guesser that has the current general-purpose guesser methods). But before that, we must first remove all the usage of the old guessing methods inside the MDAnalysis library to prepare for the new stage of having context-aware guessers and the guessing API. But this can lead to unexpected wrong behavior if we did without being careful. Guessing mainly takes place inside 16 topology parsers (`types` and `mass` guessing specifically), and not all guessing inside those parsers happens the same way. So, to not break the current behavior, we must be careful with removing all the guessing from those parsers and yet keep the same default output while developing the new API.
 
 N.B.: it was important to have all the work on developing both the guesser API and the [DefaultGuesser] plus changing parsers behavior to be done inside one pull request here: [#3753]; because all thoses changes have a direct effect on each others, for example, the optmization of the new guesser API must be measured by how far the topology output changed after removing all the guessings processes from parsers. This was the most challenging thing about the project; as all these required changes are interconnected and must be done simultaneously, to see how it reflects and interacts with each other, and accordingly we can achieve optimization. So, working on this PR was not sequential as mentioned below, it was rather a continuous back-and-forth update on all touched parts of the library.
 
-# 1- Removing types and mass guessing from Topology Parsers ([commit 0cbc497]) 
+#### - Removing types and mass guessing from Topology Parsers ([commit 0cbc497]) 
 First, I navigated through all parsers to see where and how types and mass guessing take place. The below table shows the behavior of types and masses guessing inside parsers.
 ![Guessing inside Parsers](public/images/final_report_aya/parsers_guessing.png)
 As we see, not all parsers use the same attribute in guessing masses. The [DefaultGuesser] guesses masses by first looking for the elements attribute and if not available, it looks for the types attribute, this behavior preserves the default behavior of all parsers except the ones that guess masses from names. Parsers that guess masses from types are [FHIAIMSParser], [TXYZParser], and [XYZParser]. For both FHIAIMSParser and XYZParser `element` attributes are provided, and luckily it is just a copy of the `names` attribute, so the default behavior of these parsers is not affected. For TXYZParser, I added a feature of publishing Elements attribute to its topology output in case all read names are valid elements ([merged PR #3836]).
 
-2. Developing the `guess_topologyAttributes` API
-As described in issue [# 3704], the new guesser API will have the tasks of guessing and adding new topology attributes to the [Universe]. The user only passes the context (eg. `default`, `pdb`, `martini`) and the attributes of interest to be guessed, either through the `to_guess` or `force_guess` parameters and the API does the rest. Since I was writing my proposal, I was keen to develop the guesser API with this high level of abstraction and make guessing attributes easy and straightforward to the user without bothering about which method should be called and which attribute(s) is used as a reference in guessing other attributes, so all this work is handled inside the API and the Guesser class. The `guess_topologyAttributes` make the following processes:
+#### - Developing the `guess_topologyAttributes` API
+As described in issue [# 3704], the new guesser API will have the tasks of guessing and adding new topology attributes to the [Universe]. The user only passes the context (eg. "default", "pdb", "martini") and the attributes of interest to be guessed, either through the `to_guess` or `force_guess` parameters and the API does the rest. Since I was writing my proposal, I was keen to develop the guesser API with this high level of abstraction and make guessing attributes easy and straightforward to the user without bothering about which method should be called and which attribute(s) is used as a reference in guessing other attributes, so all this work is handled inside the API and the guessers classes. The `guess_topologyAttributes()` make the following processes:
 
-- gets the appropriate Guesser class that matches the passed context.
+a- gets the appropriate Guesser class that matches the passed context.
 
-- checks if the Guesser class support guessing the attributes passed to the`to_guess` and/or `force_guess` parameters.
+b- checks if the Guesser class support guessing the attributes passed to the`to_guess` and/or `force_guess` parameters.
 
-- check if any attribute passed to the `to_guess` parameter already exists in the topology attributes of the [Universe]. If so, warn the user that only empty values will be filled for this attribute, if any exists and in case the user wishes to override all the attribute values, he must pass it to the `force_guess` parameter instead of the `to_guess` one.
+c- check if any attribute passed to the `to_guess` parameter already exists in the topology attributes of the [Universe]. If so, warn the user that only empty values will be filled for this attribute, if any exists and in case the user wishes to override all the attribute values, he must pass it to the `force_guess` parameter instead of the `to_guess` one.
 
-- guessing attributes is handled by the guess_attrs method, which is declared inside the parent guesser class GuesserBase. It manages partial and complete guessing of attributes and calls the appropriate guesser method for each attribute.
+d- guessing attributes is handled by the `guess_attrs method()`, which is declared inside the parent guesser class GuesserBase. It manages partial and complete guessing of attributes and calls the appropriate guesser method for each attribute.
 
-- each attribute guesser method searches for the reference attribute to begin guessing from it, and if not found in the [Universe], it calls the `guess_topologyAttributes`  to try guessing this reference attribute.
+e- each attribute guesser method searches for the reference attribute to begin guessing from it, and if not found in the [Universe], it calls the `guess_topologyAttributes`  to try guessing this reference attribute.
 
-- after guessing the attribute, the API adds it to the [Universe] with the help of `add_topologyAttr` or `_add_topology_objects` [Universe]’s methods
+f- after guessing the attribute, the API adds it to the [Universe] with the help of `add_topologyAttr` or `_add_topology_objects` [Universe]’s methods
 
 Example of using the `guess_topologyAttributes` at [Universe] initiation:
 
@@ -46,7 +46,7 @@ Example of using the `guess_topologyAttributes` at [Universe] initiation:
      import MDAnalysis as mda
      from MDAnalysisTests.datafiles import two_water_gro
  
-     u = mda.Universe(two_water_gro, context = 'default', to_guess=['bonds'])
+     u = mda.Universe(two_water_gro, context='default', to_guess=['bonds'])
 ```
 
 Example of using the `guess_topologyAttributes` directly:
@@ -58,22 +58,29 @@ u.guess_TopologyAttributes(context='default', to_guess=['masses', 'types'])
 ```
 More explanation is found in the user guide here: [guess_topologyAttributes], [Guessing]
 
-3. [DefaultGuesser] class
+#### - [DefaultGuesser] class
 The `DefaultGuesser` class holds the same old guessing methods but with modifying them to be compatible with the new guess_topologyAttrsibutes API. Moreover, I added a new feature to type guessing method so that it now can guess types from masses if names are not available ([commit 348f62d])
 
-4. Testing the old parser behavior is preserved
-The `to_guess` parameters of the [Universe] have a default value of (`types`, `masses`) to maintain the default behavior of the parsers. To make sure of not breaking old behavior, I added three tests in the parser's base.py module to check three things: 1- types and masses are guessed as expected in all [Universe]s created with the parsers after removing guessing from them 2- The values of the guessed types with the `guess_topologyAttributes` API are the same as those from the old behavior. 3- The values of the guessed masses with the `guess_topologyAttributes` API are the same as those from the old behavior. Once those three tests are passed, then it's safe to say that we are not breaking the default behavior of the code ([commit af84927]).
+#### - Testing the old parser behavior is preserved
+The `to_guess` parameters of the [Universe] have a default value of `("types", "masses")` to maintain the default behavior of the parsers. To make sure of not breaking old behavior, I added three tests in the parser's base.py module to check three things: 
 
-I also discovered a bug in Topology's methods gussed_attributes and read_attributes  while working on developing the guesser API and fixed it ([merged PR # 3779])
+a- types and masses are guessed as expected in all [Universe]'s created with the parsers after removing guessing from them.
+
+b- The values of the guessed types with the `guess_topologyAttributes` API are the same as those from the old behavior. 
+
+c- The values of the guessed masses with the `guess_topologyAttributes` API are the same as those from the old behavior. 
+Once those three tests are passed, then it's safe to say that we are not breaking the default behavior of the code ([commit af84927]).
+
+I also discovered a bug in Topology's methods `gussed_attributes()` and `read_attributes()`  while working on developing the guesser API and fixed it ([merged PR # 3779])
 
 
-## Working on PDBGuesser
+### 2- Working on PDBGuesser
 
 Currently, I’m working on developing the PDBGuesser [issue #3856]. The generic guessing methods can’t deal optimally with PDB files, which makes guessing processes slow and not reliable for pdb-generated topologies. So, if we had a PDB-aware guesser, this process could improve significantly, especially that PDB has a huge archive called the [chemical component dictionary (CCD)], which describes every single residue that exists in the PDB database (its atom names, atom elements, bonds, bond orders, charges, aromaticity, etc.), plus that PDB has a well-formatted structure, that makes it easy to infer topology properties from it. I’m working on developing guesser methods for elements, masses, bonds, and aromaticity.
 
-1. Elements guessing
+#### a. Elements guessing
 PDB has a well-defined format for names, from which we can get the atomic symbol easily.
-Atom names are found in columns 13-16. The first two characters represent the atom symbol, and if the symbol consists of one character, then the first character is blank. At the third character comes the remoteness indicator code for amino acid residues `[A, B, G, D, E, Z, H]`. Then the last character is a branching factor if needed.
+Atom names are found in columns 13-16. The first two characters represent the atom symbol, and if the symbol consists of one character, then the first character is blank. At the third character comes the remoteness indicator code for amino acid residues `['A', 'B', 'G', 'D', 'E', 'Z', 'H']`. Then the last character is a branching factor if needed.
 
 The above rules are the standard rules but there are some exceptions to them:
 - If the first character is blank and the second character is not recognized as an atomic symbol, we check if the third character contains "H", "C", "N", "O", "P" or "S", then it is considered the atomic symbol.
@@ -86,7 +93,7 @@ The above rules are the standard rules but there are some exceptions to them:
 
 Based on these rules, I developed the `guess_types` method for PDBGuesser [pr #3866].
 
-2. Masses 
+#### b. Masses 
 Mass guessing is the same as generic mass guessing methods, I just added a more detailed message about how many successful guessings happened and how many failed, in addition to which atom type/element the guesser failed to guess mass to.
 
 PDBGuesser is still under discussion, so some of the current implementations may be updated in the future.
