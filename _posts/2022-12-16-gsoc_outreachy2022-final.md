@@ -6,7 +6,7 @@ title: "GSoC / Outreachy 2022 wrap-up"
 
 
 This year MDAnalysis participated in two programs with wonderful contributors from around the globe. 
-We continued our participation in [Google Summer of Code][gsoc] for another year and also participated in [Outreachy][outreachy]! for the first time. 
+We continued our participation in [Google Summer of Code][gsoc] for another year and also participated in [Outreachy][outreachy] for the first time. 
 Huge thanks to these organisations for supporting MDAnalysis and the students.
 
 <p>
@@ -22,10 +22,11 @@ Our two outstanding GSoC contributors [Aya Mohamed Alaa][project-aya] (@aya9alad
 
 You can read more about their projects and packages in their blog posts:
 
-* Aya :  
-* Bjarne: 
+* Aya: **ADD LINK (PR #260)**
+* Bjarne: [GSoC 2022 - Adding Energy Readers to MDAnalysis][blog-bjarne]
 
-—  GSOC Mentors @jbarnoud @hmacdope @ojeda-e @IAlibay @fiona-naughton @orbeckst @lilyminium @richardjgowers
+
+— GSOC Mentors @jbarnoud @hmacdope @ojeda-e @IAlibay @fiona-naughton @orbeckst @lilyminium @richardjgowers
 
 <p>
 <img
@@ -36,12 +37,12 @@ style="float: right; width: 12em; " />
 
 ## Outreachy 
 
-** Outreachy People fill in the details **
+Uma Kadam (@umak1106) did the very first [MDAnalysis Outreachy Internship][outreachy-may2022-cohort] with her project *Improve MDAnalysis by implementing type hinting*.
 
-* Uma:
+* Uma: **ADD LINK (PR #262)**
 
 
-- Outreachy Mentors @jbarnoud @micaela-matta @richardjgowers
+— Outreachy Mentors @jbarnoud @micaela-matta @richardjgowers
 
 ## Summary
 
@@ -54,3 +55,5 @@ We have immensely enjoyed working with Aya, Bjarne and Uma and look forward to s
 [gsoc-projects]: https://summerofcode.withgoogle.com/programs/2022/organizations/mdanalysis
 [project-aya]: https://summerofcode.withgoogle.com/programs/2022/projects/B1Y0nTh2
 [project-bjarne]: https://summerofcode.withgoogle.com/programs/2022/projects/wbLbZmGk
+[outreachy-may2022-cohort]: https://www.outreachy.org/alums/2022-05/
+[blog-bjarne]: {{ site.baseurl }}{% post_url 2022-11-20-bjarne_gsoc %}
