@@ -26,17 +26,17 @@ As we see, not all parsers use the same attribute in guessing masses. The [Defau
 #### - Developing the `guess_topologyAttributes` API
 As described in issue [# 3704], the new guesser API will have the tasks of guessing and adding new topology attributes to the [Universe]. The user only passes the context (eg. "default", "pdb", "martini") and the attributes of interest to be guessed, either through the `to_guess` or `force_guess` parameters and the API does the rest. Since I was writing my proposal, I was keen to develop the guesser API with this high level of abstraction and make guessing attributes easy and straightforward to the user without bothering about which method should be called and which attribute(s) is used as a reference in guessing other attributes, so all this work is handled inside the API and the guessers classes. The `guess_topologyAttributes()` make the following processes:
 
-a- gets the appropriate Guesser class that matches the passed context.
+1. gets the appropriate Guesser class that matches the passed context.
 
-b- checks if the Guesser class support guessing the attributes passed to the`to_guess` and/or `force_guess` parameters.
+2. checks if the Guesser class support guessing the attributes passed to the`to_guess` and/or `force_guess` parameters.
 
-c- check if any attribute passed to the `to_guess` parameter already exists in the topology attributes of the [Universe]. If so, warn the user that only empty values will be filled for this attribute, if any exists and in case the user wishes to override all the attribute values, he must pass it to the `force_guess` parameter instead of the `to_guess` one.
+3. check if any attribute passed to the `to_guess` parameter already exists in the topology attributes of the [Universe]. If so, warn the user that only empty values will be filled for this attribute, if any exists and in case the user wishes to override all the attribute values, he must pass it to the `force_guess` parameter instead of the `to_guess` one.
 
-d- guessing attributes is handled by the `guess_attrs method()`, which is declared inside the parent guesser class GuesserBase. It manages partial and complete guessing of attributes and calls the appropriate guesser method for each attribute.
+4. guessing attributes is handled by the `guess_attrs method()`, which is declared inside the parent guesser class GuesserBase. It manages partial and complete guessing of attributes and calls the appropriate guesser method for each attribute.
 
-e- each attribute guesser method searches for the reference attribute to begin guessing from it, and if not found in the [Universe], it calls the `guess_topologyAttributes`  to try guessing this reference attribute.
+5. each attribute guesser method searches for the reference attribute to begin guessing from it, and if not found in the [Universe], it calls the `guess_topologyAttributes`  to try guessing this reference attribute.
 
-f- after guessing the attribute, the API adds it to the [Universe] with the help of `add_topologyAttr` or `_add_topology_objects` [Universe]’s methods
+6. after guessing the attribute, the API adds it to the [Universe] with the help of `add_topologyAttr` or `_add_topology_objects` [Universe]’s methods
 
 Example of using the `guess_topologyAttributes` at [Universe] initiation:
 
@@ -74,11 +74,11 @@ The `DefaultGuesser` class holds the same old guessing methods but with modifyin
 #### - Testing the old parser behavior is preserved
 The `to_guess` parameters of the [Universe] have a default value of `("types", "masses")` to maintain the default behavior of the parsers. To make sure of not breaking old behavior, I added three tests in the parser's base.py module to check three things: 
 
-a- types and masses are guessed as expected in all [Universe]'s created with the parsers after removing guessing from them.
+1. types and masses are guessed as expected in all [Universe]'s created with the parsers after removing guessing from them.
 
-b- The values of the guessed types with the `guess_topologyAttributes` API are the same as those from the old behavior. 
+2. The values of the guessed types with the `guess_topologyAttributes` API are the same as those from the old behavior. 
 
-c- The values of the guessed masses with the `guess_topologyAttributes` API are the same as those from the old behavior. 
+3. The values of the guessed masses with the `guess_topologyAttributes` API are the same as those from the old behavior. 
 Once those three tests are passed, then it's safe to say that we are not breaking the default behavior of the code ([commit af84927]).
 
 I also discovered a bug in Topology's methods `gussed_attributes()` and `read_attributes()`  while working on developing the guesser API and fixed it ([merged PR # 3779])
