@@ -122,6 +122,8 @@ I’m happy with my experience with MDAnalysis and looking forward to increasing
 I'd like to thank all my mentors for their effort and valubale lesson they gave to me through the program period, and I'm 
 specially gratful for @jbarnoud (Jonathan Barnoud) for his endless guidance and patience through every step in the project.
 
+For more information about the details of my journey with GSoC throught the summer you can check my personal blog post [Here].
+
 -- @aya9aladdin
 
 
@@ -138,6 +140,7 @@ specially gratful for @jbarnoud (Jonathan Barnoud) for his endless guidance and 
 [chemical component dictionary (CCD)]: https://www.wwpdb.org/data/ccd
 [Universe]: https://userguide.mdanalysis.org/stable/universe.html
 [DefaultGuesser]: https://aya9aladdin.github.io/UserGuide/formats/guessers/default_guesser.html#default-guesser
+[Here]: https://sites.google.com/pharma.asu.edu.eg/aya-gsoc/home
 
 [#3753]: https://github.com/MDAnalysis/mdanalysis/pull/3753
 [commit 0cbc497]: https://github.com/MDAnalysis/mdanalysis/pull/3753/commits/0cbc4971bae924bd4d030022e5ff06faeb8c0aa6
