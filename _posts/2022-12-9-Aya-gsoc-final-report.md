@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GSoC Report: "Adding a new guessing methodology for molecular systems properties in MDAnalysis"
+title: "GSoC Report: Adding a new guessing methodology for molecular systems properties in MDAnalysis"
 ---
 
 
