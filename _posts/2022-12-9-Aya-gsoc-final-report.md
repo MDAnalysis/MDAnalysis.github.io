@@ -20,7 +20,9 @@ N.B.: it was important to have all the work on developing both the guesser API a
 
 #### - Removing types and mass guessing from Topology Parsers ([commit 0cbc497]) 
 First, I navigated through all parsers to see where and how types and mass guessing take place. The below table shows the behavior of types and masses guessing inside parsers.
-![Guessing inside Parsers](public/images/final_report_aya/parsers_guessing.png)
+
+![Guessing inside Parsers]({{ site.baseurl }}{{ site.images }}/final_report_aya/parsers_guessing.png)
+
 As we see, not all parsers use the same attribute in guessing masses. The [DefaultGuesser] guesses masses by first looking for the elements attribute and if not available, it looks for the types attribute, this behavior preserves the default behavior of all parsers except the ones that guess masses from names. Parsers that guess masses from types are [FHIAIMSParser], [TXYZParser], and [XYZParser]. For both FHIAIMSParser and XYZParser `element` attributes are provided, and luckily it is just a copy of the `names` attribute, so the default behavior of these parsers is not affected. For TXYZParser, I added a feature of publishing Elements attribute to its topology output in case all read names are valid elements ([merged PR #3836]).
 
 #### - Developing the `guess_topologyAttributes` API
@@ -43,10 +45,10 @@ Example of using the `guess_topologyAttributes` at [Universe] initiation:
 ```python
 # to guess bonds for a [Universe]:
  
- import MDAnalysis as mda
- from MDAnalysisTests.datafiles import two_water_gro
+import MDAnalysis as mda
+from MDAnalysisTests.datafiles import two_water_gro
  
- u = mda.Universe(two_water_gro, context='default', to_guess=['bonds'])
+u = mda.Universe(two_water_gro, context='default', to_guess=['bonds'])
 ```
 
 Example of using the `guess_topologyAttributes` directly:
@@ -61,10 +63,10 @@ Example of passing empty `to_guess` list to `guess_topologyAttributes` so no gue
 ```python
 # silencing masses and types guessing at universe creation::
  
- import MDAnalysis as mda
- from MDAnalysisTests.datafiles import two_water_gro
+import MDAnalysis as mda
+from MDAnalysisTests.datafiles import two_water_gro
  
- u = mda.Universe(two_water_gro, to_guess=())
+u = mda.Universe(two_water_gro, to_guess=())
 ```
 More explanation is found in the user guide here: [guess_topologyAttributes], [Guessing]
 
@@ -95,7 +97,7 @@ Atom names are found in columns 13-16. The first two characters represent the at
 The above rules are the standard rules but there are some exceptions to them:
 - If the first character is blank and the second character is not recognized as an atomic symbol, we check if the third character contains "H", "C", "N", "O", "P" or "S", then it is considered the atomic symbol.
 
-- If the first character is a digit, ”, ’, or  *, then the second character is the atomic symbol.
+- If the first character is a digit, `”`, `’`, or  `*`, then the second character is the atomic symbol.
 
 - If the first character in 'H' and the residues are a standard amino acid, nucleic acid, or known hetero groups (found in pdb_tables.py), then the atom element is 'H'.
 
@@ -119,7 +121,7 @@ GSoC was my first software internship, and I feel lucky that I got the chance to
 I’m happy with my experience with MDAnalysis and looking forward to increasing my contribution to the library, especially in the guessing and topology parts which I gained lots of experience at.
 
 ## Acknowledgements
-I'd like to thank all my mentors for their effort and valubale lesson they gave to me through the program period, and I'm 
+I'd like to thank all my mentors for their effort and valuable lessons they gave to me through the program period, and I'm 
 specially gratful for @jbarnoud (Jonathan Barnoud) for his endless guidance and patience through every step in the project.
 
 For more information about the details of my journey with GSoC throught the summer you can check my personal blog post [Here].
