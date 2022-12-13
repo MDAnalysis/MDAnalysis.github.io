@@ -3,7 +3,7 @@ layout: post
 title: Outreachy Report - 2022 Improve MDAnalysis by implementing type hinting
 ---
 ## About Me
-I am Uma Kadam , a Computer Science and Engineering undergraduate at Indian Institute Of Information Technology Guwahati. My interests primararily lie in exploring ML & AI which is evident from my research internship experience on NLP . Participating in numerous hackathons, some of which I won, allows me to explore new technologies and domains in computer science. My involvement with Outreachy provided me with a first-hand introduction to Open Source and set me on the path to a successful career in technology.
+I am Uma Kadam , a Computer Science and Engineering undergraduate at Indian Institute Of Information Technology Guwahati. My interests primarily lie in exploring ML & AI which is evident from my research internship experience on NLP . Participating in numerous hackathons, some of which I won, allowed me to explore new technologies and domains in computer science. My involvement with Outreachy provided me with a first-hand introduction to Open Source and set me on the path to a successful career in technology.
 
 [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://in.linkedin.com/in/uma-kadam-7885341b0)
 &nbsp;
@@ -12,12 +12,12 @@ I am Uma Kadam , a Computer Science and Engineering undergraduate at Indian Inst
 
 ## Outreachy
 
-[Outreachy](https://www.outreachy.org/) is a 12+ week internship program where contributors work with an open-source organization under the guidance of mentors. Providing opportunities to work with participating organizations, Outreachy supports people from underrepresented groups in tech. Providing mentorship to build technical skills and establishing an inclusive community that has no room for systematic bias or discrimination, it aims to help minority members pave the way into the tech industry.
+[Outreachy](https://www.outreachy.org/) is a 12+ week internship program where contributors work with an open-source organization under the guidance of experienced mentors. By providing opportunities to work with participating organizations, Outreachy supports people from underrepresented groups in technological sector. Providing mentorship to build technical skills and establishing an inclusive community that has no room for systematic bias or discrimination, it aims to help minority members pave the way into the tech industry.
 
 ## Motivation 
 
 The object-oriented Python library MDAnalysis analyzes trajectory data derived from molecular dynamics (MD) simulations in many popular formats.
-Python's dynamic nature enables us to develop with speed, flexibility, and ease of use, but if you are not careful, you can result in short-term expedience at the expense of long-term maintainability as a result of the dynamic nature of Python.
+Python's dynamic nature enables us to develop with speed, flexibility, and ease of use but if you are not careful, you may trade short-term expedience for long-term lack of maintainability because of the dynamic nature of Python. Type hints are implemented with the help of [typing](https://docs.python.org/3/library/typing.html) module.
 
 While type hints and type annotations do hint towards or indicate the appropriate types they do not enforce them. By utilizing typecheckers such as [mypy](http://mypy-lang.org/), I made sure that the code is performing what it should regarding the types passed around between functions, and the annotated function signatures only boosted the readability of the code as well as improved communication within it.
 
@@ -38,7 +38,7 @@ While type hints and type annotations do hint towards or indicate the appropriat
 
 * **Addition of Mypy requirements to CI pipeline**: [#3705](https://github.com/MDAnalysis/mdanalysis/pull/3705/files)
 
-    Addition of mypy to github actions workflow provided us the ability to run a mypy check on every new pull request made and to raise appropriate warnings whenever the type hints provided were incorrect or errorneous. Added customizations like running mypy checks only on more prioritized modules and so on . The type checking in CI was made to be blocking wherever required.
+    Addition of mypy to github actions workflow provided us the ability to run a mypy check on every new pull request made and to raise appropriate warnings whenever the type hints provided were incorrect or erroneous. Added customizations like running mypy checks only on more prioritized modules and so on . The type checking in CI was made to be blocking wherever required.
     
 * **Providing Type Hints for lib module and annotations for init file**: [#3823](https://github.com/MDAnalysis/mdanalysis/pull/3823/files) [#3729](https://github.com/MDAnalysis/mdanalysis/pull/3729/files) 
     
