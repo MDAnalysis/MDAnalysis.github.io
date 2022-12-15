@@ -22,7 +22,7 @@ Our two outstanding GSoC contributors [Aya Mohamed Alaa][project-aya] (@aya9alad
 
 You can read more about their projects and packages in their blog posts:
 
-* Aya: **ADD LINK (PR #260)**
+* Aya: [GSOC 2022 - Adding a new guessing methodology for molecular systems properties in MDAnalysis][blog-aya]
 * Bjarne: [GSoC 2022 - Adding Energy Readers to MDAnalysis][blog-bjarne]
 
 
@@ -39,7 +39,7 @@ style="float: right; width: 12em; " />
 
 Uma Kadam (@umak1106) did the very first [MDAnalysis Outreachy Internship][outreachy-may2022-cohort] with her project *Improve MDAnalysis by implementing type hinting*.
 
-* Uma: **ADD LINK (PR #262)**
+* Uma: [Outreachy 2022 - Improve MDAnalysis by implementing type hinting][blog-uma]
 
 
 — Outreachy Mentors @jbarnoud @micaela-matta @richardjgowers
@@ -56,4 +56,8 @@ We have immensely enjoyed working with Aya, Bjarne and Uma and look forward to s
 [project-aya]: https://summerofcode.withgoogle.com/programs/2022/projects/B1Y0nTh2
 [project-bjarne]: https://summerofcode.withgoogle.com/programs/2022/projects/wbLbZmGk
 [outreachy-may2022-cohort]: https://www.outreachy.org/alums/2022-05/
+[blog-aya]: {{ site.baseurl }}{% post_url 2022-12-9-Aya-gsoc-final-report %}
 [blog-bjarne]: {{ site.baseurl }}{% post_url 2022-11-20-bjarne_gsoc %}
+[blog-uma]: {{ site.baseurl }}{% post_url 2022-12-15-uma_outreachy %}
+
+
