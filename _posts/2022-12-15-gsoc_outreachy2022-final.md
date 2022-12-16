@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GSoC / Outreachy 2022 wrap-up"
+date: 2022-12-15 23:00:00
 ---
 
 
