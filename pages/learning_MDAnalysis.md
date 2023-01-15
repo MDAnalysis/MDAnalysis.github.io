@@ -132,3 +132,14 @@ MDAnalysis**, show more advanced ways to **hack MDAnalysis** and outline
 	allowfullscreen class="video"></iframe>
 </div>
 
+
+#### Comp Chem 2021 Session: Using MDAnalysis for structural work, before and after simulation
+
+@mnmelo's talk at [Comp Chem 2021](http://www.compchem.uff.br/) provides
+an introduction to **MDAnalysis**, object oriented interface and 
+compatibility of each interface, RMSD Analysis and Modularization. 
+
+<div class="js-video">
+	<iframe src="https://www.youtube.com/watch?v=blu2x8c6VjI" frameborder="0"
+	allowfullscreen class="video"></iframe>
+</div>
