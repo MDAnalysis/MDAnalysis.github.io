@@ -103,6 +103,17 @@ simulations](http://conference.scipy.org/proceedings/scipy2016/oliver_beckstein.
 which adds detail to the concepts outlined in this talk.
 
 
+#### Comp Chem 2021 Session: Using MDAnalysis for structural work, before and after simulation
+
+@mnmelo's talk at [Comp Chem 2021](http://www.compchem.uff.br/) provides
+an introduction to **MDAnalysis**, it's uses, object oriented interface and 
+compatibility of each interface, RMSD Analysis and Modularization. 
+
+<div class="js-video">
+	<iframe src="https://www.youtube.com/watch?v=blu2x8c6VjI" frameborder="0"
+	allowfullscreen class="video"></iframe>
+</div>
+
 
 ### Intermediate ###
 
@@ -129,17 +140,5 @@ MDAnalysis**, show more advanced ways to **hack MDAnalysis** and outline
 
 <div class="js-video">
 	<iframe src="https://www.youtube.com/embed/1Wot83DSt4E" frameborder="0"
-	allowfullscreen class="video"></iframe>
-</div>
-
-
-#### Comp Chem 2021 Session: Using MDAnalysis for structural work, before and after simulation
-
-@mnmelo's talk at [Comp Chem 2021](http://www.compchem.uff.br/) provides
-an introduction to **MDAnalysis**, object oriented interface and 
-compatibility of each interface, RMSD Analysis and Modularization. 
-
-<div class="js-video">
-	<iframe src="https://www.youtube.com/watch?v=blu2x8c6VjI" frameborder="0"
 	allowfullscreen class="video"></iframe>
 </div>
