@@ -70,6 +70,9 @@ mailinglists:
   developer: 
     name:         developer
     url:          https://groups.google.com/group/mdnalysis-devel
+  gsoc:
+    name:         MDAnalysis GSoC list
+    url:          https://groups.google.com/a/mdanalysis.org/g/gsoc
 twitter:
   name:           mdanalysis
   url:            https://twitter.com/mdanalysis
