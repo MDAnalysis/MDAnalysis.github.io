@@ -19,6 +19,7 @@ free from harassment.
 - [Acknowledgment](#acknowledgment)
 
 <!-- markdown-toc end -->
+
 ## MDAnalysis Code of Conduct and Community Guidelines
 
 MDAnalysis is an engaged and respectful community made up of people from all
@@ -116,6 +117,12 @@ at our [*user-mailing-list*](mailto:mdnalysis-discussions@googlegroups.com).
    and telling someone that you are sorry is act of empathy that doesn’t
    automatically imply an admission of guilt.
 
+## Diversity, Equity, and Inclusion Statement
+
+MDAnalysis strives to ensure a welcoming, inclusive space for all. As a [*NumFOCUS*](https://numfocus.org/) sponsored project, we fully support their [*Diversity & Inclusion in Scientific Computing*](https://numfocus.org/programs/diversity-inclusion) (DISC) mission and abide by their Diversity Statement:
+
+> *"NumFOCUS welcomes and encourages participation in our community by people of all backgrounds and identities. We are committed to promoting and sustaining a culture that values mutual respect, tolerance, and learning, and we work together as a community to help each other live out these values."*
+
 ## Reporting
 
 If someone makes you or any other contributor feel unsafe or unwelcome, please
@@ -150,7 +157,6 @@ enacted, we will contact the original reporter and any other affected parties
 and explain the proposed resolution. We will ask if this resolution is
 acceptable and note feedback for the record. We are, however, not required to act
 on this feedback.
-
 
 ## Acknowledgment
 
