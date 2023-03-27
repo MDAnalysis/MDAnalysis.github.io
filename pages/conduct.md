@@ -121,7 +121,7 @@ at our [*user-mailing-list*](mailto:mdnalysis-discussions@googlegroups.com).
 
 MDAnalysis strives to ensure a welcoming, inclusive space for all. As a [*NumFOCUS*](https://numfocus.org/) sponsored project, we fully support their [*Diversity & Inclusion in Scientific Computing*](https://numfocus.org/programs/diversity-inclusion) (DISC) mission and abide by their Diversity Statement:
 
-> *NumFOCUS welcomes and encourages participation in our community by people of all backgrounds and identities. We are committed to promoting and sustaining a culture that values mutual respect, tolerance, and learning, and we work together as a community to help each other live out these values.*
+> *"NumFOCUS welcomes and encourages participation in our community by people of all backgrounds and identities. We are committed to promoting and sustaining a culture that values mutual respect, tolerance, and learning, and we work together as a community to help each other live out these values."*
 
 ## Reporting
 
