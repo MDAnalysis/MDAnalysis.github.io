@@ -31,7 +31,7 @@ Add where we can find you here! (github, twitter, others)
 
 Add a link to your blog here!
 
-- @hmacdope @orionarcher @yuxuanzhuang @RMeli @orbeckst @richardjgowers @IAlibay @jennaswa (mentors and org admins)
+— @hmacdope @orionarcher @yuxuanzhuang @RMeli @orbeckst @richardjgowers @IAlibay @jennaswa (mentors and org admins)
 
 [gsoc]: https://summerofcode.withgoogle.com
 [mda-gsoc]: https://summerofcode.withgoogle.com/programs/2023/organizations/mdanalysis
