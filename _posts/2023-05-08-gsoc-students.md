@@ -31,7 +31,7 @@ Egor will hopefully graduate this year fom the PhD program of the Univesrity of 
 
 You can find Egor on [github](https://github.com/marinegor) and [twitter](https://twitter.com/egor__marin), if necessary.
 
-— @hmacdope @orionarcher @yuxuanzhuang @RMeli @orbeckst @richardjgowers @IAlibay @jennaswa (mentors and org admins)
+— @hmacdope @orionarcher @yuxuanzhuang @RMeli @orbeckst @richardjgowers @ianmkenney @IAlibay @jennaswa (mentors and org admins)
 
 [gsoc]: https://summerofcode.withgoogle.com
 [mda-gsoc]: https://summerofcode.withgoogle.com/programs/2023/organizations/mdanalysis
