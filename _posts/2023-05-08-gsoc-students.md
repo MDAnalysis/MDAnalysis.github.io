@@ -3,7 +3,7 @@ layout: post
 title: Google Summer of Code Students 2023
 ---
 
-We are happy to announce that MDAnalysis is hosting two [GSoC][gsoc] students this year - @xhgchen and @marinegor. MDAnalysis has been accepted as its own [organization with GSoC][mda-gsoc] for the fourth year running, and we are grateful to Google for granting us the opportunity to get started on _two_ very exciting GSoC projects!
+We are happy to announce that MDAnalysis is hosting two [GSoC][gsoc] students this year - [@xhgchen](https://github.com/xhgchen) and [@marinegor](https://github.com/marinegor). MDAnalysis has been accepted as its own [organization with GSoC][mda-gsoc] for the fourth year running, and we are grateful to Google for granting us the opportunity to get started on _two_ very exciting GSoC projects!
 
 ## Xu Hong Chen: Add calculations for self-diffusivity and viscosity
 
