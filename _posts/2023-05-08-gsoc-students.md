@@ -16,7 +16,7 @@ Transport properties are values defining mass, momentum, heat, or charge transfe
 
 Xu Hong is an incoming computer science student at the University of British Columbia and a biochemistry graduate from the University of Alberta. He has 2 years of experience in molecular dynamics from his research on the molecular mechanism of Hsp90 in the [Spyracopoulos Lab](https://lspy.biochem.ualberta.ca/index.php). He is interested in scientific software, high-performance computing, computational research, and open-source software. To rest and relax, Xu Hong enjoys playing piano and listening to Chopin, Schubert, and Bach.
 
-Xu Hong is on GitHub as [@xhgchen](https://github.com/xhgchen) and on LinkedIn as [Xu Hong Chen](https://www.linkedin.com/in/xu-hong-chen/).
+Xu Hong is on GitHub as [@xhgchen](https://github.com/xhgchen) and on LinkedIn as [Xu Hong Chen](https://www.linkedin.com/in/xu-hong-chen/). He will be sharing his experience on [his blog](https://xhgchen.github.io/).
 
 ## Egor Marin: Implementation of parallel analysis in MDAnalysis
 
