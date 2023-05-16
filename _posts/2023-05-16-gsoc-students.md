@@ -29,7 +29,7 @@ Even though MDAnalysis (since 2.0) allows for serialization of almost all fundam
 
 Egor will hopefully graduate this year fom the PhD program of the University of Groningen (Netherlands). His main expertise lies in structural biology, as can be seen by his [work](https://scholar.google.com/citations?user=FJbv9XcAAAAJ) during his bachelor's and master's. Apart from that, he does a lot of computer administration work, and enjoys occasional bouldering and snowboarding.
 
-You can find Egor on [github](https://github.com/marinegor) and [twitter](https://twitter.com/egor__marin). You can follow Egor's GSoC work throughout the summer on [his blog](https://marinegor.github.io/).
+You can find Egor on [GitHub](https://github.com/marinegor) and [Twitter](https://twitter.com/egor__marin). You can follow Egor's GSoC work throughout the summer on [his blog](https://marinegor.github.io/).
 
 — @hmacdope @orionarcher @yuxuanzhuang @RMeli @orbeckst @richardjgowers @ianmkenney @IAlibay @jennaswa (mentors and org admins)
 
