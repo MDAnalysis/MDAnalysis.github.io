@@ -27,9 +27,9 @@ style="float: left; width: 110px; height: 110px; border-radius: 20px; border: 15
 
 Even though MDAnalysis (since 2.0) allows for serialization of almost all fundamental components, it still lacks a seamless way to run analysis of trajectories in a parallel fashion. For his [GSoC project](https://summerofcode.withgoogle.com/programs/2023/projects/cOTjpLid), Egor will be implementing a parallel-ready backend for MDAnalysis, hoping that it will increase the speed and accessibility of large-scale molecular dynamics analysis.
 
-Egor will hopefully graduate this year fom the PhD program of the Univesrity of Groningen (Netherlands). His main expertise lies in structural biology, as can be seen by his [work](https://scholar.google.com/citations?user=FJbv9XcAAAAJ) during his bachelor's and master's. Apart from that, he does a lot of computer administration work, and enjoys occasional bouldering and snowboarding.
+Egor will hopefully graduate this year fom the PhD program of the University of Groningen (Netherlands). His main expertise lies in structural biology, as can be seen by his [work](https://scholar.google.com/citations?user=FJbv9XcAAAAJ) during his bachelor's and master's. Apart from that, he does a lot of computer administration work, and enjoys occasional bouldering and snowboarding.
 
-You can find Egor on [github](https://github.com/marinegor) and [twitter](https://twitter.com/egor__marin), if necessary.
+You can find Egor on [github](https://github.com/marinegor) and [twitter](https://twitter.com/egor__marin). You can follow Egor's GSoC work throughout the summer on [his blog](https://marinegor.github.io/).
 
 — @hmacdope @orionarcher @yuxuanzhuang @RMeli @orbeckst @richardjgowers @ianmkenney @IAlibay @jennaswa (mentors and org admins)
 
