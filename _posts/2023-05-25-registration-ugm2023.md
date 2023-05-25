@@ -8,7 +8,7 @@ src="https://github.com/MDAnalysis/branding/blob/main/logos/banners/mdanalysis-b
 title="MDAnalysis UGM Banner" alt="MDAnalysis UGM Banner"
 style="float: left; height: 8em; " />
 
-We are excited to announce that [registration][eventbrite] is now open for MDAnalysis’s inaugural user group meeting (UGM)! The UGM will bring together users of the MDAnalysis from different communities. Our goal is to foster an opportunity for interdisciplinary researchers and developers across biomolecular simulations, soft matter, biophysics and more to connect. The in-person meeting will be held September 27-29, 2023 in the [Faculty of Science of the University of Lisbon][uniL] Auditorium in Building C6 (Building C6, Faculdade de Ciências da, Universidade de Lisboa, Campo Grande, 1749-016 Lisboa).
+We are excited to announce that [registration][eventbrite] is now open for MDAnalysis’s inaugural user group meeting (UGM)! The UGM will bring together users of the MDAnalysis package from different communities. Our goal is to foster an opportunity for interdisciplinary researchers and developers across biomolecular simulations, soft matter, biophysics and more to connect. The in-person meeting will be held September 27-29, 2023 in the [Faculty of Science of the University of Lisbon][uniL] Auditorium in Building C6 (Building C6, Faculdade de Ciências da, Universidade de Lisboa, Campo Grande, 1749-016 Lisboa).
 
 MDAnalysis strives to be a diverse and welcoming community for all. While the event will be free to attend, a limited number of bursaries are available to enable attendance for those facing financial barriers. If you would like to apply, please follow the prompts on the registration form to **submit your bursary application by June 23, 2023**. 
 
