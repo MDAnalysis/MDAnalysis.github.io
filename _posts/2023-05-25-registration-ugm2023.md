@@ -4,7 +4,7 @@ title: Registration open for MDAnalysis UGM 2023
 ---
 
 <img
-src="https://github.com/MDAnalysis/branding/blob/main/logos/banners/mdanalysis-banner-UGM-white-1280x144.png"
+src="/public/images/ugm.jpeg"
 title="MDAnalysis UGM Banner" alt="MDAnalysis UGM Banner"
 style="float: left; height: 8em; " />
 
