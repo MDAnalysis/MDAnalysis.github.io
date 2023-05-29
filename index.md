@@ -49,8 +49,6 @@ All **source code** is available under the
 and the Python Package index
 [pypi.org/project/MDAnalysis](https://pypi.org/project/MDAnalysis).
 
-
-
 ## Participating ##
 
 Ask **questions** on the [{{ site.mailinglists.discussion.name }}
@@ -59,7 +57,6 @@ conversation**. You can also join the [{{ site.discord.name }}
 Discord Server]({{ site.discord.url }})  to talk with other users and
 developers. (In order to join our Discord server, use the invitation link
 [{{ site.discord.invite }}]({{ site.discord.invite }}).)
-
 
 Please report **bugs** or **enhancement requests** through the [Issue
 Tracker]({{ site.github.issues }}). 
@@ -71,7 +68,9 @@ and submit a pull request. Participate on the [{{
 site.mailinglists.developer.name }}
 mailing list]({{ site.mailinglists.developer.url }}).
 
+MDAnalysis regularly takes part in various **mentoring and outreach programs**, such as [Google Summer of Code](https://summerofcode.withgoogle.com/), [Google Season of Docs](https://developers.google.com/season-of-docs), [Outreachy](https://www.outreachy.org/), the [Station1 Frontiers Fellowship](https://www.station1.org/sff), and the [CompChemURG](https://www.bindingsites.co.uk/home) mentorship schemes. Many of the [current core developers](/about/#mdanalysis-core-developers/) joined the project through these mentoring schemes. The project also frequently offers **teaching workshops**, both online and in-person. Follow our [blog]({{ site.baseurl }}/blog), [Twitter](https://twitter.com/mdanalysis), and [LinkedIn](https://www.linkedin.com/company/mdanalysis/) pages for updates on how to participate. 
 
+To **connect with other MDAnalysis users, present your work using MDAnalysis, and meet the developer team,** join us September 27-29, 2023 for our [inaugural User Group Meeting]({{ site.baseurl }}/ugm2023) in Lisbon Portugal.  
 
 ## Supporting ##
 
