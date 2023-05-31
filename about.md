@@ -75,6 +75,7 @@ team ("MDAnalysis Core Developers") consists of:
 - @micaela-matta
 - @orbeckst
 - @richardjgowers
+- @RMeli
 - @tylerjereddy
 
 ### MDAnalysis Emeriti Core Developers
