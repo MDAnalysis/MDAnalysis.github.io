@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
+ruby "~> 2.6"
+
 gem 'github-pages'
 gem 'rouge'
-
-gem "webrick", ">= 2.2.8"
+gem "webrick", "~> 1.7"
