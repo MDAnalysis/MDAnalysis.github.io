@@ -69,7 +69,6 @@ team ("MDAnalysis Core Developers") consists of:
 
 - @fiona-naughton
 - @hmacdope
-- @IAlibay
 - @jbarnoud
 - @lilyminium
 - @micaela-matta
@@ -93,6 +92,7 @@ The current *Emeriti Core Developers* are:
 
 - @dotsdl
 - Elizabeth Denning
+- @IAlibay
 - @jandom
 - @kain88-de
 - @mnmelo
