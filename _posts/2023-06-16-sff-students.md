@@ -11,18 +11,25 @@ style="float: right; height: 8em; " />
 
 MDAnalysis is excited to be participating this year as a host organization for the [Station1 Frontiers Fellowship][sff] program for the first time. We thank Station1 for supporting two students, John Vinh Ong and Karen Bekhazi, who will be working with us to improve and extend MDAnalysis's interoperability. Stay tuned for updates on the project, and keep reading to learn more about John and Karen!
 
-## John Vinh Ong
+## John Ong
 
 <img
-src="John's Picture Here"
-title="John Vinh Ong" alt="John Vinh Ong"
+src="https://jong9559.github.io/assets/img/prof_pic.jpg"
+title="John Ong" alt="John Ong"
 style="float: left; width: 110px; height: 110px; border-radius: 20px; border: 15px solid white" />
 
-Write something about yourself here!
+Hello everyone, my name is John Ong, and I am one of the Station1 interns at MDAnalysis this summer. I am a soon-to-be third-year undergraduate student at the University of Utah studying mathematics and computer science. Please forgive me for not having introduced myself earlier.
 
-Add where we can find you here! (github, twitter, others)
+MDAnalysis is core to many professional applications, including treatments for various diseases. The Protein Data Bank (PDB) is an international repository for organic structures and contributes greatly to understanding and creating treatments for diseases. However, data representation techniques for structures on the PDB often differ, despite the same master format (PDBx/mmCIF). Hence, there exists "dialects" within the PDB's files. 
 
-Add a link to your blog here!
+This summer, Karen and I explored the reasons for the existence of these dialects. Through literature and interviews we've carried out with both key members within the PDB and PDB user(s), we've found experimental methods, knowledge of proteins, data processing methods, and user error to be the most common contributors to these dialects. We also studied the motivations for format changes and regulations and the lack thereof within the PDB and its user base. 
+
+All in all, this was a rewarding summer. While we did not achieve as many technical results as we would have liked, studying change has been interesting. I'm honored to have been a mentee of Richard Gowers, Ph.D., and Hugo MacDermott-Opeskin, Ph.D., and to have had the support of MDAnalysis and its community this summer. 
+
+You can find me on [LinkedIn][john-linkedin] and you can find me on [my website][john-website]! 
+
+I hope to be able to continue contributing to this incredible community!
+
 
 ## Karen Bekhazi
 
@@ -54,3 +61,5 @@ the interoperability between MDAnalysis and the Protein Data Bank (PDB) format; 
 [psi4]: https://psicode.org/
 [benchmarks]: https://www.mdanalysis.org/benchmarks/
 [asv]: https://github.com/airspeed-velocity/asv/
+[john-linkedin]: https://www.linkedin.com/in/john-ong/
+[john-website]: https://jong9559.github.io/
