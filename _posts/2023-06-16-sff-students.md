@@ -41,9 +41,9 @@ Molecular dynamics simulations are capable of generating new trajectory analyses
 
 I am a rising junior at Smith College. I am studying Engineering Sciences and Chemistry, with an interest in biochemistry, biomaterials, and the intersection of biophysics and chemistry. Originally from Beirut, Lebanon, I enjoy running, reading, and watching movie commentaries in my free time.
 
-Here's my LinkedIn: www.linkedin.com/in/karen-bekhazi-947b0b27b.
+Here are my [LinkedIn][karen-linkedin] and [GitHub][karen-github] profiles.
 
-Thank you to the amazing MDAnalysis community and to our mentors, Dr. Richard Gowers and Dr. Hugo MacDermott-Opeskin, for this summer!
+Thank you to the amazing MDAnalysis community and to our mentors, @richardjgowers and @hmacdope, for this summer!
 
 ![Station1 Capstone Poster](https://github.com/MDAnalysis/MDAnalysis.github.io/tree/master/public/images/SFF2023_PD4_FinalPoster_Bekhazi_Ong.pptx.pdf)
 
@@ -53,3 +53,5 @@ Thank you to the amazing MDAnalysis community and to our mentors, Dr. Richard Go
 [john-github]: https://github.com/jong9559
 [john-linkedin]: https://www.linkedin.com/in/john-ong/
 [john-website]: https://jong9559.github.io/
+[karen-linkedin]: https://www.linkedin.com/in/karen-bekhazi-947b0b27b/
+[karen-github]: https://github.com/KarenBekhazi
