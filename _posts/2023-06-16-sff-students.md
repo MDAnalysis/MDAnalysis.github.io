@@ -32,9 +32,18 @@ I hope to be able to continue contributing to this incredible community!
 
 ## Karen Bekhazi
 
-Molecular dynamics simulations are capable of generating new trajectory analysis in their own specific output format. This consequently challenges the tools’ further development and widespread use since they are limited to specific formats that can’t be accessed by all users. This summer, our work has mostly focused on the effects the lack of a standardized format have had over molecular dynamics’ scientific and social impact. We evaluated the creation of different [PDB][pdb] file formats by drawing parallels between them and notions in the field of linguistics, such as dialects and stemmatics. Our research was also supported by further study of both the [PDB][pdb] and MDAnalysis’s stakeholders.
+<img
+src="https://media.licdn.com/dms/image/D4E03AQFQwVFLzLAabA/profile-displayphoto-shrink_800_800/0/1687266968141?e=1697673600&v=beta&t=G3j-3m42F9Wf3y6G1HafGzJPIHrs6--vqdJMO2y5tWk"
+title="Karen Bekhazi" alt="Karen Bekhazi"
+style="float: left; width: 110px; height: 110px; border-radius: 20px; border: 15px solid white" />
 
-I am a rising junior at Smith College. I am studying Engineering Sciences and Chemistry, with an interest in biochemistry, biomaterials, and the intersection of biophysics and chemistry. Originally from Beirut, Lebanon, I enjoys running, reading, and watching movie commentaries in my free time.
+Molecular dynamics simulations are capable of generating new trajectory analyses in their own specific output format. This consequently challenges the tools’ further development and widespread use since they are limited to specific formats that can’t be accessed by all users. This summer, our work has mostly focused on the effects of the lack of a standardized format on molecular dynamics’ scientific and social impact. We evaluated the creation of different [PDB][pdb] file formats by drawing parallels between them and notions in the field of linguistics, such as dialects and stemmatics. Our research was also supported by further study of both the [PDB][pdb] and MDAnalysis’s stakeholders.
+
+I am a rising junior at Smith College. I am studying Engineering Sciences and Chemistry, with an interest in biochemistry, biomaterials, and the intersection of biophysics and chemistry. Originally from Beirut, Lebanon, I enjoy running, reading, and watching movie commentaries in my free time.
+
+Here's my LinkedIn: www.linkedin.com/in/karen-bekhazi-947b0b27b.
+
+Thank you to the amazing MDAnalysis community and to our mentors, Dr. Richard Gowers and Dr. Hugo MacDermott-Opeskin, for this summer!
 
 ![Station1 Capstone Poster](https://github.com/MDAnalysis/MDAnalysis.github.io/tree/master/public/images/SFF2023_PD4_FinalPoster_Bekhazi_Ong.pptx.pdf)
 
