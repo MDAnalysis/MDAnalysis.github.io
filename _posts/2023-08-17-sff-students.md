@@ -9,14 +9,14 @@ title="Station1 Logo" alt="Station1 Logo"
 style="float: right; height: 8em; " />
 </p>
 
-MDAnalysis is excited to to have participated this year as a host organization for the [Station1 Frontiers Fellowship][sff] program for the first time. We thank Station1 for supporting two outstanding students, John Ong and Karen Bekhazi, who have been working with us to understand the evolution of heterogeneity between objects in the [Protein Data Bank][pdb] (PDB) PDBx/mmCIF file format. John and Karen's research will help inform [MDAnalysis's planned extension of interoperability][interoperability] between MDAnalysis and the PDBx/mmCIF format. Keep reading to learn more about John and Karen, as well as what they learned through this project.
+MDAnalysis is excited to to have participated this year as a host organization for the [Station1 Frontiers Fellowship][sff] program for the first time. We thank Station1 for supporting two outstanding students, John Ong and Karen Bekhazi, who have been working with us to understand the evolution of heterogeneity between objects in the [Protein Data Bank][pdb] (PDB) PDBx/mmCIF file format. John and Karen's research will help inform [MDAnalysis's planned extension of interoperability][interoperability] between MDAnalysis and the PDBx/mmCIF format. Keep reading to learn more about John and Karen's experience, and download their [capstone poster here][poster].
 
 ## John Ong
 
 <img
 src="https://jong9559.github.io/assets/img/prof_pic.jpg"
 title="John Ong" alt="John Ong"
-style="float: left; width: 110px; height: 110px; border-radius: 20px; border: 15px solid white" />
+style="float: left; width: 110px; height: 150px; border-radius: 20px; border: 15px solid white" />
 
 Hello everyone, my name is John Ong, and I was one of the Station1 interns working with MDAnalysis this summer. I am a soon-to-be third-year undergraduate student at the University of Utah studying mathematics and computer science.
 
@@ -45,11 +45,10 @@ Here are my [LinkedIn][karen-linkedin] and [GitHub][karen-github] profiles.
 
 Thank you to the amazing MDAnalysis community and to our mentors, @richardjgowers and @hmacdope, for this summer!
 
-![Station1 Capstone Poster](https://github.com/MDAnalysis/MDAnalysis.github.io/tree/master/public/images/SFF2023_PD4_FinalPoster_Bekhazi_Ong.pptx.pdf)
-
 [sff]: https://www.station1.org/sff
 [pdb]: https://www.rcsb.org/
 [interoperability]: https://www.mdanalysis.org/2020/08/03/roadmap/
+[poster]: {{site.data}}/SFF2023_PD4_FinalPoster_Bekhazi_Ong.pptx.pdf
 [john-github]: https://github.com/jong9559
 [john-linkedin]: https://www.linkedin.com/in/john-ong/
 [john-website]: https://jong9559.github.io/
