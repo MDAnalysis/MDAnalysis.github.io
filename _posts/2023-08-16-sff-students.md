@@ -9,7 +9,7 @@ title="Station1 Logo" alt="Station1 Logo"
 style="float: right; height: 8em; " />
 </p>
 
-MDAnalysis is excited to to have participated this year as a host organization for the [Station1 Frontiers Fellowship][sff] program for the first time. We thank Station1 for supporting two outstanding students, John Vinh Ong and Karen Bekhazi, who have been working with us to understand the evolution of heterogeneity between objects in the [Protein Data Bank][pdb] (PDB) PDBx/mmCIF file format. John and Karen's research will help inform [MDAnalysis's planned extension of interoperability][interoperability] between MDAnalysis and the PDBx/mmCIF format. Keep reading to learn more about John and Karen, as well as what they learned through this project.
+MDAnalysis is excited to to have participated this year as a host organization for the [Station1 Frontiers Fellowship][sff] program for the first time. We thank Station1 for supporting two outstanding students, John Ong and Karen Bekhazi, who have been working with us to understand the evolution of heterogeneity between objects in the [Protein Data Bank][pdb] (PDB) PDBx/mmCIF file format. John and Karen's research will help inform [MDAnalysis's planned extension of interoperability][interoperability] between MDAnalysis and the PDBx/mmCIF format. Keep reading to learn more about John and Karen, as well as what they learned through this project.
 
 ## John Ong
 
