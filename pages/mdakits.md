@@ -7,7 +7,7 @@ MDAnalysis is developed with extensibility in mind, allowing
 scientists to create various tools with the components
 that the library provides. To help developers in this process,
 and to advertise these wonderful tools to the MDAnalysis user community,
-we have created an ecosystem of [MDAnalysis Toolkits](https://mdakits.mdanalysis.org/about.html).
+we have created an ecosystem of [MDAnalysis Toolkits, or "MDAKits"](https://mdakits.mdanalysis.org/about.html).
 
 
 Please look at the [registry of toolkits](https://mdakits.mdanalysis.org/mdakits.html)
