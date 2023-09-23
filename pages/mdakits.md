@@ -23,7 +23,7 @@ or share it with on our [mailing list]({{ site.mailinglists.discussion.url }})!*
 
 ## Other (non-MDAKit registered) tools using MDAnalysis
 
-Below is a list of non-MDAKit registered projects which we know to use MDAnalysis:
+Below we list projects that use MDAnalysis and are not registered as MDAKits:
 
 
 ### Visualization tools
