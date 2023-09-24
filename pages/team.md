@@ -132,7 +132,7 @@ In this section we briefly describe the tasks and duties of each role.
 ### External liaison
 - Coordinate and connect with affiliated organisations, e.g. NumFOCUS
 - Coordinate participation in external projects
-- Coordinate with potential industry interest
+- Coordinate with potential industry partners
 
 ### Code of conduct committee
 - Act as points of contact for code of conduct violations
