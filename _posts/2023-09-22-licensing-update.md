@@ -169,61 +169,81 @@ This will remain the state of MDAnalysis until we obtain approval from our devel
 their code to [LGPL v2.1+][LGPL v2.1]. As we obtain contributor agreements, these historical
 source code contributions will slowly turn to [LGPL v2.1+][LGPL v2.1].
 
-### 3. A [LGPLv3+]() package, and an [LGPLv2.1+]() source code (Optional)
+### 3. A LGPL v3+ package, and an LGPL v2.1+ source code (Optional)
 
-Should we obtain approval to relicense from our developers before we remove our [Apache 2.0]() dependencies, we will then start releasing the MDAnalysis package under a [LGPLv3+]() license.
+Should we obtain approval to relicense from our developers before we remove our [Apache 2.0][]
+dependencies, we will then start releasing the MDAnalysis package under a [LGPL v3+][LGPL v3] license.
 
-### 4. An [LGPLv2.1+] package and source code
+### 4. An LGPL v2.1+ package and source code
 
-This is the state which we aim the library to eventually be licensed under. Once we both obtain the agreement of our developers to relicense and remove [Apache 2.0]() dependencies, we will be able to release the MDAnalysis package under [LGPLv2.1+]().
+This is the state which we aim the library to eventually be licensed under. Once we both obtain
+the agreement of our developers to relicense and remove [Apache 2.0][] dependencies, we will be
+able to release the MDAnalysis package under [LGPL v2.1+][].
 
 ## How does this affect me?
 
 ### As a contributor
 
-If you have any historical contributions you will be asked to relicense them to [LGPLv2.1+]() instead of the initially proposed [LGPLv3+]().
+If you have any historical contributions you will be asked to relicense them to [LGPL v2.1+][LGPL v2.1]
+instead of the initially proposed [LGPL v3+][LGPL v3].
 
 ### As a developer
 
-Ultimately we believe that the proposed change to [LGPLv2.1+]() should offer a better compatibility ([Table 1]()) with whatever license you may choose to use for your own code. The interim package license changes may however impact you, if you believe this to be the case [please do get in touch with us]().
+Ultimately we believe that the proposed change to [LGPL v2.1+][LGPL v2.1] should offer a better compatibility
+(Table 1) with whatever license you may choose to use for your own code. The interim package license changes
+may however impact you, if you believe this to be the case [please do get in touch with us](#getting-in-touch).
 
 ### As a user
 
-We do not anticipate this to have a significant impact on users. There may be some slight changes to how you [might access MMTF files which are discussed below]().
+We do not anticipate this to have a significant impact on users. There may be some slight changes to how you
+[might access MMTF files which are discussed below](#removing-apache-20-dependencies).
 
 ## Next steps
 
 ### Contacting contributors
 
-We will shortly be contacting every historical contributor to MDAnalysis and ask them to agree to changing their contribution’s license from the current “GPL v2 or any later version” to “LGPL v2.1 or any later version”.
+We will shortly be contacting every historical contributor to MDAnalysis and ask them to agree to changing
+their contribution’s license from the current “GPL v2 or any later version” to “LGPL v2.1 or any later version”.
 
 Specifically we will be asking all contributors to respond with the following statement:
 
 ```
-I, <your name>, GitHub handle <your GitHub handle>, am the copyright owner of all the code I submitted to the MDAnalysis library using my GitHub handle. I agree to relicense all my code contributions to the MDAnalysis library under the LGPLv2.1+ license from this day going forward.
+I, <your name>, GitHub handle <your GitHub handle>, am the copyright owner of all the code I submitted
+to the MDAnalysis library using my GitHub handle. I agree to relicense all my code contributions to the
+MDAnalysis library under the LGPLv2.1+ license from this day going forward.
 
 Typed Signature
 ```
 
-It is important that we hear back from as many contributors as possible. If you have contributed to MDAnalysis in the past but have since changed your git-linked contact details, we would kindly ask if you could email *licensing@mdanalysis.org* to let us know how best to contact you.
+It is important that we hear back from as many contributors as possible. If you have contributed to
+MDAnalysis in the past but have since changed your git-linked contact details, we would kindly ask if
+you could email *licensing@mdanalysis.org* to let us know how best to contact you.
 
-### Removing [Apache 2.0]() dependencies
+### Removing Apache 2.0 dependencies
 
-As we move towards a v3.0 release of MDAnalysis, we will be looking to replace existing [Apache 2.0]() core dependencies. Of particular impact, this may mean that access to reading [MMTF]() files may no longer be available by default through the MDAnalysis library, but will instead be offered through an optionally installable [MDAKit]().
+As we move towards a v3.0 release of MDAnalysis, we will be looking to replace existing [Apache 2.0][]
+core dependencies. Of particular impact, this may mean that access to reading [MMTF][] files may no longer
+be available by default through the MDAnalysis library, but will instead be offered through an optionally
+installable [MDAKit](https://mdakits.mdanalysis.org/about.html).
 
 ## Getting in touch
 
-We understand that license changes are a complex subject that can have a large impact on how users and developers may interact with the MDAnalysis library. Should you have any concerns, questions, or comments, we urge you to get in touch with the core developer team. You can do so over our [public forums[({% link index.md %}#participating) or privately by emailing *licensing@mdanalysis.org*.
+We understand that license changes are a complex subject that can have a large impact on how users and
+developers may interact with the MDAnalysis library. Should you have any concerns, questions, or comments,
+we urge you to get in touch with the core developer team. You can do so over our
+[public forums[({% link index.md %}#participating) or privately by emailing *licensing@mdanalysis.org*.
 
 ## Definitions
 
 ### package license
 
-The license under which the MDAnalysis library is packaged and released. This may be different from the but still compatible with the [source code license]().
+The license under which the MDAnalysis library is packaged and released. This may be different from the
+but still compatible with the [source code license](#source-code-license).
 
 ### source code license
 
-The license under which the MDAnalysis source code is released. This only accounts for the code itself and not any impact in licensing incurred from linking (i.e. `python importing`) to other libraries.
+The license under which the MDAnalysis source code is released. This only accounts for the code itself
+and not any impact in licensing incurred from linking (i.e. `python importing`) to other libraries.
 
 ### license compatibility
 
@@ -231,13 +251,16 @@ Whether or not the terms of two licenses allows them to be compatible with each 
 
 ### copyleft
 
-Whether the terms of a given license enforces that other codes (even under other licenses) must be bound by the same conditions. See the [FSF definition](https://www.gnu.org/licenses/copyleft.en.html) for more information.
+Whether the terms of a given license enforces that other codes (even under other licenses) must be bound
+by the same conditions. See the [FSF definition](https://www.gnu.org/licenses/copyleft.en.html) for more information.
 
 ## Acknowledgements
 
-We are very grateful for the administrative and legal support from our fiscal sponsor, [NumFOCUS]().
+We are very grateful for the administrative and legal support from our fiscal sponsor, [NumFOCUS][].
 
-This relicensing effort has been made possible in part by the CZI grant DAF2021-237663 (grant DOI https://doi.org/10.37921/426590wiobus from the Chan Zuckerberg Initiative DAF, an advised fund of Silicon Valley Community Foundation (funder DOI 10.13039/100014989).
+This relicensing effort has been made possible in part by the CZI grant DAF2021-237663,
+grant DOI https://doi.org/10.37921/426590wiobus from the Chan Zuckerberg Initiative DAF,
+an advised fund of Silicon Valley Community Foundation (funder DOI 10.13039/100014989).
 
 – The MDAnalysis [Core Developers][]
 
@@ -254,7 +277,6 @@ This relicensing effort has been made possible in part by the CZI grant DAF2021-
 [Apache 2.0]: https://www.apache.org/licenses/LICENSE-2.0
 [contributors]: https://github.com/MDAnalysis/mdanalysis/blob/develop/package/AUTHORS
 [NumFOCUS]: https://www.numfocus.org
-[Core Developers]: {% link about.md %}#mdanalysis-core-developers
 [expert opinions]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=heather+meeker+open+source+for+business&btnG=
 [fasteners]: https://fasteners.readthedocs.io/en/latest/
 [mmtf-python]: https://github.com/rcsb/mmtf-python
@@ -262,3 +284,5 @@ This relicensing effort has been made possible in part by the CZI grant DAF2021-
 [MMTF]: https://mmtf.rcsb.org/
 [44733fc]: https://github.com/MDAnalysis/mdanalysis/commit/44733fc214dcfdcc2b7cb3e3705258781bb491bd
 [MDAnalysis core library]: https://github.com/MDAnalysis/mdanalysis
+[Core Developers]: {% link about.md %}#mdanalysis-core-developers
+
