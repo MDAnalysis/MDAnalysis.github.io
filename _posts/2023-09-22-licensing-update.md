@@ -1,4 +1,7 @@
-Title: An update on relicensing the MDAnalysis library (towards LGPLv2.1+)
+---
+layout: post
+title: An update on relicensing the MDAnalysis library (towards LGPLv2.1+)
+---
 
 > [!WARNING]
 > **Disclaimer**
@@ -37,10 +40,10 @@ and mainly centered around three main arguments:
 
 1. Allowing downstream codes to freely import or link to the MDAnalysis library with minimal worry about the license they choose to use.
 2. Allowing downstream codes to use and subclass any MDAnalysis components under its application programming interface
-   (classes, methods, and data objects), without incurring copyleft and incurring the license choice of the downstream code.
+   (classes, methods, and data objects), without incurring copyleft and restricting the license choice of the downstream code.
 3. Ensuring that codes that either directly copy or extend the MDAnalysis library’s source code would fall under the copyleft
-   license requirements of the MDAnalysis library license. Doing so would ensure that eventual license would more closely match the
-   original intent of the historical [GPL v2+](GPL v2) contributions which were kindly donated to MDAnalysis over the years.
+   license requirements of the MDAnalysis library license. Doing so would ensure that the eventual license would more closely match the
+   original intent of the historical [GPL v2+][GPL v2] contributions which were kindly donated to MDAnalysis over the years.
 
 It is our view that a weak copyleft license, such as the [GNU Lesser General Public License][LGPL v3] would best match these requirements.
 
@@ -59,7 +62,7 @@ In this post we will provide our rationale for this change, alongside key inform
 enacting these changes.
 
 **License changes will affect how users and developers will interact with the MDAnalysis code base going
-forward. We urge all members of the community to read this post and [get in touch](#package-license) with
+forward. We urge all members of the community to read this post and [get in touch](#getting-in-touch) with
 the MDAnalysis core developer team should you have any questions or concerns**.
 
 ## Rationale for our change in target license
@@ -86,17 +89,17 @@ fully compatible without incurring any [copyleft](#copyleft) penalty.*
 ### Why LGPL v2.1+ instead of LGPLv3+?
 
 During the community consultation, it was brought to our attention that by choosing an [LGPL v3+][LGPL v3]
-license, would no longer be compatible with older versions of the GNU General Public License, namely
+license, it would no longer be compatible with older versions of the GNU General Public License, namely
 [GPL v2][] and [LGPL v2.1][] (see Table 1). The reasons for this are complex and we will not attempt to
 explain them here, we will instead refer the reader to the [FSF GPL license compatibility FAQ entry](https://www.gnu.org/licenses/gpl-faq.html#AllCompatibility)
 for further details.
 
 Overall the impact of this incompatibility is likely very low. Few codes are solely licensed under
-[GPLv2][] or [LGPLv2.1][], with most under “or any later version” terms, allowing the codes to relicense
+[GPL v2][] or [LGPL v2.1][], with most under “or any later version” terms, allowing the codes to relicense
 under a later version and avoiding this issue entirely. However, this would still require several downstream
 packages to update their [package license](#package-license), which is not an insignificant amount of work.
 It is our view that it is best for the community that we try to avoid this issue, especially given that the
-MDAnalysis library itself has historically been released under the [GPL v2+][GPL v2].
+MDAnalysis library itself has historically been released under [GPL v2+][GPL v2].
 
 Our solution is instead to compromise and try to ultimately relicense MDAnalysis under the terms of the [LGPL v2.1+][LGPL v2.1].
 This would allow other libraries to interact with MDAnalysis under either the terms of [LGPL v2.1][], [LGPL v3][],
@@ -119,7 +122,7 @@ replacing the use of [fasteners][] with alternatives such as [py-filelock][] and
 [MMTF][] files in favor [newer PDB file formats](https://mmcif.wwpdb.org/). As this will likely take some time,
 we will temporarily change our [package license](#package-license) to [GPL v3+][GPL v3], which we have already done
 as part of the [2.6.0 release of MDAnalysis](https://www.mdanalysis.org/blog/#release-2-6-0-and-2-6-1-of-mdanalysis).
-We may also possibly interim [LGPL v3+][LGPL v3] license, before reaching our final [LGPL v2.1+][LGPL v2.1]
+We may also possibly go through an interim [LGPL v3+][LGPL v3] license, before reaching our final [LGPL v2.1+][LGPL v2.1]
 [package license](#package-license). Further details how we see the license process to occur can be found
 [later in this blog](#detailing-our-proposed-relicensing-process).
 
@@ -128,7 +131,7 @@ sign offs from all developers as the library’s [source code license](#source-c
 under [GPL v2+][GPL v2] (and eventually [LGPL v2.1+][LGPL v2.1]). This allows us to release the package under
 any appropriate license version of the GNU GPL. It does however mean that we will be temporarily at risk of
 downstream packages encountering the [previously mentioned incompatibilities](#why-lgpl-v21-instead-of-lgplv3)
-between [GPL v2][] and [GPLv3][]. **Should this impact you, please [get in touch with the core developer team](#getting-in-touch)
+between [GPL v2][] and [GPL v3][]. **Should this impact you, please [get in touch with the core developer team](#getting-in-touch)
 and we will attempt to explore alternative packaging solutions**.
 
 ### Why not opt for a more permissive (and likely less complicated) license such as MIT?
@@ -144,7 +147,7 @@ user experience.
 
 **_Table 2. A stepwise description of the proposed MDAnalysis relicensing process._**
 
-| Step | [Package License](#package-license) | [Source Code License](#source-code-license) from Historical Contributions | [Source Code License](#source-code-license from New Contributions | Details & Conditions of Change                                                        | MDAnalysis Versions |
+| Step | [Package License](#package-license) | [Source Code License](#source-code-license) from Historical Contributions | [Source Code License](#source-code-license) from New Contributions | Details & Conditions of Change                                                        | MDAnalysis Versions |
 |------|-------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------|---------------------------------------------------------------------------------------|---------------------|
 | 1.   | [GPL v2+][GPL v2]                   | [GPL v2+][GPL v2]                                                         | [GPL v2+][GPL v2]                                                 | This is the initial state of the MDAnalysis library license.                          | < v2.6.0            |
 | 2.   | [GPL v3+][GPL v3]                   | [GPL v2+][GPL v2]                                                         | [LGPL v2.1+][LGPL v2.1]                                           | As of commit [44733fc][] all new contributions are made under [LGPL v2.1+][LGPL v2.1] | v2.6.0+             |
@@ -170,16 +173,16 @@ This will remain the state of MDAnalysis until we obtain approval from our devel
 their code to [LGPL v2.1+][LGPL v2.1]. As we obtain contributor agreements, these historical
 source code contributions will slowly turn to [LGPL v2.1+][LGPL v2.1].
 
-### 3. A LGPL v3+ package, and an LGPL v2.1+ source code (Optional)
+### 3. An LGPL v3+ package, and an LGPL v2.1+ source code (Optional)
 
 Should we obtain approval to relicense from our developers before we remove our [Apache 2.0][]
 dependencies, we will then start releasing the MDAnalysis package under a [LGPL v3+][LGPL v3] license.
 
 ### 4. An LGPL v2.1+ package and source code
 
-This is the state which we aim the library to eventually be licensed under. Once we both obtain
+This is the state which we aim for the library to eventually be licensed under. Once we both obtain
 the agreement of our developers to relicense and remove [Apache 2.0][] dependencies, we will be
-able to release the MDAnalysis package under [LGPL v2.1+][].
+able to release the MDAnalysis package under [LGPL v2.1+][LGPL v2.1].
 
 ## How does this affect me?
 
@@ -232,13 +235,13 @@ installable [MDAKit](https://mdakits.mdanalysis.org/about.html).
 We understand that license changes are a complex subject that can have a large impact on how users and
 developers may interact with the MDAnalysis library. Should you have any concerns, questions, or comments,
 we urge you to get in touch with the core developer team. You can do so over our
-[public forums[({% link index.md %}#participating) or privately by emailing *licensing@mdanalysis.org*.
+[public forums]({% link index.md %}#participating) or privately by emailing *licensing@mdanalysis.org*.
 
 ## Definitions
 
 ### package license
 
-The license under which the MDAnalysis library is packaged and released. This may be different from the
+The license under which the MDAnalysis library is packaged and released. This may be different from
 but still compatible with the [source code license](#source-code-license).
 
 ### source code license
