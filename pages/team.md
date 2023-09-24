@@ -130,7 +130,7 @@ In this section we briefly describe the tasks and duties of each role.
 - Managing the switch to a new license
 
 ### External liaison
-- Coordinate and connect with affiliated organisations, e.g. NumFocuse
+- Coordinate and connect with affiliated organisations, e.g. NumFOCUS
 - Coordinate participation in external projects
 - Coordinate with potential industry interest
 
