@@ -106,7 +106,7 @@ In this section we briefly describe the tasks and duties of each role.
 - General management and administration
 - Posting announcements of new developments
 - Moderating content
-- Managing Twitter and LinkedIn
+- Managing X and LinkedIn
 - Managing new content to the MDAnalysis website and blog
 
 
