@@ -65,7 +65,7 @@ the MDAnalysis core developer team should you have any questions or concerns**.
 
 *Table 1: MDAnalysis’ view of the dynamic linking license compatibility matrix. License pairs
 detailed with a compatibility of “No” have claimed incompatibilities between their license terms.
-License pairs detailed as “Yes ([copyleft](#copyleft])” are compatible but may incur copyleft through the
+License pairs detailed as “Yes ([copyleft](#copyleft))” are compatible but may incur copyleft through the
 interacting GNU GPL license. License pairs detailed with the compatibility “Yes” are, to our knowledge,
 fully compatible without incurring any [copyleft](#copyleft) penalty.*
 
