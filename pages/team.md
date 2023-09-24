@@ -7,6 +7,14 @@ MDAnalysis is a community-driven project that is made possible through the effor
 
 ## Roles
 
+In this section we list contributors who have led or contributed substantial effort to the roles listed below.
+At present, we have only listed leading figures from the past 1-2 years, i.e. from 2021 onwards.
+However, we hope to eventually acknowledge everyone who has been responsible for a particular role throughout
+the lifetime of the project.
+
+If you have participated to MDAnalysis in the past and feel your previous/historical role could be better characterised,
+please contact us at mdanalysis@numfocus.org to let us know!
+
 | Role                         | Sub-role                       | Historical                                                              |
 |------------------------------|--------------------------------|-------------------------------------------------------------------------|
 | [Core library maintenance](#core-library-maintenance)     | [Issue management](#issue-management)               | Oliver Beckstein, Irfan Alibay                                          |
