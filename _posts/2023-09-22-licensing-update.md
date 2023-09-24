@@ -28,7 +28,7 @@ the [previously communicated]() [GNU Lesser General Public License v3+ (LGPL v3+
 
 We also detail some [interim changes](#why-the-interim-gpl-v3-and-lgpl-v3-package-licenses-the-issue-with-apache-20)
 to the MDAnalysis [package license](#package-license), alongside some
-[upcoming actions for library contributors](#package-license).
+[upcoming actions for library contributors](#next-steps).
 
 ## Overview
 
