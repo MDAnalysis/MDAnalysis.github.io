@@ -1,21 +1,32 @@
 ---
 layout: page
-title: Used By
+title: MDAKits and other tools using MDAnalysis
 ---
 
-While our documentation is mostly focused on using MDAnalysis for
-exploratory analysis it is equally well suited to build your own
-analysis library on top of it. Below is a list of projects we know
-about that use MDAnalysis.
+MDAnalysis is developed with extensibility in mind, allowing
+scientists to create various tools with the components
+that the library provides. To help developers in this process,
+and to advertise these wonderful tools to the MDAnalysis user community,
+we have created an ecosystem of [MDAnalysis Toolkits, or "MDAKits"](https://mdakits.mdanalysis.org/about.html).
 
 
-*If you know of other tools that use MDAnalysis please share
-them with us on [Twitter]({{ site.twitter.url }}) or on our
-[mailinglist]({{ site.mailinglists.discussion.url }}) so that we
-can include them here* or open a pull request by [editing the file `used-by.md`](https://github.com/MDAnalysis/MDAnalysis.github.io/edit/master/pages/used-by.md).
+Please look at the [registry of MDAKits](https://mdakits.mdanalysis.org/mdakits.html)
+for a list of toolkits that [meet the minimum MDAKit requirements](https://mdakits.mdanalysis.org/about.html#requirements).
+These are regularly tested against the latest and development versions of
+MDAnalysis. Whilst we cannot guarantee the completeness of the MDAKit's test coverage, if you see a green badge, the code should be minimally behaving as the MDAKit authors intended it!
 
 
-## Visualization tools
+*If you have your own MDAKit and you would like to add it to the
+registry, please look at the [contribution instructions](https://mdakits.mdanalysis.org/add.html)
+or share it with on our [mailing list]({{ site.mailinglists.discussion.url }})!*
+
+
+## Other (non-MDAKit registered) tools using MDAnalysis
+
+Below we list projects that use MDAnalysis and are not registered as MDAKits:
+
+
+### Visualization tools
 
 -  [nglview](https://github.com/arose/nglview): nglview is a tool to visualize
    trajectories in jupyter notebooks.
@@ -27,7 +38,7 @@ can include them here* or open a pull request by [editing the file `used-by.md`]
    on GitHub)
 -  [MolecularNodes](https://github.com/BradyAJohnston/MolecularNodes) plugin for the [Blender](https://www.blender.org/) rendering package; the plugin provides a convenient method for importing structural biology files, including MD trajectories, into Blender, and several nodes for working with atomic data inside of Blender's Geometry Nodes.
 
-## Analysis tools
+### Analysis tools
 
 -  [pydiffusion](https://github.com/bio-phys/pydiffusion): Analyze the
    rotational diffusion of your molecules.
@@ -59,18 +70,18 @@ can include them here* or open a pull request by [editing the file `used-by.md`]
 -  [LiPyphilic](https://lipyphilic.readthedocs.io/en/latest/): A Python package for the analysis of lipid membrane simulations.
 -  [MDVoxelSegmentation](https://github.com/marrink-lab/MDVoxelSegmentation): A voxel-based approach for dynamic cluster analysis of molecular dynamics trajectories. 
 
-## Molecular modeling tools
+### Molecular modeling tools
 
 -  [Swarm-CG](https://github.com/GMPavanLab/Swarm-CG): Automatically optimizes the bonded terms of a MARTINI-like coarse-grained (CG) molecular model with respect to its reference all-atom (AA) trajectory, via [FST-PSO](https://github.com/aresio/fst-pso).
 
-## Simulation packages
+### Simulation packages
 -  [ESPResSo](http://espressomd.org/) is a software package for
    performing and analyzing Molecular Dynamics many-particle
    simulations of coarse-grained atomistic or bead-spring models as
    they are used in soft matter research in physics, chemistry and
    molecular biology.
 
-## Distributions
+### Distributions
 
 MDAnalysis is included in [NMRBox](https://nmrbox.org/) a distribution of
 common software to analyze NMR measurements. 
