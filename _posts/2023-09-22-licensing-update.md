@@ -136,7 +136,7 @@ and we will attempt to explore alternative packaging solutions**.
 ### Why not opt for a more permissive (and likely less complicated) license such as MIT?
 
 As detailed in our [original justification](https://www.mdanalysis.org/2022/11/07/relicensing/#rationale-for-license-change)
-we believe that a weak copyleft license, i.e. the Lesser GNU GPL licenses, best respects the original intent of historical
+we believe that a weak copyleft license, i.e. the [Lesser GNU GPL licenses][LGPL v2.1], best respects the original intent of historical
 contributions to MDAnalysis. Additionally, we are also aware of various portions of the MDAnalysis library which likely have
 derivative code from other [LGPL v2.1+][LGPL v2.1] licensed codes, such as [GROMACS](https://www.gromacs.org/about.html#license).
 We do not believe it to be possible at this point to remove these portions of the library without significantly impacting the
@@ -169,7 +169,7 @@ understanding of the [Apache 2.0 incompatibility issues](#why-the-interim-gpl-v3
 Historical source code contributions remain under the terms of [GPL v2+][GPL v2].
 
 This will remain the state of MDAnalysis until we obtain approval from our developers to relicense
-their code to [LGPL v2.1+][LGPL v2.1]. As we obtain contributor agreements, these historical
+their code to [LGPL v2.1+][LGPL v2.1]. As we [obtain contributor agreements](#contacting-contributors), these historical
 source code contributions will slowly turn to [LGPL v2.1+][LGPL v2.1].
 
 ### 3. An LGPL v3+ package, and an LGPL v2.1+ source code (Optional)
@@ -187,8 +187,8 @@ able to release the MDAnalysis package under [LGPL v2.1+][LGPL v2.1].
 
 ### As a contributor
 
-If you have any historical contributions you will be asked to relicense them to [LGPL v2.1+][LGPL v2.1]
-instead of the initially proposed [LGPL v3+][LGPL v3].
+If you have any historical contributions [you will be asked](#contacting-contributors)
+to relicense them to [LGPL v2.1+][LGPL v2.1] instead of the initially proposed [LGPL v3+][LGPL v3].
 
 ### As a developer
 
