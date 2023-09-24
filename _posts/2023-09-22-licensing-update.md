@@ -3,8 +3,7 @@ layout: post
 title: An update on relicensing the MDAnalysis library (towards LGPLv2.1+)
 ---
 
-> [!WARNING]
-> **Disclaimer**
+> ⚠️ **Disclaimer**
 > The MDAnalysis core team members are not
 > lawyers. As such the information provided here __does not, and is not
 > intended to constitute legal advice__. This blog post also does not
