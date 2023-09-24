@@ -93,7 +93,7 @@ In this section we briefly describe the tasks and duties of each role.
 #### Workshops and meetings
 - Identifying workshop and event opportunities
 - Organising workshops and events
-- Gathering and coordinate volunteers
+- Gathering and coordinating volunteers
 - Managing content, presentations and teaching at workshops
 - Manage material maintenance on GitHub
 
