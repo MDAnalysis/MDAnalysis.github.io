@@ -10,7 +10,7 @@ and to advertise these wonderful tools to the MDAnalysis user community,
 we have created an ecosystem of [MDAnalysis Toolkits, or "MDAKits"](https://mdakits.mdanalysis.org/about.html).
 
 
-Please look at the [registry of toolkits](https://mdakits.mdanalysis.org/mdakits.html)
+Please look at the [registry of MDAKits](https://mdakits.mdanalysis.org/mdakits.html)
 for a list of toolkits that [meet the minimum MDAKit requirements](insert link here).
 These are regularly tested against the latest and development versions of
 MDAnalysis. Whilst we cannot guarantee the completeness of the MDAKit's test coverage, if you see a green badge, the code should be minimally behaving as the MDAKit authors intended it!
