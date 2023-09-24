@@ -61,7 +61,7 @@ In this section we briefly describe the tasks and duties of each role.
 - Maintenance and fixes
 
 ### Releases and deployment
-- Monitor upstream and downstream package changes
+- Monitoring upstream and downstream package changes
 - Updates and fixes for upstream and downstream packages
 - Managing future release plans and timing
 - Carrying out releases
