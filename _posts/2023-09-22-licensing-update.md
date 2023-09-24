@@ -72,15 +72,15 @@ License pairs detailed as “Yes ([copyleft](#copyleft))” are compatible but m
 interacting GNU GPL license. License pairs detailed with the compatibility “Yes” are, to our knowledge,
 fully compatible without incurring any [copyleft](#copyleft).*
 
-| License         | [GPL v2][]          | [GPL v3][]          | [LGPL v2.1][]       | [LGPL v3][]         | [Apache 2.0]()     | [MIT][]            | [BSD 3.0][]        |
-|-----------------|---------------------|---------------------|---------------------|---------------------|--------------------|--------------------|--------------------|
-| [GPL v2][]      | Yes                 | No \[1\]            | Yes ([copyleft]())  | No \[1\]            | No                 | Yes ([copyleft]()) | Yes ([copyleft]()) |
-| [GPL v3][]      | No \[1\]            | Yes                 | No \[2\]            | Yes ([copyleft]())  | Yes ([copyleft]()) | Yes ([copyleft]()) | Yes ([copyleft]()) |
-| [LGPL v2.1][]   | Yes ([copyleft]())  | No                  | Yes                 | No \[2\]            | No                 | Yes                | Yes                |
-| [LGPL v3][]     | No \[1\]            | Yes ([copyleft]())  | No \[2\]            | Yes                 | Yes                | Yes                | Yes                |
-| [Apache 2.0][]  | No                  | Yes ([copyleft]())  | No                  | Yes                 | Yes                | Yes                | Yes                |
-| [MIT][]         | Yes ([copyleft]())  | Yes ([copyleft]())  | Yes                 | Yes                 | Yes                | Yes                | Yes                |
-| [BSD 3.0][]     | Yes ([copyleft]())  | Yes ([copyleft]())  | Yes                 | Yes                 | Yes                | Yes                | Yes                |
+| License         | [GPL v2][]                   | [GPL v3][]                   | [LGPL v2.1][]                | [LGPL v3][]                  | [Apache 2.0]()              | [MIT][]                     | [BSD 3.0][]                  |
+|-----------------|------------------------------|------------------------------|------------------------------|------------------------------|-----------------------------|-----------------------------|--------------------------------|
+| [GPL v2][]      | Yes                          | No \[1\]                     | Yes ([copyleft](#copyleft))  | No \[1\]                     | No                          | Yes ([copyleft](#copyleft)) | Yes ([copyleft](#copyleft)) |
+| [GPL v3][]      | No \[1\]                     | Yes                          | No \[2\]                     | Yes ([copyleft](#copyleft))  | Yes ([copyleft](#copyleft)) | Yes ([copyleft](#copyleft)) | Yes ([copyleft](#copyleft)) |
+| [LGPL v2.1][]   | Yes ([copyleft](#copyleft))  | No                           | Yes                          | No \[2\]                     | No                          | Yes                         | Yes                            |
+| [LGPL v3][]     | No \[1\]                     | Yes ([copyleft](#copyleft))  | No \[2\]                     | Yes                          | Yes                         | Yes                         | Yes                            |
+| [Apache 2.0][]  | No                           | Yes ([copyleft](#copyleft))  | No                           | Yes                          | Yes                         | Yes                         | Yes                            |
+| [MIT][]         | Yes ([copyleft](#copyleft))  | Yes ([copyleft](#copyleft))  | Yes                          | Yes                          | Yes                         | Yes                         | Yes                            |
+| [BSD 3.0][]     | Yes ([copyleft](#copyleft))  | Yes ([copyleft](#copyleft))  | Yes                          | Yes                          | Yes                         | Yes                         | Yes                            |
 
 *\[1\] Compatible if the [GPL v2][] license is provided under the “or any later version” terms.
 \[2\] Compatible if the [LGPL v2.1][] license is provided under the “or any later version” terms.*
