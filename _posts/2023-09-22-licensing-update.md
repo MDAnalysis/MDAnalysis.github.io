@@ -70,7 +70,7 @@ the MDAnalysis core developer team should you have any questions or concerns**.
 detailed with a compatibility of “No” have claimed incompatibilities between their license terms.
 License pairs detailed as “Yes ([copyleft](#copyleft))” are compatible but may incur copyleft through the
 interacting GNU GPL license. License pairs detailed with the compatibility “Yes” are, to our knowledge,
-fully compatible without incurring any [copyleft](#copyleft) penalty.*
+fully compatible without incurring any [copyleft](#copyleft).*
 
 | License         | [GPL v2][]          | [GPL v3][]          | [LGPL v2.1][]       | [LGPL v3][]         | [Apache 2.0]()     | [MIT][]            | [BSD 3.0][]        |
 |-----------------|---------------------|---------------------|---------------------|---------------------|--------------------|--------------------|--------------------|
