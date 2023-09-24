@@ -12,7 +12,7 @@ Title: An update on relicensing the MDAnalysis library (towards LGPLv2.1+)
 >
 > Further information on open-source software licensing can be found
 > from sources such as the [Open Source Initiative][OSI],
-> [tl;drLegal][tldr legal] and the [Software Sustainability Institute][SSI licensing].
+> [tl;dr Legal][tldr legal] and the [Software Sustainability Institute][SSI licensing].
 >
 > Should you have any concerns about licensing, we always strongly
 > recommend getting legal advice before making any decisions on how
