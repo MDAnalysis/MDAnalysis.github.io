@@ -245,6 +245,11 @@ MDAnalysis library under the LGPLv2.1+ license from this day going forward.
 Typed Signature
 ```
 
+**Please note that it is important to ensure that the responding party is the copyright owner.
+In some cases, your University or Employer, at the time of contribution, may have been the
+copyright owner instead of yourself. If you think this might be the case, please let us know
+as soon as possible with any relevant information as to whom the copyright owner might be.**
+
 It is important that we hear back from as many contributors as possible. If you have contributed to
 MDAnalysis in the past but have since changed your git-linked contact details, we would kindly ask if
 you could email *licensing@mdanalysis.org* to let us know how best to contact you.
