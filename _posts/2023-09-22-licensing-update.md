@@ -20,6 +20,35 @@ title: An update on relicensing the MDAnalysis library (towards LGPLv2.1+)
 > recommend getting legal advice before making any decisions on how
 > licensing changes may affect you.
 
+
+## Table of contents
+
+- [Short description](#short-description)
+- [Overview](#overview)
+- [Rationale for our change in target license](#rationale-for-our-change-in-target-license)
+  * [Why LGPL v2.1+ instead of LGPLv3+?](#why-lgpl-v21--instead-of-lgplv3--)
+  * [Why the interim GPL v3+ and LGPL v3+ package licenses? (The issue with Apache 2.0).](#why-the-interim-gpl-v3--and-lgpl-v3--package-licenses---the-issue-with-apache-20-)
+  * [Why not opt for a more permissive (and likely less complicated) license such as MIT?](#why-not-opt-for-a-more-permissive--and-likely-less-complicated--license-such-as-mit-)
+- [Detailing our proposed relicensing process](#detailing-our-proposed-relicensing-process)
+  * [1. A GPL v2+ package and source code (MDAnalysis v2.5 and lower)](#1-a-gpl-v2--package-and-source-code--mdanalysis-v25-and-lower-)
+  * [2. A GPL v3+ package, and a mix of historical GPL v2+ and new LGPL v2.1+ source code (MDAnalysis v2.6 onwards)](#2-a-gpl-v3--package--and-a-mix-of-historical-gpl-v2--and-new-lgpl-v21--source-code--mdanalysis-v26-onwards-)
+  * [3. An LGPL v3+ package, and an LGPL v2.1+ source code (Optional)](#3-an-lgpl-v3--package--and-an-lgpl-v21--source-code--optional-)
+  * [4. An LGPL v2.1+ package and source code](#4-an-lgpl-v21--package-and-source-code)
+- [How does this affect me?](#how-does-this-affect-me-)
+  * [As a contributor](#as-a-contributor)
+  * [As a developer](#as-a-developer)
+  * [As a user](#as-a-user)
+- [Next steps](#next-steps)
+  * [Contacting contributors](#contacting-contributors)
+  * [Removing Apache 2.0 dependencies](#removing-apache-20-dependencies)
+- [Getting in touch](#getting-in-touch)
+- [Definitions](#definitions)
+  * [package license](#package-license)
+  * [source code license](#source-code-license)
+  * [license compatibility](#license-compatibility)
+  * [copyleft](#copyleft)
+- [Acknowledgements](#acknowledgements)
+
 ## Short description
 
 This blog post provides an update on MDAnalysis’ proposed license change. Specifically, we outline our
