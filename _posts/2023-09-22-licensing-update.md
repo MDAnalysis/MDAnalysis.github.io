@@ -298,7 +298,7 @@ This relicensing effort has been made possible in part by the CZI grant DAF2021-
 grant DOI https://doi.org/10.37921/426590wiobus from the Chan Zuckerberg Initiative DAF,
 an advised fund of Silicon Valley Community Foundation (funder DOI 10.13039/100014989).
 
-– The MDAnalysis [Core Developers][]
+– Irfan Alibay on behalf of the MDAnalysis [Core Developers][]
 
 [OSI]: https://opensource.org/osd
 [tldr legal]: https://tldrlegal.com/
