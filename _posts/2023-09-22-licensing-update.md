@@ -139,9 +139,10 @@ to be developed and used.
 
 Whilst reviewing the compatibility of GNU GPL licenses, we were made aware of a likely incompatibility between
 the [Apache 2.0][] license and either [GPL v2][] or [LGPL v2.1][]. The exact details are again quite complex and
-murky, and we would instead refer you to [expert opinions][] on the matter. Nevertheless, it is our understanding
-that the prevalent opinion is that (L)GPLv2 codes cannot dynamically link to [Apache 2.0][] codes, something which
-the MDAnalysis library has historically been doing by depending on the [fasteners][] and [mmtf-python][] packages.
+murky, and we would instead refer you to Heather Meeker's opinion (*Open Source for Business, 3rd Ed.*) on the matter.
+Nevertheless, it is our understanding that the prevalent opinion is that (L)GPLv2 codes cannot dynamically link
+to [Apache 2.0][] codes, something which the MDAnalysis library has historically been doing by depending on
+the [fasteners][] and [mmtf-python][] packages.
 
 Both of these packages bring important core functionality to MDAnalysis and cannot be quickly removed without impacting
 the user experience. We believe that this is something we can do as we move towards a v3.0 release of MDAnalysis,
@@ -312,7 +313,6 @@ an advised fund of Silicon Valley Community Foundation (funder DOI 10.13039/1000
 [Apache 2.0]: https://www.apache.org/licenses/LICENSE-2.0
 [contributors]: https://github.com/MDAnalysis/mdanalysis/blob/develop/package/AUTHORS
 [NumFOCUS]: https://www.numfocus.org
-[expert opinions]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=heather+meeker+open+source+for+business&btnG=
 [fasteners]: https://fasteners.readthedocs.io/en/latest/
 [mmtf-python]: https://github.com/rcsb/mmtf-python
 [py-filelock]: https://github.com/tox-dev/filelock
