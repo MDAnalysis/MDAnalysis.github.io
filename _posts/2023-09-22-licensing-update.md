@@ -53,7 +53,7 @@ title: An update on relicensing the MDAnalysis library (towards LGPLv2.1+)
 
 This blog post provides an update on MDAnalysis’ proposed license change. Specifically, we outline our
 decision to opt for a [GNU Lesser General Public License v2.1+ (LGPL v2.1+)][LGPL v2.1] instead of
-the [previously communicated]() [GNU Lesser General Public License v3+ (LGPL v3+)][LGPL v3].
+the [previously communicated][previous relicensing post] [GNU Lesser General Public License v3+ (LGPL v3+)][LGPL v3].
 
 We also detail some [interim changes](#why-the-interim-gpl-v3-and-lgpl-v3-package-licenses-the-issue-with-apache-20)
 to the MDAnalysis [package license](#package-license), alongside some
@@ -61,10 +61,9 @@ to the MDAnalysis [package license](#package-license), alongside some
 
 ## Overview
 
-In November of 2022 the MDAnalysis team [announced a proposal to change the license of its core library](https://www.mdanalysis.org/2022/11/07/relicensing/#relicensing-mdanalysis)
+In November of 2022 the MDAnalysis team [announced a proposal to change the license of its core library][previous relicensing post]
 from the [GNU General Public License v2+][GPL v2] to the [GNU Lesser General Public License v3+][LGPL v3].
-The full rationale for this change can be found [here](https://www.mdanalysis.org/2022/11/07/relicensing/#rationale-for-license-change)
-and mainly centered around three main arguments:
+The full rationale for this change can be found [here][rationale] and mainly centered around three main arguments:
 
 1. Allowing downstream codes to freely import or link to the MDAnalysis library with minimal worry about the license they choose to use.
 2. Allowing downstream codes to use and subclass any MDAnalysis components under its application programming interface
@@ -75,7 +74,7 @@ and mainly centered around three main arguments:
 
 It is our view that a weak copyleft license, such as the [GNU Lesser General Public License][LGPL v3] would best match these requirements.
 
-Upon announcing the proposed license change, we engaged in a [consultation period](https://www.mdanalysis.org/2022/11/07/relicensing/#consultation-period-7th-november-until-5th-december-2022)
+Upon announcing the proposed license change, we engaged in a [consultation period][consultation]
 where we encouraged members of the community to comment on and ask questions about the proposed relicensing efforts.
 Overall, the community response was overwhelmingly positive, and led to some very fruitful discussions. We would like
 to thank all members of the community who participated. Some interesting points were brought to our attention, particularly
@@ -149,10 +148,9 @@ the user experience. We believe that this is something we can do as we move towa
 replacing the use of [fasteners][] with alternatives such as [py-filelock][] and removing the ability to read
 [MMTF][] files in favor [newer PDB file formats](https://mmcif.wwpdb.org/). As this will likely take some time,
 we will temporarily change our [package license](#package-license) to [GPL v3+][GPL v3], which we have already done
-as part of the [2.6.0 release of MDAnalysis](https://www.mdanalysis.org/blog/#release-2-6-0-and-2-6-1-of-mdanalysis).
-We may also possibly go through an interim [LGPL v3+][LGPL v3] license, before reaching our final [LGPL v2.1+][LGPL v2.1]
-[package license](#package-license). Further details how we see the license process to occur can be found
-[later in this blog](#detailing-our-proposed-relicensing-process).
+as part of the [2.6.0 release of MDAnalysis][release 2.6]. We may also possibly go through an interim
+[LGPL v3+][LGPL v3] license, before reaching our final [LGPL v2.1+][LGPL v2.1] [package license](#package-license).
+Further details how we see the license process to occur can be found [later in this blog](#detailing-our-proposed-relicensing-process).
 
 We note that we can make these changes to the MDAnalysis [package license](#package-license) without requiring
 sign offs from all developers as the library’s [source code license](#source-code-license) will still remain
@@ -164,12 +162,12 @@ and we will attempt to explore alternative packaging solutions**.
 
 ### Why not opt for a more permissive (and likely less complicated) license such as MIT?
 
-As detailed in our [original justification](https://www.mdanalysis.org/2022/11/07/relicensing/#rationale-for-license-change)
-we believe that a weak copyleft license, i.e. the [Lesser GNU GPL licenses][LGPL v2.1], best respects the original intent of historical
-contributions to MDAnalysis. Additionally, we are also aware of various portions of the MDAnalysis library which likely have
-derivative code from other [LGPL v2.1+][LGPL v2.1] licensed codes, such as [GROMACS](https://www.gromacs.org/about.html#license).
-We do not believe it to be possible at this point to remove these portions of the library without significantly impacting the
-user experience.
+As detailed in our [original justification][rationale] we believe that a weak copyleft license,
+i.e. the [Lesser GNU GPL licenses][LGPL v2.1], best respects the original intent of historical
+contributions to MDAnalysis. Additionally, we are also aware of various portions of the MDAnalysis
+library which likely have derivative code from other [LGPL v2.1+][LGPL v2.1] licensed codes,
+such as [GROMACS](https://www.gromacs.org/about.html#license). We do not believe it to be possible
+at this point to remove these portions of the library without significantly impacting the user experience.
 
 ## Detailing our proposed relicensing process
 
@@ -187,7 +185,7 @@ In this section, we will briefly go over the various steps we propose to take (T
 
 ### 1. A GPL v2+ package and source code (MDAnalysis v2.5 and lower)
 
-This is the original state of the license up until the [2.5.x releases of MDAnalysis](https://www.mdanalysis.org/blog/page2/#releases-2-5-0-and-2-4-x-of-mdanalysis).
+This is the original state of the license up until the [2.5.x releases of MDAnalysis][release 2.5].
 The package and source code were released under a [GPL v2+][GPL v2] license.
 
 ### 2. A GPL v3+ package, and a mix of historical GPL v2+ and new LGPL v2.1+ source code (MDAnalysis v2.6 onwards)
@@ -316,5 +314,9 @@ an advised fund of Silicon Valley Community Foundation (funder DOI 10.13039/1000
 [MMTF]: https://mmtf.rcsb.org/
 [44733fc]: https://github.com/MDAnalysis/mdanalysis/commit/44733fc214dcfdcc2b7cb3e3705258781bb491bd
 [MDAnalysis core library]: https://github.com/MDAnalysis/mdanalysis
+[previous relicensing post]: {{ site.baseurl }}{% post_url 2022-11-07-relicensing %}
+[rationale]: {{ site.baseurl }}{% post_url 2022-11-07-relicensing %}#rationale-for-license-change
+[consultation]:  {{ site.baseurl }}{% post_url 2022-11-07-relicensing %}#consultation-period-7th-november-until-5th-december-2022
+[release 2.6]: {{ site.baseurl }}{% post_url 2023-09-02-release-2.6.1.md %}
+[release 2.5]: {{ site.baseurl }}{% post_url 2023-06-05-releases-2.4.x-2.5.0 %}
 [Core Developers]: {% link about.md %}#mdanalysis-core-developers
-
