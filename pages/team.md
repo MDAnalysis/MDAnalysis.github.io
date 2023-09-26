@@ -8,7 +8,7 @@ MDAnalysis is a community-driven project that is made possible through the effor
 ## Roles
 
 In this section we list contributors who have led or contributed substantial effort to the roles listed below.
-At present, we have only listed leading figures from the past 1-2 years, i.e. from 2021 onwards.
+At present, we have only listed leading figures from the past 2-3 years, i.e. from 2020 onwards.
 However, we hope to eventually acknowledge everyone who has been responsible for a particular role throughout
 the lifetime of the project.
 
