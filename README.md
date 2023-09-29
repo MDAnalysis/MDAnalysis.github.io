@@ -140,3 +140,48 @@ with
 
 
     bundle update github-pages
+
+
+#### Using docker container for local builds ####
+
+**Problems with installing jekyll/github-pages?** Try a docker
+container as a last resort:
+
+If the standard installation for jekyll does not work for you (many
+people complain, for instance, *commonmarker* does not install
+https://stackoverflow.com/questions/58849651/bundler-cannot-install-commonmarker)
+then you can try running it from a docker image.
+
+* on Linux you should be able to start/run docker after installing the
+  appropriate docker package through your package manager
+* on MacOS
+  - install Docker Desktop
+    https://docs.docker.com/desktop/install/mac-install/ and let it
+    install all kind of startup items
+  - start Docker
+
+Follow the solution from https://stackoverflow.com/a/58850151/ as
+described next:
+
+
+To build the static site, run `jekyll build` inside docker:
+```bash
+export JEKYLL_VERSION=3.8
+docker run --rm \
+  --volume="$PWD:/srv/jekyll" \
+  -it jekyll/jekyll:$JEKYLL_VERSION \
+  jekyll build
+```
+The static site files are stored in the `_site` directory.
+
+Then you must *serve* the site:
+```bash
+cd _site
+python -m http.serve
+```
+
+Point your browser to http://localhost:8000
+
+When you make changes, you need to re-build the site.
+
+	
