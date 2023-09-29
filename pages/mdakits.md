@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MDAKits and other tools using MDAnalysis
+title: MDAKits and MDA-based tools
 ---
 
 MDAnalysis is developed with extensibility in mind, allowing
@@ -9,6 +9,7 @@ that the library provides. To help developers in this process,
 and to advertise these wonderful tools to the MDAnalysis user community,
 we have created an ecosystem of [MDAnalysis Toolkits, or "MDAKits"](https://mdakits.mdanalysis.org/about.html).
 
+## MDAKits 
 
 Please look at the [registry of MDAKits](https://mdakits.mdanalysis.org/mdakits.html)
 for a list of toolkits that [meet the minimum MDAKit requirements](https://mdakits.mdanalysis.org/about.html#requirements).
@@ -31,11 +32,11 @@ Below we list projects that use MDAnalysis and are not registered as MDAKits:
 -  [nglview](https://github.com/arose/nglview): nglview is a tool to visualize
    trajectories in jupyter notebooks.
 -  [MDSrv](https://github.com/nglviewer/mdsrv) streams and visualizes MD trajectories interactively within web browsers
--  [mda-pymol](https://nms.kcl.ac.uk/lorenz.lab/wp/?p=1768):
-   MDAnalysis has been embedded into PyMOL to read many different MD formats
-   directly (see
-   [bieniekmateusz/pymol-mdanalysis](https://github.com/bieniekmateusz/pymol-mdanalysis)
-   on GitHub)
+-  [MD Trajectories in
+   PyMOL](https://nms.kcl.ac.uk/lorenz.lab/wp/?p=1768): MDAnalysis has
+   been embedded into Open Source PyMOL to read many different MD formats
+   directly. Source code is available from 
+   [bieniekmateusz/pymol-mdanalysis](https://github.com/bieniekmateusz/pymol-mdanalysis) on GitHub.
 -  [MolecularNodes](https://github.com/BradyAJohnston/MolecularNodes) plugin for the [Blender](https://www.blender.org/) rendering package; the plugin provides a convenient method for importing structural biology files, including MD trajectories, into Blender, and several nodes for working with atomic data inside of Blender's Geometry Nodes.
 
 ### Analysis tools
