@@ -49,7 +49,7 @@ We only share information with the following third parties:
   statistics, as explained in
   [https://www.goatcounter.com/privacy](https://www.goatcounter.com/privacy).
   The most recent 2.4 million pageviews are stored on GoatCounter's servers.
-  As we receive new pageviews, the older ones are removed from the servers. This means that we do not exactly when data is or will be discarded.
+  As we receive new pageviews, the older ones are removed from the servers. This means that we do not know exactly when data is or will be discarded.
   These statistics are publicly visible at
   [https://mdanalysis.goatcounter.com](https://mdanalysis.goatcounter.com/).
 * Website hosting: [GitHub](https://github.com/) hosts the web pages
