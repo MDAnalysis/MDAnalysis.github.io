@@ -154,11 +154,11 @@ The static site files are stored in the `_site` directory.
 
 Then you must **serve the site** so you can view them in a web browser
 ```bash
-cd _site
-python -m http.serve
+python -m http.server --directory _site 4444
 ```
+(You can leave out the port number and then it defaults to 8000.)
 
-Point your browser to http://localhost:8000
+Point your browser to http://localhost:4444
 
 When you make changes, you need to re-build the site.
 
