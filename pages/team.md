@@ -34,7 +34,7 @@ please contact us at mdanalysis@numfocus.org to let us know!
 | [MDAKits registry](#mdakits-registry)             |                                | Irfan Alibay                                                            |
 | [Documentation](#documentation)                |                                | Lily Wang, Irfan Alibay                                                 |
 | [Outreach](#outreach)                     | [Workshops and meetings](#workshops-and-meetings)         | Micaela Matta, Irfan Alibay                                             |
-| [Outreach](#outreach)                     | [Mentoring](#mentoring)                      | Jenna Swarthout Goddard, Oliver Beckstein                               |
+| [Outreach](#outreach)                     | [Mentoring](#mentoring)                      | Jenna Swarthout Goddard, Oliver Beckstein, Jonathan Barnoud             |
 | [Social media](#social-media)                 |                                | Oliver Beckstein, Jenna Swarthout Goddard                               |
 | [Community engagement](#community-engagement)         |                                | Oliver Beckstein, Irfan Alibay                                          |
 | [Governance](#governance)                   |                                | Oliver Beckstein, Irfan Alibay, Jenna Swarthout Goddard                 |
