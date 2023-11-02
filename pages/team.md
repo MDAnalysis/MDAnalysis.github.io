@@ -13,7 +13,7 @@ However, we hope to eventually acknowledge everyone who has been responsible for
 the lifetime of the project.
 
 If you have participated to MDAnalysis in the past and your name is missing or you feel your previous/historical role could be better characterised,
-please contact us at mdanalysis@numfocus.org to let us know!
+please contact us at mdanalysis@numfocus.org to let us know. We also invite community members to reach out to mdanalysis@numfocus.org or the current team members if they are interested in filling missing roles or joining an existing team!
 
 | Role                         | Sub-role                       | Historical                                                              |
 |------------------------------|--------------------------------|-------------------------------------------------------------------------|
