@@ -3,7 +3,7 @@ layout: page
 title: MDAnalysis team
 ---
 
-MDAnalysis is a community-driven project that is made possible through the efforts of many members who contribute in numerous and diverse ways, ranging from direct package development, maintenance, documentation, communication, and managerial responsibilities. On this page we list identified project roles and those historically responsible for the tasks. In the future, we plan to also list the contributors currently responsible for overseeing and managing associated tasks. We note that the listed roles on this page can differ significantly in scope and required effort.
+MDAnalysis is a community-driven project that is made possible through the efforts of many members who contribute in numerous and diverse ways, ranging from direct package development, maintenance, documentation, communication, and managerial responsibilities. On this page we list identified project roles, current leads and supporting team members for each of those roles, and those historically responsible for the tasks. We note that the listed roles on this page can differ significantly in scope and required effort.
 
 ## Roles
 
