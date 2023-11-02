@@ -12,7 +12,7 @@ At present, we have only listed leading figures from the past 2-3 years, i.e. fr
 However, we hope to eventually acknowledge everyone who has been responsible for a particular role throughout
 the lifetime of the project.
 
-If you have participated to MDAnalysis in the past and feel your previous/historical role could be better characterised,
+If you have participated to MDAnalysis in the past and your name is missing or you feel your previous/historical role could be better characterised,
 please contact us at mdanalysis@numfocus.org to let us know!
 
 | Role                         | Sub-role                       | Historical                                                              |
