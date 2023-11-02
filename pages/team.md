@@ -19,7 +19,7 @@ please contact us at mdanalysis@numfocus.org to let us know!
 |------------------------------|--------------------------------|-------------------------------------------------------------------------|
 | [Core library maintenance](#core-library-maintenance)     | [Issue management](#issue-management)               | Oliver Beckstein, Irfan Alibay, Jonathan Barnoud                        |
 | [Core library maintenance](#core-library-maintenance)     | [Pull request management](#pull-request-management)        | Oliver Beckstein, Richard Gowers, Irfan Alibay, Hugo MacDermott-Opeskin, Jonathan Barnoud |
-| [Core library maintenance](#core-library-maintenance)     | [General maintenance](#general-maintenance)            | Irfan Alibay                                                            |
+| [Core library maintenance](#core-library-maintenance)     | [General maintenance](#general-maintenance)            | Irfan Alibay, Jonathan Barnoud                                          |
 | [Continuous Integration](#continuous-integration)       |                                | Irfan Alibay                                                            |
 | [Releases and deployment](#releases-and-deployment)      |                                | Irfan Alibay                                                            |
 | [Non-core library maintenance](#non-core-library-maintenance) | distopia                       | Hugo MacDermott-Opeskin                                                 |
