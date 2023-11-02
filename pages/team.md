@@ -30,7 +30,7 @@ please contact us at mdanalysis@numfocus.org to let us know!
 | [Non-core library maintenance](#non-core-library-maintenance) | GridDataFormats                | Irfan Alibay, Oliver Beckstein                                          |
 | [Non-core library maintenance](#non-core-library-maintenance) | MDAnalysisData                 | Oliver Beckstein                                                        |
 | [Non-core library maintenance](#non-core-library-maintenance) | mda-xdrlib and other utilities | Irfan Alibay                                                            |
-| [Non-core library maintenance](#non-core-library-maintenance) | pyedr                          | Irfan Alibay                                                            |
+| [Non-core library maintenance](#non-core-library-maintenance) | pyedr                          | Irfan Alibay, Jonathan Barnoud                                          |
 | [MDAKits registry](#mdakits-registry)             |                                | Irfan Alibay                                                            |
 | [Documentation](#documentation)                |                                | Lily Wang, Irfan Alibay                                                 |
 | [Outreach](#outreach)                     | [Workshops and meetings](#workshops-and-meetings)         | Micaela Matta, Irfan Alibay                                             |
