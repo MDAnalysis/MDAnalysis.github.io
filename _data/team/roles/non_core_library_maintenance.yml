@@ -1,0 +1,80 @@
+role: Non-core library maintenance
+description: |
+  The non-core library maintenance team is responsible for the
+  managing the maintenance of the all MDAnalysis packages
+  that are not the core MDAnalysis library.
+tasks:
+  - Managing issues and pull-requests for sub-projects
+  - Managing new features and updates
+  - Managing maintenance
+  - Working with CI and CD team and infrastructure
+subroles:
+
+  - subrole: distopia
+    current_leads: []
+    current_members: []
+    historical_leads:
+      - Hugo MacDermott-Opeskin
+    historical_members: []
+
+  - subrole: cookiecutter-mdakit
+    current_leads:
+      - Lily Wang
+    current_members: []
+    historical_leads:
+      - Lily Wang
+    historical_members: []
+
+  - subrole: mda-encore
+    current_leads: []
+    current_members: []
+    historical_leads:
+      - Ian Kenney
+    historical_members: []
+
+  - subrole: hole2-mdakit
+    current_leads: []
+    current_members: []
+    historical_leads:
+      - Ian Kenney
+    historical_members: []
+
+  - subrole: benchmarks
+    current_leads:
+      - Oliver Beckstein
+    current_members: []
+    historical_leads:
+      - Oliver Beckstein
+    historical_members: []
+
+  - subrole: GridDataFormats
+    current_leads:
+      - Oliver Beckstein
+    current_members: []
+    historical_leads:
+      - Irfan Alibay
+      - Oliver Beckstein
+    historical_members: []
+  
+  - subrole: MDAnalysisData
+    current_leads:
+      - Oliver Beckstein
+    current_members: []
+    historical_leads:
+      - Oliver Beckstein
+    historical_members: []
+  
+  - subrole: mda-xrlib and other small utilities
+    current_leads:
+      - Irfan Alibay
+    current_members: []
+    historical_leads:
+      - Irfan Alibay
+    historical_members: []
+  
+  - subrole: pyedr
+    current_leads: []
+    current_members: []
+    historical_leads:
+      - Irfan Alibay
+    historical_members: []

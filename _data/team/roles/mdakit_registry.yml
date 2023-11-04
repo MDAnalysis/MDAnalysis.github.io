@@ -1,0 +1,15 @@
+role: MDAKits registry
+tasks: 
+  - Managing submissions to MDAKits registry
+  - Managing manual review process of new MDAKits
+  - Managing automated test and badge infrastructure of all MDAKits
+  - Manage helping with MDAKits who need assistance
+current_leads:
+  - Irfan Alibay
+current_members:
+  - Fiona Naughton
+  - Lily Wang
+  - Oliver Beckstein
+historical_leads:
+  - Irfan Alibay
+historical_members: []

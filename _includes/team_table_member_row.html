@@ -1,0 +1,25 @@
+<td>
+    <!-- Some logic on whether to create links to role descriptions below.
+    Only some subroles have their descriptions and tasks split out. -->
+    {% assign has_link = false %}
+    {% if include.subrole.subrole %}
+        {% if include.subrole.description or include.subrole.tasks %}
+            {% assign has_link = true %}
+        {% endif %}
+    {% endif %}
+
+    {% if has_link %}
+        <a href="#{{ include.subrole.subrole | downcase | replace: ' ', '-' }}">
+            {{ include.subrole.subrole }}
+        </a>
+    {% else %}
+    {{ include.subrole.subrole }}
+    {% endif %}
+</td>
+<td>
+    {% include team_table_member_cell.html leads=include.subrole.current_leads members=include.subrole.current_members %}
+</td>
+<td>
+    {% include team_table_member_cell.html leads=include.subrole.historical_leads members=include.subrole.historical_members %}
+
+</td>

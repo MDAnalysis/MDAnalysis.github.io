@@ -1,0 +1,49 @@
+<table style="font-size:medium;">
+    <tr>
+        <th>Role</th>
+        <th>Sub-role</th>
+        <th>Current members</th>
+        <th>Historical members</th>
+    </tr>
+    <!-- This reads from _data/team/roles -->
+    {% assign all_roles = site.data.team.roles | sort %}
+    {% for role_page in all_roles %}
+        <!-- all_roles is a hashmap where role_page[0] is the key (file stem)
+        and role_page[1] is the value (object created by the contained yaml) -->
+        {% assign role = role_page[1] %}
+        <!-- If there are no subroles, pretend the role is a subrole.
+        This lets us assign current_leads, current_members, etc.
+        on the top level instead of creating an empty subrole. -->
+        {% if role.subroles %}
+            {% assign rowspan = role.subroles.size %}
+            {% assign first_subrole = role.subroles.first %}
+            {% assign subroles = role.subroles %}
+        {% else %}
+            {% assign rowspan = 1 %}
+            {% assign first_subrole = role %}
+            {% assign subroles = '' | split: '' %}
+        {% endif %}
+
+        <!-- Now we start making rows. The first subrole needs special treatment
+        because if there's multiple subroles, we only define the left-most
+        cell in the first row with the appropriate rowspan value. -->
+        <tr font-size="small">
+            <!-- `rowspan` lets us create "merged" row cells -->
+            <td rowspan='{{ rowspan }}'>
+                <!-- Here we link to the description of tasks in role_description.html -->
+                <a href="#{{ role.role | downcase | replace: ' ', '-' }}">
+                {{ role.role }}
+                </a>
+            </td>
+            {% include team_table_member_row.html subrole=first_subrole %}
+        </tr>
+        <!-- Now we make the rest of the rows for the subroles -->
+        {% for subrole in subroles %}
+            <!-- Skip the first, that was done above -->
+            {% if forloop.first == true %} {% continue %} {% endif %}
+            <tr font-size="small">
+                {% include team_table_member_row.html subrole=subrole %}
+            </tr>
+        {% endfor %}
+    {% endfor %}
+</table>

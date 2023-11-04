@@ -1,0 +1,50 @@
+role: Core library maintenance
+description: |
+  The core library maintenance team is responsible for the
+  managing the maintenance of the MDAnalysis library.
+
+subroles:
+  - subrole: Issue management
+    tasks:
+      - Initial triage and tagging of issues
+      - Managing timely responses and resolving issues
+    current_leads:
+      - Rocco Meli
+    current_members:
+      - All core devs
+    historical_leads:
+      - Oliver Beckstein
+      - Irfan Alibay
+      - Jonathan Barnoud
+    historical_members: []
+
+  - subrole: Pull request management
+    tasks:
+      - Reviewing, shepherding, and merging pull requests
+    current_leads:
+      - Rocco Meli
+      - Oliver Beckstein
+    current_members:
+      - All core devs
+    historical_leads:
+      - Oliver Beckstein
+      - Richard Gowers
+      - Irfan Alibay
+      - Hugo MacDermott-Opeskin
+      - Jonathan Barnoud
+    historical_members: []
+  
+  - subrole: General maintenance
+    tasks:
+      - Standards compliange (e.g. managing metadata such as the author list)
+      - Tracking new dependencies
+      - Emergency fixes
+      - Other emergency maintenance
+    current_leads: 
+      - Irfan Alibay
+    current_members:
+      - All core devs
+    historical_leads:
+      - Irfan Alibay
+      - Jonathan Barnoud
+    historical_members: []

@@ -1,0 +1,18 @@
+role: Governance
+tasks: 
+  - Managing roadmap planning and the "big picture"
+  - Organising meetings
+  - Coordinating elections of core developers
+  - Onboarding new core developers
+  - Managing other roles in the organisation and general task lists
+  - Gathering usage and community metrics
+
+current_leads:
+  - Jenna Swarthout Goddard
+current_members:
+  - Oliver Beckstein
+historical_leads:
+  - Oliver Beckstein
+  - Irfan Alibay
+  - Jenna Swarthout Goddard
+historical_members: []

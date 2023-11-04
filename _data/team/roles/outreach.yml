@@ -1,0 +1,32 @@
+role: Outreach
+subroles:
+  - subrole: Workshops and meetings
+    tasks:
+    - Identifying workshop and event opportunities
+    - Organising workshops and events
+    - Gathering and coordinating volunteers
+    - Managing content, presentations and teaching at workshops
+    current_leads:
+      - Jenna Swarthout Goddard
+      - Rocco Meli
+    current_members:
+      - Micaela Matta
+      - All core devs
+    historical_leads:
+      - Irfan Alibay
+      - Micaela Matta
+    historical_members: []
+  
+  - subrole: Mentoring
+    tasks:
+      - Manage material maintenance on GitHub
+      - Mentoring-related administrative tasks
+      - Advertising opportunities for mentoring programs
+      - Mentoring in structured programs
+    current_leads:
+      - Jenna Swarthout Goddard
+    current_members: []
+    historical_leads:
+      - Jenna Swarthout Goddard
+      - Oliver Beckstein
+    historical_members: []

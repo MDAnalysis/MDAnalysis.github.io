@@ -1,0 +1,14 @@
+role: Relicensing coordinator
+tasks: 
+  - Researching the steps required to change licenses
+  - Coordinating the choice to a new license
+  - Contacting existing developers to solicit agreement
+  - Ensuring new developers agree to a new license
+  - Managing the switch to a new license
+
+current_leads:
+  - Irfan Alibay
+current_members: []
+historical_leads:
+  - Irfan Alibay
+historical_members: []

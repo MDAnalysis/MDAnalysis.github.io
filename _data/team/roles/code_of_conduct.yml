@@ -1,0 +1,17 @@
+role: Code of conduct committee
+description: |
+  The [Code of conduct committee](https://www.mdanalysis.org/pages/conduct/)
+  is elected by the MDAnalysis core developers on a rolling basis.
+tasks: 
+  - Act as points of contact for code of conduct violations
+
+current_leads:
+  - Jenna Swarthout Goddard
+  - Richard Gowers
+  - Micaela Matta
+current_members: []
+historical_leads:
+  - Jenna Swarthout Goddard
+  - Richard Gowers
+  - Micaela Matta
+historical_members: []

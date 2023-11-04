@@ -1,0 +1,25 @@
+{% assign leads = include.leads %}
+{% assign members = include.members %}
+
+{% assign empty_array = '' | split: '' %}
+
+<!-- Some logic in case leads or members have not been defined;
+we need to create empty arrays to avoid errors on concatenating. -->
+{% unless leads %}{% assign leads = empty_array %}{% endunless %}
+{% unless members %}{% assign members = empty_array %}{% endunless %}
+
+{% assign all_members = leads | concat: members %}
+{% assign sorted_names = all_members | sort %}
+{%- for member in sorted_names -%}
+    <!-- Bold the name if they're a lead -->
+    {%- if leads contains member -%}
+        <b>{{ member }}</b>
+    {%- else -%}
+        {{ member }}
+    {%- endif -%}
+    <!-- Add a comma if not the last item.
+    The % and %- denote leaving a space or not leaving a space
+    respectively -- the current formatting inserts a space after
+    the comma but not before. -->
+    {%- if forloop.last == false -%}, {% endif %}
+{%- endfor -%}
