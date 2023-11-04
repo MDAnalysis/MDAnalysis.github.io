@@ -7,10 +7,8 @@ MDAnalysis is a community-driven project that is made possible through the effor
 
 ## Roles
 
-In this section we list contributors who have led or contributed substantial effort to the roles listed below.
-At present, we have only listed leading figures from the past 2-3 years, i.e. from 2020 onwards.
-However, we hope to eventually acknowledge everyone who has been responsible for a particular role throughout
-the lifetime of the project.
+In this section we list major contributors who are leading or contributing substantial effort to the roles listed below. In addition, we list past leading figures from 2020 onwards in the "Historical contributors" column. As this team organisation structure was started in November 2023, many people contributed to these tasks before then and may not appear in this table. 
+However, we hope to eventually acknowledge everyone who has been responsible for a particular role throughout the lifetime of the project.
 
 If you have participated to MDAnalysis in the past and your name is missing or you feel your previous/historical role could be better characterised,
 please contact us at mdanalysis@numfocus.org to let us know. We also invite community members to reach out to mdanalysis@numfocus.org or the current team members if they are interested in filling missing roles or joining an existing team!

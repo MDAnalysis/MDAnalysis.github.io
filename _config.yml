@@ -28,6 +28,7 @@ author:
   email:          mdanalysis@numfocus.org
 
 images:           /public/images
+data_files:       /public/data
 js:               /js
 blog:             /blog
 
