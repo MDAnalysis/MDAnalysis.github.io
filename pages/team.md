@@ -7,7 +7,7 @@ MDAnalysis is a community-driven project that is made possible through the effor
 
 ## Roles
 
-In this section we list major contributors who are leading or contributing substantial effort to the roles listed below. In addition, we list past leading figures from 2020 onwards in the "Historical contributors" column. As this team organisation structure was started in November 2023, many people contributed to these tasks before then and may not appear in this table, in particular the [emeritus core developers]({{ site.url }}/about/#mdanalysis-emeriti-core-developers).
+In this section we list major contributors who are leading or contributing substantial effort to the roles listed below. The **Current** column lists all those who are currently responsible for a particular role, from 2023–2024. In addition, we list past leading figures from 2020 onwards in the "Historical contributors" column. As this team organisation structure was started in November 2023, many people contributed to these tasks before then and may not appear in this table, in particular the [emeritus core developers]({{ site.url }}/about/#mdanalysis-emeriti-core-developers).
 However, we hope to eventually acknowledge everyone who has been responsible for a particular role throughout the lifetime of the project.
 
 If you have participated to MDAnalysis in the past and your name is missing or you feel your previous/historical role could be better characterised,
