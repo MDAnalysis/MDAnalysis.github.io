@@ -18,7 +18,6 @@ subroles:
   
   - subrole: Mentoring
     tasks:
-      - Manage material maintenance on GitHub
       - Mentoring-related administrative tasks
       - Advertising opportunities for mentoring programs
       - Mentoring in structured programs
@@ -29,3 +28,15 @@ subroles:
       - Jenna Swarthout Goddard
       - Oliver Beckstein
     
+  - subrole: Teaching materials
+    tasks:
+      - Managing teaching materials on GitHub for workshops and events
+      - Maintaining and fixing materials
+    current_leads:
+      - Rocco Meli
+      - Micaela Matta
+    current_members:
+      - Jenna Swarthout Goddard
+    historical_members:
+      - Irfan Alibay
+      - Micaela Matta
