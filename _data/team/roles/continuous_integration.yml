@@ -1,7 +1,7 @@
 role: Continuous integration
 tasks:
   - Building and developing new CI infrastructure
-  - Monitoring status
+  - Monitoring CI status
   - Maintenance and fixes
 current_leads:
   - Irfan Alibay
