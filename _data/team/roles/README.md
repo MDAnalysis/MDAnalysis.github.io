@@ -18,8 +18,7 @@ Each role can optionally have the following tags:
 Each role can also optionally have lead/member tags, if there are no subroles. If there are subroles, the below are ignored:
 * `current_leads`: a list of names who are current leads
 * `current_members`: a list of names who are current members in the subgroup
-* `historical_leads`: a list of names who were previously leads
-* `historical_members`: a list of names who were previously members in the subgroup
+* `historical_members`: a list of names who previously contributed in a major way
 
 Onto subroles: each role can optionally define `subroles`. The `subroles` tag should be a **list** where each item *must have*:
 
@@ -28,8 +27,7 @@ Onto subroles: each role can optionally define `subroles`. The `subroles` tag sh
 Each subrole can *optionally have*:
 * `current_leads`: a list of names who are current leads
 * `current_members`: a list of names who are current members in the subgroup
-* `historical_leads`: a list of names who were previously leads
-* `historical_members`: a list of names who were previously members in the subgroup
+* `historical_members`: a list of names who previously contributed in a major way
 * `description`: text describing the role. This can be written in Markdown.
 * `tasks`: a list of strings describing tasks. This is rendered as a list.
 

@@ -12,11 +12,11 @@ subroles:
       - Rocco Meli
     current_members:
       - All core devs
-    historical_leads:
+    historical_members:
       - Oliver Beckstein
       - Irfan Alibay
       - Jonathan Barnoud
-    historical_members: []
+    
 
   - subrole: Pull request management
     tasks:
@@ -26,13 +26,13 @@ subroles:
       - Oliver Beckstein
     current_members:
       - All core devs
-    historical_leads:
+    historical_members:
       - Oliver Beckstein
       - Richard Gowers
       - Irfan Alibay
       - Hugo MacDermott-Opeskin
       - Jonathan Barnoud
-    historical_members: []
+    
   
   - subrole: General maintenance
     tasks:
@@ -44,7 +44,7 @@ subroles:
       - Irfan Alibay
     current_members:
       - All core devs
-    historical_leads:
+    historical_members:
       - Irfan Alibay
       - Jonathan Barnoud
-    historical_members: []
+    

@@ -11,10 +11,10 @@ subroles:
     current_members:
       - Micaela Matta
       - All core devs
-    historical_leads:
+    historical_members:
       - Irfan Alibay
       - Micaela Matta
-    historical_members: []
+    
   
   - subrole: Mentoring
     tasks:
@@ -25,7 +25,7 @@ subroles:
     current_leads:
       - Jenna Swarthout Goddard
     current_members: []
-    historical_leads:
+    historical_members:
       - Jenna Swarthout Goddard
       - Oliver Beckstein
-    historical_members: []
+    

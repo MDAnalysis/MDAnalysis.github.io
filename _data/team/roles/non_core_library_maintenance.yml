@@ -13,68 +13,68 @@ subroles:
   - subrole: distopia
     current_leads: []
     current_members: []
-    historical_leads:
+    historical_members:
       - Hugo MacDermott-Opeskin
-    historical_members: []
+    
 
   - subrole: cookiecutter-mdakit
     current_leads:
       - Lily Wang
     current_members: []
-    historical_leads:
+    historical_members:
       - Lily Wang
-    historical_members: []
+    
 
   - subrole: mda-encore
     current_leads: []
     current_members: []
-    historical_leads:
+    historical_members:
       - Ian Kenney
-    historical_members: []
+    
 
   - subrole: hole2-mdakit
     current_leads: []
     current_members: []
-    historical_leads:
+    historical_members:
       - Ian Kenney
-    historical_members: []
+    
 
   - subrole: benchmarks
     current_leads:
       - Oliver Beckstein
     current_members: []
-    historical_leads:
+    historical_members:
       - Oliver Beckstein
-    historical_members: []
+    
 
   - subrole: GridDataFormats
     current_leads:
       - Oliver Beckstein
     current_members: []
-    historical_leads:
+    historical_members:
       - Irfan Alibay
       - Oliver Beckstein
-    historical_members: []
+    
   
   - subrole: MDAnalysisData
     current_leads:
       - Oliver Beckstein
     current_members: []
-    historical_leads:
+    historical_members:
       - Oliver Beckstein
-    historical_members: []
+    
   
   - subrole: mda-xrlib and other small utilities
     current_leads:
       - Irfan Alibay
     current_members: []
-    historical_leads:
+    historical_members:
       - Irfan Alibay
-    historical_members: []
+    
   
   - subrole: pyedr
     current_leads: []
     current_members: []
-    historical_leads:
+    historical_members:
       - Irfan Alibay
-    historical_members: []
+    
