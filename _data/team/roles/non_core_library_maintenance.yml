@@ -34,7 +34,8 @@ subroles:
     
 
   - subrole: hole2-mdakit
-    current_leads: []
+    current_leads:
+      - Lily Wang
     current_members: []
     historical_members:
       - Ian Kenney
