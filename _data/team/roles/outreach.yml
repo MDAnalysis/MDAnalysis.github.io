@@ -12,11 +12,10 @@ subroles:
       - Micaela Matta
       - All core devs
     historical_members:
-      - Irfan Alibay
       - Micaela Matta
     
   
-  - subrole: Mentoring
+  - subrole: Mentoring programs
     tasks:
       - Mentoring-related administrative tasks
       - Advertising opportunities for mentoring programs
@@ -27,6 +26,8 @@ subroles:
     historical_members:
       - Jenna Swarthout Goddard
       - Oliver Beckstein
+      - Richard Gowers
+      - Irfan Alibay
     
   - subrole: Teaching materials
     tasks:

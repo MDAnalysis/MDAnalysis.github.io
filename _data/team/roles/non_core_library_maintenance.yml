@@ -1,8 +1,8 @@
 role: Non-core library maintenance
 description: |
-  The non-core library maintenance team is responsible for the
-  managing the maintenance of the all MDAnalysis packages
-  that are not the core MDAnalysis library.
+  The non-core library maintenance team is responsible for
+managing other packages that are directly
+maintained by the MDAnalysis organization.
 tasks:
   - Managing issues and pull-requests for sub-projects
   - Managing new features and updates
@@ -73,7 +73,8 @@ subroles:
     
   
   - subrole: pyedr
-    current_leads: []
+    current_leads:
+      - Irfan Alibay
     current_members: []
     historical_members:
       - Irfan Alibay

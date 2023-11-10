@@ -8,7 +8,8 @@ tasks:
 
 current_leads:
   - Irfan Alibay
-current_members: []
+current_members:
+  - Oliver Beckstein
 historical_members:
   - Irfan Alibay
 

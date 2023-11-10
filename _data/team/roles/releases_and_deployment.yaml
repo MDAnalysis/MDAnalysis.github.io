@@ -6,10 +6,13 @@ tasks:
   - Carrying out releases
   - Maintaining continuous deployment infrastructure
   - Monitoring issues in core library and sub-projects
+  - Carrying out releases for MDAnalysis project packages
+  - Managing released packages on conda-forge and PyPi
 current_leads:
   - Irfan Alibay
 current_members:
   - Fiona Naughton
 historical_members:
   - Irfan Alibay
+  - Richard Gowers
 

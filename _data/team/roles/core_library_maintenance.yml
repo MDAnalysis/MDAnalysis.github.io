@@ -1,6 +1,6 @@
 role: Core library maintenance
 description: |
-  The core library maintenance team is responsible for the
+  The core library maintenance team is responsible for
   managing the maintenance of the MDAnalysis library.
 
 subroles:
@@ -36,10 +36,11 @@ subroles:
   
   - subrole: General maintenance
     tasks:
+      - Monitoring and enacting upon maintenance needs across the MDAnalysis ecosystem
       - Standards compliange (e.g. managing metadata such as the author list)
       - Tracking new dependencies
       - Emergency fixes
-      - Other emergency maintenance
+      - Other general maintenance tasks
     current_leads: 
       - Irfan Alibay
     current_members:
