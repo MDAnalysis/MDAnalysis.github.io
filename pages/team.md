@@ -15,7 +15,7 @@ This lists all those who are currently responsible for a particular role, from N
 
 ### The "Historical 2021-2023" column
 
-Here we list past leading figures from 2021 to November 14th 2023 in the "Historical lead contributors" column.
+Here we list past major contributors from 2021 to November 14th 2023 in the "Historical lead contributors" column.
 
 ### A note on historical contributions
 
