@@ -1,8 +1,9 @@
 role: Non-core library maintenance
 description: |
   The non-core library maintenance team is responsible for
-managing other packages that are directly
-maintained by the MDAnalysis organization.
+  managing other packages that are directly
+  maintained by the MDAnalysis organization.
+
 tasks:
   - Managing issues and pull-requests for sub-projects
   - Managing new features and updates
