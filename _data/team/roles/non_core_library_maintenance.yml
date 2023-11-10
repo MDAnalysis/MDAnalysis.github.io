@@ -12,9 +12,10 @@ tasks:
 subroles:
 
   - subrole: distopia
-    current_leads: []
-    current_members: []
+    current_leads: [Richard Gowers,Hugo MacDermott-Opeskin]
+    current_members: [Richard Gowers,Hugo MacDermott-Opeskin, Rocco Meli]
     historical_members:
+      - Richard Gowers
       - Hugo MacDermott-Opeskin
     
 
