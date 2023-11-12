@@ -4,7 +4,9 @@ The home page [www.mdanalysis.org](https://www.mdanalysis.org) is maintained as
 a [GitHub pages](https://pages.github.com) site. The home page is also
 accessible as [mdanalysis.github.io](https://mdanalysis.github.io).
 
-Pages are generated 
+Pages are generated from markdown files using the static site
+generator
+[Jekyll](https://help.github.com/articles/using-jekyll-with-pages/).
 
 ## General page authoring guide ##
 
@@ -51,16 +53,24 @@ not be touched, as this is only here to set the paginator.
 
 ## Web development ##
 
-Check out the repository, edit the pages, and push commits. The
-published pages are on the *master* branch.
-
 We are using the minimalist [Hyde](https://github.com/poole/hyde) theme for
-[Jekyll](https://help.github.com/articles/using-jekyll-with-pages/).
+[Jekyll](https://jekyllrb.com/docs/).
 
-Additional static pages go under `pages`. If they have the layout type "page"
-they will be automatically included in the sidebar. We've left the static
+Additional static pages go under `pages`. If they have the layout type
+"page" they will be automatically included in the sidebar. The static
 "about" page is left at the top level.
 
+
+### Creating content ###
+
+There are two ways to add and edit files:
+
+* Check out the repository, edit the pages, and push commits. The
+  published pages are on the *master* branch.
+* Use the *add file*/*upload file* and *edit file* functionality in
+  the https://github.com/MDAnalysis/MDAnalysis.github.io repository
+  web frontend.
+  
 
 ### Mark-up format: Markdown ###
 
@@ -110,9 +120,52 @@ additional links that are all stored in the config file.
 
 ### Local testing ###
 
-To locally test that your edits look ok before pushing them, install
+To locally test that your edits look ok before pushing them, run
+*Jekyll* from a docker container (always works if you can get docker
+to run) or install
 [Jekyll](https://help.github.com/articles/using-jekyll-with-pages/) as
-described in the docs.
+described in the docs (can be frustrating because of broken dependencies).
+
+
+#### Using docker container for local builds ####
+
+Running Jekyll from a docker image:
+
+* on Linux you should be able to start/run docker after installing the
+  appropriate docker package through your package manager
+* on MacOS
+  - install Docker Desktop
+    https://docs.docker.com/desktop/install/mac-install/ and let it
+    install all kind of startup items
+  - start Docker
+
+Follow the solution from https://stackoverflow.com/a/58850151/ as
+described next:
+
+To **build the static site**, run `jekyll build` inside docker:
+```bash
+export JEKYLL_VERSION=3.8
+docker run --rm \
+  --volume="$PWD:/srv/jekyll" \
+  -it jekyll/jekyll:$JEKYLL_VERSION \
+  jekyll build
+```
+The static site files are stored in the `_site` directory.
+
+Then you must **serve the site** so you can view them in a web browser
+```bash
+python -m http.server --directory _site 4444
+```
+(You can leave out the port number and then it defaults to 8000.)
+
+Point your browser to http://localhost:4444
+
+When you make changes, you need to re-build the site.
+
+*Note that the CSS is only rendered correctly when the pages are
+served. Just directly browsing the files will not show the site as it
+will appear on the web.*
+	
 
 #### Build site locally ####
 
@@ -123,20 +176,40 @@ with `Bundler`. Use the command
 
 in the root of your repository (after switching to the gh-pages branch for
 project repositories), and your site should be available at
-<http://localhost:4000>. For a full list of Jekyll commands, see the Jekyll
-documentation.
+<http://localhost:4000>. 
 
-**NOTE:**
+For a full list of Jekyll commands, see the [Jekyll
+documentation](https://jekyllrb.com/docs/).
 
-In case the you get an error that a javascript environment is missing. Install a
-javascript environment like `nodejs` from your distribution repositories.
 
-#### Updating the github-pages plugin ####
+##### Advanced Jekyll usage #####
+
+Running Jekyll locally has the advantage that you can have it update
+the site continuously while you're editing files:
+
+    bundle exec jekyll serve --livereload
+	
+In this way, the site is immediately rebuilt when you save changes to
+a file. 
+
+
+##### Updating the github-pages plugin #####
 
 If you try out new functionality or plugins locally and you get error
 messages then try to
 [update the github-pages plugin](https://help.github.com/articles/setting-up-your-pages-site-locally-with-jekyll/#keeping-your-site-up-to-date-with-the-github-pages-gem)
 with
 
-
     bundle update github-pages
+
+##### Problems with jekyll and required packages? #####
+
+* **Problems with installing jekyll/github-pages?** If the standard
+  installation for jekyll does not work for you (many people complain,
+  for instance, *commonmarker* does not install
+  https://stackoverflow.com/questions/58849651/bundler-cannot-install-commonmarker)
+  try a **docker container**, as described above.
+
+* In case the you get an error that a **javascript environment is
+  missing**, install a javascript environment like `nodejs` from your
+  distribution repositories.

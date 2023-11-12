@@ -26,7 +26,7 @@ MDAnalysis and the algorithms implemented in the library and the subprojects are
 scientific software that are described in [academic
 publications]({{site.baseurl}}/pages/citations/).
 
-MDAnalysis is used in a variety of [other molecular dynamics tools]({{site.baseurl}}/pages/used-by/).
+MDAnalysis is used in a variety of [other molecular dynamics tools]({{site.baseurl}}/pages/mdakits/).
 
 
 ## Open source
@@ -69,7 +69,6 @@ team ("MDAnalysis Core Developers") consists of:
 
 - @fiona-naughton
 - @hmacdope
-- @jbarnoud
 - @lilyminium
 - @micaela-matta
 - @orbeckst
@@ -94,6 +93,7 @@ The current *Emeriti Core Developers* are:
 - Elizabeth Denning
 - @IAlibay
 - @jandom
+- @jbarnoud
 - @kain88-de
 - @mnmelo
 - @mtiberti
