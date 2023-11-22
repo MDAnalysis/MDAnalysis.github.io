@@ -152,19 +152,47 @@ tax adviser or the IRS about your particular tax situation.
 
 ## Funding
 
-We are grateful for financial support from [NumFOCUS][] and the [Chan
-Zuckerberg Initiative][] (under an [EOSS4
-award](https://chanzuckerberg.com/eoss/proposals/mdanalysis-faster-extensible-molecular-analysis-for-reproducible-science/)).
+We are grateful for financial support from the following organizations, which have supported MDAnalysis either through direct funding or indirectly by funding MDAnalysis contributors.
 
-Earlier work was supported by the [National Science
-Foundation](https://www.nsf.gov/) (as part of award ACI-1443054). 
+### [Chan Zuckerberg Initiative][] (CZI)
+MDAnalysis has been supported by the [Essential Open Source for Science](https://chanzuckerberg.com/rfa/essential-open-source-software-for-science/) (EOSS) program from the CZI DAF, an advised fund of Silicon Valley Community Foundation (funder DOI 10.13039/100014989)
 
-We have been been participating in [Google Summer of
-Code](https://summerofcode.withgoogle.com/) since 2016 and are
-grateful for Google's support.
+- EOSS5, 2022-253062 (**2022**): [MDAnalysis: Outreach and Project Manager](https://chanzuckerberg.com/eoss/proposals/mdanalysis-outreach-and-project-manager/) (**Key Personnel**: @IAlibay, @micaela-matta, @orbeckst, @richardjgowers (*PI*); **Hired Personnel**: @jennaswa)
+- EOSS4, DAF2021-237663, DOI [https://doi.org/10.37921/426590wiobus](https://doi.org/10.37921/426590wiobus) (**2021**): [MDAnalysis: Faster, Extensible Molecular Analysis for Reproducible Science](https://chanzuckerberg.com/eoss/proposals/mdanalysis-faster-extensible-molecular-analysis-for-reproducible-science/) (**Key Personnel**: @fiona-naughton, @IAlibay, @lilyminium, @orbeckst (*PI*), @richardjgowers; **Hired Personnel**: @ianmkenney)
 
+### [Google](https://opensource.google/)
+The following contributors were sponsored to work on MDAnalysis through the [Google Summer of Code](https://summerofcode.withgoogle.com/) program.
 
+- **2023**: @marinegor, @xhgchen 
+- **2022**: @aya9aladdin, @BFedder
+- **2021**: @ojeda-e, @orioncohen
+- **2020**: @cbouy, @hmacdope, @yuxuanzhuang
+- **2019**: @NinadBhat
+- **2018**: @ayushsuhane, @davidercruz
+- **2017**: @utkbansal
+- **2016**: @fiona-naughton, @jdetle
 
+The following technical writiers were sponsored to work on MDAnalysis through the [Google Season of Docs](https://developers.google.com/season-of-docs) program.
+
+- **2019**: @lilyminium
+
+### [National Science Foundation](https://www.nsf.gov/)
+Earlier work was partially supported by the NSF (as part of award ACI-1443054).
+
+- NSF DIBBS award, ACI-1443054 (**2014**): [CIF21 DIBBs: Middleware and High Performance Analytics Libraries for Scalable Data Science](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1443054) (**Key MDAnalysis Personnel**: @orbeckst)
+
+### [NumFOCUS][]
+MDAnalysis thanks NumFOCUS for its continued support as our fiscal sponsor, as well as through its [Small Development Grants](https://numfocus.org/programs/small-development-grants) (SDG) program.
+
+- SDG Round 2 (**2023**): Unified and comprehensive documentation and learning resources for MDAnalysis (**Key Personnel**: 
+- SDG Round 2 (**2022**): Improving the organization and content of MDAnalysis teaching materials (**Key Personnel**: @micaela-matta; **Hired Personnel**: @pgbarletta)
+- SDG Round 1 (**2020**): Periodic boundary handling and on the fly transformations
+- SDG Round 2 (**2018**): MDAnalysis tutorial and hackathon
+- SDG Round 1 (**2017**): Widening platform availability for MDAnalysis: Full Python 3 Support	
+
+### Outreachy
+
+### Station1
 
 <a href="{{site.numfocus.sponsored_project}}"><img
     src="{{site.images}}/numfocus-sponsored.png" title="NumFOCUS
