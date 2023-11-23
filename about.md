@@ -157,8 +157,8 @@ We are grateful for financial support from the following organizations, which ha
 ### [Chan Zuckerberg Initiative][] (CZI)
 MDAnalysis has been supported by the [Essential Open Source for Science](https://chanzuckerberg.com/rfa/essential-open-source-software-for-science/) (EOSS) program from the CZI DAF, an advised fund of Silicon Valley Community Foundation (funder DOI 10.13039/100014989)
 
-- EOSS5, 2022-253062 (**2022**): [MDAnalysis: Outreach and Project Manager](https://chanzuckerberg.com/eoss/proposals/mdanalysis-outreach-and-project-manager/) (**Key Personnel**: @IAlibay, @micaela-matta, @orbeckst, @richardjgowers (*PI*); **Hired Personnel**: @jennaswa)
-- EOSS4, DAF2021-237663, DOI [https://doi.org/10.37921/426590wiobus](https://doi.org/10.37921/426590wiobus) (**2021**): [MDAnalysis: Faster, Extensible Molecular Analysis for Reproducible Science](https://chanzuckerberg.com/eoss/proposals/mdanalysis-faster-extensible-molecular-analysis-for-reproducible-science/) (**Key Personnel**: @fiona-naughton, @IAlibay, @lilyminium, @orbeckst (*PI*), @richardjgowers; **Hired Personnel**: @ianmkenney)
+- EOSS5, 2022-253062 (**2022**): [MDAnalysis: Outreach and Project Manager](https://chanzuckerberg.com/eoss/proposals/mdanalysis-outreach-and-project-manager/) (**Personnel**: @IAlibay, @jennaswa, @micaela-matta, @orbeckst, @richardjgowers (*PI*))
+- EOSS4, DAF2021-237663, DOI [https://doi.org/10.37921/426590wiobus](https://doi.org/10.37921/426590wiobus) (**2021**): [MDAnalysis: Faster, Extensible Molecular Analysis for Reproducible Science](https://chanzuckerberg.com/eoss/proposals/mdanalysis-faster-extensible-molecular-analysis-for-reproducible-science/) (**Personnel**: @fiona-naughton, @hmacdope, @IAlibay, @ianmkenney, @lilyminium, @orbeckst (*PI*), @richardjgowers)
 
 <a href="https://chanzuckerberg.com/"><img
 	src="{{site.images}}/CZI_Logo.jpg" title="Chan Zuckerberg
@@ -195,7 +195,7 @@ The following technical writiers were sponsored to work on MDAnalysis through th
 ### [National Science Foundation](https://www.nsf.gov/)
 Earlier work was partially supported by the NSF (as part of award ACI-1443054).
 
-- NSF DIBBS award, ACI-1443054 (**2014**): [CIF21 DIBBs: Middleware and High Performance Analytics Libraries for Scalable Data Science](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1443054) (**Key MDAnalysis Personnel**: @orbeckst)
+- NSF DIBBS award, ACI-1443054 (**2014**): [CIF21 DIBBs: Middleware and High Performance Analytics Libraries for Scalable Data Science](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1443054) (**MDAnalysis Personnel**: @orbeckst)
 
 <a href="https://nsf.gov/">
 <img src="{{site.images}}/nsf.jpg" title="National Science
@@ -205,8 +205,8 @@ Earlier work was partially supported by the NSF (as part of award ACI-1443054).
 ### [NumFOCUS][]
 MDAnalysis thanks NumFOCUS for its continued support as our fiscal sponsor, as well as through its [Small Development Grants](https://numfocus.org/programs/small-development-grants) (SDG) program.
 
-- SDG Round 2 (**2023**): Unified and comprehensive documentation and learning resources for MDAnalysis (**Key Personnel**: @IAlibay, @micaela-matta, @orbeckst, @lilyminium)
-- SDG Round 2 (**2022**): Improving the organization and content of MDAnalysis teaching materials (**Key Personnel**: @micaela-matta; **Hired Personnel**: @pgbarletta)
+- SDG Round 2 (**2023**): Unified and comprehensive documentation and learning resources for MDAnalysis (**Personnel**: @IAlibay, @jennaswa, @lilyminium, @micaela-matta, @orbeckst)
+- SDG Round 2 (**2022**): Improving the organization and content of MDAnalysis teaching materials (**Personnel**: @micaela-matta, @pgbarletta)
 - SDG Round 1 (**2020**): Periodic boundary handling and on the fly transformations
 - SDG Round 2 (**2018**): MDAnalysis tutorial and hackathon
 - SDG Round 1 (**2017**): Widening platform availability for MDAnalysis: Full Python 3 Support
