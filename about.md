@@ -160,6 +160,11 @@ MDAnalysis has been supported by the [Essential Open Source for Science](https:/
 - EOSS5, 2022-253062 (**2022**): [MDAnalysis: Outreach and Project Manager](https://chanzuckerberg.com/eoss/proposals/mdanalysis-outreach-and-project-manager/) (**Key Personnel**: @IAlibay, @micaela-matta, @orbeckst, @richardjgowers (*PI*); **Hired Personnel**: @jennaswa)
 - EOSS4, DAF2021-237663, DOI [https://doi.org/10.37921/426590wiobus](https://doi.org/10.37921/426590wiobus) (**2021**): [MDAnalysis: Faster, Extensible Molecular Analysis for Reproducible Science](https://chanzuckerberg.com/eoss/proposals/mdanalysis-faster-extensible-molecular-analysis-for-reproducible-science/) (**Key Personnel**: @fiona-naughton, @IAlibay, @lilyminium, @orbeckst (*PI*), @richardjgowers; **Hired Personnel**: @ianmkenney)
 
+<a href="https://chanzuckerberg.com/"><img
+	src="{{site.images}}/CZI_Logo.jpg" title="Chan Zuckerberg
+	Initiative" alt="Chan Zuckerberg Initiative" style="display:
+	inline; float: left; height: 4em; margin: 0 0.5em" /></a>
+
 ### [Google](https://opensource.google/)
 The following contributors were sponsored to work on MDAnalysis through the [Google Summer of Code](https://summerofcode.withgoogle.com/) program.
 
@@ -176,45 +181,60 @@ The following technical writiers were sponsored to work on MDAnalysis through th
 
 - **2019**: @lilyminium
 
-### [National Science Foundation](https://www.nsf.gov/)
-Earlier work was partially supported by the NSF (as part of award ACI-1443054).
-
-- NSF DIBBS award, ACI-1443054 (**2014**): [CIF21 DIBBs: Middleware and High Performance Analytics Libraries for Scalable Data Science](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1443054) (**Key MDAnalysis Personnel**: @orbeckst)
-
-### [NumFOCUS][]
-MDAnalysis thanks NumFOCUS for its continued support as our fiscal sponsor, as well as through its [Small Development Grants](https://numfocus.org/programs/small-development-grants) (SDG) program.
-
-- SDG Round 2 (**2023**): Unified and comprehensive documentation and learning resources for MDAnalysis (**Key Personnel**: 
-- SDG Round 2 (**2022**): Improving the organization and content of MDAnalysis teaching materials (**Key Personnel**: @micaela-matta; **Hired Personnel**: @pgbarletta)
-- SDG Round 1 (**2020**): Periodic boundary handling and on the fly transformations
-- SDG Round 2 (**2018**): MDAnalysis tutorial and hackathon
-- SDG Round 1 (**2017**): Widening platform availability for MDAnalysis: Full Python 3 Support	
-
-### Outreachy
-
-### Station1
-
-<a href="{{site.numfocus.sponsored_project}}"><img
-    src="{{site.images}}/numfocus-sponsored.png" title="NumFOCUS
-    sponsored project" alt="NumFOCUS Sponsored" style="display:
-    inline; float: left; height: 4em; margin: 0 0.5em" /></a>
-
-
-<a href="https://chanzuckerberg.com/"><img
-	src="{{site.images}}/CZI_Logo.jpg" title="Chan Zuckerberg
-	Initiative" alt="Chan Zuckerberg Initiative" style="display:
-	inline; float: left; height: 4em; margin: 0 0.5em" /></a>
-
 <a href="https://summerofcode.withgoogle.com/"> <img
     src="https://developers.google.com/open-source/gsoc/images/gsoc2016-sun-373x373.png"
     title="Google Summer of Code" alt="Google Summer of Code"
     style="display: inline; float: left; height: 4em; margin: 0
     0.5em" /></a>
 
+<a href="https://developers.google.com/season-of-docs"> <img
+    src="https://developers.google.com/season-of-docs/images/SeasonofDocs_Icon_Grey_300ppi_trimmed.png"
+    title="Google Season of Docs" alt="Google Season of Docs"
+    style="display: inline; float: left; height: 4em; margin: 0 0.5em" /></a>
+
+### [National Science Foundation](https://www.nsf.gov/)
+Earlier work was partially supported by the NSF (as part of award ACI-1443054).
+
+- NSF DIBBS award, ACI-1443054 (**2014**): [CIF21 DIBBs: Middleware and High Performance Analytics Libraries for Scalable Data Science](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1443054) (**Key MDAnalysis Personnel**: @orbeckst)
+
 <a href="https://nsf.gov/">
 <img src="{{site.images}}/nsf.jpg" title="National Science
 	Foundation" alt="National Science Foundation" style="display:
 	inline; float: left; height: 4em; margin: 0 0.5em" /></a>
+
+### [NumFOCUS][]
+MDAnalysis thanks NumFOCUS for its continued support as our fiscal sponsor, as well as through its [Small Development Grants](https://numfocus.org/programs/small-development-grants) (SDG) program.
+
+- SDG Round 2 (**2023**): Unified and comprehensive documentation and learning resources for MDAnalysis (**Key Personnel**: @IAlibay, @micaela-matta, @orbeckst, @lilyminium)
+- SDG Round 2 (**2022**): Improving the organization and content of MDAnalysis teaching materials (**Key Personnel**: @micaela-matta; **Hired Personnel**: @pgbarletta)
+- SDG Round 1 (**2020**): Periodic boundary handling and on the fly transformations
+- SDG Round 2 (**2018**): MDAnalysis tutorial and hackathon
+- SDG Round 1 (**2017**): Widening platform availability for MDAnalysis: Full Python 3 Support
+
+<a href="{{site.numfocus.sponsored_project}}"><img
+    src="{{site.images}}/numfocus-sponsored.png" title="NumFOCUS
+    sponsored project" alt="NumFOCUS Sponsored" style="display:
+    inline; float: left; height: 4em; margin: 0 0.5em" /></a>
+
+### [Outreachy](https://www.outreachy.org/)
+The following contributors were sponsored to work on MDAnalysis through the [Outreachy](https://www.outreachy.org/) program.
+
+- **2022**: @umak1106
+
+<a href="https://www.outreachy.org/"><img
+    src="{{ site.baseurl }}{{ site.images }}/Outreachy-logo.svg"
+    title="Outreachy" alt="Outreachy"
+    style="display: inline; float: left; height: 4em; margin: 0 0.5em" /></a>
+
+### [Station1](https://www.station1.org/)
+The following contributors were sponsored to work on MDAnalysis through the [Station1 Frontiers Fellowship](https://www.station1.org/sff) program.
+
+- **2023**: @jong9559, @KarenBekhazi
+
+<a href="https://www.station1.org/"><img
+    src="/public/images/station1_condensed_logo.png"
+    title="Station1 Logo" alt="Station1 Logo"
+    style="display: inline; float: left; height: 4em; margin: 0 0.5em " /></a>
 
 <div style="clear: both"></div>
 
