@@ -190,6 +190,10 @@ grateful for Google's support.
 
 <div style="clear: both"></div>
 
+## Feedback
+
+MDAnalysis welcomes feedback from its users and community to help improve. If you have any general feedback or comments to make about the MDAnalysis, the community, events, or other aspects, please [let us know at this anonymous form here](https://docs.google.com/forms/d/e/1FAIpQLScAjjI730i63LbyVkk_tuZ1-FCXUkg6xFugw_gmcsqUvBUtnw/viewform?usp=sf_link)!
+
 ------
 
 
