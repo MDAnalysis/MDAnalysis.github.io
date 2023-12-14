@@ -9,7 +9,7 @@
     {% endif %}
 
     {% if has_link %}
-        <a href="#{{ include.subrole.subrole | downcase | replace: ' ', '-' }}">
+        <a href="#{{ include.subrole.subrole | slugify }}">
             {{ include.subrole.subrole }}
         </a>
     {% else %}
