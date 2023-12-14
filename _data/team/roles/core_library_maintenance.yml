@@ -9,14 +9,17 @@ subroles:
       - Initial triage and tagging of issues
       - Managing timely responses and resolving issues
     current_members:
-      - All core devs
+      - Rocco Meli
+      - Hugo MacDermott-Opeskin
     
 
   - subrole: Pull request management
     tasks:
       - Reviewing, shepherding, and merging pull requests
     current_members:
-      - All core devs
+      - Oliver Beckstein
+      - Rocco Meli
+      - Hugo MacDermott-Opeskin
     
   
   - subrole: General maintenance
@@ -27,4 +30,4 @@ subroles:
       - Emergency fixes
       - Other general maintenance tasks
     current_members:
-      - All core devs
+      - Irfan Alibay

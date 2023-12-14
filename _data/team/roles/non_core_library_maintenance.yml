@@ -43,7 +43,7 @@ subroles:
       - Irfan Alibay
       - Oliver Beckstein
   
-  - subrole: mda-xrlib and other small utilities
+  - subrole: mda-xrlib and other utilities
     current_members:
       - Irfan Alibay    
   
@@ -55,7 +55,7 @@ subroles:
     current_members:
       - Hugo MacDermott-Opeskin
 
-  - subrole: PSA
+  - subrole: PathSimAnalysis
     current_members:
       - Oliver Beckstein
 
