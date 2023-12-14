@@ -8,30 +8,15 @@ subroles:
     tasks:
       - Initial triage and tagging of issues
       - Managing timely responses and resolving issues
-    current_leads:
-      - Rocco Meli
     current_members:
       - All core devs
-    historical_members:
-      - Oliver Beckstein
-      - Irfan Alibay
-      - Jonathan Barnoud
     
 
   - subrole: Pull request management
     tasks:
       - Reviewing, shepherding, and merging pull requests
-    current_leads:
-      - Rocco Meli
-      - Oliver Beckstein
     current_members:
       - All core devs
-    historical_members:
-      - Oliver Beckstein
-      - Richard Gowers
-      - Irfan Alibay
-      - Hugo MacDermott-Opeskin
-      - Jonathan Barnoud
     
   
   - subrole: General maintenance
@@ -41,11 +26,5 @@ subroles:
       - Tracking new dependencies
       - Emergency fixes
       - Other general maintenance tasks
-    current_leads: 
-      - Irfan Alibay
     current_members:
       - All core devs
-    historical_members:
-      - Irfan Alibay
-      - Jonathan Barnoud
-    

@@ -12,78 +12,53 @@ tasks:
 subroles:
 
   - subrole: distopia
-    current_leads: [Richard Gowers,Hugo MacDermott-Opeskin]
-    current_members: [Richard Gowers,Hugo MacDermott-Opeskin, Rocco Meli]
-    historical_members:
+    current_members:
       - Richard Gowers
       - Hugo MacDermott-Opeskin
-    
+      - Rocco Meli
 
   - subrole: cookiecutter-mdakit
-    current_leads:
+    current_members:
       - Lily Wang
-    current_members: []
-    historical_members:
-      - Lily Wang
-    
+      - Irfan Alibay
 
   - subrole: mda-encore
-    current_leads: []
     current_members: []
-    historical_members:
-      - Ian Kenney
     
-
   - subrole: hole2-mdakit
-    current_leads:
-      - Lily Wang
-    current_members: []
-    historical_members:
-      - Ian Kenney
-    
+    current_members:
+      - Lily Wang    
 
   - subrole: benchmarks
-    current_leads:
-      - Oliver Beckstein
-    current_members: []
-    historical_members:
-      - Oliver Beckstein
-    
+    current_members:
+      - Oliver Beckstein    
 
   - subrole: GridDataFormats
-    current_leads:
-      - Oliver Beckstein
-    current_members: []
-    historical_members:
+    current_members:
       - Irfan Alibay
       - Oliver Beckstein
-    
   
   - subrole: MDAnalysisData
-    current_leads:
+    current_members:
+      - Irfan Alibay
       - Oliver Beckstein
-    current_members: []
-    historical_members:
-      - Oliver Beckstein
-    
   
   - subrole: mda-xrlib and other small utilities
-    current_leads:
-      - Irfan Alibay
-    current_members: []
-    historical_members:
-      - Irfan Alibay
-    
+    current_members:
+      - Irfan Alibay    
   
   - subrole: pyedr
-    current_leads:
+    current_members:
       - Irfan Alibay
-    current_members: []
-    historical_members:
-      - Irfan Alibay
+
   - subrole: pytng
-    current_leads:
+    current_members:
       - Hugo MacDermott-Opeskin
-    current_members: []
-    historical_members:
-      - [Richard Gowers, Max Linke]
+
+  - subrole: PSA
+    current_members:
+      - Oliver Beckstein
+
+  - subrole: waterdynamics
+    current_members:
+      - Fiona Naughton

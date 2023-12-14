@@ -6,38 +6,22 @@ subroles:
     - Organising workshops and events
     - Gathering and coordinating volunteers
     - Managing content, presentations and teaching at workshops
-    current_leads:
-      - Jenna Swarthout Goddard
     current_members:
-      - Micaela Matta
       - All core devs
-    historical_members:
-      - Micaela Matta
-    
   
   - subrole: Mentoring programs
     tasks:
       - Mentoring-related administrative tasks
       - Advertising opportunities for mentoring programs
       - Mentoring in structured programs
-    current_leads:
+    current_members:
       - Jenna Swarthout Goddard
-    current_members: []
-    historical_members:
-      - Jenna Swarthout Goddard
-      - Oliver Beckstein
-      - Richard Gowers
-      - Irfan Alibay
     
   - subrole: Teaching materials
     tasks:
       - Managing teaching materials on GitHub for workshops and events
       - Maintaining and fixing materials
-    current_leads:
+    current_members:
       - Rocco Meli
       - Micaela Matta
-    current_members:
       - Jenna Swarthout Goddard
-    historical_members:
-      - Irfan Alibay
-      - Micaela Matta

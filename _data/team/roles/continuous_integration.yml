@@ -3,11 +3,8 @@ tasks:
   - Building and developing new CI infrastructure
   - Monitoring CI status
   - Maintenance and fixes
-current_leads:
-  - Irfan Alibay
-  - Richard Gowers
+
 current_members:
   - Fiona Naughton
-historical_members:
   - Irfan Alibay
-
+  - Richard Gowers

@@ -2,11 +2,7 @@ role: Community engagement
 tasks: 
   - Responding to questions on Discord and mailing lists
   - Managing and triaging conversations on Discord and mailing lists
-current_leads:
-  - Jenna Swarthout Goddard
-current_members:
-  - All core devs
-historical_members:
-  - Oliver Beckstein
-  - Irfan Alibay
 
+current_members:
+  - Jenna Swarthout Goddard
+  - All core devs

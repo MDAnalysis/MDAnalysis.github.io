@@ -6,10 +6,6 @@ tasks:
   - Ensuring new developers agree to a new license
   - Managing the switch to a new license
 
-current_leads:
-  - Irfan Alibay
 current_members:
-  - Oliver Beckstein
-historical_members:
   - Irfan Alibay
-
+  - Oliver Beckstein
