@@ -1,9 +1,11 @@
 role: Code of conduct committee
 description: |
-  The [code of conduct committee](https://www.mdanalysis.org/pages/conduct/)
-  is elected by the MDAnalysis core developers on a rolling basis.
+  The [code of conduct committee](https://www.mdanalysis.org/pages/conduct/) members
+  are elected by the [project leadership](https://www.mdanalysis.org/about/#governance) when a committee members' term limit (2 years) has expired.
 tasks: 
-  - Act as points of contact for code of conduct violations
+  - Receive and investigate all code of conduct complaints and violations
+  - Propose actions and sanctions, as necessary, to the [project leadership](https://www.mdanalysis.org/about/#governance) (project leadership is tasked with enforcement)
+  - Periodically review, revise and update current code of conduct procedures
 
 current_leads:
   - Jenna Swarthout Goddard

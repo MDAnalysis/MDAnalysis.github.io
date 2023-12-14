@@ -81,4 +81,9 @@ subroles:
     current_members: []
     historical_members:
       - Irfan Alibay
-    
+  - subrole: pytng
+    current_leads:
+      - Hugo MacDermott-Opeskin
+    current_members: []
+    historical_members:
+      - [Richard Gowers, Max Linke]
