@@ -7,7 +7,9 @@ MDAnalysis is a community-driven project that is made possible through the effor
 
 ## Roles
 
-In this section we list major contributors who are contributing substantial effort to the roles listed below. Names are listed in *alphabetical* order.
+In this section we list major contributors who are currently contributing substantial effort to the roles listed below. This team organisation structure was started in November 2023; many people contributed to these tasks before then and may not appear in this table.
+
+Names are listed in *alphabetical* order.
 
 {% include team_table.html %}
 
