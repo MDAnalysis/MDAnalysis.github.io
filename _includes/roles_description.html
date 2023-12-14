@@ -16,7 +16,7 @@
 <i>Tasks include:</i>
 <ul>
     {% for line in role.tasks %}
-    <li>{{ line }}</li>
+    <li>{{ line | markdownify }}</li>
     {% endfor %}
 </ul>
 {%- endif -%}
