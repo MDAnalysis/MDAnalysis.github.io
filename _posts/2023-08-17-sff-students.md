@@ -48,7 +48,7 @@ Thank you to the amazing MDAnalysis community and to our mentors, @richardjgower
 [sff]: https://www.station1.org/sff
 [pdb]: https://www.rcsb.org/
 [interoperability]: https://www.mdanalysis.org/2020/08/03/roadmap/
-[poster]: {{site.data}}/SFF2023_PD4_FinalPoster_Bekhazi_Ong.pptx.pdf
+[poster]: {{site.data_files}}/SFF2023_PD4_FinalPoster_Bekhazi_Ong.pptx.pdf
 [john-github]: https://github.com/jong9559
 [john-linkedin]: https://www.linkedin.com/in/john-ong/
 [john-website]: https://jong9559.github.io/

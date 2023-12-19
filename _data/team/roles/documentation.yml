@@ -1,0 +1,14 @@
+role: Documentation
+tasks: 
+  - Managing UserGuide repositories and main core documentation
+  - Managing MDAnalysis Sphinx theme
+  - Managing documentation-related utilities and architecture
+  - Managing new issues and PRs related to documentation
+  - Keeping documentation updated
+  - Responding to documentation issues in sub-projects
+
+current_members:
+  - Lily Wang
+  - Rocco Meli
+
+

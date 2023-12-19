@@ -1,0 +1,52 @@
+{% assign all_roles = site.data.team.roles | sort %}
+{% for role_page in all_roles %}
+{% assign role = role_page[1] %}
+{% assign role_link = role.role | slugify %}
+
+<h3 id="{{ role_link }}"> {{ role.role }}
+    <a class="anchorjs-link" href="{{ role_link }}" >
+    </a>
+</h3>
+
+{%- if role.description -%}
+{% assign parsed_description = role.description | markdownify %}
+<p>{{ parsed_description }}</p>
+{%- endif -%}
+{%- if role.tasks -%}
+<i>Tasks include:</i>
+<ul>
+    {% for line in role.tasks %}
+    <li>{{ line | markdownify }}</li>
+    {% endfor %}
+</ul>
+{%- endif -%}
+
+{% if role.subroles %}
+{% for subrole in role.subroles %}
+{% if subrole.description or subrole.tasks %}
+{% assign subrole_link = subrole.subrole | slugify %}
+<h4 id="{{ subrole_link }}"> {{ subrole.subrole }}
+    <a class="anchorjs-link" href="{{ subrole_link }}" >
+    </a>
+</h4>
+
+{%- if subrole.description -%}
+{% assign parsed_description = subrole.description | markdownify %}
+<p> {{ parsed_description }} </p>
+{%- endif -%}
+{%- if subrole.tasks -%}
+<i>Tasks include:</i>
+<ul>
+    {% for line in subrole.tasks %}
+    <li>{{ line }}</li>
+    {% endfor %}
+</ul>
+{%- endif -%}
+
+{% endif %}
+{% endfor %}
+{% endif %}
+
+
+
+{% endfor %}

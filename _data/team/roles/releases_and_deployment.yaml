@@ -1,0 +1,10 @@
+role: Releases and deployment
+tasks: 
+  - Updates and fixes for upstream and downstream packages
+  - Managing future release plans and timing
+  - Maintaining continuous deployment infrastructure
+  - Carrying out releases for MDAnalysis project packages
+  - Managing released packages on conda-forge and PyPi
+current_members:
+  - Irfan Alibay
+  - Fiona Naughton

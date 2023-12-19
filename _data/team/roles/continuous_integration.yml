@@ -1,0 +1,10 @@
+role: Continuous integration
+tasks:
+  - Building and developing new CI infrastructure
+  - Monitoring CI status
+  - Maintenance and fixes
+
+current_members:
+  - Fiona Naughton
+  - Irfan Alibay
+  - Richard Gowers

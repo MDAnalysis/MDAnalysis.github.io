@@ -1,0 +1,64 @@
+role: Non-core library maintenance
+description: |
+  The non-core library maintenance team is responsible for
+  managing other packages that are directly
+  maintained by the MDAnalysis organization.
+
+tasks:
+  - Managing issues and pull-requests for sub-projects
+  - Managing new features and updates
+  - Managing maintenance
+  - Working with CI and CD team and infrastructure
+subroles:
+
+  - subrole: distopia
+    current_members:
+      - Richard Gowers
+      - Hugo MacDermott-Opeskin
+      - Rocco Meli
+
+  - subrole: cookiecutter-mdakit
+    current_members:
+      - Lily Wang
+      - Irfan Alibay
+
+  - subrole: mda-encore
+    current_members: []
+    
+  - subrole: hole2-mdakit
+    current_members:
+      - Lily Wang    
+
+  - subrole: benchmarks
+    current_members:
+      - Oliver Beckstein    
+
+  - subrole: GridDataFormats
+    current_members:
+      - Irfan Alibay
+      - Oliver Beckstein
+  
+  - subrole: MDAnalysisData
+    current_members:
+      - Irfan Alibay
+      - Oliver Beckstein
+  
+  - subrole: mda-xrlib and other utilities
+    current_members:
+      - Irfan Alibay    
+  
+  - subrole: pyedr
+    current_members:
+      - Irfan Alibay
+
+  - subrole: pytng
+    current_members:
+      - Hugo MacDermott-Opeskin
+
+  - subrole: PathSimAnalysis
+    current_members:
+      - Oliver Beckstein
+
+  - subrole: waterdynamics
+    current_members:
+      - Fiona Naughton
