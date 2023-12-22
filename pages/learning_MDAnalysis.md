@@ -48,10 +48,10 @@ its use.
 The [FAQ]({{ site.github.wiki }}/FAQ) contains a 
 growing list of specific (frequently asked) questions and answers.
 
-## Mailing list ##
+## GitHub Discussions ##
 
-You can ask for advice or help on the [mdnalysis-discussion mailing
-list]({{ site.mailinglists.discussion.url }}). If you find *bugs* or
+You can ask for advice or help on [{{ site.mailinglists.discussion.name}}]
+({{ site.mailinglists.discussion.url }}). If you find *bugs* or
 want to *request enhancements* please [file a report]({{
 site.github.wiki }}/ReportingProblems) in the [Issue Tracker]({{
 sitemap.github.issues }}).
