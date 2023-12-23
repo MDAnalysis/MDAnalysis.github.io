@@ -10,19 +10,23 @@ With the year coming to a close, we would like to reflect on the exciting events
 From September 27-29, 2023, 37 MDAnalysis users and developers convened in Lisbon, Portugal for the [inaugural MDAnalysis UGM](https://www.mdanalysis.org/pages/ugm2023/) (User Group Meeting). Hosted at the [Faculty of Sciences of the University of Lisbon](https://www.ulisboa.pt/en/unidade-organica/faculty-sciences), the event featured presentations and open discussions about using and developing MDAnalysis, followed by a hackathon. Talks covered a broad range of topics including, but not limited to, materials science applications, deep learning and multiscale modeling, drug discovery, and tools for molecular dynamics simulation analysis. Based on attendees' votes, the following recognitions were awarded to UGM participants:
 
 *Best Talk*
-**First Place** - Namir Oues
-**Second Place (TIE)** - Andres Arango, Hannah Baumann
+
+* **First Place** - Namir Oues
+* **Second Place (TIE)** - Andres Arango, Hannah Baumann
 
 *Best Lightning Talk*
-**First Place** - Hannah Pollak
-**Second Place** - Pegerto Fernández
-**Third Place** - Hocine El Khaoudi Enyoury
+
+* **First Place** - Hannah Pollak
+* **Second Place** - Pegerto Fernández
+* **Third Place** - Hocine El Khaoudi Enyoury
 
 *Best Poster*
-**First Place (TIE)** - Hocine El Khaoudi Enyoury, Dimitris Stamatis
+
+* **First Place (TIE)** - Hocine El Khaoudi Enyoury, Dimitris Stamatis
 
 *Superstar Pet* (According to a pet photo contest on the [`#mda-pets`](https://discord.com/channels/807348386012987462/1156570811247898706) channel on Discord)
-Pip (owned by Fiona Naughton)
+
+* Pip (owned by Fiona Naughton)
 
 The UGM provided a unique opportunity for MDAnalysis users and developers to interact with other and exchange ideas. Notably, these discussions were key to informing our recently announced [roadmap towards MDAnalysis v3.0](https://www.mdanalysis.org/2023/10/25/towards_3.0/). 
 
@@ -37,8 +41,6 @@ For more details, we invite you to check out the [MDAnalysis/UGM2023](https://gi
 We are aiming for the UGM to become an annual event and have already begun planning for next year's meeting. We are therefore excited to announce that the 2024 MDAnalysis UGM will take place August 21-23, 2024 in London, UK!
 
 Additional details about registration and a call for proposals will be communicated soon. In the meantime, save the date and keep an eye out for additional announcements on our [blog][] and [UGM website page](https://www.mdanalysis.org/pages/ugm2024/), as well as on our [X][] (formerly known as Twitter) and [LinkedIn][] accounts.
-
-The inaugural MDAnalysis UGM (User Group Meeting) was held from Sept. 27-29 in Lisbon, Portugal. It was attended by 37 participants and featured presentations and open discussions about using and developing MDAnalysis, followed by a hackathon. The UGM provided an opportunity for MDAnalysis users and developers to interact with each other. We intend for the UGM to become an annual event and have already begun discussions about planning for next year's meeting.
 
 ## MDAnalysis Online Training Workshops
 
