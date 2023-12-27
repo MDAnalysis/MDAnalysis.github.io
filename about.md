@@ -12,8 +12,8 @@ style="float: right" alt="MDAnalysis" width="30%"/>
 **MDAnalysis** is developed and maintained as a freely available, open-source
 project by a global community of scientists. The MDAnalysis community adheres
 to our [Code of Conduct]({{site.baseurl}}/pages/conduct/) and invites everyone
-to [participate]({{site.baseurl}}/#participating) --- be it on the mailing
-lists, through issue reports, or code contributions.
+to [participate]({{site.baseurl}}/#participating) --- be it on GitHub Discussions,
+through issue reports, or code contributions.
 
 All *contributors* to the MDAnalysis library and its subprojects are acknowledged
 in a file called `AUTHORS` in each source code repository and in the list of
@@ -50,8 +50,8 @@ Project leadership is provided by a subset of contributors, the
 *MDAnalysis Core Developers*
 ([@MDAnalysis/coredevs](https://github.com/orgs/MDAnalysis/teams/coredevs))
 who have produced substantial contributions over extended lengths of
-time and who remain active in reviewing issues and discussions on the
-various mailing lists and our Discord server. 
+time and who remain active in reviewing issues and discussions on
+GitHub Discussions and our Discord server. 
 
 ### MDAnalysis Core Developers
 

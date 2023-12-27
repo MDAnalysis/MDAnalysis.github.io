@@ -57,9 +57,8 @@ pip install --upgrade MDAnalysisTests
 For more details on installation and alternative ways to install MDAnalysis see [Installing
 MDAnalysis in the {{ site.docs.userguide.name }}]({{ site.docs.userguide.url }}/stable/installation.html).
 
-If you have questions with the installation, please ask on the
-[{{site.mailinglists.discussion.name}}]({{site.mailinglists.discussion.url}})
-mailing list.
+If you have questions with the installation, please ask on
+[{{site.mailinglists.discussion.name}}]({{site.mailinglists.discussion.url}}).
 
 [pip]: https://pip.pypa.io/en/latest/
 [conda]: https://conda.io/
