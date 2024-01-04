@@ -26,4 +26,4 @@ The mailing lists will remain open for a bit longer to finish off open discussio
 [GitHub Discussions]: https://github.com/MDAnalysis/mdanalysis/discussions
 [Q&A]: https://github.com/MDAnalysis/mdanalysis/discussions/categories/q-a
 [mdnalysis-devel]: https://groups.google.com/g/mdnalysis-devel
-[mdnalysis-discussion] https://groups.google.com/g/mdnalysis-discussion
+[mdnalysis-discussion]: https://groups.google.com/g/mdnalysis-discussion
