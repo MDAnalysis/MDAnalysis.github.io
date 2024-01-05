@@ -177,7 +177,7 @@ The following contributors were sponsored to work on MDAnalysis through the [Goo
 - **2017**: @utkbansal
 - **2016**: @fiona-naughton, @jdetle
 
-The following technical writiers were sponsored to work on MDAnalysis through the [Google Season of Docs](https://developers.google.com/season-of-docs) program.
+The following technical writers were sponsored to work on MDAnalysis through the [Google Season of Docs](https://developers.google.com/season-of-docs) program.
 
 - **2019**: @lilyminium
 
