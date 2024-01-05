@@ -155,7 +155,7 @@ tax adviser or the IRS about your particular tax situation.
 We are grateful for financial support from the following organizations, which have supported MDAnalysis either through direct funding or indirectly by funding MDAnalysis contributors.
 
 ### [Chan Zuckerberg Initiative][] (CZI)
-MDAnalysis has been supported by the [Essential Open Source for Science](https://chanzuckerberg.com/rfa/essential-open-source-software-for-science/) (EOSS) program from the CZI DAF, an advised fund of Silicon Valley Community Foundation (funder DOI 10.13039/100014989)
+MDAnalysis has been supported by the [Essential Open Source for Science](https://chanzuckerberg.com/rfa/essential-open-source-software-for-science/) (EOSS) program from the CZI Donor-Advised Fund (DAF), an advised fund of Silicon Valley Community Foundation (funder DOI 10.13039/100014989)
 
 - EOSS5, 2022-253062 (**2022**): [MDAnalysis: Outreach and Project Manager](https://chanzuckerberg.com/eoss/proposals/mdanalysis-outreach-and-project-manager/) (**Personnel**: @IAlibay, @jennaswa, @micaela-matta, @orbeckst, @richardjgowers (*PI*))
 - EOSS4, DAF2021-237663, DOI [https://doi.org/10.37921/426590wiobus](https://doi.org/10.37921/426590wiobus) (**2021**): [MDAnalysis: Faster, Extensible Molecular Analysis for Reproducible Science](https://chanzuckerberg.com/eoss/proposals/mdanalysis-faster-extensible-molecular-analysis-for-reproducible-science/) (**Personnel**: @fiona-naughton, @hmacdope, @IAlibay, @ianmkenney, @lilyminium, @orbeckst (*PI*), @richardjgowers)
