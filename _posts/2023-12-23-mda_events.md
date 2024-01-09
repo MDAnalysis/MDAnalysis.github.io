@@ -3,7 +3,7 @@ layout: post
 title: MDAnalysis Events - Recap of 2023 and Looking Ahead to 2024
 ---
 
-With the year coming to a close, we would like to reflect on the exciting events that kept us busy towards the end of 2023 and announce upcoming MDAnalysis events to look forward to in 2024. We would like to thank the [Chan Zuckerberg Initaitve](https://chanzuckerberg.com/) (CZI) and [NumFocus](https://www.numfocus.org) for their support in making these events possible.
+As we start the new year, we would like to reflect on the exciting events that kept us busy towards the end of 2023 and announce upcoming MDAnalysis events to look forward to in 2024. We would like to thank the [Chan Zuckerberg Initaitve](https://chanzuckerberg.com/) (CZI) and [NumFocus](https://www.numfocus.org) for their support in making these events possible.
 
 ## MDAnalysis UGM (User Group Meeting)
 
@@ -38,7 +38,7 @@ For more details, we invite you to check out the [MDAnalysis/UGM2023](https://gi
 
 ### Save the Date for the 2024 MDAnalysis UGM
 
-We are aiming for the UGM to become an annual event and have already begun planning for next year's meeting. We are therefore excited to announce that the 2024 MDAnalysis UGM will take place August 21-23, 2024 in London, UK!
+We are aiming for the UGM to become an annual event and have already begun planning for this year's meeting. We are therefore excited to announce that the 2024 MDAnalysis UGM will take place August 21-23, 2024 in London, UK!
 
 Additional details about registration and a call for proposals will be communicated soon. In the meantime, save the date and keep an eye out for additional announcements on our [blog][] and [UGM website page](https://www.mdanalysis.org/pages/ugm2024/), as well as on our [X][] (formerly known as Twitter) and [LinkedIn][] accounts.
 
