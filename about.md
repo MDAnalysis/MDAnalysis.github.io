@@ -199,8 +199,9 @@ Earlier work was partially supported by the NSF (as part of award ACI-1443054).
 
 The following students were sponsored to work on MDAnalysis through the [NSF Research Experience for Undergraduates](https://www.nsf.gov/crssprgm/reu/) (REU) program.
 
-- **2021**: @ALescoulie
+- **2021**: @ALescoulie, @edisj
 - **2020**: @edisj
+- **2019**: @nawtrey
 - **2018**: @hfmull
 - **2017**: @kaceyaurum
 - **2016**: @rbrtdlgd
