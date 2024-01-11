@@ -197,6 +197,15 @@ Earlier work was partially supported by the NSF (as part of award ACI-1443054).
 
 - NSF DIBBS award, ACI-1443054 (**2014**): [CIF21 DIBBs: Middleware and High Performance Analytics Libraries for Scalable Data Science](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1443054) (**MDAnalysis Personnel**: @orbeckst)
 
+The following students were sponsored to work on MDAnalysis through the [NSF Research Experience for Undergraduates](https://www.nsf.gov/crssprgm/reu/) (REU) program.
+
+- **2021**: @ALescoulie
+- **2020**: @edisj
+- **2018**: @hfmull
+- **2017**: @kaceyaurum
+- **2016**: @rbrtdlgd
+- **2015**: @ianmkenney
+
 <a href="https://nsf.gov/">
 <img src="{{site.images}}/nsf.jpg" title="National Science
 	Foundation" alt="National Science Foundation" style="display:
