@@ -1,13 +1,6 @@
 ---
-title: 'GSOC-2023: summary'
-date: 2023-08-23
-permalink: /posts/2023/06/gsoc-summary
-tags:
-  - gsoc
-  - coding
-  - mdanalysis
-  - clean code
-  - projects
+layout: post
+title: GSoC 2023 - Implementation of parallel analysis in MDAnalysis
 ---
 
 As you might know from my previous posts, during the summer of 2023 I've been working on MDAnalysis's project during Google Summer of Code. Here I'll summarize what I've done, how others can use it, and what changes will follow that in the MDAnalysis codebase in the near future.
@@ -171,3 +164,6 @@ We've now went through the essense of the MDAnalysis parallelization project, an
 Hopefully, this project will grow further and include all existing subclasses, as well as improving the speed (which, as we saw, saturates) and memory efficiency.
 
 If you want to contribute to the project, stay tuned for the new issues on MDAnalysis [github](https://github.com/MDAnalysis/mdanalysis) -- there definitely will be some parallelization-related things for the future described there!
+
+
+-- @marinegor
