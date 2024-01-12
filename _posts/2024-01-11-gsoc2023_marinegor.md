@@ -42,7 +42,7 @@ The main changes are summarized in the [main pull-request](https://github.com/MD
 
 ## How others can use it
 
-Let's imagine we've just learned that MDAnalysis now supports paralleization, and want to calculate RMSD of our large trajectory faster using multiple cores on our machine. Imagine we have a 16-core CPU Linux workstation with an SSD drive and a 1 us trajectory of lysozyme in water. Like this:
+Let's imagine we've just learned that MDAnalysis now supports parallelization, and want to calculate RMSD of our large trajectory faster using multiple cores on our machine. Imagine we have a 16-core CPU Linux workstation with an SSD drive and a 1 us trajectory of lysozyme in water. Like this:
 
 
 ```python
