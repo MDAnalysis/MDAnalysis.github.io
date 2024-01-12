@@ -177,11 +177,6 @@ MDAnalysis has been supported by the [Essential Open Source for Science](https:/
     style="display: inline; float: right; height: 4em; margin: 0
     0.5em" /></a>
 
-<a href="https://developers.google.com/season-of-docs"> <img
-    src="https://developers.google.com/season-of-docs/images/SeasonofDocs_Icon_Grey_300ppi_trimmed.png"
-    title="Google Season of Docs" alt="Google Season of Docs"
-    style="display: inline; float: right; height: 4em; margin: 0 0.5em" /></a>
-
 The following contributors were sponsored to work on MDAnalysis through the [Google Summer of Code](https://summerofcode.withgoogle.com/) program.
 
 - **2023**: @marinegor, @xhgchen 
@@ -192,6 +187,11 @@ The following contributors were sponsored to work on MDAnalysis through the [Goo
 - **2018**: @ayushsuhane, @davidercruz
 - **2017**: @utkbansal
 - **2016**: @fiona-naughton, @jdetle
+
+<a href="https://developers.google.com/season-of-docs"> <img
+    src="https://developers.google.com/season-of-docs/images/SeasonofDocs_Icon_Grey_300ppi_trimmed.png"
+    title="Google Season of Docs" alt="Google Season of Docs"
+    style="display: inline; float: right; height: 4em; margin: 0 0.5em" /></a>
 
 The following technical writers were sponsored to work on MDAnalysis through the [Google Season of Docs](https://developers.google.com/season-of-docs) program.
 
