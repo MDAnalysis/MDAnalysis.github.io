@@ -92,7 +92,7 @@ R = rms.RMSD(
     u,  # universe to align
     ref,  # reference universe or atomgroup
     groupselections=groupselections,
-    # select="backbone",  # group to superimpose and calculate RMSD
+    select="backbone",  # group to superimpose and calculate RMSD
 )
 ```
 
