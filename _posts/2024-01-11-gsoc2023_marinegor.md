@@ -6,7 +6,7 @@ title: GSoC 2023 - Implementation of parallel analysis in MDAnalysis
 As you might know from my [previous posts](https://marinegor.github.io/year-archive/), during the summer of 2023 I've been working on MDAnalysis during Google Summer of Code. Here I'll summarize what I've done, how others can use it, and what changes will follow that in the MDAnalysis codebase in the near future.
 
 
-## A short description of the goals of the project.
+## Goals of the project
 One sentence: introduce parallel execution of analysis runs in [MDAnalysis](https://github.com/MDAnalysis/mdanalysis) library. Somewhat good introduction I also gave [here](https://marinegor.github.io/posts/2023/05/gsoc-proposal/) when writing a proposal for the project.
 
 In more technical details, MDAnalysis library (as of v2.6.0) contains around 30 different subclasses that can perform various molecular trajectory analysis tasks, like calculating RMSD, RMSF, various contacts, density analysis, and more advanced tasks. 24 of these subclasses are children of `AnalysisBase` class. This base class is written in a way that allows subclass authors care about implementing only 3 methods:
