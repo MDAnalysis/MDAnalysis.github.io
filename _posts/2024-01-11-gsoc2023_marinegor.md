@@ -155,7 +155,7 @@ But luckily, there is a way to control that: in `R.run()` function, you can spli
 R.run(client=client, n_parts=96)
 ```
 
-now we'll see intermediate progress as well as soon as each part gets completed, which is super helpful when trying to estimate the completion time.
+Now we'll see intermediate progress as well as soon as each part gets completed, which is super helpful when trying to estimate the completion time.
 
 
 ## Conclusion
