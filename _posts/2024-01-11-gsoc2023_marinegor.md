@@ -29,7 +29,7 @@ Altogether, the `AnalysisBase.run()` has changed by addition of the following me
 
 I've also added `ParallelExecutor` and `ResultsGroup` classes that abstract away parallel execution and results aggregation, respectively. And finally, I added `multiprocessing` and `dask`/`dask.distributed` backends that reportedly speed up the analysis!
 
-## The current state.
+## The current state
 Currently, changes to the `AnalysisBase` are almost finalized. One thing that holds it back is some CI/CD issues causing tests to timeout, but all `AnalysisBase`-related tests run both locally and on CI/CD system.
 
 ## What's left to do.
