@@ -3,7 +3,7 @@ layout: post
 title: GSoC 2023 - Implementation of parallel analysis in MDAnalysis
 ---
 
-As you might know from my [previous posts](https://marinegor.github.io/year-archive/), during the summer of 2023 I've been working on MDAnalysis's project during Google Summer of Code. Here I'll summarize what I've done, how others can use it, and what changes will follow that in the MDAnalysis codebase in the near future.
+As you might know from my [previous posts](https://marinegor.github.io/year-archive/), during the summer of 2023 I've been working on MDAnalysis during Google Summer of Code. Here I'll summarize what I've done, how others can use it, and what changes will follow that in the MDAnalysis codebase in the near future.
 
 
 ## A short description of the goals of the project.
