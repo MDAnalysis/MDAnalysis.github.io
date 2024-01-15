@@ -118,7 +118,7 @@ let's try a built-in `multiprocessing` first:
 # Wall time: 1min 14s
 ```
 
-ok, this is roughly 4 times faster! Amazing, roughly as we expected.
+OK, this is roughly 4 times faster! Amazing, roughly as we expected.
 Spoiler though -- if we do it with 16 workers, we'll see the total time around 40 seconds, so improvement saturates at some point.
 
 But, we've lost something valuable when switching to `multiprocessing` -- we don't have a decent progressbar anymore. Luckily, we can use an amazing `dask` dashboard that allows us to monitor all tasks given to a particular `dask.distributed` cluster!
