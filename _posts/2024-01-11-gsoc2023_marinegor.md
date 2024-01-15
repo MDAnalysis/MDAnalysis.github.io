@@ -19,7 +19,7 @@ With only these 3 methods implemented, by inheritance subclasses get `run()` met
 
 The main goal was to re-write `AnalysisBase.run()` so that it can run in parallel on multiple processes, but make these changes invisible from the subclasses, i.e. not re-write any of their code.
 
-## What you did.
+## What I did
 Altogether, the `AnalysisBase.run()` has changed by addition of the following methods:
 
  - `_setup_computation_groups()`: split frames into multiple parts for separate analysis
