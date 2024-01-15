@@ -159,7 +159,7 @@ Now we'll see intermediate progress as well as soon as each part gets completed,
 
 
 ## Conclusion
-We've now went through the essense of the MDAnalysis parallelization project, and learned how to use it in your analysis either by simply adding `backend='multiprocessing', n_workers=...`, or setting up your own `dask` cluster and submitting your jobs there.
+We've now gone through the essence of the MDAnalysis parallelization project, and learned how to use it in your analysis either by simply adding `backend='multiprocessing', n_workers=...`, or setting up your own `dask` cluster and submitting your jobs there.
 
 Hopefully, this project will grow further and include all existing subclasses, as well as improving the speed (which, as we saw, saturates) and memory efficiency.
 
