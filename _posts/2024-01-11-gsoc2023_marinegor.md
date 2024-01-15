@@ -147,7 +147,7 @@ Now, we're ready to pass the pre-configured `client` as an argument to our `R.ru
 R.run(client=client)
 ```
 
-unfortunately, we won't see much progress -- we can see that all tasks got spawned, but their status will change only upon completion, and we won't get any intermediate progress report.
+Unfortunately, we won't see much progress -- we can see that all tasks got spawned, but their status will change only upon completion, and we won't get any intermediate progress report.
 
 But luckily, there is a way to control that: in `R.run()` function, you can split the workload into an arbitrary number of parts with `n_parts = ...`, and upon completion of each of them `dask` would report that. Let's do this:
 
