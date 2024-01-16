@@ -110,7 +110,7 @@ Let's try to speed it up now. Which backends do we have available?
 ('local', 'multiprocessing', 'dask', 'dask.distributed')
 ```
 
-let's try a built-in `multiprocessing` first:
+Let's try a built-in `multiprocessing` first:
 
 ```python
 >>> R.run(backend='multiprocessing', n_workers=4)
