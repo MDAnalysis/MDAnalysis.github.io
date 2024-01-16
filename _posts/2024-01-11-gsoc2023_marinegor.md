@@ -40,7 +40,7 @@ Optional thing suggested within my proposal was to actually add parallelization 
 The main changes are summarized in the [main pull-request](https://github.com/MDAnalysis/mdanalysis/pull/4162) of the project. They mostly involve changes to `package/analysis/base.py`, as well as installation and CI/CD configuration files. Also, there are example changes in `package/analysis/rms.py` introducing parallelization into RMSD and RMSF subclasses, showcasing the changes to be made in order to add parallelization to a certain class.
 
 
-## How others can use it
+## How can you use it?
 
 Let's imagine we've just learned that MDAnalysis now supports parallelization, and want to calculate RMSD of our large trajectory faster using multiple cores on our machine. Imagine we have a 16-core CPU Linux workstation with an SSD drive and a 1 us trajectory of lysozyme in water. Like this:
 
