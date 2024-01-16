@@ -103,7 +103,7 @@ If we start it with `R.run()`, we won't even know when the run would finish. Luc
 5%|▌         | 5062/100001 [00:13<04:15, 371.20it/s]
 ```
 
-let's try to speed it up now. Which backends do we have available?
+Let's try to speed it up now. Which backends do we have available?
 
 ```python
 >>> rms.RMSD.available_backends
