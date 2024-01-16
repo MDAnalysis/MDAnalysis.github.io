@@ -36,7 +36,7 @@ Currently, changes to the `AnalysisBase` are almost finalized. One thing that ho
 Optional thing suggested within my proposal was to actually add parallelization to the subclasses, and update tests accordingly. It turned out to be a tedious task, but finally the mechanism is finalized and described in `MDAnalysisTests/analysis/conftest.py`. It automatically generates each subclass fixtures for testing, and updating tests accordingly is fairly simple yet tedious. After updating all the tests, the library will be fully equipped with the parallel execution mechanisms for those classes that allow it.
 
 
-## What code got merged (or not) upstream.
+## What code got merged (or not) upstream
 The main changes are summarized in the [main pull-request](https://github.com/MDAnalysis/mdanalysis/pull/4162) of the project. They mostly involve changes to `package/analysis/base.py`, as well as installation and CI/CD configuration files. Also, there are example changes in `package/analysis/rms.py` introducing parallelization into RMSD and RMSF subclasses, showcasing the changes to be made in order to add parallelization to a certain class.
 
 
