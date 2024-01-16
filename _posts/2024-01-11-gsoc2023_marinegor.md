@@ -69,7 +69,7 @@ but we get this:
 ValueError                                Traceback (most recent call last)
 Cell In[11], line 2
       1 from MDAnalysis.analysis.align import AverageStructure
-----> 2 avg = AverageStructure(mobile=u).run(backend='multiprocessing', n_workers=16)
+      2 avg = AverageStructure(mobile=u).run(backend='multiprocessing', n_workers=16)
 ...
 ValueError: backend=multiprocessing is not in self.available_backends=('local',) for class AverageStructure
 ```
