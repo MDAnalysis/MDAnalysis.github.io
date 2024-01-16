@@ -32,7 +32,7 @@ I've also added `ParallelExecutor` and `ResultsGroup` classes that abstract away
 ## The current state
 Currently, changes to the `AnalysisBase` are almost finalized. One thing that holds it back is some CI/CD issues causing tests to timeout, but all `AnalysisBase`-related tests run both locally and on CI/CD system.
 
-## What's left to do.
+## What's left to do
 Optional thing suggested within my proposal was to actually add parallelization to the subclasses, and update tests accordingly. It turned out to be a tedious task, but finally the mechanism is finalized and described in `MDAnalysisTests/analysis/conftest.py`. It automatically generates each subclass fixtures for testing, and updating tests accordingly is fairly simple yet tedious. After updating all the tests, the library will be fully equipped with the parallel execution mechanisms for those classes that allow it.
 
 
