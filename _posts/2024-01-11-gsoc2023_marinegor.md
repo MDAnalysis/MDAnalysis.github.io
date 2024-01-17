@@ -27,7 +27,7 @@ Altogether, the `AnalysisBase.run()` has changed by addition of the following me
  - `_get_aggregator()`: get an object to aggregate the run results with, making them compatible with subsequent `_conclude`
  - class property `available_backends()`: get list of `str` values that describe available backends for a given subclass
 
-I've also added `ParallelExecutor` and `ResultsGroup` classes that abstract away parallel execution and results aggregation, respectively. And finally, I added `multiprocessing` and `dask`/`dask.distributed` backends that reportedly speed up the analysis!
+I've also added `ParallelExecutor` and `ResultsGroup` classes that abstract away parallel execution and results aggregation, respectively. And finally, I added `multiprocessing` and `dask` backends that reportedly speed up the analysis!
 
 ## The current state
 Currently, changes to the `AnalysisBase` are almost finalized. One thing that holds it back is some CI/CD issues causing tests to timeout, but all `AnalysisBase`-related tests run both locally and on CI/CD system.
