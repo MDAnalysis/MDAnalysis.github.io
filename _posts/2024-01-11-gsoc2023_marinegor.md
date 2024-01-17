@@ -33,8 +33,9 @@ I've also added `ParallelExecutor` and `ResultsGroup` classes that abstract away
 Currently, changes to the `AnalysisBase` are almost finalized. One thing that holds it back is some CI/CD issues causing tests to timeout, but all `AnalysisBase`-related tests run both locally and on CI/CD system.
 
 ## What's left to do
-Optional thing suggested within my proposal was to actually add parallelization to the subclasses, and update tests accordingly. It turned out to be a tedious task, but finally the mechanism is finalized and described in `MDAnalysisTests/analysis/conftest.py`. It automatically generates each subclass fixtures for testing, and updating tests accordingly is fairly simple yet tedious. After updating all the tests, the library will be fully equipped with the parallel execution mechanisms for those classes that allow it.
+An optional thing suggested within my proposal was to actually add parallelization to the subclasses, and update tests accordingly. It turned out to be a tedious task, but finally the mechanism is finalized and described in `MDAnalysisTests/analysis/conftest.py`, generating appropriate fixtures for testing subclasses with all supported (for the subclass) and installed (in the environment) backends.
 
+Since it is a big change for the library, essentially changing the API for the "analysis" part of the MDAnalysis, it requires a lot of time to merge into the develop branch, and wasn't merged within the GSoC timeframe. But the feature is expected by [version 3.0](https://www.mdanalysis.org/2023/10/25/towards_3.0/) in the core library 🚀
 
 ## What code got merged (or not) upstream
 The main changes are summarized in the [main pull-request](https://github.com/MDAnalysis/mdanalysis/pull/4162) of the project. They mostly involve changes to `package/analysis/base.py`, as well as installation and CI/CD configuration files. Also, there are example changes in `package/analysis/rms.py` introducing parallelization into RMSD and RMSF subclasses, showcasing the changes to be made in order to add parallelization to a certain class.
