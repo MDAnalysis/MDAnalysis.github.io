@@ -107,7 +107,7 @@ Let's try to speed it up now. Which backends do we have available?
 
 ```python
 >>> rms.RMSD.available_backends
-('local', 'multiprocessing', 'dask', 'dask.distributed')
+('local', 'multiprocessing', 'dask')
 ```
 
 Let's try a built-in `multiprocessing` first:
