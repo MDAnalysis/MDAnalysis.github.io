@@ -1,0 +1,21 @@
+---
+layout: post
+title: Call for Abstracts for MDAnalysis UGM 2024
+---
+
+<img
+src="https://github.com/MDAnalysis/branding/blob/main/logos/banners/mdanalysis-banner-UGM-white-1280x144.png"
+title="MDAnalysis UGM Banner" alt="MDAnalysis UGM Banner"
+style="float: left; height: 8em; " />
+
+We are now [accepting abstracts][abstracts] for the [2024 MDAnalysis UGM][ugmPage] (User Group Meeting), taking place August 21-23, 2024, in London, UK at [King’s College London](https://www.kcl.ac.uk/visit/bush-house). Abstracts are welcomed from all areas relevant to MDAnalysis's work, from scientific applications (e.g., biomolecular simulations, soft matter and materials science, drug discovery and more) to the use and development of open source software and tools for molecular simulations data analysis. When submitting your abstract, you may indicate whether you prefer to give a 15 minute talk, 5 minute lighting talk, or poster presentation.
+
+MDAnalysis strives to be a diverse and welcoming community for all. While the event will be free to attend, a limited number of travel bursaries are available to enable those facing financial barriers to attend and present their work. If you would like to apply, please follow the prompts on the [abstract submission form][abstracts].
+
+The deadline for submitting your abstract and/or bursary application is **March 15, 2024**. Submissions will be reviewed by the end of March 2024; we will contact applicants shortly after.
+
+Follow our [official event page][ugmPage] on our website for the most up-to-date information about the UGM. If you have any questions or special requests, you may contact [ugm@mdanalysis.org][email].
+
+[abstracts]: https://forms.gle/usXuZVeM1iZiTDZY8
+[ugmPage]: https://www.mdanalysis.org/pages/ugm2024/
+[email]: mailto:ugm@mdanalysis.org
