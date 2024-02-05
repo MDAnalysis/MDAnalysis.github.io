@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Online Workshop: Introduction to MDAnalysis and Molecular Nodes
+title: Online Workshop - Introduction to MDAnalysis and Molecular Nodes
 ---
 
 After a successful [launch of our online training workshop series](https://www.mdanalysis.org/2024/01/15/mda_events/#mdanalysis-online-training-workshops) in October 2023, MDAnalysis is happy to announce that the next scheduled workshop will take place **February 28, 2024 from 03:00-07:00 UTC** to accommodate folks based in Australasian time zones. 
