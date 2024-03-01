@@ -69,10 +69,10 @@ mailinglists:
     url:          https://github.com/MDAnalysis/mdanalysis/discussions
   developer: 
     name:         GitHub Discussions (Development)
-    url:          https://github.com/MDAnalysis/mdanalysis/discussions/categories/developement
+    url:          https://github.com/MDAnalysis/mdanalysis/discussions/categories/development
   gsoc:
     name:         GitHub Discussions (GSoC)
-    url:          https://github.com/MDAnalysis/mdanalysis/discussions/categories/google-summer-of-code
+    url:          https://github.com/MDAnalysis/mdanalysis/discussions/categories/gsoc-discussions
 twitter:
   name:           mdanalysis
   url:            https://twitter.com/mdanalysis
