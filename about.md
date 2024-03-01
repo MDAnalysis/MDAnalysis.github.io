@@ -6,6 +6,26 @@ title: About MDAnalysis
 <img src="{{ site.baseurl }}/public/mdanalysis-logo_square.png"
 style="float: right" alt="MDAnalysis" width="30%"/>
 
+## About the MDAnalysis Project
+
+The MDAnalysis [Community](#community) is interested in all facets of **working
+with data in the molecular sciences**. We welcome everyone. **We all follow our
+[Code of Conduct] and strive to create an environment that is welcoming to
+all.** Our primary purpose is to produce software that scientists in academia and
+industry will trust to use in their research.
+
+We develop and maintain projects related to the broader goal of processing and
+analyzing data in the molecular sciences. We aim to empower users/developers to
+work with our packages following [FAIR principles]. Our central package is the
+[MDAnalysis library] for the analysis of computer simulations of many-body
+systems at the molecular scale. 
+
+We believe that scientific software should be open to all while using best
+practices to maintain high standards of correctness and reproducibility. We
+emphasize educating our users to make best use of the tools that we produce, to
+enable them to become contributors to our community and code bases.
+
+
 
 ## Community
 
@@ -263,7 +283,9 @@ MDAnalysis welcomes feedback for improvement from its users and community. If yo
 
 ------
 
-
+[Code of Conduct]: {{ site.baseurl }}/pages/conduct/
+[MDAnalysis library]: {{ site.github.repo }}
+[FAIR principles]: https://www.go-fair.org/fair-principles/
 [NumFOCUS]: https://www.numfocus.org
 [simple majority]: https://en.wikipedia.org/wiki/Majority#Majority_vote
 [orgrepo]: https://github.com/MDAnalysis
