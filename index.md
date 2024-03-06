@@ -52,9 +52,9 @@ and the Python Package index
 ## Participating ##
 
 Ask **questions** on the [{{ site.mailinglists.discussion.name }}
-mailing list]({{ site.mailinglists.discussion.url }}) and **be part of the
+forum]({{ site.mailinglists.discussion.url }}) and **be part of the
 conversation**. You can also join the [{{ site.discord.name }}
-Discord Server]({{ site.discord.url }})  to talk with other users and
+Discord Server]({{ site.discord.url }}) to talk with other users and
 developers. (In order to join our Discord server, use the invitation link
 [{{ site.discord.invite }}]({{ site.discord.invite }}).)
 
@@ -66,10 +66,11 @@ the repository on
 GitHub](https://github.com/MDAnalysis/mdanalysis#fork-destination-box)
 and submit a pull request. Participate on the [{{
 site.mailinglists.developer.name }}
-mailing list]({{ site.mailinglists.developer.url }}).
+forum]({{ site.mailinglists.developer.url }}).
 
-MDAnalysis regularly takes part in various **mentoring and outreach programs**, such as [Google Summer of Code](https://summerofcode.withgoogle.com/), [Google Season of Docs](https://developers.google.com/season-of-docs), [Outreachy](https://www.outreachy.org/), the [Station1 Frontiers Fellowship](https://www.station1.org/sff), and the [CompChemURG](https://www.bindingsites.co.uk/home) mentorship schemes. Many of the [current core developers](/about/#mdanalysis-core-developers/) joined the project through these mentoring schemes. The project also frequently offers **teaching workshops**, both online and in-person. Follow our [blog]({{ site.baseurl }}/blog), [Twitter](https://twitter.com/mdanalysis), and [LinkedIn](https://www.linkedin.com/company/mdanalysis/) pages for updates on how to participate. 
- 
+MDAnalysis regularly takes part in various **mentoring and outreach programs**, such as [Google Summer of Code](https://summerofcode.withgoogle.com/), [Google Season of Docs](https://developers.google.com/season-of-docs), [Outreachy](https://www.outreachy.org/), the [Station1 Frontiers Fellowship](https://www.station1.org/sff), and the [CompChemURG](https://www.bindingsites.co.uk/home) mentorship schemes. Many of the [current core developers](/about/#mdanalysis-core-developers/) joined the project through these mentoring schemes. The project also frequently offers **teaching workshops**, both online and in-person; recordings are often made available on the [MDAnalysis YouTube channel](https://www.youtube.com/@mdanalysis3040). Follow our [blog]({{ site.baseurl }}/blog), [LinkedIn](https://www.linkedin.com/company/mdanalysis/), [Twitter](https://twitter.com/mdanalysis), and [Bluesky](https://bsky.app/profile/mdanalysis.bsky.social) pages for updates on how to participate.
+
+To **connect with other MDAnalysis users, present your work using MDAnalysis, and meet the developer team,** join us August 21-23, 2024 for our [User Group Meeting]({{ site.baseurl }}/pages/ugm2024/) in London, United Kingdom.  
 
 ## Supporting ##
 
