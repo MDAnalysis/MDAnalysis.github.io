@@ -69,15 +69,16 @@ The current
 [@MDAnalysis/coredevs](https://github.com/orgs/MDAnalysis/teams/coredevs/members)
 team ("MDAnalysis Core Developers") consists of:
 
-
 - @fiona-naughton
 - @hmacdope
+- @jennaswa
 - @lilyminium
 - @micaela-matta
 - @orbeckst
 - @richardjgowers
 - @RMeli
 - @tylerjereddy
+- @yuxuanzhuang
 
 ### MDAnalysis Emeriti Core Developers
 
