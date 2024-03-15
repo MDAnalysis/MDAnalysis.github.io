@@ -6,7 +6,7 @@ title: About MDAnalysis
 <img src="{{ site.baseurl }}/public/mdanalysis-logo_square.png"
 style="float: right" alt="MDAnalysis" width="30%"/>
 
-## About the MDAnalysis Project
+## Mission
 
 The MDAnalysis [Community](#community) is interested in all facets of **working
 with data in the molecular sciences**. We welcome everyone. **We all follow our
