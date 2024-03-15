@@ -9,13 +9,13 @@ style="float: right" alt="MDAnalysis" width="30%"/>
 ## Mission
 
 The MDAnalysis [Community](#community) is interested in all facets of **working
-with data in the molecular sciences**. We welcome everyone. **We all follow our
+with data in the computational molecular sciences**. We welcome everyone. **We all follow our
 [Code of Conduct] and strive to create an environment that is welcoming to
 all.** Our primary purpose is to produce software that scientists in academia and
 industry will trust to use in their research.
 
 We develop and maintain projects related to the broader goal of processing and
-analyzing data in the molecular sciences. We aim to empower users/developers to
+analyzing data in the computational molecular sciences. We aim to empower users/developers to
 work with our packages following [FAIR principles]. Our central package is the
 [MDAnalysis library] for the analysis of computer simulations of many-body
 systems at the molecular scale. 
