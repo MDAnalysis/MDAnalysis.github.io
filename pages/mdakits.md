@@ -64,7 +64,7 @@ Below we list projects that use MDAnalysis and are not registered as MDAKits:
 -  [PyInteraph](https://github.com/ELELAB/pyinteraph): A software tool
    for the analysis of structural communication in protein ensembles,
    including a PyMOL plugin and an InteractionPlotter.
--  [MAICoS](https://gitlab.com/netzlab/maicos): Analyze molecular dynamics simulations of 
+-  [MAICoS](https://gitlab.com/maicos-devel/maicos): Analyze molecular dynamics simulations of 
    interfacial and confined systems.
 -  [taurenmd](https://taurenmd.readthedocs.io/en/latest/): A command-line interface for analysis of Molecular Dynamics simulations.
 -  [PENSA](https://github.com/drorlab/pensa): A toolkit for exploratory analysis and comparison of protein structural ensembles
