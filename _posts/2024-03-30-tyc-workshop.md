@@ -3,7 +3,7 @@ layout: post
 title: MDAnalysis Workshop with the Thomas Young Centre and CCPBioSim
 ---
 
-MDAnalysis, in collaboration with the [Thomas Young Centre](https://thomasyoungcentre.org/), the [JCMaxwell Node of CECAM](https://uk-jcmaxwell.cecam.org/), and [CCPBioSim](https://www.ccpbiosim.ac.uk/), will deliver a hybrid workshop on an **Introduction to Molecular Dynamics Trajectory Analysis using MDAnalysis**. The workshop will take place at the University College London (United Kingdom) and online May 10, 2024 from 09:00 - 17:00 GMT.
+MDAnalysis, in collaboration with the [Thomas Young Centre](https://thomasyoungcentre.org/), the [JCMaxwell Node of CECAM](https://uk-jcmaxwell.cecam.org/), and [CCPBioSim](https://www.ccpbiosim.ac.uk/), will deliver a hybrid workshop on an **Introduction to Molecular Dynamics Trajectory Analysis using MDAnalysis**. The workshop will take place at University College London (United Kingdom) and online May 10, 2024 from 09:00 - 17:00 GMT.
 
 Places are limited, so registration is required before the deadline, **April 9, 2024**. There is a £10 fee for in-person registration, which includes lunch (but not travel or accommodation). Due to high demand, the online spaces are already full. If you are unable to join us in person, we encourage you to check out the recording after the event on the [MDAnalysis YouTube channel](https://www.youtube.com/@mdanalysis3040).
 
