@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Basic example
+order: 1
 ---
 
 A typical usage pattern is to iterate through a trajectory and analyze

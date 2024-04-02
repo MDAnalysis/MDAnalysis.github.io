@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Learning MDAnalysis
+order: 3
 ---
 
 Once you had a look at the 
