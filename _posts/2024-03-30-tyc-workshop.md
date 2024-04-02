@@ -10,16 +10,16 @@ Places are limited, so registration is required before the deadline, **April 9, 
 Further details and a link to register are available on the [main event page](https://www.ccpbiosim.ac.uk/mda2024).
 
 <img
-src="/public/images/TYC_Logo.jpg"
+src="/public/images/TYC_Logo.png"
 title="Thomas Young Centre Logo" alt="Thomas Young Centre Logo"
 style="float: left; height: 5em; " />
 
 <img
-src="/public/images/JCMaxwell_Logo.png"
+src="/public/images/CECAM_UK_JCMAXWELL.png"
 title="JCMaxwell Node of CECAM Logo" alt="JCMaxwell Node of CECAM Logo"
 style="float: right; height: 5em; " />
 
 <img
-src="/public/images/CCPBioSim_Logo.png"
+src="/public/images/CCPBioSim_Logo.jpeg"
 title="CCPBioSim Logo" alt="CCPBioSim Logo"
 style="float: right; height: 5em; " />
