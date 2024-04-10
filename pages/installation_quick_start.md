@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Installation Quick Start
+order: 2
 ---
 
 MDAnalysis offers two methods to install the released version. For most

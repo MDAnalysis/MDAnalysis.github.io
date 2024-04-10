@@ -56,9 +56,20 @@ not be touched, as this is only here to set the paginator.
 We are using the minimalist [Hyde](https://github.com/poole/hyde) theme for
 [Jekyll](https://jekyllrb.com/docs/).
 
+### Static pages
 Additional static pages go under `pages`. If they have the layout type
-"page" they will be automatically included in the sidebar. The static
+"page" they will be automatically included in the *sidebar*. The static
 "about" page is left at the top level.
+
+To customize the *order of pages in the sidebar*, add the attribute
+`order: <INTEGER>` to the front-matter. Pages will be sorted lowest to
+highest. Note that some entries in the sidebar are hardcoded in
+`_includes/sidebar.html`.
+
+If a page should *not show up in the sidebar*, use `layout:
+otherpage`.
+
+
 
 
 ### Creating content ###
