@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Save the Date - in-person workshop at Arizona State University
+title: Save the Date: June 24th-25th, 2024 - in-person workshop at Arizona State University
 ---
 
 <img
 src="/public/images/ASUworkshop_cactus.png"
-title="MDAnalysis ASU workshop 2024" alt="MDAnalysis Workshop Just 25-26th Arizona State University"
+title="MDAnalysis ASU workshop 2024" alt="MDAnalysis Workshop June 24-25th, 2024 at Arizona State University"
 style="float: left; height: 20em; " />
 
 <img
@@ -14,7 +14,7 @@ title="MolSSI logo" alt="MolSSI logo"
 style="float: left; height: 5em; " />
 
 MDAnalysis, in conjunction with [MolSSI](https://molssi.org/), is happy to announce an 
-upcoming in-person workshop, to be held **June 25th-26th** at **Arizona State University** 
+upcoming in-person workshop, to be held **June 24th-25th**, 2024 at **Arizona State University** 
 (Tempe Campus). This two-day workshop is intended to build attendees from user to developer 
 and will cover an introduction to MDAnalysis, software best practices, and guide participants 
 through the creation of their own [MDAKit]( https://www.mdanalysis.org/pages/mdakits). 
