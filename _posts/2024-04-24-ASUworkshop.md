@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Save the Date: June 24th-25th, 2024 - in-person workshop at Arizona State University
+title: "Save the Date: June 24th-25th, 2024 - in-person workshop at Arizona State University"
 ---
 
 <img
