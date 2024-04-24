@@ -6,12 +6,12 @@ title: "Save the Date: June 24th-25th, 2024 - in-person workshop at Arizona Stat
 <img
 src="/public/images/ASUworkshop_cactus.png"
 title="MDAnalysis ASU workshop 2024" alt="MDAnalysis Workshop June 24-25th, 2024 at Arizona State University"
-style="float: left; height: 20em; " />
+style="float: right; height: 20em; " />
 
 <img
 src="/public/images/MolSSI_Logo.png"
 title="MolSSI logo" alt="MolSSI logo"
-style="float: left; height: 5em; " />
+style="float: right; height: 5em; " />
 
 MDAnalysis, in conjunction with [MolSSI](https://molssi.org/), is happy to announce an 
 upcoming in-person workshop, to be held **June 24th-25th**, 2024 at **Arizona State University** 
