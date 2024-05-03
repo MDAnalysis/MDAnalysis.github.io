@@ -69,7 +69,7 @@ Add where we can find you here! (github, linkedin, twitter, others, etc.)
 
 Add a link to your blog here!
 
-— @cbouy @hmacdope @IAlibay @jennaswa @micaela-matta @richardgowers @xhgchen @yuxuanzhuang (mentors and org admins)
+— @BradyAJohnston @cbouy @hmacdope @IAlibay @jennaswa @micaela-matta @orbeckst @richardgowers @xhgchen @yuxuanzhuang (mentors and org admins)
 
 [gsoc]: https://summerofcode.withgoogle.com
 [outreachy]: https://www.outreachy.org/
