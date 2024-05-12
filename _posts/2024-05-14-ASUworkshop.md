@@ -87,7 +87,7 @@ than 4.8 million people and encompasses the ancient lands of the Akimel O'odham
 **Phoenix Sky Harbor** [PHX][] airport has direct connections to all major hubs
 in the US.
 
-PHX airport is 5.5 miles (10 minutes by car/rideshar) from the workshop venue.
+PHX airport is 5.5 miles (10 minutes by car/rideshare) from the workshop venue.
 
 #### Car/rideshare
 
