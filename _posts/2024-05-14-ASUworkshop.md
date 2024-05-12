@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Save the Date: June 24th-25th, 2024 - in-person workshop at Arizona State University"
+title: "MDAnalysis/MolSSI Workshop at Arizona State University (June 24/25, 2024)"
 ---
 
 <img
@@ -13,7 +13,7 @@ src="/public/images/MolSSI_Logo.png"
 title="MolSSI logo" alt="MolSSI logo"
 style="float: right; height: 5em; " />
 
-MDAnalysis, in conjunction with the [Molecular Sciences Software Institute][]
+MDAnalysis, in conjunction with the [Molecular Sciences Software Institute][MolSSI]
 (MolSSI) and with the support of the [Chan-Zuckerberg Inititative][CZI] and the
 [Center for Biological Physics][CBP], is holding a **2-day** workshop on **June
 24th-25th** 2024 at **Arizona State University** in Tempe, Arizona, USA.
@@ -96,22 +96,22 @@ PHX airport is 5.5 miles (10 minutes by car/rideshare) from the workshop venue.
 
 #### Public transport (Light Rail)
 
-The [Valley Metro Light Rail][Light Rail] connects the airport to Tempe along an
+The [Valley Metro Light Rail][Light Rail] connects the airport to Tempe along a
 West-East axis. If your destination is near a Light Rail stop then
 public transport works well:
 
-#. Take the free *[PHX SkyTrain][]* from the terminal to the **44th St/Washington**
+1. Take the free [PHX Sky Train][] from the terminal to the **44th St/Washington**
 Metro Rail stop.
-#. Walk from the Sky Train stop to the Light Rail stop (all inside the 44th St
+2. Walk from the Sky Train stop to the Light Rail stop (all inside the 44th St
 Sky Train structure)
-#. Buy a ticket at the ticket machine near the exit escalators to the Light
+3. Buy a ticket at the ticket machine near the exit escalators to the Light
 Rail stop.
-#. At the [44th St/Washington stop][LightRail44thSt] (Stop #10018) take the
+4. At the [44th St/Washington stop][LightRail44thSt] (Stop #10018) take the
 *east-bound* Light Rail (direction Mesa, Gilbert Rd/Main St).
-#. The stop closest to the Hyatt Place Hotel and the workshop venue is
+5. The stop closest to the Hyatt Place Hotel and the workshop venue is
 **University Dr/Rural Rd** (Stop #10023). If you want to get off closer to
 downtown Tempe get off one stop earlier at **Veterans Way/College Ave** (Stop #10025)
-#. Walk to your destination.
+6. Walk to your destination.
 
 #### Car/rideshare
 
