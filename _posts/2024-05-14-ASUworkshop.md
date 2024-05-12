@@ -46,7 +46,8 @@ breaks.
 
 ### Registration
 
-Attendance at this workshop will be *free*. 
+Attendance at this workshop will be *free* but limited to 40 in-person
+participants.
 
 A number of **bursaries** will be available to assist with travel and
 accommodation costs for participants from outside the Phoenix area. Bursaries
@@ -54,7 +55,7 @@ accommodation costs for participants from outside the Phoenix area. Bursaries
 accommodation* (single room within 5 minutes of the workshop venue) will be
 awarded.
 
-#### Application with bursary request (non-local attendees)
+#### Application *with bursary request* (non-local attendees)
 
 Register by **May 27, 2024** (midnight anywhere on Earth).
 
@@ -64,9 +65,11 @@ an under-represented demographic in the computational molecular sciences.
 Bursaries are reserved to enable the attendance of participants from outside
 the greater Phoenix area.
 
-Note that airfare for travel awardees will have to be booked by June 3 through
-our travel agency so as an awardee you will have to be able to respond
-immediately and act quickly.
+Note that airfare for travel awardees will have to be *booked by June 3 through
+our travel agency* so as an awardee you will have to be able to
+respond to our communications (via email) immediately and act quickly.
+
+Bursary recipients will be notified by May 29. 
 
 
 #### Application without bursary request or local attendees
@@ -89,17 +92,11 @@ in the US.
 
 PHX airport is 5.5 miles (10 minutes by car/rideshare) from the workshop venue.
 
-#### Car/rideshare
-
-To get from the airport to Tempe either take a cab (traditional or self-driving
-Waymo) or rideshare (Lyft, Uber).
-
-However, public transport works quite well, too.
-
 #### Public transport (Light Rail)
 
 The [Valley Metro Light Rail][Light Rail] connects the airport to Tempe along an
-West-East axis. 
+West-East axis. If your destination is near a Light Rail stop then
+public transport works well:
 
 #. Take the free *[PHX SkyTrain][]* from the terminal to the **44th St/Washington**
 Metro Rail stop.
@@ -113,6 +110,11 @@ Rail stop.
 **University Dr/Rural Rd** (Stop #10023). If you want to get off closer to
 downtown Tempe get off one stop earlier at **Veterans Way/College Ave** (Stop #10025)
 #. Walk to your destination.
+
+#### Car/rideshare
+
+To get from the airport to anywhere in Tempe either take a cab (traditional or self-driving
+Waymo) or rideshare (Lyft, Uber).
 
 
 #### Workshop Venue
@@ -141,7 +143,7 @@ Other hotels are available in Tempe within walking distance.
 ### Weather
 
 Arizona is *hot* during June. Temperatures in excess of 110ºF (43.3ºC) are not
-rare so it is important that you bring head coverings for shade and carry
+rare so it is important that you bring a hat for sun protection and carry
 enough water with you.
 
 Avoid hiking in the desert during the hot portion of the day (10am - 6pm) as it
