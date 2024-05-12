@@ -55,6 +55,8 @@ accommodation costs for participants from outside the Phoenix area. Bursaries
 accommodation* (single room within 5 minutes of the workshop venue) will be
 awarded.
 
+<a href="https://LINK.TO.REGISTRATIONFORM" target="_blank" style="background:#FF9200;padding:10px;margin:10px 0px;text-align:center;text-decoration:none;font-size:12pt;color:#000000;display:inline-block;border-radius:3px">Register</a>
+
 #### Application *with bursary request* (non-local attendees)
 
 Register by **May 27, 2024** (midnight anywhere on Earth).
