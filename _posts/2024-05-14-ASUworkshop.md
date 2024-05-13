@@ -172,7 +172,7 @@ can be deadly.
 
 If you have any questions or special requests related to this workshop, you may [contact the organizing committee](mailto:workshops@mdanalysis.org).
 
-- @fiona-naughton @IAlibay @jennaswa @orbeckst (the workshop team at MDAnalysis)
+- @fiona-naughton @IAlibay @jennaswa @orbeckst (the workshop team at MDAnalysis) and @armcdona (MolSSI)
 
 
 [MolSSI]: https://molssi.org/
