@@ -22,7 +22,17 @@ This two-day workshop is intended to transform attendees from users to
 developers and will cover an introduction to MDAnalysis, software best
 practices, and guide participants through the creation of their own [MDAKit][mdakits].
 
-### Workshop outline
+This workshop is suitable for students and researchers in the broad area
+of computational (bio)chemistry, materials science and chemical engineering. It
+is designed for those who have familiarity with MDAnalysis and are
+comfortable working with [Python](https://www.python.org/) and [Jupyter
+Notebooks](https://jupyter-notebook.readthedocs.io/en/stable/). Workshop
+participants should already have a working [conda or mamba installation of
+MDAnalysis](https://userguide.mdanalysis.org/stable/installation.html) (*mamba
+preferred*), as well as an editor of their choice for editing files.
+
+
+## Workshop Overview
 
 MDAnalysis developers and experienced MolSSI instructors will teach
 participants how to build their own MDAnalysis-based Python packages by guiding
@@ -33,7 +43,8 @@ best practices; and (3) an interactive hackathon session where participants
 write their own MDAKits.
 
 The program will run from the morning of Monday, June 24th until the early
-evening of Tuesday June 25th. Breakfast and lunch will will be provided together with tea/coffee during breaks.
+evening of Tuesday June 25th. Breakfast and lunch will will be provided
+together with tea/coffee during breaks.
 
 Parts of the workshop will be held in a hybrid mode for those unable to attend
 in-person. Registration for the hybrid components is required. Recordings of
@@ -42,22 +53,25 @@ hybrid sessions will be made available after the workshop.
 
 
 
-### Registration
+## Registration
 
-Attendance at this workshop will be *free* but limited to 40 in-person
-participants. The workshop will be delivered to a small group to allow interactive discussions, questions, and participant engagement.
+Attendance at this workshop will be *free* but the in-person part of the
+workshop will be limited to 40 participants. The workshop will be delivered to
+a small group to allow interactive discussions, questions, and participant
+engagement.
 
 A number of **bursaries** will be available to assist with travel and
-accommodation costs for participants from outside the [greater Phoenix area](https://en.wikipedia.org/wiki/Phoenix_metropolitan_area). Bursaries
-(up to *$600 in costs for US domestic travel*) and *up to 3 nights of hotel
+accommodation costs for participants from outside the [greater Phoenix
+area](https://en.wikipedia.org/wiki/Phoenix_metropolitan_area). Bursaries (up
+to *$600 in costs for US domestic travel*) and *up to 3 nights of hotel
 accommodation* (single room within 5 minutes of the workshop venue) will be
-awarded.
+awarded and you can apply for them as part of the registration process.
+
+Register by **May 27, 2024** (midnight anywhere on Earth):
 
 <a href="https://forms.gle/UeiFJ6rbnXnhosnWA" target="_blank" style="background:#FF9200;padding:10px;margin:10px 0px;text-align:center;text-decoration:none;font-size:12pt;color:#000000;display:inline-block;border-radius:3px">Register</a>
 
-#### Application *with bursary request* (non-local attendees)
-
-Register by **May 27, 2024** (midnight anywhere on Earth).
+### *Bursaries* for in-person attendance
 
 We especially welcome your application if you consider yourself being part of
 an underrepresented demographic in the computational molecular sciences.
@@ -72,12 +86,16 @@ respond to our communications (via email) immediately and act quickly.
 Bursary recipients will be notified by May 29. 
 
 
-#### Application without bursary request or local attendees
+### Online participants
 
-Register by **June 5, 2024** (midnight anywhere on Earth).
+Part of the workshop will be taught in hybrid mode and if you are not able to
+attend in person, please register for the online persion using the same
+registration link above.
 
 
-### Travel
+
+
+## Travel
 
 [Tempe][] is part of the "Valley of the Sun" metropolitan area, which encompasses
 [Phoenix][], the 5th most populous city in the US. Today the area is home to more
@@ -85,14 +103,14 @@ than 4.8 million people and encompasses the ancient lands of the Akimel O'odham
 (Pima), Maricopa, and Tohono O'odham tribes.
 
 
-#### Airport
+### Airport
 
 **Phoenix Sky Harbor** [PHX][] airport has direct connections to all major hubs
 in the US.
 
 PHX airport is 5.5 miles (10 minutes by car/rideshare) from the workshop venue.
 
-#### Public transport (Light Rail)
+### Public transport (Light Rail)
 
 The [Valley Metro Light Rail][Light Rail] connects the airport to Tempe along a
 West-East axis. If your destination is near a Light Rail stop then
@@ -111,13 +129,13 @@ Rail stop.
 downtown Tempe get off one stop earlier at **Veterans Way/College Ave** (Stop #10025)
 6. Walk to your destination.
 
-#### Car/rideshare
+### Car/rideshare
 
 To get from the airport to anywhere in Tempe either take a cab (traditional or self-driving
 Waymo) or rideshare (Lyft, Uber).
 
 
-#### Workshop Venue
+### Workshop Venue
 
 The workshop will be held in the Student Success Center in the Department of
 Physics at [Arizona State University][ASU] (room PSF 186 in the [Physical Sciences F
@@ -133,14 +151,14 @@ building][PSF]). The address is
 Paid parking is available in the [Tyler Street Parking
 Structure][TylerStParking] and other on-campus parking structures.
 
-### Accommodation
+## Accommodation
 
 The closest hotel (5 min by foot) is the [Hyatt Place Tempe][HyattPlace].
 
 Other hotels are available in Tempe within walking distance.
 
 
-### Weather
+## Weather
 
 Arizona is *hot* during June. Temperatures in excess of 110ºF (43.3ºC) are not
 rare, so it is important that you bring a hat/sunscreen for sun protection and carry
@@ -150,7 +168,7 @@ Avoid hiking in the desert during the hot portion of the day (10am - 6pm), as it
 can be deadly.
 
 
-### Who to Contact
+## Who to Contact
 
 If you have any questions or special requests related to this workshop, you may [contact the organizing committee](mailto:workshops@mdanalysis.org).
 
