@@ -83,7 +83,7 @@ Note that airfare for travel awardees will have to be *booked by June 3 through
 our travel agency*, so as an awardee you will have to be able to
 respond to our communications (via email) immediately and act quickly.
 
-Bursary recipients will be notified by May 29. 
+Bursary recipients will be notified on May 29 or earlier. 
 
 
 ### Online participants
