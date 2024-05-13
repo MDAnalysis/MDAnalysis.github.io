@@ -14,8 +14,8 @@ title="MolSSI logo" alt="MolSSI logo"
 style="float: right; height: 5em; " />
 
 MDAnalysis, in conjunction with the [Molecular Sciences Software Institute][MolSSI]
-(MolSSI) and with the support of the [Chan-Zuckerberg Inititative][CZI] and the
-[Center for Biological Physics][CBP], is holding a **2-day** workshop on **June
+(MolSSI) and with the support of the [Chan Zuckerberg Initiative][CZI] and the
+[Center for Biological Physics][CBP], is holding a **free, 2-day workshop** on **June
 24th-25th** 2024 at **Arizona State University** in Tempe, Arizona, USA.
 
 This two-day workshop is intended to transform attendees from users to
@@ -33,42 +33,40 @@ best practices; and (3) an interactive hackathon session where participants
 write their own MDAKits.
 
 The program will run from the morning of Monday, June 24th until the early
-evening of Tuesday June 25th. 
+evening of Tuesday June 25th. Breakfast and lunch will will be provided together with tea/coffee during breaks.
 
 Parts of the workshop will be held in a hybrid mode for those unable to attend
 in-person. Registration for the hybrid components is required. Recordings of
 hybrid sessions will be made available after the workshop.
 
-Breakfast and lunch will will be provided together with tea/coffee during
-breaks.
 
 
 
 ### Registration
 
 Attendance at this workshop will be *free* but limited to 40 in-person
-participants.
+participants. The workshop will be delivered to a small group to allow interactive discussions, questions, and participant engagement.
 
 A number of **bursaries** will be available to assist with travel and
-accommodation costs for participants from outside the Phoenix area. Bursaries
+accommodation costs for participants from outside the [greater Phoenix area](https://en.wikipedia.org/wiki/Phoenix_metropolitan_area). Bursaries
 (up to *$600 in costs for US domestic travel*) and *up to 3 nights of hotel
 accommodation* (single room within 5 minutes of the workshop venue) will be
 awarded.
 
-<a href="https://LINK.TO.REGISTRATIONFORM" target="_blank" style="background:#FF9200;padding:10px;margin:10px 0px;text-align:center;text-decoration:none;font-size:12pt;color:#000000;display:inline-block;border-radius:3px">Register</a>
+<a href="https://forms.gle/UeiFJ6rbnXnhosnWA" target="_blank" style="background:#FF9200;padding:10px;margin:10px 0px;text-align:center;text-decoration:none;font-size:12pt;color:#000000;display:inline-block;border-radius:3px">Register</a>
 
 #### Application *with bursary request* (non-local attendees)
 
 Register by **May 27, 2024** (midnight anywhere on Earth).
 
 We especially welcome your application if you consider yourself being part of
-an under-represented demographic in the computational molecular sciences.
+an underrepresented demographic in the computational molecular sciences.
 
 Bursaries are reserved to enable the attendance of participants from outside
-the greater Phoenix area.
+the [greater Phoenix area](https://en.wikipedia.org/wiki/Phoenix_metropolitan_area).
 
 Note that airfare for travel awardees will have to be *booked by June 3 through
-our travel agency* so as an awardee you will have to be able to
+our travel agency*, so as an awardee you will have to be able to
 respond to our communications (via email) immediately and act quickly.
 
 Bursary recipients will be notified by May 29. 
@@ -145,13 +143,16 @@ Other hotels are available in Tempe within walking distance.
 ### Weather
 
 Arizona is *hot* during June. Temperatures in excess of 110ºF (43.3ºC) are not
-rare so it is important that you bring a hat for sun protection and carry
+rare, so it is important that you bring a hat/sunscreen for sun protection and carry
 enough water with you.
 
-Avoid hiking in the desert during the hot portion of the day (10am - 6pm) as it
+Avoid hiking in the desert during the hot portion of the day (10am - 6pm), as it
 can be deadly.
 
 
+### Who to Contact
+
+If you have any questions or special requests related to this workshop, you may [contact the organizing committee](mailto:workshops@mdanalysis.org).
 
 - @fiona-naughton @IAlibay @jennaswa @orbeckst (the workshop team at MDAnalysis)
 
