@@ -89,7 +89,7 @@ Bursary recipients will be notified on May 29 or earlier.
 ### Online participants
 
 Part of the workshop will be taught in hybrid mode and if you are not able to
-attend in person, please register for the online persion using the same
+attend in person, please register for the online portion using the same
 registration link above.
 
 
