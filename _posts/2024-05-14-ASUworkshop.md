@@ -43,7 +43,7 @@ best practices; and (3) an interactive hackathon session where participants
 write their own MDAKits.
 
 The program will run from the morning of Monday, June 24th until the early
-evening of Tuesday June 25th. Breakfast and lunch will will be provided
+evening of Tuesday June 25th. Breakfast and lunch will be provided
 together with tea/coffee during breaks.
 
 Parts of the workshop will be held in a hybrid mode for those unable to attend
