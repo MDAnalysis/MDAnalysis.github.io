@@ -10,17 +10,13 @@ We are happy to announce that MDAnalysis is hosting three [Google Summer of Code
 ## Lawson Woods: [Enhancing the Interoperability and Efficiency of the Zarrtraj MDAKit](https://summerofcode.withgoogle.com/programs/2024/projects/BYYAE9MR)
 
 <img
-src="Picture Here"
+src="https://avatars.githubusercontent.com/ljwoods2"
 title="Lawson Woods" alt="Lawson Woods"
 style="float: left; width: 110px; height: 110px; border-radius: 20px; border: 15px solid white" />
 
-Write a short description of your project here!
+Streaming trajectory data directly from cloud storage will allow researchers to share their trajectories more easily than ever before, however, rewriting existing trajectory file readers for cloud-streaming would be a slow and complex process. [zarrtraj](https://github.com/Becksteinlab/zarrtraj), a trajectory file format based on [Zarr](https://zarr.readthedocs.io/en/stable/) storage, presents an alternative which natively supports AWS S3, Google Cloud Buckets, and Azure Blob Storage in addition to reading from a local directory without much added complexity. Lawson's GSoC 2024 project will be to continue enhancing the ease-of-use, robustness, and efficiency of this format.
 
-Write something about yourself here! (affiliation, background, interests - work and/or personal, etc.)
-
-Add where we can find you here! (github, linkedin, twitter, others, etc.)
-
-Add a link to your blog here!
+Lawson is a computer science student at Arizona State University (ASU) graduating in December 2024. You can find Lawson on GitHub as [@ljwoods2](https://github.com/ljwoods2) and on [LinkedIn](https://www.linkedin.com/in/lawson-woods/). To see updates on the `zarrtraj` project as well as his other projects you can check out [his blog](https://ljwoods2.github.io/).
 
 ## Valerij Talagayev: [2D Visualization for Small Molecules](https://summerofcode.withgoogle.com/programs/2024/projects/sfy3kuqc)
 
