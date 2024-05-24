@@ -7,6 +7,12 @@ We are happy to announce that MDAnalysis is hosting three [Google Summer of Code
 
 # GSoC
 
+<a href="https://summerofcode.withgoogle.com/"> <img
+    src="https://developers.google.com/open-source/gsoc/images/gsoc2016-sun-373x373.png"
+    title="Google Summer of Code" alt="Google Summer of Code"
+    style="display: inline; float: right; height: 4em; margin: 0
+    0.5em" /></a>
+
 ## Lawson Woods: [Enhancing the Interoperability and Efficiency of the Zarrtraj MDAKit](https://summerofcode.withgoogle.com/programs/2024/projects/BYYAE9MR)
 
 <img
@@ -47,6 +53,11 @@ Add where we can find you here! (github, linkedin, twitter, others, etc.)
 Add a link to your blog here!
 
 # Outreachy
+
+<a href="https://www.outreachy.org/"><img
+    src="{{ site.baseurl }}{{ site.images }}/Outreachy-logo.svg"
+    title="Outreachy" alt="Outreachy"
+    style="display: inline; float: right; height: 4em; margin: 0 0.5em" /></a>
 
 ## Adetutu Oluwasanmi: [Develop a Communications Strategy for a Growing MDAnalysis User and Contributor Base](https://www.outreachy.org/alums/2024-05/)
 
