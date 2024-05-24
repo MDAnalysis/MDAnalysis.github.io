@@ -26,8 +26,8 @@ This workshop is suitable for students and researchers in the broad area
 of computational (bio)chemistry, materials science and chemical engineering. It
 is designed for those who have familiarity with MDAnalysis and are
 comfortable working with [Python](https://www.python.org/) and [Jupyter
-Notebooks](https://jupyter-notebook.readthedocs.io/en/stable/). Workshop
-participants should already have a working [conda or mamba installation of
+Notebooks](https://jupyter-notebook.readthedocs.io/en/stable/). For a better idea of things participants should be comfortable doing in Python or to freshen up on your skills, please have a look at the MolSSI lesson, "[Python Scripting for Computational Molecular Science](https://education.molssi.org/python_scripting_cms/)". Workshop
+participants should also already have a working [conda or mamba installation of
 MDAnalysis](https://userguide.mdanalysis.org/stable/installation.html) (*mamba
 preferred*), as well as an editor of their choice for editing files.
 
