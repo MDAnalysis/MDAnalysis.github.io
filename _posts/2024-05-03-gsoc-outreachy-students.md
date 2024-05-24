@@ -51,17 +51,23 @@ Add a link to your blog here!
 ## Adetutu Oluwasanmi: [Develop a Communications Strategy for a Growing MDAnalysis User and Contributor Base](https://www.outreachy.org/alums/2024-05/)
 
 <img
-src="Picture Here"
+src="https://avatars.githubusercontent.com/u/69110554?s=400&u=e20bfb5b20f86b27359b5443084c96016a9817ac&v=4"
 title="Adetutu Oluwasanmi" alt="Adetutu Oluwasanmi"
 style="float: left; width: 110px; height: 110px; border-radius: 20px; border: 15px solid white" />
 
-Write a short description of your project here!
 
-Write something about yourself here! (affiliation, background, interests - work and/or personal, etc.)
+MDAnalysis aims to establish clear communication channels to effectively disseminate information, engage the community, and encourage participation. The main objective of Adetutu's [Outreachy](http://outreachy.org/) project is to develop a social media and communications strategy for MDAnalysis to grow its user and contributor base.
 
-Add where we can find you here! (github, linkedin, twitter, others, etc.)
+Adetutu will conduct surveys to understand the communication preferences of MDAnalysis developers and users. Based on the survey data, she will recommend the best platforms for discussions and increasing engagement.
+Additionally, she will set up an email newsletter to keep the community updated on MDAnalysis news, announcements, and events.
 
-Add a link to your blog here!
+Adetutu Oluwasanmi is a First-Class Microbiology graduate from Lagos State University. She recently completed a 1-year diploma in software engineering at AltSchool Africa, where she gained coding and software development skills.
+Her previous roles include social media manager, communications intern, and freelance science writer, giving her a diverse skill set that she brings to her current project.
+
+Adetutu is on GitHub as [@adetutudeborah](https://github.com/adetutudeborah), and on Twitter as [@adetutuoluwa2](https://twitter.com/adetutuoluwa2).
+
+She will be documenting her internship journey on her [Medium blog](https://medium.com/@adetutuoluwasanmi). Feel free to check it out for updates on her experience!
+
 
 — @BradyAJohnston @cbouy @hmacdope @IAlibay @jennaswa @micaela-matta @orbeckst @richardgowers @xhgchen @yuxuanzhuang (mentors and org admins)
 
