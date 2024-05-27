@@ -40,17 +40,16 @@ You can find Valerij on Github as [talagayev](https://github.com/talagayev) and 
 ## Luna Morrow: [Extend MDAnalysis Interoperability with OpenBabel](https://summerofcode.withgoogle.com/programs/2024/projects/yLzX6MjS)
 
 <img
-src="Picture Here"
+src="https://avatars.githubusercontent.com/lunamorrow"
 title="Luna Morrow" alt="Luna Morrow"
 style="float: left; width: 110px; height: 110px; border-radius: 20px; border: 15px solid white" />
 
-Write a short description of your project here!
+Direct interoperability between molecular dynamics software is critical for enabling collaboration, data transfer and easy use by scientists. [OpenBabel](http://openbabel.org) is a popular toolbox for chemical molecular modelling as it enables searching, file conversions, basic analysis and data storage. The ability to interconvert between OpenBabel OBMols and MDAnalysis AtomGroups will enable input and writing of over 100 chemical data file formats.
 
-Write something about yourself here! (affiliation, background, interests - work and/or personal, etc.)
+Luna is a Bachelor of Advanced Science (Honours) student at the University of Queensland (Australia), studying biochemistry,
+computational sciences and software engineering. Luna currently works as a research assistant in Megan O'Mara's group at the Australian Institute of Bioengineering and Nanotechnology, where her role involves code creation, maintenance and improvement. She is pursuing a career as a research software engineer. In her down time around university and work, Luna enjoys hiking, going to the gym, reading, buying plants, cuddling her cat Eddie and spending time with her partner and friends.
 
-Add where we can find you here! (github, linkedin, twitter, others, etc.)
-
-Add a link to your blog here!
+You can find Luna on GitHub as [@lunamorrow](https://github.com/lunamorrow) and on [LinkedIn](www.linkedin.com/in/luna-morrow-b2b027232). To keep up to date with the `Extend MDAnalysis Interoperability with OpenBabel` project, check out her [blog](https://lunamorrow.github.io).
 
 # Outreachy
 
