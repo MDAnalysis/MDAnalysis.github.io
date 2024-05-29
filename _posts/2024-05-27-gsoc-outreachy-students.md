@@ -44,7 +44,7 @@ src="https://avatars.githubusercontent.com/lunamorrow"
 title="Luna Morrow" alt="Luna Morrow"
 style="float: left; width: 110px; height: 110px; border-radius: 20px; border: 15px solid white" />
 
-Direct interoperability between molecular dynamics software is critical for enabling collaboration, data transfer and easy use by scientists. [OpenBabel](https://openbabel.org/) is a popular toolbox for chemical molecular modelling as it enables searching, file conversions, basic analysis and data storage. The ability to interconvert between OpenBabel OBMols and MDAnalysis AtomGroups will enable input and writing of over 100 chemical data file formats.
+Direct interoperability between molecular dynamics software is critical for enabling collaboration, data transfer and easy use by scientists. [OpenBabel](https://openbabel.org/) is a popular toolbox for chemical molecular modelling as it allows conversion, searching, filtering and analysis of chemical data. The ability to interconvert between OpenBabel OBMols and MDAnalysis AtomGroups will enable input and writing of over 100 chemical data file formats.
 
 Luna is a Bachelor of Advanced Science (Honours) student at the University of Queensland (Australia), studying biochemistry, computational sciences and software engineering. Luna currently works as a research assistant in Megan O'Mara's group at the Australian Institute of Bioengineering and Nanotechnology, where her role involves code creation, maintenance and improvement. She is pursuing a career as a research software engineer. In her down time around university and work, Luna enjoys hiking, going to the gym, reading, buying plants, cuddling her cat Eddie and spending time with her partner and friends.
 
