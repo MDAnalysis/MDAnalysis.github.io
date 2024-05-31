@@ -8,7 +8,7 @@ src="/public/images/CCPBioSim_Logo.jpeg"
 title="CCPBioSim Logo" alt="CCPBioSim Logo"
 style="float: right; height: 5em; " />
 
-MDAnalysis has partnered with [CCPBioSim](https://www.ccpbiosim.ac.uk/) to offer an industry talk on **June 19, 2024** from **14:00 - 15:30 BST**, presented by MDAnalysis core developer, @richardgowers.
+MDAnalysis has partnered with [CCPBioSim](https://www.ccpbiosim.ac.uk/) to offer an industry talk on **June 19, 2024** from **14:00 - 15:30 BST**, presented by MDAnalysis core developer Richard Gowers (@richardgowers).
 
 **Title:** MDAnalysis and Alchemical Simulations
 
