@@ -32,6 +32,11 @@ Thank you so much for being a part of the MDAnalysis community. We cannot wait t
 ## Acknowledgment
 
 This survey was developed as part of an [Outreachy project](https://www.outreachy.org/alums/2024-05/).
+
+<a href="https://www.outreachy.org/"><img
+    src="{{ site.baseurl }}{{ site.images }}/Outreachy-logo.svg"
+    title="Outreachy" alt="Outreachy"
+    style="display: inline; float: right; height: 4em; margin: 0 0.5em" /></a>
 The following resources were consulted to aid in the development of this survey:
 - [Open Demographics Project](https://nikkistevens.com/open-demographics/index.html)
 - [CHAOSS 2022 Community Survey](https://chaoss.community/gathering-dei-feedback-from-your-open-source-community%EF%BF%BC/)
