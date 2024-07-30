@@ -31,7 +31,7 @@ Thank you so much for being a part of the MDAnalysis community. We cannot wait t
 
 ## Acknowledgment
 
-This survey was developed as part of an [Outreachy project](https://www.outreachy.org/alums/2024-05/).
+This survey was developed as part of an [Outreachy project](https://www.mdanalysis.org/2024/05/27/gsoc-outreachy-students/#adetutu-oluwasanmi-develop-a-communications-strategy-for-a-growing-mdanalysis-user-and-contributor-base).
 
 <a href="https://www.outreachy.org/"><img
     src="{{ site.baseurl }}{{ site.images }}/Outreachy-logo.svg"
