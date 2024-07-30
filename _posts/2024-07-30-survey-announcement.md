@@ -3,7 +3,7 @@ layout: post
 title: "MDAnalysis Community Survey 2024"
 ---
 
-We are excited to announce the launch of our [MDAnalysis Community Survey 2024](https://forms.gle/MjqEyZnb7KuyfDSx9)! Do you or your institution use, develop, contribute to, or sponsor MDAnalysis? Have you attended MDAnalysis workshops or user group meetings? Have you heard about MDAnalysis, but are still learning how to get started or looking for more ways to get involved? If any of these things sound like you, we want to hear from you as part of our valued community! Your feedback is crucial in helping us understand the diverse needs and experiences within our community and guiding our efforts to make MDAnalysis an even more inclusive and welcoming community.
+We are excited to announce the launch of our [MDAnalysis Community Survey 2024](https://docs.google.com/forms/d/e/1FAIpQLSeTn6zIm-LIry7aRJ0IF_r_B4m4E0ddUEVIHxXGD-H3n-nOiQ/viewform?usp=sf_link)! Do you or your institution use, develop, contribute to, or sponsor MDAnalysis? Have you attended MDAnalysis workshops or user group meetings? Have you heard about MDAnalysis, but are still learning how to get started or looking for more ways to get involved? If any of these things sound like you, we want to hear from you as part of our valued community! Your feedback is crucial in helping us understand the diverse needs and experiences within our community and guiding our efforts to make MDAnalysis an even more inclusive and welcoming community.
 
 ## Purpose of the Survey
 
@@ -23,7 +23,7 @@ We value your privacy so your responses will be kept **confidential and anonymou
 
 ## How to Participate
 
-We invite all members of the MDAnalysis community to participate in the survey. We greatly appreciate your time answering a few questions (around 10 minutes) before **August 31st, 2024**. Please take a moment to share your thoughts and experiences with us by clicking the link, [MDAnalysis Community Survey 2024](https://forms.gle/MjqEyZnb7KuyfDSx9), to access the survey.
+We invite all members of the MDAnalysis community to participate in the survey. We greatly appreciate your time answering a few questions (around 10 minutes) before **August 31st, 2024**. Please take a moment to share your thoughts and experiences with us by clicking the link, [MDAnalysis Community Survey 2024](https://docs.google.com/forms/d/e/1FAIpQLSeTn6zIm-LIry7aRJ0IF_r_B4m4E0ddUEVIHxXGD-H3n-nOiQ/viewform?usp=sf_link), to access the survey.
 
 Thank you so much for being a part of the MDAnalysis community. We cannot wait to hear from you!😀
 
