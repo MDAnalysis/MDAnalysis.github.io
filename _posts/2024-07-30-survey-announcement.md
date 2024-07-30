@@ -23,7 +23,9 @@ We value your privacy so your responses will be kept **confidential and anonymou
 
 ## How to Participate
 
-We invite all members of the MDAnalysis community to participate in the survey. We greatly appreciate your time answering a few questions (around 10 minutes) before **August 31st, 2024**. Please take a moment to share your thoughts and experiences with us by clicking the link, [MDAnalysis Community Survey 2024](https://docs.google.com/forms/d/e/1FAIpQLSeTn6zIm-LIry7aRJ0IF_r_B4m4E0ddUEVIHxXGD-H3n-nOiQ/viewform?usp=sf_link), to access the survey.
+We invite all members of the MDAnalysis community to participate in the survey. We greatly appreciate your time answering a few questions (around 10 minutes) before **August 31st, 2024**. Please take a moment to share your thoughts and experiences with us by clicking the following link to access the survey:
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSeTn6zIm-LIry7aRJ0IF_r_B4m4E0ddUEVIHxXGD-H3n-nOiQ/viewform?usp=sf_link" target="_blank" style="background:#FF9200;padding:10px;margin:10px 0px;text-align:center;text-decoration:none;font-size:12pt;color:#000000;display:inline-block;border-radius:3px">Take the Survey</a>
 
 Thank you so much for being a part of the MDAnalysis community. We cannot wait to hear from you!😀
 
