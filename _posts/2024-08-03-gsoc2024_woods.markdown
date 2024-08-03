@@ -184,10 +184,11 @@ the analysis code will need to reduce the impact of network IO on exeution time.
 
 ## Acknowledgements
 
-Thank you to Hugo MacDermott-Opeskin and Yuxuan Zhuang for their mentorship and feedback
-throughout this project.
+Thank you to Dr. Hugo MacDermott-Opeskin and Dr. Yuxuan Zhuang for their mentorship and feedback
+throughout this project and to Dr. Jenna Swarthout Goddard for supporting the GSoC program 
+at MDAnalysis.
 
-I also want to thank Oliver Beckstein and Edis Jakupovic for lending their expertise
+I also want to thank Dr. Oliver Beckstein and Edis Jakupovic for lending their expertise
 in H5MD and all things MDAnalysis.
 
 Finally, another thanks to Martin Durant, author of Kerchunk, who was incredibly helpful in refining and merging
