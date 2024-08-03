@@ -206,7 +206,7 @@ Jakupovic, E., & Beckstein, O. (2021). MPI-parallel Molecular Dynamics Trajector
 
 Michaud‐Agrawal, N., Denning, E. J., Woolf, T. B., & Beckstein, O. (2011). MDAnalysis: A toolkit for the analysis of molecular dynamics simulations. In Journal of Computational Chemistry (Vol. 32, Issue 10, pp. 2319–2327). Wiley. https://doi.org/10.1002/jcc.21787
 
-## Extras: Upstream code merged during this GSOC project
+## Extras: Upstream code merged during this GSoC project
 
 ### MDAnalysis
 
