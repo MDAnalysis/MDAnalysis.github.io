@@ -158,7 +158,7 @@ with mda.Writer("s3://sample-bucket-name/test.zarrmd",
 
 If you have additional questions, please don't hesitate to open a discussion on the [zarrtarj github](https://github.com/Becksteinlab/zarrtraj).
 The [MDAnalysis discord](https://discord.com/channels/807348386012987462/) is also a 
-great resource for asking questions and getting involved in MDAnalysis.
+great resource for asking questions and getting involved in MDAnalysis; instructions for [joining the MDAnalysis discord server](https://www.mdanalysis.org/#participating) can be found on the MDAnalysis website.
 
 ## What's next for Zarrtraj?
 
