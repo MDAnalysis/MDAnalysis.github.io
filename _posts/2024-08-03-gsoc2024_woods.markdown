@@ -6,7 +6,7 @@ categories: zarrtraj
 
 ## What is Zarrtraj?
 
-[Zarrtraj](https://github.com/Becksteinlab/zarrtraj) is an [MDAKit](https://mdakits.mdanalysis.org/about.html) for storing and analyzing trajectories in [MDAnalysis](https://github.com/MDAnalysis/mdanalysis) from the cloud, representing a major milestone towards the MDAnalysis 3.0 goal of cloud streaming as well as a proof-of-concept for a new paradigm in the field of molecular dynamics as a whole.
+[Zarrtraj](https://github.com/Becksteinlab/zarrtraj) is an [MDAKit](https://mdakits.mdanalysis.org/about.html) for storing and analyzing trajectories in [MDAnalysis](https://github.com/MDAnalysis/mdanalysis) from the cloud, representing a major milestone towards the [MDAnalysis 3.0 goal of cloud streaming](https://www.mdanalysis.org/2023/10/25/towards_3.0) as well as a proof-of-concept for a new paradigm in the field of molecular dynamics as a whole.
 It can stream [H5MD](https://www.nongnu.org/h5md/h5md.html) trajectories from cloud storage 
 providers including AWS S3, Google Cloud buckets, and Azure Blob storage and data lakes.
 Using Zarrtraj, anyone can reproduce your analyses or train their ML model on trajectory data
