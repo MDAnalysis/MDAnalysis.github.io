@@ -242,7 +242,7 @@ Here are a bunch of random things I learned while doing this project!
 - Any time you need to run code that will take several hours to execute
   due to file size or some other factor, create a minimal, quickly-executing 
   example of the code to work out bugs before running the full thing. You will
-  save yourself so, so much frustration
+  save yourself so, so much frustration.
 - It is worth investing time into getting a debugging environment properly configured.
   If you're hunting down a specific bug, it is worth the 20 minutes it will take to create
   a barebones example of the bug instead of trying to hunt it down "in-situ". A lot of the time,
