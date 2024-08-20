@@ -184,7 +184,7 @@ the analysis code will need to reduce the impact of network IO on exeution time.
 
 ## Acknowledgements
 
-Thank you to Dr. Hugo MacDermott-Opeskin and Dr. Yuxuan Zhuang for their mentorship and feedback
+Thank you to Dr. Hugo MacDermott-Opeskin ([@hmacdope](https://github.com/hmacdope)) and Dr. Yuxuan Zhuang ([@yuxuanzhuang](https://github.com/yuxuanzhuang)) for their mentorship and feedback
 throughout this project and to Dr. Jenna Swarthout Goddard for supporting the GSoC program 
 at MDAnalysis.
 
