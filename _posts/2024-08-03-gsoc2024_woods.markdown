@@ -191,7 +191,7 @@ at MDAnalysis](https://summerofcode.withgoogle.com/organizations/mdanalysis/prog
 I also want to thank Dr. Oliver Beckstein ([@orbeckst](https://github.com/orbeckst)) and Edis Jakupovic ([@edisj](https://github.com/edisj) for lending their expertise
 in H5MD and all things MDAnalysis.
 
-Finally, another thanks to Martin Durant, author of Kerchunk, who was incredibly helpful in refining and merging
+Finally, another thanks to Martin Durant ([@martindurant](https://github.com/martindurant)), author of Kerchunk, who was incredibly helpful in refining and merging
 a new feature in his codebase necessary for this project to work.
 
 ### Citations ###
