@@ -13,7 +13,7 @@ Using Zarrtraj, anyone can reproduce your analyses or train their machine learni
 without ever having to download massive files to their disk.
 
 This is possible thanks to [Zarr](https://github.com/zarr-developers/zarr-python), [fsspec](https://github.com/fsspec/filesystem_spec),
-and [kerchunk](https://github.com/fsspec/kerchunk), packages that have created a foundation for storing and interacting with
+and [kerchunk](https://github.com/fsspec/kerchunk) packages that have created a foundation for storing and interacting with
 large datasets in a uniform way across different storage backends. Interestingly, these projects were intially developed by geoscientists in the [Pangeo project](https://pangeo.io/) to make use of [cloud computing credits from an NSF partnership with cloud providers](https://medium.com/pangeo/pangeo-2-0-2bedf099582d), but have since undergone wider adoption by the broader Python community. This project also represents one of the first forays of the molecular dynamics field into the excellent Pangeo ecosystem of tools.
 
 Zarr is especially well-suited to the task of reading cloud-stored files due to its integration with
