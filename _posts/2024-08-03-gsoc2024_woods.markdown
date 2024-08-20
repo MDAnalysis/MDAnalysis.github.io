@@ -31,7 +31,7 @@ to making the existing H5MD format streamable after getting feedback
 from the community that supporting widely adopted formats in the MD ecosystem makes code more sustainable and simplifies tool adoption.
 
 The next section is a walkthrough of Zarrtraj's features and usage (also available
-[here](https://zarrtraj.readthedocs.io/en/latest/walkthrough.html).
+[here](https://zarrtraj.readthedocs.io/en/latest/walkthrough.html)).
 
 ## How can I use it?
 
