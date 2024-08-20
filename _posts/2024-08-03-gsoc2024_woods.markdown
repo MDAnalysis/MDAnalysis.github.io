@@ -62,7 +62,7 @@ write access using the credentials stored in "sample_profile". If you've never c
 [this guide](https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html). You can setup a profile to easily manage AWS
 credentials using [this VSCode extension](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode).
 Here is a sample profile (stored in ~/.aws/credentials) where 
-[the key is an access key associated with a user that has read and write permissions for the bucket](https://stackoverflow.com/questions/50802319/create-a-single-iam-user-to-access-only-specific-s3-bucket)
+[the key is an access key associated with a user that has read and write permissions for the bucket](https://stackoverflow.com/questions/50802319/create-a-single-iam-user-to-access-only-specific-s3-bucket).
 
 ```
 [sample_profile]
