@@ -188,7 +188,7 @@ Thank you to Dr. Hugo MacDermott-Opeskin ([@hmacdope](https://github.com/hmacdop
 throughout this project and to Dr. Jenna Swarthout Goddard ([@jennaswa](https://github.com/jennaswa)) for supporting the GSoC program 
 at MDAnalysis](https://summerofcode.withgoogle.com/organizations/mdanalysis/programs/2024/projects).
 
-I also want to thank Dr. Oliver Beckstein and Edis Jakupovic for lending their expertise
+I also want to thank Dr. Oliver Beckstein ([@orbeckst](https://github.com/orbeckst)) and Edis Jakupovic ([@edisj](https://github.com/edisj) for lending their expertise
 in H5MD and all things MDAnalysis.
 
 Finally, another thanks to Martin Durant, author of Kerchunk, who was incredibly helpful in refining and merging
