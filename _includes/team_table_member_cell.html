@@ -10,12 +10,13 @@ we need to create empty arrays to avoid errors on concatenating. -->
 
 {% assign all_members = leads | concat: members %}
 {% assign sorted_names = all_members | sort %}
+<!-- markdownify to allow markdown, but remove additional <p> tags this adds -->
 {%- for member in sorted_names -%}
     <!-- Bold the name if they're a lead -->
     {%- if leads contains member -%}
-        <b>{{ member | markdownify}}</b>
+        <b>{{ member | markdownify | strip_newlines | remove: '<p>' | remove: '</p>'}}</b>
     {%- else -%}
-        {{ member | markdownify}}
+        {{ member | markdownify | strip_newlines | remove: '<p>' | remove: '</p>'}}
     {%- endif -%}
     <!-- Add a comma if not the last item.
     The % and %- denote leaving a space or not leaving a space
