@@ -35,8 +35,8 @@ subroles:
 
   - subrole: GridDataFormats
     current_members:
-      - [Irfan Alibay](https://github.com/IAlibay)
-      - [Oliver Beckstein](https://github.com/orbeckst)
+      - "[Irfan Alibay](https://github.com/IAlibay)"
+      - "[Oliver Beckstein](https://github.com/orbeckst)"
   
   - subrole: MDAnalysisData
     current_members:
