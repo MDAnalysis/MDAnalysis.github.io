@@ -53,7 +53,7 @@ subroles:
 
   - subrole: pytng
     current_members:
-      - [Hugo MacDermott-Opeskin](https://github.com/hmacdope)
+      - "[Hugo MacDermott-Opeskin](https://github.com/hmacdope)"
 
   - subrole: PathSimAnalysis
     current_members:
