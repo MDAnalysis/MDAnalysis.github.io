@@ -13,9 +13,9 @@ we need to create empty arrays to avoid errors on concatenating. -->
 {%- for member in sorted_names -%}
     <!-- Bold the name if they're a lead -->
     {%- if leads contains member -%}
-        <b>{{ member }}</b>
+        <b>{{ member | markdownify}}</b>
     {%- else -%}
-        {{ member }}
+        {{ member | markdownify}}
     {%- endif -%}
     <!-- Add a comma if not the last item.
     The % and %- denote leaving a space or not leaving a space
