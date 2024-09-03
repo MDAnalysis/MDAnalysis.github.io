@@ -45,7 +45,7 @@ subroles:
   
   - subrole: mda-xrlib and other utilities
     current_members:
-      - [Irfan Alibay](https://github.com/IAlibay) 
+      - "[Irfan Alibay](https://github.com/IAlibay)"
   
   - subrole: pyedr
     current_members:
