@@ -31,7 +31,7 @@ subroles:
 
   - subrole: benchmarks
     current_members:
-      - [Oliver Beckstein](https://github.com/orbeckst)    
+      - "[Oliver Beckstein](https://github.com/orbeckst)"
 
   - subrole: GridDataFormats
     current_members:
