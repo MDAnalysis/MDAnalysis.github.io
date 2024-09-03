@@ -13,9 +13,9 @@ subroles:
 
   - subrole: distopia
     current_members:
-      - [Richard Gowers](https://github.com/richardjgowers)
-      - [Hugo MacDermott-Opeskin](https://github.com/hmacdope)
-      - [Rocco Meli](https://github.com/RMeli)
+      - "[Richard Gowers](https://github.com/richardjgowers)"
+      - "[Hugo MacDermott-Opeskin](https://github.com/hmacdope)"
+      - "[Rocco Meli](https://github.com/RMeli)"
 
   - subrole: cookiecutter-mdakit
     current_members:
