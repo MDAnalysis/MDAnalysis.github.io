@@ -200,6 +200,7 @@ MDAnalysis has been supported by the [Essential Open Source for Science](https:/
 
 The following contributors were sponsored to work on MDAnalysis through the [Google Summer of Code](https://summerofcode.withgoogle.com/) program.
 
+- **2024**: @ljwoods2, @lunamorrow, @talagayev
 - **2023**: @marinegor, @xhgchen 
 - **2022**: @aya9aladdin, @BFedder
 - **2021**: @ojeda-e, @orioncohen
@@ -263,6 +264,7 @@ MDAnalysis thanks NumFOCUS for its continued support as our fiscal sponsor, as w
     
 The following contributors were sponsored to work on MDAnalysis through the [Outreachy](https://www.outreachy.org/) program.
 
+- **2024**: @adetutudeborah
 - **2022**: @umak1106
 
 ### [Station1](https://www.station1.org/)
