@@ -19,8 +19,8 @@ subroles:
 
   - subrole: cookiecutter-mdakit
     current_members:
-      - [Lily Wang](https://github.com/lilyminium)
-      - [Irfan Alibay](https://github.com/IAlibay)
+      - "[Lily Wang](https://github.com/lilyminium)"
+      - "[Irfan Alibay](https://github.com/IAlibay)"
 
   - subrole: mda-encore
     current_members: []
