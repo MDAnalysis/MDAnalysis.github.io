@@ -49,7 +49,7 @@ subroles:
   
   - subrole: pyedr
     current_members:
-      - [Irfan Alibay](https://github.com/IAlibay)
+      - "[Irfan Alibay](https://github.com/IAlibay)"
 
   - subrole: pytng
     current_members:
