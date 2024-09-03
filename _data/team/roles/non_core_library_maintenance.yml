@@ -27,7 +27,7 @@ subroles:
     
   - subrole: hole2-mdakit
     current_members:
-      - [Lily Wang](https://github.com/lilyminium)    
+      - "[Lily Wang](https://github.com/lilyminium)"
 
   - subrole: benchmarks
     current_members:
