@@ -40,8 +40,8 @@ subroles:
   
   - subrole: MDAnalysisData
     current_members:
-      - [Irfan Alibay](https://github.com/IAlibay)
-      - [Oliver Beckstein](https://github.com/orbeckst)
+      - "[Irfan Alibay](https://github.com/IAlibay)"
+      - "[Oliver Beckstein](https://github.com/orbeckst)"
   
   - subrole: mda-xrlib and other utilities
     current_members:
