@@ -20,4 +20,4 @@ We also thank [Outreachy](https://www.outreachy.org/) for supporting Adetutu and
 
 — @jennaswa @micaela-matta (Outreachy mentors)
 
-[blog-adetutu]: {{ site.baseurl }}{% post_url .MD-FILE-NAME-HERE %}
+[blog-adetutu]: {{ site.baseurl }}{% post_url 2024-09-04-outreachy2024_adetutudeborah %}
