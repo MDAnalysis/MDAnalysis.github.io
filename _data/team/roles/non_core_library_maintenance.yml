@@ -24,7 +24,7 @@ subroles:
 
   - subrole: mda-encore
     current_members:
-    - "[Yuxuan Zhuang](https://github.com/yuxuanzhuang)"    
+      - "[Yuxuan Zhuang](https://github.com/yuxuanzhuang)"
     
   - subrole: hole2-mdakit
     current_members:
