@@ -23,7 +23,8 @@ subroles:
       - "[Irfan Alibay](https://github.com/IAlibay)"
 
   - subrole: mda-encore
-    current_members: []
+    current_members:
+    - "[Yuxuan Zhuang](https://github.com/yuxuanzhuang)"    
     
   - subrole: hole2-mdakit
     current_members:
