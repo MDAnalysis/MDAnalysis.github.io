@@ -167,6 +167,11 @@ enough water with you.
 Avoid hiking in the desert during the hot portion of the day (10am - 6pm), as it
 can be deadly.
 
+## Workshop materials
+All materials are made available in the https://github.com/MDAnalysis/MDAnalysisMolSSIWorkshop-Intermediate2Day repository.
+
+* [Schedule](https://github.com/MDAnalysis/MDAnalysisMolSSIWorkshop-Intermediate2Day/blob/jun24-ws/README.md) with links to Google Colab notebooks for individual lessons.
+* [Set-up and installation instructions](https://github.com/MDAnalysis/MDAnalysisMolSSIWorkshop-Intermediate2Day/blob/jun24-ws/INSTALL.md) for how to prepare your environment so that you can follow along on your own computer.
 
 ## Who to Contact
 
