@@ -3,18 +3,12 @@ layout: post
 title: "MDAnalysis Streaming Online Developer Workshop (Dec 4, 2024)"
 ---
 
-<img
-src="/public/images/ASUworkshop_cactus.png"
-title="MDAnalysis ASU workshop 2024" alt="MDAnalysis Workshop June 24-25th, 2024 at Arizona State University"
-style="float: right; height: 20em; " />
+
+MDAnalysis, in conjunction with [ASU][ASU] and with the support of a [CSSI Elements][CSSI] grant from the 
+[National Science Foundation][NSF], is holding a **free, online developer workshop** focused on direct streaming and inline analysis of molecular simulations on **December 4th** 2024.
 
 
-MDAnalysis, in conjunction with the [Molecular Sciences Software Institute][MolSSI]
-(MolSSI) and with the support of the [Chan Zuckerberg Initiative][CZI] and the
-[Center for Biological Physics][CBP], is holding a **free, 2-day workshop** on **June
-24th-25th** 2024 at **Arizona State University** in Tempe, Arizona, USA.
-
-This two-day workshop is intended to transform attendees from users to
+This online workshop is intended to transform attendees from users to
 developers and will cover an introduction to MDAnalysis, software best
 practices, and guide participants through the creation of their own [MDAKit][mdakits].
 
@@ -51,42 +45,10 @@ hybrid sessions will be made available after the workshop.
 
 ## Registration
 
-Attendance at this workshop will be *free* but the in-person part of the
-workshop will be limited to 40 participants. The workshop will be delivered to
-a small group to allow interactive discussions, questions, and participant
-engagement.
-
-A number of **bursaries** will be available to assist with travel and
-accommodation costs for participants from outside the [greater Phoenix
-area](https://en.wikipedia.org/wiki/Phoenix_metropolitan_area). Bursaries (up
-to *$600 in costs for US domestic travel*) and *up to 3 nights of hotel
-accommodation* (single room within 5 minutes of the workshop venue) will be
-awarded and you can apply for them as part of the registration process.
-
-Register by **May 27, 2024** (midnight anywhere on Earth):
+Attendance at this workshop will be *free*, and we encourage any
 
 <a href="https://forms.gle/UeiFJ6rbnXnhosnWA" target="_blank" style="background:#FF9200;padding:10px;margin:10px 0px;text-align:center;text-decoration:none;font-size:12pt;color:#000000;display:inline-block;border-radius:3px">Register</a>
 
-### *Bursaries* for in-person attendance
-
-We especially welcome your application if you consider yourself being part of
-an underrepresented demographic in the computational molecular sciences.
-
-Bursaries are reserved to enable the attendance of participants from outside
-the [greater Phoenix area](https://en.wikipedia.org/wiki/Phoenix_metropolitan_area).
-
-Note that airfare for travel awardees will have to be *booked by June 3 through
-our travel agency*, so as an awardee you will have to be able to
-respond to our communications (via email) immediately and act quickly.
-
-Bursary recipients will be notified on May 29 or earlier. 
-
-
-### Online participants
-
-Part of the workshop will be taught in hybrid mode and if you are not able to
-attend in person, please register for the online portion using the same
-registration link above.
 
 
 
@@ -96,7 +58,7 @@ registration link above.
 
 
 ## Workshop materials
-All materials are made available in the https://github.com/MDAnalysis/MDAnalysisMolSSIWorkshop-Intermediate2Day repository.
+All materials are made available in the https://github.com/MDAnalysis/MDAnalysisASUStreamingWorkshop repository.
 
 * [Schedule](https://github.com/MDAnalysis/MDAnalysisMolSSIWorkshop-Intermediate2Day/blob/jun24-ws/README.md) with links to Google Colab notebooks for individual lessons.
 * [Set-up and installation instructions](https://github.com/MDAnalysis/MDAnalysisMolSSIWorkshop-Intermediate2Day/blob/jun24-ws/INSTALL.md) for how to prepare your environment so that you can follow along on your own computer.
