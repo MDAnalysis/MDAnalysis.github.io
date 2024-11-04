@@ -15,7 +15,7 @@ Notebooks](https://jupyter-notebook.readthedocs.io/en/stable/) and a molecular s
 
 ## Workshop Overview
 
-MDAnalysis developers and ASU instructors will introduce streaming and contextualise it withing the MDAnalysis and the simulation community. ASU instructors will detail their approach for improved streaming interfaces, followed by demonstrations of streaming functionality (LAMMPS and NAMD) and the new streaming protocols developed at ASU. This will be followed by a live-coding exercise in which participants will impement their own streaming analysis, followed by a developer forum. See the [Full Schedule](XXXX) below for more details.
+MDAnalysis developers and ASU instructors will introduce streaming and contextualise it withing the MDAnalysis and the simulation community. ASU instructors will detail their approach for improved streaming interfaces, followed by demonstrations of streaming functionality (LAMMPS and NAMD) and the new streaming protocols developed at ASU. This will be followed by a live-coding exercise in which participants will implement their own streaming analysis, followed by a developer forum. See the [Full Schedule](XXXX) below for more details.
 
 The program will run from around midday of Wed 4th Dec until the afternoon Pacific time.
 
