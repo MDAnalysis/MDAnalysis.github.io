@@ -4,23 +4,42 @@ title: "MDAnalysis Streaming Online Developer Workshop (Dec 4, 2024)"
 ---
 
 
-Have you ever wanted to analyse sub-picosecond dynamics in your trajectories? Trajectory file sizes too large? Want to sync up your analysis and trajectory production? Lucky for you MDAnalysis, in conjunction with [ASU][ASU] and with the support of a [CSSI Elements][CSSI] grant from the [National Science Foundation][NSF], is holding a **free, online developer workshop** focused on streaming and inline analysis of molecular simulations on **December 4th** 2024.
+Have you ever wanted to analyze sub-picosecond dynamics in your trajectories? Trajectory file sizes too large? Want to sync up your analysis and trajectory production? Lucky for you MDAnalysis, in conjunction with [ASU][ASU] and with the support of a [CSSI Elements][CSSI] grant from the [National Science Foundation][NSF], is holding a **free, online developer workshop** focused on streaming and inline analysis of molecular simulations on **December 4th** 2024.
 
-The general idea of streaming, just like with Netflix & co, is to transfer data piece by piece as needed instead of entire files/movies. In our case, this means that the data generated during a running simulation is transmitted to MDAnalysis for processing. Our streaming interface is based on the TCP/IP socket protocol and can transmit data between distinct processes: A) the same computer; B) different computers in a local network; C) via the internet.
-This allows analyzing MD simulation trajectories “live” while they are being generated. Beyond that, such a streaming interface also allows analyzing data at time intervals smaller than the frequency at which they are written to output trajectory files.
+The general idea of streaming, just like with Netflix, is to transfer data piece-by-piece as needed instead of transferring entire files. In our case, the data generated during a running simulation is transmitted to MDAnalysis for processing without ever being stored on disk.
+
+Our streaming interface is built on top of the TCP/IP socket protocol and can transmit data between distinct processes on: A) the same computer; B) different computers in a local network; C) via the internet. This allows analyzing MD simulation trajectories live while they are being generated. As a result, the streaming interface allows analyzing data at femtosecond-scale time intervals which would create massive trajectories and slow down the simulation engine if written to disk.
 
 This online workshop is intended to introduce participants to streaming of trajectories directly from simulation engines, inline analysis 
-of simulations and all the awesome science you can do with streaming. This workshop is suitable for students, developers and researchers in the broad area of computational (bio)chemistry, materials science and chemical engineering. It is designed for those who have some familiarity with MDAnalysis and are comfortable working with [Python](https://www.python.org/), [Jupyter
+of simulations, and all the awesome science you can do with streaming. This workshop is suitable for students, developers, and researchers in the broad area of computational (bio)chemistry, materials science, and chemical engineering. It is designed for those who have some familiarity with MDAnalysis and are comfortable working with [Python](https://www.python.org/), [Jupyter
 Notebooks](https://jupyter-notebook.readthedocs.io/en/stable/) and a molecular simulation engine such as [LAMMPS][LAMMPS], [GROMACS][GROMACS] or [NAMD][NAMD].
 
 
 
 ## Workshop Overview
 
-MDAnalysis developers and ASU instructors will introduce streaming and contextualise it withing the MDAnalysis and the simulation community. ASU instructors will detail their approach for improved streaming interfaces, followed by demonstrations of streaming functionality (LAMMPS and NAMD) and the new streaming protocols developed at ASU. This will be followed by a live-coding exercise in which participants will implement their own streaming analysis, followed by a developer forum. See the [Full Schedule](XXXX) below for more details.
+The program will run from 8:00 am to 12:00 pm Pacific time on Wednesday, December 4th.
+In the workshop, we will focus on contextualizing MD streaming, showing you some of its use cases from working as basic connective tissue to advanced, high-time-resolution analyses, and getting your hands dirty with streaming in a live-coding activity in an easy-to-use workshop environment that will be provided.
 
-The program will run from around midday of Wed 4th Dec until the afternoon Pacific time.
-
+| Topic | Duration |
+| --- | --- |
+| 👋 Welcome  | 5 min |
+| 📦 MDAnalysis mission & ecosystem | 15 min |
+| 🖼️ Streaming: big picture  | 15 min |
+| 👀 Streaming: first look | 10 min |
+| ❓ Q&A: Streaming overview  | 5 min |
+| 📦Streaming: MD packages, IMDClient | 15 min |
+| 💤 Break | 10 min |
+| 👀 Demo: Multiple analyses on NAMD simulation stream | 10 min |
+| 🎯Activity: Write your own stream analysis  | 40 min |
+| 📦 Streaming: MDAnalysis functionality | 10 min |
+| ❓Q&A: Streaming with MDAnalysis | 5 min |
+| 👀 Application: Velocity correlation functions and 2PT | 10 min |
+| 👀 Application: Ion channel permeation | 10 min |
+| ❓ Q&A: Applications | 5 min |
+| 🔮 Future direction | 5 min |
+| 📖 Open Forum | 20 min |
+| 🚪 Closing | 5 min |
 
 ## Registration
 
@@ -33,8 +52,7 @@ Attendance at this workshop will be *free*, and we encourage anyone with an inte
 ## Workshop materials
 All materials are made available in the https://github.com/MDAnalysis/MDAnalysisASUStreamingWorkshop repository.
 
-* [Full Schedule](XXXX) #TODO
-* [Set-up and installation instructions](XXXX) #TODO
+Set-up instructions for the interactive activity are available [here](https://github.com/Becksteinlab/imd-workshop-2024)
 
 ## Who to Contact
 
