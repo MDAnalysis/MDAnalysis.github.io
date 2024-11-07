@@ -3,6 +3,10 @@ layout: post
 title: "MDAnalysis Streaming Online Developer Workshop (Dec 4, 2024)"
 ---
 
+<a href="https://nsf.gov/">
+<img src="{{site.images}}/nsf.jpg" title="National Science
+    Foundation" alt="National Science Foundation" style="display:
+    inline; float: right; height: 4em; margin: 0 0.5em" /></a>
 
 Have you ever wanted to analyze sub-picosecond dynamics in your trajectories? Trajectory file sizes too large? Want to sync up your analysis and trajectory production? Lucky for you MDAnalysis, in conjunction with [Arizona State University][ASU] (ASU) and with the support of a [CSSI Elements][CSSI] grant from the [National Science Foundation][NSF], is holding a **free, online developer workshop** focused on streaming and inline analysis of molecular simulations on **December 4th** 2024.
 
