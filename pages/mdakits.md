@@ -25,8 +25,7 @@ or share it on [{{ site.mailinglists.discussion.name }}]({{ site.mailinglists.di
 
 ## Other (non-MDAKit registered) tools using MDAnalysis
 
-Below we list projects that use MDAnalysis and are not registered as MDAKits:
-
+Below we list projects that use MDAnalysis and are not (yet) registered as MDAKits:
 
 ### Visualization tools
 
@@ -44,9 +43,6 @@ Below we list projects that use MDAnalysis and are not registered as MDAKits:
 
 -  [pydiffusion](https://github.com/bio-phys/pydiffusion): Analyze the
    rotational diffusion of your molecules.
--  [pytim](https://marcello-sega.github.io/pytim/): Pytim is a package based on
-   MDAnalysis for the identification and analysis of surface molecules in
-   configuration files or in trajectories from molecular dynamics simulations.
 -  [pycontact](https://github.com/maxscheurer/pycontact): Analysis of
    non-covalent interactions in MD trajectories.
 -  [RotamerConvolveMD](https://github.com/MDAnalysis/RotamerConvolveMD):
@@ -65,8 +61,6 @@ Below we list projects that use MDAnalysis and are not registered as MDAKits:
 -  [PyInteraph](https://github.com/ELELAB/pyinteraph): A software tool
    for the analysis of structural communication in protein ensembles,
    including a PyMOL plugin and an InteractionPlotter.
--  [MAICoS](https://gitlab.com/maicos-devel/maicos): Analyze molecular dynamics simulations of 
-   interfacial and confined systems.
 -  [taurenmd](https://taurenmd.readthedocs.io/en/latest/): A command-line interface for analysis of Molecular Dynamics simulations.
 -  [PENSA](https://github.com/drorlab/pensa): A toolkit for exploratory analysis and comparison of protein structural ensembles
 -  [LiPyphilic](https://lipyphilic.readthedocs.io/en/latest/): A Python package for the analysis of lipid membrane simulations.
