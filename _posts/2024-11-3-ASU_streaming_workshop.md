@@ -52,7 +52,7 @@ Attendance at this workshop will be *free*, and we encourage anyone with an inte
 ## Workshop materials
 All materials are made available in the https://github.com/MDAnalysis/MDAnalysisASUStreamingWorkshop repository.
 
-* [Set-up and installation instructions](XXXX) #TODO
+Set-up instructions for the interactive activity are available [here](https://github.com/Becksteinlab/imd-workshop-2024)
 
 ## Who to Contact
 
