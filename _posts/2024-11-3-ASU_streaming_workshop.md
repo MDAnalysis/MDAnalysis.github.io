@@ -22,13 +22,11 @@ MDAnalysis developers and ASU instructors will introduce streaming and contextua
 The program will run from around midday of Wed 4th Dec until the afternoon Pacific time.
 
 
-
-
 ## Registration
 
 Attendance at this workshop will be *free*, and we encourage anyone with an interest in attending to register below. 
 
-<a href="XXXXX" target="_blank" style="background:#FF9200;padding:10px;margin:10px 0px;text-align:center;text-decoration:none;font-size:12pt;color:#000000;display:inline-block;border-radius:3px">Register</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSfSOmPEcV3uLBLFEo1EvQGPh1CwpWyKxChPZp_VSW9rNJLTgw/viewform" target="_blank" style="background:#FF9200;padding:10px;margin:10px 0px;text-align:center;text-decoration:none;font-size:12pt;color:#000000;display:inline-block;border-radius:3px">Register</a>
 
 
 
