@@ -6,6 +6,8 @@ title: "MDAnalysis Streaming Online Developer Workshop (Dec 4, 2024)"
 
 Have you ever wanted to analyse sub-picosecond dynamics in your trajectories? Trajectory file sizes too large? Want to sync up your analysis and trajectory production? Lucky for you MDAnalysis, in conjunction with [ASU][ASU] and with the support of a [CSSI Elements][CSSI] grant from the [National Science Foundation][NSF], is holding a **free, online developer workshop** focused on streaming and inline analysis of molecular simulations on **December 4th** 2024.
 
+The general idea of streaming, just like with Netflix & co, is to transfer data piece by piece as needed instead of entire files/movies. In our case, this means that the data generated during a running simulation is transmitted to MDAnalysis for processing. Our streaming interface is based on the TCP/IP socket protocol and can transmit data between distinct processes: A) the same computer; B) different computers in a local network; C) via the internet.
+This allows analyzing MD simulation trajectories “live” while they are being generated. Beyond that, such a streaming interface also allows analyzing data at time intervals smaller than the frequency at which they are written to output trajectory files.
 
 This online workshop is intended to introduce participants to streaming of trajectories directly from simulation engines, inline analysis 
 of simulations and all the awesome science you can do with streaming. This workshop is suitable for students, developers and researchers in the broad area of computational (bio)chemistry, materials science and chemical engineering. It is designed for those who have some familiarity with MDAnalysis and are comfortable working with [Python](https://www.python.org/), [Jupyter
