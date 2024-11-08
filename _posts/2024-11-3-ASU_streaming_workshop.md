@@ -12,7 +12,8 @@ Have you ever wanted to analyze sub-picosecond dynamics in your trajectories? Tr
 
 The general idea of streaming, just like with Netflix, is to transfer data piece-by-piece as needed instead of transferring entire files. In our case, the data generated during a running simulation is transmitted to MDAnalysis for processing without ever being stored on disk.
 
-Our streaming interface is built on top of the TCP/IP socket protocol and can transmit data between distinct processes on: A) the same computer; B) different computers in a local network; C) via the internet. This allows analyzing MD simulation trajectories live while they are being generated. As a result, the streaming interface allows analyzing data at femtosecond-scale time intervals which would create massive trajectories and slow down the simulation engine if written to disk.
+Our streaming interface is built on top of the TCP/IP socket protocol and can transmit data between distinct processes: A) on the same computer; B) on different computers in a local network; C) via the internet.
+This allows analyzing MD simulation trajectories live while they are being generated. As a result, the streaming interface allows analyzing data at femtosecond-scale time intervals which would create massive trajectories and slow down the simulation engine if written to disk.
 
 This online workshop is intended to introduce participants to streaming of trajectories directly from simulation engines, inline analysis 
 of simulations, and all the awesome science you can do with streaming. This workshop is suitable for students, developers, and researchers in the broad area of computational (bio)chemistry, materials science, and chemical engineering. It is designed for those who have some familiarity with MDAnalysis and are comfortable working with [Python](https://www.python.org/), [Jupyter
