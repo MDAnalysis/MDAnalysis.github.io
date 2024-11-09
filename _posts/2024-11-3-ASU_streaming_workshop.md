@@ -55,15 +55,16 @@ Attendance at this workshop will be *free*, and we encourage anyone with an inte
 
 
 ## Workshop materials
-All materials are made available in the https://github.com/Becksteinlab/imd-workshop-2024 repository.
+All materials are made available in the [github.com/Becksteinlab/imd-workshop-2024](https://github.com/Becksteinlab/imd-workshop-2024) repository.
 
-Prepare for the interactive workshop activities by following the [set-up instructions](https://github.com/Becksteinlab/imd-workshop-2024).
+Prepare for the interactive workshop activities by following the [set-up instructions](https://github.com/Becksteinlab/imd-workshop-2024?tab=readme-ov-file#imd-workshop-2024).
 
 ## Who to Contact
 
 If you have any questions or special requests related to this workshop, you may [contact the organizing committee](mailto:workshops@mdanalysis.org).
 
-- @hmacdope @yuxuanzhuang @IAlibay @jaclark5 (MDAnalysis) @orbeckst @ljwoods2 @HeydenLabASU @amruthesht @hcho38 (ASU)
+- @hmacdope @yuxuanzhuang @IAlibay @jaclark5 (MDAnalysis)
+- @ljwoods2 @amruthesht @hcho38 @orbeckst @HeydenLabASU  (ASU)
 
 
 [ASU]: https://www.asu.edu
