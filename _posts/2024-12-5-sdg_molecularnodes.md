@@ -8,7 +8,7 @@ src="{{site.images}}/numfocus.png"
 title="NumFOCUS Foundation" alt="NumFOCUS Foundation"
 style="float: right; width: 10em;" />
 
-We are thrilled to announce that we have been awarded a [Small Development Grant][SDG] by NumFocus to enhance scientific molecular rendering with [MolecularNodes][MN] in 2025. This initiative is a collaborative effort between [Yuxuan Zhuang][Yuxuan] and [Brady Johnston][Brady].
+We are thrilled to announce that MDAnalysis has been awarded a [Small Development Grant][SDG] by NumFocus to enhance scientific molecular rendering with [MolecularNodes][MN] in 2025. This initiative is a collaborative effort between [Yuxuan Zhuang][Yuxuan] and [Brady Johnston][Brady].
 
 MolecularNodes facilitates the seamless import and visualization of structural biology data within [Blender][blender], leveraging Blender’s industry-leading visualization and animation tools. MolecularNodes has garnered widespread excitement among scientists for its ability to create stunning and informative molecular visualizations. However, the current version has limitations in scripting and automating the rendering process. Our project aims to address these challenges by developing a robust API, enabling users to render molecular structures with straightforward and highly customizable code.
 
