@@ -249,6 +249,7 @@ The following students were sponsored to work on MDAnalysis through the [NSF Res
     
 MDAnalysis thanks NumFOCUS for its continued support as our fiscal sponsor, as well as through its [Small Development Grants](https://numfocus.org/programs/small-development-grants) (SDG) program.
 
+- SDG Round 3 (**2024**): Customizable and automated scientific molecular rendering with Molecular Nodes (**Personnel**: @yuxuanzhuang, @BradyAJohnston)
 - SDG Round 2 (**2023**): Unified and comprehensive documentation and learning resources for MDAnalysis (**Personnel**: @IAlibay, @jennaswa, @lilyminium, @micaela-matta, @orbeckst)
 - SDG Round 2 (**2022**): Improving the organization and content of MDAnalysis teaching materials (**Personnel**: @micaela-matta, @pgbarletta)
 - SDG Round 1 (**2020**): Periodic boundary handling and on the fly transformations
