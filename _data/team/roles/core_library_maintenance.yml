@@ -11,6 +11,8 @@ subroles:
     current_members:
       - "[Rocco Meli](https://github.com/RMeli)"
       - "[Hugo MacDermott-Opeskin](https://github.com/hmacdope)"
+      - "[Paul Smith](https://github.com/p-j-smith)"
+
     
 
   - subrole: Pull request management
@@ -20,6 +22,8 @@ subroles:
       - "[Oliver Beckstein](https://github.com/orbeckst)"
       - "[Rocco Meli](https://github.com/RMeli)"
       - "[Hugo MacDermott-Opeskin](https://github.com/hmacdope)"
+      - "[Paul Smith](https://github.com/p-j-smith)"
+
     
   
   - subrole: General maintenance
@@ -31,4 +35,5 @@ subroles:
       - Other general maintenance tasks
     current_members:
       - "[Irfan Alibay](https://github.com/IAlibay)"
+      - "[Paul Smith](https://github.com/p-j-smith)"
       - "[Yuxuan Zhuang](https://github.com/yuxuanzhuang)"
