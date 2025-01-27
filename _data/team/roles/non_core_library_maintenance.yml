@@ -61,6 +61,7 @@ subroles:
   - subrole: PathSimAnalysis
     current_members:
       - "[Oliver Beckstein](https://github.com/orbeckst)"
+      - "[Irfan Alibay](https://github.com/IAlibay)"
 
   - subrole: waterdynamics
     current_members:
