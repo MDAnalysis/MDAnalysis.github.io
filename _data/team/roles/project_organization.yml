@@ -3,8 +3,10 @@ tasks:
   - Organising meetings
   - Coordinating elections of core developers
   - Onboarding new core developers
+  - Managing access keys for MDAnalysis services/accounts
   - Managing other roles in the organisation and general task lists
   - Gathering usage and community metrics
 
 current_members:
-  - Jenna Swarthout Goddard
+  - "[Jenna Swarthout Goddard](https://github.com/jennaswa)"
+  - "[Irfan Alibay](https://github.com/IAlibay)"

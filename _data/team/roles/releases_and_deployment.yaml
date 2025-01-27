@@ -6,5 +6,6 @@ tasks:
   - Carrying out releases for MDAnalysis project packages
   - Managing released packages on conda-forge and PyPi
 current_members:
-  - Irfan Alibay
-  - Fiona Naughton
+  - "[Irfan Alibay](https://github.com/IAlibay)"
+  - "[Fiona Naughton](https://github.com/fiona-naughton)"
+  - "[Paul Smith](https://github.com/p-j-smith)"

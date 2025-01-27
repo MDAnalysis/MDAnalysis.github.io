@@ -9,17 +9,22 @@ subroles:
       - Initial triage and tagging of issues
       - Managing timely responses and resolving issues
     current_members:
-      - Rocco Meli
-      - Hugo MacDermott-Opeskin
+      - "[Rocco Meli](https://github.com/RMeli)"
+      - "[Brady Johnston](https://github.com/bradyajohnston)"
+      - "[Hugo MacDermott-Opeskin](https://github.com/hmacdope)"
+      - "[Paul Smith](https://github.com/p-j-smith)"
+
     
 
   - subrole: Pull request management
     tasks:
       - Reviewing, shepherding, and merging pull requests
     current_members:
-      - Oliver Beckstein
-      - Rocco Meli
-      - Hugo MacDermott-Opeskin
+      - "[Oliver Beckstein](https://github.com/orbeckst)"
+      - "[Rocco Meli](https://github.com/RMeli)"
+      - "[Hugo MacDermott-Opeskin](https://github.com/hmacdope)"
+      - "[Paul Smith](https://github.com/p-j-smith)"
+
     
   
   - subrole: General maintenance
@@ -30,4 +35,7 @@ subroles:
       - Emergency fixes
       - Other general maintenance tasks
     current_members:
-      - Irfan Alibay
+      - "[Brady Johnston](https://github.com/bradyajohnston)"
+      - "[Irfan Alibay](https://github.com/IAlibay)"
+      - "[Paul Smith](https://github.com/p-j-smith)"
+      - "[Yuxuan Zhuang](https://github.com/yuxuanzhuang)"
