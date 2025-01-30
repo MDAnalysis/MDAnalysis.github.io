@@ -24,8 +24,8 @@ subroles:
 
   - subrole: mda-encore
     current_members:
-      - "[Kristoffer Enøe Johansson](https://github.com/enoee)" (external developer)
-      - "[Kresten Lindorff-Larsen](https://github.com/lindorff-larsen)" (external developer)
+      - "[Kristoffer Enøe Johansson](https://github.com/enoee) (external developer)"
+      - "[Kresten Lindorff-Larsen](https://github.com/lindorff-larsen) (external developer)"
       - "[Yuxuan Zhuang](https://github.com/yuxuanzhuang)"
     
   - subrole: hole2-mdakit
