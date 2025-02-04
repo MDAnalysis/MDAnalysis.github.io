@@ -9,10 +9,12 @@ subroles:
       - Initial triage and tagging of issues
       - Managing timely responses and resolving issues
     current_members:
-      - "[Rocco Meli](https://github.com/RMeli)"
       - "[Brady Johnston](https://github.com/bradyajohnston)"
+      - "[Egor Marin](https://github.com/marinegor)"
       - "[Hugo MacDermott-Opeskin](https://github.com/hmacdope)"
       - "[Paul Smith](https://github.com/p-j-smith)"
+      - "[Rocco Meli](https://github.com/RMeli)"
+
 
     
 
@@ -20,10 +22,12 @@ subroles:
     tasks:
       - Reviewing, shepherding, and merging pull requests
     current_members:
+      - "[Egor Marin](https://github.com/marinegor)"
       - "[Oliver Beckstein](https://github.com/orbeckst)"
-      - "[Rocco Meli](https://github.com/RMeli)"
       - "[Hugo MacDermott-Opeskin](https://github.com/hmacdope)"
       - "[Paul Smith](https://github.com/p-j-smith)"
+      - "[Rocco Meli](https://github.com/RMeli)"
+
 
     
   
