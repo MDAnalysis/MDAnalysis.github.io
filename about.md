@@ -95,6 +95,7 @@ team ("MDAnalysis Core Developers") consists of:
 - @IAlibay
 - @jennaswa
 - @lilyminium
+- @marinegor
 - @micaela-matta
 - @orbeckst
 - @p-j-smith
