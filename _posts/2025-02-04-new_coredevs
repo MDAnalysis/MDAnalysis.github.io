@@ -28,7 +28,9 @@ src="Picture Here"
 title="Brady Johnston" alt="Brady Johnston"
 style="float: left; width: 110px; height: 110px; border-radius: 20px; border: 15px solid white" />
 
-Please write a short (1-2 paragraphs) bio here. Feel free to include your affiliation(s), ways you interface with MDAnalysis, and any other personal and/or professional interests. Please include any contact information you feel comfortable sharing publicly (e.g., GitHub/Discord handle, LinkedIn, website, etc.)
+I did my PhD in computational biophysics at King's College London, using molecular dynamics simulations to study the biophysics of lipid membranes. During my PhD, I began contributing to open-source scientific software, including MDAnalysis. I created [LiPyphilic](https://github.com/p-j-smith/lipyphilic) - an open-source Python package for analysing simulations of lipid membranes, built on top of MDAnalysis.
+
+I'm now a Research Software Engineer at [University College London](https://www.ucl.ac.uk/advanced-research-computing/), working on projects broadly related to medical imaging. I'm excited to join the Core Developer team, and always happy to chat about biophysics and open-source software. You can get in touch with me on [LinkedIN](https://www.linkedin.com/in/p-j-smith/) or [GitHub](https://github.com/p-j-smith).
 
 ## Becoming a Core Developer
 MDAnalysis is a dynamic, ever-changing [community]({{ site.baseurl }}/pages/about/#community), with many new contributors joining continuously. It is important to us that the leadership of MDAnalysis reflects the community that builds it. Therefore, the MDAnalysis Core Developer team regularly holds elections for new core developers, as described in our [governance section]({{ site.baseurl }}/pages/about/#governance/). While this voting process is conducted in private, we are publishing and formalizing what we consider when voting, in the interests of transparency.
