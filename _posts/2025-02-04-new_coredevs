@@ -25,7 +25,7 @@ Please write a short (1-2 paragraphs) bio here. Feel free to include your affili
 ### Paul Smith (@p-j-smith)
 <img
 src="Picture Here"
-title="Brady Johnston" alt="Brady Johnston"
+title="Paul Smith" alt="Paul Smith"
 style="float: left; width: 110px; height: 110px; border-radius: 20px; border: 15px solid white" />
 
 I did my PhD in computational biophysics at King's College London, using molecular dynamics simulations to study the biophysics of lipid membranes. During my PhD, I began contributing to open-source scientific software, including MDAnalysis. I created [LiPyphilic](https://github.com/p-j-smith/lipyphilic) - an open-source Python package for analysing simulations of lipid membranes, built on top of MDAnalysis.
