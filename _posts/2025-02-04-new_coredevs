@@ -8,7 +8,7 @@ We are thrilled to announce that MDAnalysis has elected three new [Core Develope
 ## Introductions
 ### Brady Johnston (@BradyAJohnston)
 <img
-src=""{{site.images}}/bradyajohnston.png"
+src="{{site.images}}/bradyajohnston.png"
 title="Brady Johnston" alt="Brady Johnston"
 style="float: left; width: 110px; height: 110px; border-radius: 20px; border: 15px solid white" />
 
@@ -16,12 +16,14 @@ I originally did my PhD in structural biology at the University of Western Austr
 
 ### Egor Marin (@marinegor) 
 <img
-src="Picture Here"
+src="{{site.images}}/marinegor.png"
 title="Egor Marin" alt="Egor Marin"
 style="float: left; width: 110px; height: 110px; border-radius: 20px; border: 15px solid white" />
 
 I started my career as a scientist from macromolecular crystallography, and during my PhD slowly moved towards structural bioinformatics and relevant machine learning methods.
-I am currently employed at [ENPICOM B.V.](https://enpicom.com/about-us/) as Machine Learning Scientist, and continue contributing to open-source as much as I can. 
+
+I am currently employed at [ENPICOM B.V.](https://enpicom.com/about-us/) as Machine Learning Scientist, and continue contributing to open-source as much as I can.
+
 You can find me as `@marinegor` almost everywhere, and check out [marinegor.dev](https://marinegor.dev) for some short-form tech posts about my research and open-source work.
 
 ### Paul Smith (@p-j-smith)
