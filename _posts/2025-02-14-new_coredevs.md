@@ -3,7 +3,7 @@ layout: post
 title: Meet our New Core Developers!
 ---
 
-We are thrilled to announce that MDAnalysis has elected three new [Core Developers]({{ site.baseurl }}/pages/about/#mdanalysis-core-developers/) to the project: @BradyAJohnston, @marinegor, and @p-j-smith. We thank each of them for the many contributions they have already made to the MDAnalysis project, and look forward to having them help shape the future direction of the project. Keep reading to [learn more about Brady, Egor, and Paul](#introductions), as well as the [process behind becoming a Core Developer](#becoming-a-core-developer) of MDAnalysis.
+We are thrilled to announce that MDAnalysis has elected three new [Core Developers]({{ site.baseurl }}/about/#mdanalysis-core-developers) to the project: @BradyAJohnston, @marinegor, and @p-j-smith. We thank each of them for the many contributions they have already made to the MDAnalysis project, and look forward to having them help shape the future direction of the project. Keep reading to [learn more about Brady, Egor, and Paul](#introductions), as well as the [process behind becoming a Core Developer](#becoming-a-core-developer) of MDAnalysis.
 
 ## Introductions
 ### Brady Johnston (@BradyAJohnston)
