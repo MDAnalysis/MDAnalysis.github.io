@@ -34,28 +34,28 @@ style="float: left; width: 110px; height: 110px; border-radius: 20px; border: 15
 
 I did my PhD in computational biophysics at King's College London, using molecular dynamics simulations to study the biophysics of lipid membranes. During my PhD, I began contributing to open-source scientific software, including MDAnalysis. I created [LiPyphilic](https://github.com/p-j-smith/lipyphilic) - an open-source Python package for analysing simulations of lipid membranes, built on top of MDAnalysis.
 
-I'm now a Research Software Engineer at [University College London](https://www.ucl.ac.uk/advanced-research-computing/), working on projects broadly related to medical imaging. I'm excited to join the Core Developer team, and always happy to chat about biophysics and open-source software. You can get in touch with me on [LinkedIN](https://www.linkedin.com/in/p-j-smith/) or [GitHub](https://github.com/p-j-smith).
+I'm now a Research Software Engineer at [University College London](https://www.ucl.ac.uk/advanced-research-computing/), working on projects broadly related to medical imaging. I'm excited to join the Core Developer team, and always happy to chat about biophysics and open-source software. You can get in touch with me on [LinkedIn](https://www.linkedin.com/in/p-j-smith/) or [GitHub](https://github.com/p-j-smith).
 
 ## Becoming a Core Developer
-MDAnalysis is a dynamic, ever-changing [community]({{ site.baseurl }}/pages/about/#community), with many new contributors joining continuously. It is important to us that the leadership of MDAnalysis reflects the community that builds it. Therefore, the MDAnalysis Core Developer team regularly holds elections for new core developers, as described in our [governance section]({{ site.baseurl }}/pages/about/#governance/). While this voting process is conducted in private, we are publishing and formalizing what we consider when voting, in the interests of transparency.
+MDAnalysis is a dynamic, ever-changing [community]({{ site.baseurl }}/about/#community), with many new contributors joining continuously. It is important to us that the leadership of MDAnalysis reflects the community that builds it. Therefore, the MDAnalysis Core Developer team regularly holds elections for new core developers, as described in our [governance section]({{ site.baseurl }}/about/#governance/). While this voting process is conducted in private, we are publishing and formalizing what we consider when voting, in the interests of transparency.
 
 Firstly, potential Core Developers are identified based on their past contributions to MDAnalysis and potential to move the MDAnalysis project forward. Contributions we account for include both those that are technical in nature, and also less quantifiable ones which add value to the MDAnalysis organization. Examples include:
 * Fixing bugs
 * Adding features
 * Adding or fixing documentation
 * Reviewing pull requests (PRs)
-* Interacting with the community on [GitHub]({{ site.github.repo }}) or our Discord server ({{ site.discord.url }})
+* Interacting with the community on [GitHub]({{ site.github.repo }}) or our [Discord server]({{ site.discord.url }})
 * Participating in discussions in PRs and issues
 * Organizing workshops or events
 * Mentoring either in an official capacity (e.g., [Google Summer of Code](https://summerofcode.withgoogle.com/)) or unofficially (e.g., through reviewing PRs)
-* Promoting a culture which reflects the core values of MDAnalysis, as detailed in our [Code of Conduct]({{ site.baseurl }}/pages/conduct/) (e.g., promoting diversity and inclusion within our community)
+* Promoting a culture which reflects the core values of MDAnalysis, as detailed in our [Code of Conduct]({{ site.baseurl }}/conduct/) (e.g., promoting diversity and inclusion within our community)
 * Involvement in ongoing community projects (e.g., applying for grants) and liaising with other organisations, such as our fiscal sponsor, [NumFOCUS](https://numfocus.org/)
 
-If a candidate has shown a history of participating in these activities, they are put forward for election. The Core Developer team reviews the candidate and votes on whether or not they wish to elect an individual, following [our standard voting procedures]({{ site.baseurl }}/pages/about/#decision-making-process-and-membership/). 
+If a candidate has shown a history of participating in these activities, they are put forward for election. The Core Developer team reviews the candidate and votes on whether or not they wish to elect an individual, following [our standard voting procedures]({{ site.baseurl }}/about/#decision-making-process-and-membership/). 
 
 Finally, being an active Core Developer requires some amount of active participation in meetings, decisions, and other administrative business. As MDAnalysis does not have any guaranteed long-term funding, this work is usually unpaid. Therefore, the final decision to accept or decline the election is left to the developers themselves: do they have the time and willingness to keep contributing?
 
-If you are interested in becoming a Core Developer, we highly encourage you to [participate]({{ site.baseurl }}/#participating) in some of the activities listed above, especially reviewing pull requests and mentoring other developers. Learn more about the many roles MDAnalysis community members take on to move the project forward on our [MDAnalysis team]({{ site.baseurl }}/pages/team/) page, and reach out to us on our [GitHub discussions forum]({{ site.mailinglists.discussions.url }}) or [Discord server]({{ site.discord.url }}) (join the server using the invitation link, [{{ site.discord.invite }}]({{ site.discord.invite }}). On our end, the MDAnalysis Core Developer team will, to the best of its abilities, aim to offer mentorship and other opportunities to people who express an interest in becoming a Core Developer.
+If you are interested in becoming a Core Developer, we highly encourage you to [participate]({{ site.baseurl }}/#participating) in some of the activities listed above, especially reviewing pull requests and mentoring other developers. Learn more about the many roles MDAnalysis community members take on to move the project forward on our [MDAnalysis team]({{ site.baseurl }}/team/) page, and reach out to us on our [GitHub discussions forum]({{ site.mailinglists.discussions.url }}) or [Discord server]({{ site.discord.url }}) (join the server using the invitation link, [{{ site.discord.invite }}]({{ site.discord.invite }}). On our end, the MDAnalysis Core Developer team will, to the best of its abilities, aim to offer mentorship and other opportunities to people who express an interest in becoming a Core Developer.
 
 Being a Core Developer is work, but it’s also a fantastic opportunity to work with and for a wonderful and welcoming community. As part of [our mission]({{ site.baseurl }}/about/#mission), we welcome anyone who cares for this community and wants to help it grow.
 
