@@ -227,27 +227,28 @@ will appear on the web.*
 #### Build site locally ####
 
 To run Jekyll in a way that matches the GitHub Pages build server, run `Jekyll`
-with `Bundler`. Use the command
+with `Bundler`. See [INSTALL](INSTALL.md) for notes on how to install Jekyll
+locally.
 
-    bundle exec jekyll serve
+Use the command
+
+    bundle exec jekyll serve --watch --livereload --future --incremental
 
 in the root of your repository (after switching to the gh-pages branch for
 project repositories), and your site should be available at
 <http://localhost:4000>. 
 
+Running Jekyll locally has the advantage that you can have it update
+the site continuously while you're editing files.
+
+(See the [serve commandline
+options](https://jekyllrb.com/docs/configuration/options/#serve-command-options)
+for more details.)
+
 For a full list of Jekyll commands, see the [Jekyll
 documentation](https://jekyllrb.com/docs/).
 
 
-##### Advanced Jekyll usage #####
-
-Running Jekyll locally has the advantage that you can have it update
-the site continuously while you're editing files:
-
-    bundle exec jekyll serve --livereload
-	
-In this way, the site is immediately rebuilt when you save changes to
-a file. 
 
 
 ##### Updating the github-pages plugin #####
@@ -260,6 +261,12 @@ with
     bundle update github-pages
 
 ##### Problems with jekyll and required packages? #####
+
+* See [INSTALL](INSTALL.md) and if in doubt, follow the latest instructions from
+  [GitHub: Testing your GitHub Pages site locally with
+  Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
+  and in particular [Jekyll's installation
+  instructions](https://jekyllrb.com/docs/installation/)
 
 * **Problems with installing jekyll/github-pages?** If the standard
   installation for jekyll does not work for you (many people complain,
