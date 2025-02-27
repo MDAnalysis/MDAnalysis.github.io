@@ -103,8 +103,6 @@ for more details.)
 
 ## Docker image
 
-Trying a stupid, very old docker image
-
 ### macOS docker installation
 
 - install Docker Desktop https://docs.docker.com/desktop/install/mac-install/
@@ -117,7 +115,7 @@ Trying a stupid, very old docker image
 
 To build the static site, run `jekyll build` inside docker:
 ```bash
-export JEKYLL_VERSION=3.8
+export JEKYLL_VERSION=4.0
 docker run --rm \
   --volume="$PWD:/srv/jekyll" \
   -it jekyll/jekyll:$JEKYLL_VERSION \

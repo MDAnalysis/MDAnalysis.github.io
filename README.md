@@ -201,7 +201,7 @@ described next:
 
 To **build the static site**, run `jekyll build` inside docker:
 ```bash
-export JEKYLL_VERSION=3.8
+export JEKYLL_VERSION=4.0
 docker run --rm \
   --volume="$PWD:/srv/jekyll" \
   -it jekyll/jekyll:$JEKYLL_VERSION \
