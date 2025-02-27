@@ -206,7 +206,7 @@ The following contributors were sponsored to work on MDAnalysis through the [Goo
 - **2024**: @ljwoods2, @lunamorrow, @talagayev
 - **2023**: @marinegor, @xhgchen 
 - **2022**: @aya9aladdin, @BFedder
-- **2021**: @ojeda-e, @orioncohen
+- **2021**: @ojeda-e, @orionarcher
 - **2020**: @cbouy, @hmacdope, @yuxuanzhuang
 - **2019**: @NinadBhat
 - **2018**: @ayushsuhane, @davidercruz
