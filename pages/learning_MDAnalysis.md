@@ -69,7 +69,7 @@ to use it in a research context.
 @lilyminium's talk at [PyCon AU 2019](https://2019.pycon-au.org/) *The universe as balls and
 springs: molecular dynamics in Python* gives a general introduction to
 molecular dynamics and shows how to use MDAnalysis (and other tools
-such as [OpenMM](http://openmm.org/), [nglviewer](nglviewer.org/nglview/latest/),
+such as [OpenMM](http://openmm.org/), [nglviewer](https://nglviewer.org/nglview/latest/),
 [pandas](https://pandas.pydata.org/),
 [plotly](https://pandas.pydata.org/)). If you want to better
 understand what MD simulations are and how scientists can make use of
