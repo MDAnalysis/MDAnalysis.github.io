@@ -4,14 +4,14 @@ title: Installation Quick Start
 order: 2
 ---
 
-MDAnalysis can be installed using [mamba][] (recommended) or [pip][].
+MDAnalysis can be installed using [mamba][], a faster drop-in replacement for [conda][], or [pip][].
 
-## Mamba ##
+## mamba/conda ##
 
-If you have [conda][] or [mamba][] installed, run:
+If you don't have [mamba][] installed you can follow the [mamba installation instructions][]. 
+To install MDAnalysis run:
 
 {% highlight bash %}
-conda install -c conda-forge mamba
 mamba install -c conda-forge mdanalysis
 {% endhighlight %}
 
@@ -28,7 +28,7 @@ a working [OpenMP][] installation.
 
 ## Python Package Index ##
 
-To install with [pip][] run:
+To install MDAnalysis with [pip][] run:
 
 {% highlight bash %}
 pip install --upgrade MDAnalysis
@@ -42,7 +42,7 @@ pip install --upgrade MDAnalysisTests
 
 ## More ##
 
-For detailed installation methods, including setting up [mamba][] from scratch, see the [Installation instuctions in the {{ site.docs.userguide.name }}]({{ site.docs.userguide.url }}/stable/installation.html).
+For more details about the installation see the [Installation instuctions in the {{ site.docs.userguide.name }}]({{ site.docs.userguide.url }}/stable/installation.html).
 
 If you have questions regarding the installation, please ask on
 [{{site.mailinglists.discussion.name}}]({{site.mailinglists.discussion.url}}).
@@ -50,6 +50,6 @@ If you have questions regarding the installation, please ask on
 [pip]: https://pip.pypa.io/en/latest/
 [mamba]:https://anaconda.org/conda-forge/mamba
 [conda]: https://conda.io/
-[installation instuctions]: https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html
+[mamba installation instructions]: https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html
 [OpenMP]: https://www.openmp.org/
 [test cases]: {{ site.docs.userguide.url }}/stable/installation.html#testing
