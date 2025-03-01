@@ -4,38 +4,41 @@ title: Installation Quick Start
 order: 2
 ---
 
-MDAnalysis offers two methods to install the released version. For most
-users we recommend the [*Conda*](#conda) installation method.
+MDAnalysis offers multiple installation methods. For most
+users we recommend [mamba][] installation method, a faster
+drop-in replacement for [conda][] .
 
-## Conda ##
+## Mamba ##
 
 If you don't have [conda][] installed yet, follow the [installation
-instructions for conda][].
-
-To install the lastest stable release with [conda][conda] do:
+instructions for conda][]. Following that, install [mamba][] with:
 
 {% highlight bash %}
-conda config --add channels conda-forge
-conda install mdanalysis
+conda install -c conda-forge mamba
 {% endhighlight %}
 
-To upgrade to the latest stable release.
+Then, install the latest stable release of MDAnalysis with:
 
 {% highlight bash %}
-conda update mdanalysis
+mamba install -c conda-forge mdanalysis
 {% endhighlight %}
 
-To [run the test cases][run_tests] and examples, also install the unit tests (about 53 MiB
+To upgrade use:
+
+{% highlight bash %}
+mamba update mdanalysis
+{% endhighlight %}
+
+To [run the test cases][run_tests] and examples, also install the unit tests (about 90 MB
 in size):
 
 {% highlight bash %}
-conda install MDAnalysisTests
+mamba install -c conda-forge MDAnalysisTests
 {% endhighlight %}
 
-The conda packages currently only support serial calculations. If you
-plan to use the parallel [OpenMP][OpenMP] algorithms you need to
-install MDAnalysis from the [Python Package
-Index](#python-package-index) and have a working OpenMP installation.
+MDAnalysis installed via mamba supports only serial calculations. 
+If you need OpenMP-based parallelism, install MDAnalysis via [pip](#python-package-index) 
+and ensure you have a working [OpenMP][] installation.
 
 ## Python Package Index ##
 
@@ -55,13 +58,14 @@ pip install --upgrade MDAnalysisTests
 
 ## More ##
 
-For more details on installation and alternative ways to install MDAnalysis see [Installing
+For more installation options and additional details see [Installing
 MDAnalysis in the {{ site.docs.userguide.name }}]({{ site.docs.userguide.url }}/stable/installation.html).
 
 If you have questions with the installation, please ask on
 [{{site.mailinglists.discussion.name}}]({{site.mailinglists.discussion.url}}).
 
 [pip]: https://pip.pypa.io/en/latest/
+[mamba]:https://anaconda.org/conda-forge/mamba
 [conda]: https://conda.io/
 [installation instructions for conda]: https://conda.io/projects/conda/en/latest/user-guide/install/index.html
 [OpenMP]: https://www.openmp.org/

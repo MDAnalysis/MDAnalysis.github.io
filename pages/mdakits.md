@@ -19,7 +19,7 @@ MDAnalysis. Whilst we cannot guarantee the completeness of the MDAKit's test cov
 
 
 *If you have your own MDAKit and you would like to add it to the
-registry, please look at the [contribution instructions](https://mdakits.mdanalysis.org/add.html)
+registry, please look at the contribution [instructions](https://mdakits.mdanalysis.org/makingakit.html)
 or share it on [{{ site.mailinglists.discussion.name }}]({{ site.mailinglists.discussion.url }})!*
 
 

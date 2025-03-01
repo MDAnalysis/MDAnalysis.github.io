@@ -17,7 +17,7 @@ suitable for visualization or native analysis tools.
 MDAnalysis allows one to read particle-based trajectories (including
 individual coordinate frames such as biomolecules in the PDB format)
 and access the atomic coordinates through
-[NumPy](https://numpy.scipy.org/) arrays. This provides a flexible and
+[NumPy](https://numpy.org/) arrays. This provides a flexible and
 relatively fast framework for complex analysis tasks. In addition,
 powerful atom
 [selection commands]({{site.pypi.docs}}/documentation_pages/selections.html)
