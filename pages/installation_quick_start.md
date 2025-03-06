@@ -5,9 +5,13 @@ order: 2
 ---
 
 MDAnalysis can be installed using [mamba][], a faster drop-in replacement for [conda][], or [pip][].
+MDAnalysis can be installed using [mamba][], a faster drop-in replacement for [conda][], or [pip][].
 
 ## mamba/conda ##
+## mamba/conda ##
 
+If you don't have [mamba][] installed you can follow the [mamba installation instructions][]. 
+To install MDAnalysis run:
 If you don't have [mamba][] installed you can follow the [mamba installation instructions][]. 
 To install MDAnalysis run:
 
@@ -42,7 +46,7 @@ pip install --upgrade MDAnalysisTests
 
 ## More ##
 
-For more details about the installation see the [Installation instuctions in the {{ site.docs.userguide.name }}]({{ site.docs.userguide.url }}/stable/installation.html).
+For more details about the installation see the [installation instructions in the {{ site.docs.userguide.name }}]({{ site.docs.userguide.url }}/stable/installation.html).
 
 If you have questions regarding the installation, please ask on
 [{{site.mailinglists.discussion.name}}]({{site.mailinglists.discussion.url}}).
