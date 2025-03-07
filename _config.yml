@@ -90,6 +90,8 @@ docs:
   userguide:
     name:         User Guide
     url:          https://userguide.mdanalysis.org
+    repo:         https://github.com/MDAnalysis/UserGuide
+    issues:       https://github.com/MDAnalysis/UserGuide/issues
   quickstart:
     name:         Quick Start Guide
     url:          https://userguide.mdanalysis.org/stable/examples/quickstart.html
