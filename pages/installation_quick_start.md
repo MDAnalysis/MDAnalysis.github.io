@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: otherpage
 title: Installation Quick Start
 order: 2
 ---
