@@ -4,60 +4,23 @@ title: Learning MDAnalysis
 order: 3
 ---
 
-Once you had a look at the 
-[basic example]({{ site.baseurl }}/pages/basic_example) 
-you might want to learn more about how to use
-MDAnalysis. MDAnalysis is primarily a library that helps you to build
-your own tools but it also works very well for **interactive data
-exploration** of MD data in [IPython](http://ipython.org/), in
-particular within [Jupyter notebooks](https://jupyter.org/) and in
-conjunction with [pandas](http://pandas.pydata.org/). MDAnalysis is
-well suited for a *rapid development* approach.
+MDAnalysis is a powerful Python library for analyzing MD simulations. While primarily designed to help you build custom analysis tools, it also supports interactive data exploration in environments like [IPython](http://ipython.org/) and [Jupyter notebooks](https://jupyter.org/), especially when combined with [pandas](http://pandas.pydata.org/). This makes MDAnalysis an excellent choice for rapid prototyping and exploratory analysis.
 
-The resources below should help you to quickly find out to best use
-MDAnalysis for your own specific uses.
-
+Whether you're new to MDAnalysis or looking to deepen your expertise, this page will guide you through our learning resources.
 
 ## Tutorials ##
 
-Start with the [{{ site.docs.quickstart.name }}]({{
-site.docs.quickstart.url }}) when you are new MDAnalysis.
+If you are new to MDAnalysis, start with:
 
-Then browse the [{{ site.docs.userguide.name }}]({{ site.docs.userguide.url }}), which contains detailed documentation for all the important parts of MDAnalysis and many self-contained tutorials.
+- [{{ site.docs.quickstart.name }}]({{ site.docs.quickstart.url }}) – A quick introduction to MDAnalysis.
+- [{{ site.docs.userguide.name }}]({{ site.docs.userguide.url }}) – Detailed documentation with in-depth tutorials.
 
-
-There are a number of [older tutorials]({{site.github.wiki}}/Tutorials) available, too, although we recommend new users start  with [{{ site.docs.quickstart.name }}]({{
-site.docs.quickstart.url }}) and then start reading the [{{ site.docs.userguide.name }}]({{ site.docs.userguide.url }}).
-
-
-## Documentation ##
-
-The [{{ site.docs.userguide.name }}]({{ site.docs.userguide.url }})
-contains installation instructions, the [{{ site.docs.quickstart.name
-}}]({{ site.docs.quickstart.url }}), and comprehensive description of
-the functionality of MDAnalysis from a user's perspective. **New users
-should start here!**
-
-The [{{ site.docs.mdanalysis.name }}]({{ site.docs.mdanalysis.url }})
-contains technical information on how to use MDAnalysis. 
-
-The [paper on MDAnalysis]({{ site.baseurl
-}}/pages/citations#Gowers2016) contains a high-level description of
-the structure and philosophy of the library together with examples of
-its use.
-
-The [FAQ]({{ site.github.wiki }}/FAQ) contains a 
-growing list of specific (frequently asked) questions and answers.
-
-## GitHub Discussions ##
+For full documentation, visit the [Documentation page]({{ site.docs.url }}).
 
 You can ask for advice or help on [{{ site.mailinglists.discussion.name }}]({{
-site.mailinglists.discussion.url }}). If you find *bugs* or
-want to *request enhancements* please [file a report]({{
-site.github.wiki }}/ReportingProblems) in the [Issue Tracker]({{
-sitemap.github.issues }}).
+site.mailinglists.discussion.url }}). If you find *bugs* or want to *request enhancements* please [file a report]({{site.github.wiki }}/ReportingProblems) in the [Issue Tracker]({{sitemap.github.issues }}).
 
-## Videos ##
+## Learning through Videos ##
 
 The videos listed below were given by core developers at
 conferences. They highlight various aspects of MDAnalysis and show how
