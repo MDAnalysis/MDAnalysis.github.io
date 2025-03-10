@@ -8,7 +8,7 @@ MDAnalysis is a powerful Python library for analyzing molecular dynamics simulat
 
 ## Installation Instructions
 
-For a quick start, checkout our [Installation Quick Start][] guide. 
+For a quick start, check out our [Installation Quick Start][] guide. 
 For a more thorough installation with advanced options, including dependencies and environment configurations, see the [installation instructions in the User Guide]({{ site.docs.userguide.url }}/stable/installation.html). 
 
 Once installed, explore this [basic example][] to load a trajectory and perform a simple analysis.
