@@ -20,11 +20,11 @@ For full documentation, visit the [Documentation page]({{ site.docs.url }}).
 You can ask for advice or help on [{{ site.mailinglists.discussion.name }}]({{
 site.mailinglists.discussion.url }}). If you find *bugs* or want to *request enhancements* please [file a report]({{site.github.wiki }}/ReportingProblems) in the [Issue Tracker]({{sitemap.github.issues }}).
 
-## Learning through Videos ##
+## Videos ##
 
-The videos listed below were given by core developers at
-conferences. They highlight various aspects of MDAnalysis and show how
-to use it in a research context.
+The following videos, presented by core developers at conferences, highlight various aspects of MDAnalysis and demonstrate its use in research.
+
+In addition to conference talks, we have recorded and published a number of MDAnalysis workshop sessions on our [YouTube channel](https://www.youtube.com/channel/UC3TCuK-z_bJNdwWCvsH9D3Q), which cover hands-on tutorials and more in-depth discussions of the library's features. 
 
 ### Introductory ###
 
@@ -87,4 +87,5 @@ MDAnalysis**, show more advanced ways to **hack MDAnalysis** and outline
 	<iframe src="https://www.youtube.com/embed/1Wot83DSt4E" frameborder="0"
 	allowfullscreen class="video"></iframe>
 </div>
+
 
