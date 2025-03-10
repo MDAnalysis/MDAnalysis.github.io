@@ -9,8 +9,29 @@
       <p class="lead">{{ site.description }}</p>
     </div>
 
-    <div id="docsearch">Enable javascript for search.</div>
-
+    <!-- Social Media Icons -->
+    <div class="sidebar-social-icons">
+      <a href="https://www.linkedin.com/company/mdanalysis/" target="_blank" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://bsky.app/profile/mdanalysis.bsky.social" target="_blank" title="Bluesky">
+        <img src="{{ site.baseurl }}/public/images/bluesky.svg" width="24" height="24" alt="Bluesky">
+      </a>
+      <a href="https://discord.com/invite/fXTSfDJyxE" target="_blank" title="Discord">
+        <i class="fab fa-discord"></i>
+      </a>
+      <a href="https://github.com/MDAnalysis/mdanalysis" target="_blank" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    
+    <!-- Search Bar -->
+    <div class="sidebar-search">
+      <div class="sidebar-search-box">
+        <div id="docsearch">Enable javascript for search.</div>
+      </div>
+    </div>
+    
     <nav class="sidebar-nav">
       {% assign site_base_url = site.baseurl | append: "/" %}
       <a class="sidebar-nav-item{% if page.url == site_base_url %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
@@ -24,21 +45,15 @@
       {% assign blogpagedir_len = blogpagedir | size %}
       {% assign pages_list = site.pages | sort: "order" %}
       {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "page" %}
-            {% assign prefix = node.url | truncate: blogpagedir_len, '' %}
+      {% if node.title != null%}
+        {% if node.layout == "page"%}
+	  {% assign prefix = node.url | truncate: blogpagedir_len, '' %}
             {% if prefix != blogpagedir %}
               <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
             {% endif %}
           {% endif %}
         {% endif %}
       {% endfor %}
-
-      <a class="sidebar-nav-item" href="{{ site.docs.userguide.url }}">User Guide</a>	      
-      <a class="sidebar-nav-item" href="{{ site.docs.mdanalysis.url }}">Docs</a>
-      <a class="sidebar-nav-item" href="{{ site.pypi.package }}">Download</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-      <a class="sidebar-nav-item" href="{{ site.twitter.url }}">@{{ site.twitter.name }}</a>
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
