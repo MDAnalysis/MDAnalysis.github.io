@@ -3,7 +3,7 @@ tasks:
   - Managing submissions to MDAKits registry
   - Managing manual review process of new MDAKits
   - Managing automated test and badge infrastructure of all MDAKits
-  - Offer input on MDAKit issues where possible
+  - Offer input on failures due to the MDAKit registry
 current_members:
   - "[Irfan Alibay](https://github.com/IAlibay)"
   - "[Fiona Naughton](https://github.com/fiona-naughton)"
