@@ -9,7 +9,7 @@ permalink:        pretty
 title:            MDAnalysis
 name:             MDAnalysis
 tagline:          molecular simulations data analysis
-description:      working with data in molecular sciences
+description:      working with data in the molecular sciences
 # long_description is not currently used by the theme
 long_description: |
                   MDAnalysis is a Python library which enables the handling and
@@ -40,7 +40,7 @@ plugins:
   - jekyll-feed
 
 # Blog pagination
-paginate_path:   "/pages/blog/page:num/"
+paginate_path:   "/blog/page:num/"
 paginate:        12
 
 # jekyll-feed
@@ -123,3 +123,8 @@ numfocus:
   sponsored_project: https://numfocus.org/project/mdanalysis
   donate_button:     <a href="https://numfocus.org/donate-to-mdanalysis" target="_blank" style="background:#FF9200;padding:10px;margin:10px 0px;text-align:center;text-decoration:none;font-size:12pt;color:#000000;display:inline-block;border-radius:3px">Donate Now</a>
   
+social:
+  linkedin: "https://www.linkedin.com/company/mdanalysis/"
+  bsky: "https://bsky.app/profile/mdanalysis.bsky.social"
+  discord: "https://discord.com/invite/fXTSfDJyxE"
+  github: "https://github.com/MDAnalysis/mdanalysis"
