@@ -81,6 +81,12 @@ mailinglists:
 twitter:
   name:           mdanalysis
   url:            https://twitter.com/mdanalysis
+linkedin:
+  name:           mdanalysis
+  url:            https://linkedin.com/company/mdanalysis
+bluesky:
+  name:           mdanalysis.bsky.social
+  url:            https://bsky.app/profile/mdanalysis.bsky.social
 discord:
   name:           MDAnalysis
   url:            https://discord.com/channels/807348386012987462/
