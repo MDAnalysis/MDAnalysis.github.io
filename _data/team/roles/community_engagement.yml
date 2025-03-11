@@ -3,8 +3,8 @@ tasks:
   - Responding to questions on [Discord]({{ site.discord.url }}) and [GitHub Discussions]({{ site.mailinglists.discussion.url }})
   - Managing and triaging conversations on [Discord]({{ site.discord.url }}) and [GitHub Discussions]({{ site.mailinglists.discussion.url }})
   - General management and administration of social accounts (i.e., [LinkedIn]({{ site.linkedin.url}}), [Bluesky]({{ site.bluesky.url }})), [website]({{ site.url }}), and [blog]({{ site.blog }}), including...
-  - *Posting announcements of new developments*
-  - *Moderating content*
+    - *Posting announcements of new developments*
+    - *Moderating content*
 
 current_members:
   - "[Brady Johnston](https://github.com/bradyajohnston)"
