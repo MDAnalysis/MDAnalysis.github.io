@@ -1,17 +1,12 @@
 ---
 layout: otherpage
 title: Installation Quick Start
-order: 2
 ---
 
 MDAnalysis can be installed using [mamba][], a faster drop-in replacement for [conda][], or [pip][].
-MDAnalysis can be installed using [mamba][], a faster drop-in replacement for [conda][], or [pip][].
 
 ## mamba/conda ##
-## mamba/conda ##
 
-If you don't have [mamba][] installed you can follow the [mamba installation instructions][]. 
-To install MDAnalysis run:
 If you don't have [mamba][] installed you can follow the [mamba installation instructions][]. 
 To install MDAnalysis run:
 
