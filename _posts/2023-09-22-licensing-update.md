@@ -324,4 +324,4 @@ an advised fund of Silicon Valley Community Foundation (funder DOI 10.13039/1000
 [consultation]:  {{ site.baseurl }}{% post_url 2022-11-07-relicensing %}#consultation-period-7th-november-until-5th-december-2022
 [release 2.6]: {{ site.baseurl }}{% post_url 2023-09-02-release-2.6.1 %}
 [release 2.5]: {{ site.baseurl }}{% post_url 2023-06-05-releases-2.4.x-2.5.0 %}
-[Core Developers]: {% link pages/about.md %}#mdanalysis-core-developers
+[Core Developers]: {% link about.md %}#mdanalysis-core-developers

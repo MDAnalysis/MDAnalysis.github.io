@@ -203,4 +203,4 @@ fiscal sponsor, [NumFOCUS][].
 [contributors]: https://github.com/MDAnalysis/mdanalysis/blob/develop/package/AUTHORS
 [faq wiki]: https://github.com/MDAnalysis/mdanalysis/wiki/GPLv2--to-LGPLv3--relicensing-summary-and-FAQ
 [NumFOCUS]: https://www.numfocus.org
-[Core Developers]: {% link pages/about.md %}#mdanalysis-core-developers
+[Core Developers]: {% link about.md %}#mdanalysis-core-developers
