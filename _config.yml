@@ -68,6 +68,10 @@ pypi:
   package:        https://pypi.org/project/MDAnalysis
   tests:          https://pypi.org/project/MDAnalysisTests
   docs:           https://docs.mdanalysis.org
+mdakits:
+  registry:       https://mdakits.mdanalysis.org/mdakits.html
+  guide:          https://mdakits.mdanalysis.org/makingakit.html 
+  issues:         https://github.com/MDAnalysis/MDAKits/issues
 mailinglists:
   discussion:
     name:         GitHub Discussions
