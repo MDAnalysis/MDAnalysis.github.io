@@ -45,3 +45,11 @@ but our YouTube videos seem to be natively widescreen.
   position: absolute;
 }
 
+.wide-code pre {
+  white-space: pre;
+  overflow-x: auto;
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+
