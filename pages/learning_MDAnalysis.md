@@ -6,27 +6,37 @@ order: 3
 
 MDAnalysis is a powerful Python library for analyzing MD simulations. While primarily designed to help you build custom analysis tools, it also supports interactive data exploration in environments like [IPython](http://ipython.org/) and [Jupyter notebooks](https://jupyter.org/), especially when combined with [pandas](http://pandas.pydata.org/). This makes MDAnalysis an excellent choice for rapid prototyping and exploratory analysis.
 
+MDAnalysis is an academic software package, and if you use it in your research, please cite the relevant publications. For details on how to cite MDAnalysis, visit our [Citations]({{ site.baseurl }}/pages/citations/) page.
+
 Whether you're new to MDAnalysis or looking to deepen your expertise, this page will guide you through our learning resources.
 
-## Tutorials ##
+## Step-by-Step Guide to Learning MDAnalysis
 
-If you are new to MDAnalysis, start with:
+1. **Install MDAnalysis**  
+   Follow the instructions in [Getting Started]({{ site.baseurl }}/pages/getting_started/) to install MDAnalysis.
 
-- [{{ site.docs.quickstart.name }}]({{ site.docs.quickstart.url }}) – A quick introduction to MDAnalysis.
-- [{{ site.docs.userguide.name }}]({{ site.docs.userguide.url }}) – Detailed documentation with in-depth tutorials.
+2. **Quickstart Tutorial**      
+	Begin with the [{{ site.docs.quickstart.name }}]({{ site.docs.quickstart.url }}) tutorial to write and run your first MDAnalysis script.
 
-For full documentation, visit the [Documentation page]({{ site.docs.url }}).
+3. **User Guide**  
+	Explore the [{{ site.docs.userguide.name }}]({{ site.docs.userguide.url }}) for detailed tutorials and self-contained examples.
 
-You can ask for advice or help on [{{ site.mailinglists.discussion.name }}]({{
-site.mailinglists.discussion.url }}). If you find *bugs* or want to *request enhancements* please [file a report]({{site.github.wiki }}/ReportingProblems) in the [Issue Tracker]({{sitemap.github.issues }}).
+4. **Tutorials Repository**  
+	Browse additional learning resources and code examples in our Tutorials repository.
 
-## Videos ##
+5. **Full Documentation**  
+   For in-depth technical details, visit the [Documentation]({{ site.baseurl }}/pages/documentation/) page.
+
+6. **Watch MDAnalysis videos**  
+   Learn from conference talks, workshops, and webinars presented by core developers. Explore the [Videos](#videos) section below and our [YouTube channel](https://www.youtube.com/channel/UC3TCuK-z_bJNdwWCvsH9D3Q).
+   
+If you need help, check out our [Community]({{ site.baseurl }}/pages/community/) page.
+
+## Videos 
 
 The following videos, presented by core developers at conferences, highlight various aspects of MDAnalysis and demonstrate its use in research.
 
-In addition to conference talks, we have recorded and published a number of MDAnalysis workshop sessions on our [YouTube channel](https://www.youtube.com/channel/UC3TCuK-z_bJNdwWCvsH9D3Q), which cover hands-on tutorials and more in-depth discussions of the library's features. 
-
-### Introductory ###
+### Introductory 
 
 #### The universe as balls and springs: molecular dynamics in Python
 @lilyminium's talk at [PyCon AU 2019](https://2019.pycon-au.org/) *The universe as balls and
@@ -58,9 +68,7 @@ analysis of molecular dynamics
 simulations](http://conference.scipy.org/proceedings/scipy2016/oliver_beckstein.html)
 which adds detail to the concepts outlined in this talk.
 
-
-
-### Intermediate ###
+### Intermediate 
 
 #### Looking at molecules using Python
 @jbarnoud presented at the PyGrunn 2017 conference _Looking at
@@ -74,7 +82,6 @@ data):
 	<iframe src="https://www.youtube.com/embed/RWgt1WMwMUs" frameborder="0"
 	allowfullscreen class="video"></iframe>
 </div>
-
 
 #### BioExcel Webinar: MDAnalysis: Interoperable analysis of biomolecular simulations in Python
 
