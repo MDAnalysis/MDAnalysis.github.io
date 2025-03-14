@@ -11,16 +11,16 @@
 
     <!-- Social Media Icons -->
     <div class="sidebar-social-icons">
-      <a href="{{ site.social.linkedin }}" target="_blank" title="LinkedIn">
+      <a href="{{ site.linkedin.url }}" target="_blank" title="LinkedIn">
         <i class="fab fa-linkedin"></i>
       </a>
-      <a href="{{ site.social.bsky }}" target="_blank" title="Bluesky">
+      <a href="{{ site.bluesky.url }}" target="_blank" title="Bluesky">
         <img src="{{ site.baseurl }}/public/images/bluesky.svg" width="24" height="24" alt="Bluesky">
       </a>
-      <a href="{{ site.social.discord }}" target="_blank" title="Discord">
+      <a href="{{ site.discord.invite }}" target="_blank" title="Discord">
         <i class="fab fa-discord"></i>
       </a>
-      <a href="{{ site.social.github }}" target="_blank" title="GitHub">
+      <a href="{{ site.github.repo }}" target="_blank" title="GitHub">
         <i class="fab fa-github"></i>
       </a>
     </div>
@@ -40,14 +40,14 @@
         The code below dynamically generates a sidebar nav of pages with
         `layout: page` in the front-matter. See readme for usage.
       {% endcomment %}
-
+    
       {% assign blogpagedir = site.paginate_path | split: ":" | first %}
       {% assign blogpagedir_len = blogpagedir | size %}
       {% assign pages_list = site.pages | sort: "order" %}
       {% for node in pages_list %}
-      {% if node.title != null%}
-        {% if node.layout == "page"%}
-	  {% assign prefix = node.url | truncate: blogpagedir_len, '' %}
+        {% if node.title != null %}
+          {% if node.layout == "page" %}
+            {% assign prefix = node.url | truncate: blogpagedir_len, '' %}
             {% if prefix != blogpagedir %}
               <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
             {% endif %}
@@ -55,7 +55,7 @@
         {% endif %}
       {% endfor %}
     </nav>
-
+    
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>

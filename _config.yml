@@ -41,7 +41,7 @@ plugins:
 
 # Blog pagination
 paginate_path:   "/blog/page:num/"
-paginate:        12
+paginate:        3
 
 # jekyll-feed
 # - our previous feed was called atom.xml so we use it instead
@@ -123,8 +123,4 @@ numfocus:
   sponsored_project: https://numfocus.org/project/mdanalysis
   donate_button:     <a href="https://numfocus.org/donate-to-mdanalysis" target="_blank" style="background:#FF9200;padding:10px;margin:10px 0px;text-align:center;text-decoration:none;font-size:12pt;color:#000000;display:inline-block;border-radius:3px">Donate Now</a>
   
-social:
-  linkedin: "https://www.linkedin.com/company/mdanalysis/"
-  bsky: "https://bsky.app/profile/mdanalysis.bsky.social"
-  discord: "https://discord.com/invite/fXTSfDJyxE"
-  github: "https://github.com/MDAnalysis/mdanalysis"
+
