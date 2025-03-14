@@ -4,9 +4,9 @@ title: Events
 order: 4
 ---
 
-MDAnalysis hosts and participates in various **community-driven events, user group meetings (UGMs), and workshops** to foster collaboration, learning, and to contribute to the MDAnalysis ecosystem.
+MDAnalysis hosts and participates in various **community-driven events, user group meetings (UGMs), and workshops** to foster collaboration and learning.
 
-This page provides information on **upcoming and past events**, including **UGMs, technical workshops, and training sessions**. Whether you're a developer, researcher, or new to the field, these events provide opportunities to **engage, learn, and contribute**.
+This page provides information on **upcoming and past events**, including **UGMs, workshops and talks**. Whether you're a developer, researcher, or new to the field, these events provide opportunities to engage with and contribute to the MDAnalysis ecosystem.
 
 For mentoring programs and outreach opportunities, please visit the [Contribute]({{ site.baseurl }}/pages/contribute/) page.
 
@@ -19,7 +19,7 @@ For mentoring programs and outreach opportunities, please visit the [Contribute]
 
 ## User Group Meetings (UGMs)
 
-UGMs are community-driven meetings where developers and users present new features, share use cases, and discuss improvements.
+UGMs are meetings where users meet developers, share best practices, present new features, and discuss improvements.
 
 ### Past UGMs
 - [UGM 2024][]
@@ -27,9 +27,11 @@ UGMs are community-driven meetings where developers and users present new featur
 
 ## Workshops & Training
 
-MDAnalysis organizes workshops and training sessions to help users and developers improve their skills in molecular dynamics analysis.
+MDAnalysis organizes workshops and training sessions designed for both beginner and intermediate users to help them improve their skills in molecular dynamics analysis.
 
-Recordings of many past workshops are available on our [YouTube channel][].
+<!-- TODO: Add a link to workshop materials when available -->
+
+Recordings of past workshops are available on our [YouTube channel][].
 
 ### Past Workshops
 - [Online Workshop - Introduction to MDAnalysis and Molecular Nodes 2024][]  
