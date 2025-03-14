@@ -7,86 +7,51 @@ title: MDAnalysis
 <img src="{{ site.baseurl }}/public/mdanalysis-logo_square.png"
 style="float: right" alt="MDAnalysis" width="30%"/>
 
-**MDAnalysis** is an object-oriented Python library to analyze
-trajectories from molecular dynamics (MD) simulations in [many popular
-formats]({{site.pypi.docs}}/documentation_pages/coordinates/init.html#id1). It
-can write most of these formats, too, together with [atom
-selections]({{site.pypi.docs}}/documentation_pages/selections_modules.html#selection-exporters)
-suitable for visualization or native analysis tools.
+<!-- TODO: Correct link so it links to the specific section of this page [multiple formats]({{site.pypi.docs}}/documentation_pages/coordinates/init.html#id1)
+ -->
+**MDAnalysis** is an open-source Python library for analyzing molecular dynamics (MD) trajectories across [multiple formats]({{site.pypi.docs}}/documentation_pages/coordinates/init.html#id1). It enables seamless reading and writing of simulation data, allowing users to efficiently analyze molecular structures and dynamics, including particle-based trajectories and individual coordinate frames (e.g., biomolecules in the [PDB format][]). 
 
-MDAnalysis allows one to read particle-based trajectories (including
-individual coordinate frames such as biomolecules in the PDB format)
-and access the atomic coordinates through
-[NumPy](https://numpy.org/) arrays. This provides a flexible and
-relatively fast framework for complex analysis tasks. In addition,
-powerful atom
-[selection commands]({{site.pypi.docs}}/documentation_pages/selections.html)
-are implemented. Trajectories can also be manipulated (for instance,
-fit to a reference structure) and written out. The
-[basic example]({{ site.baseurl }}/pages/basic_example) demonstrates some
-of these features.
+With MDAnalysis, you can access atomic coordinates as [NumPy][] arrays, providing a flexible and efficient framework for complex analysis tasks. The library includes powerful [atom selection commands]({{site.pypi.docs}}/documentation_pages/selections.html) for extracting subsets of structures, supports trajectory transformations (e.g., fitting to a reference structure), and can write out trajectories along with [atom selections]({{site.pypi.docs}}/documentation_pages/selections_modules.html#selection-exporters) in formats suitable for visualization or native analysis tools.
 
-Read more:
+Learn more about our **mission, development, team, and governance** on the [About MDAnalysis]({{ site.baseurl }}about/) page.
 
-* [installation quick start]({{ site.baseurl }}/pages/installation_quick_start)
-* [learning MDAnalysis]({{ site.baseurl }}/pages/learning_MDAnalysis)
+## Get Started  
 
-Also, check out the [blog]({{ site.baseurl }}/blog) or subscribe to our 
-[news feed]({{ site.baseurl }}/{{site.feed.path}}) to follow development
-updates and events.
+If you're new to MDAnalysis, explore the following resources to install the library, access tutorials, and dive into the documentation:
 
-## Availability ##
+- [Getting Started]({{ site.baseurl }}/pages/getting_started/)  
+- [Learning MDAnalysis]({{ site.baseurl }}/pages/learning_MDAnalysis)  
+- [Documentation]({{ site.baseurl }}/pages/documentation)  
 
-MDAnalysis can be [**easily
-installed**]({{site.baseurl}}/pages/installation_quick_start/) with
-its dependencies using the ``pip`` or ``conda`` package managers;
-MDAnalysis is also available in some recent Linux distributions.
+## Community Hub
 
-All **source code** is available under the
-[GNU General Public License, version 2](https://www.gnu.org/licenses/gpl-2.0.html)
-(or any later version at your choice) from
-[github.com/MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-and the Python Package index
-[pypi.org/project/MDAnalysis](https://pypi.org/project/MDAnalysis).
+MDAnalysis is driven by an active **community of users and contributors**. Stay updated and get involved through the following pages:  
 
-## Participating ##
+<!-- TODO: Add link [Get Involved]({{ site.baseurl }}/pages/about/#get-involved)
+ -->
+- [Community]({{ site.baseurl }}/pages/community/) &mdash; Get involved, ask questions, and collaborate.
+- [Blog]({{ site.baseurl }}/blog) &mdash; Stay updated with development news and community highlights.
+- [Events]({{ site.baseurl }}/pages/events/) &mdash; Join workshops, conferences, and mentoring programs.
 
-Ask **questions** on the [{{ site.mailinglists.discussion.name }}
-forum]({{ site.mailinglists.discussion.url }}) and **be part of the
-conversation**. You can also join the [{{ site.discord.name }}
-Discord Server]({{ site.discord.url }}) to talk with other users and
-developers. (In order to join our Discord server, use the invitation link
-[{{ site.discord.invite }}]({{ site.discord.invite }}).)
+## Contributing 
 
-Please report **bugs** or **enhancement requests** through the [Issue
-Tracker]({{ site.github.issues }}). 
+Want to contribute to MDAnalysis? Here’s how:  
 
-MDAnalysis is **open source** and welcomes *your* contributions. [Fork
-the repository on
-GitHub](https://github.com/MDAnalysis/mdanalysis#fork-destination-box)
-and submit a pull request. Participate on the [{{
-site.mailinglists.developer.name }}
-forum]({{ site.mailinglists.developer.url }}).
+- [Contribute]({{ site.baseurl }}/pages/contribute/) &mdash; Learn how to help improve MDAnalysis through coding, documentation, or discussions.  
+- [MDAKits and MDA-based tools]({{ site.baseurl }}/pages/mdakits/) &mdash; Build and extend MDAnalysis with MDAKits.  
 
-MDAnalysis regularly takes part in various **mentoring and outreach programs**, such as [Google Summer of Code](https://summerofcode.withgoogle.com/), [Google Season of Docs](https://developers.google.com/season-of-docs), [Outreachy](https://www.outreachy.org/), the [Station1 Frontiers Fellowship](https://www.station1.org/sff), and the [CompChemURG](https://www.bindingsites.co.uk/home) mentorship schemes. Many of the [current core developers](/about/#mdanalysis-core-developers/) joined the project through these mentoring schemes. The project also frequently offers **teaching workshops**, both online and in-person; recordings are often made available on the [MDAnalysis YouTube channel](https://www.youtube.com/@mdanalysis3040). Follow our [blog]({{ site.baseurl }}/blog), [LinkedIn](https://www.linkedin.com/company/mdanalysis/), [Twitter](https://twitter.com/mdanalysis), and [Bluesky](https://bsky.app/profile/mdanalysis.bsky.social) pages for updates on how to participate.
+## Citing MDAnalysis
 
+If you use MDAnalysis in your research, please cite it appropriately. Check out our [Citation guidelines]({{ site.baseurl }}/pages/citations/).
 
-## Supporting ##
+## Funding & Support
 
-If you like MDAnalysis and want to support our mission, please
-consider making a donation to support our efforts.
+MDAnalysis has received generous support from organizations such as the **Chan Zuckerberg Initiative, Google, NumFOCUS, and the National Science Foundation**.  
 
-{{ site.numfocus.donate_button }}
+To learn more about out Sponsors or how to support MDAnalysis, visit our [Funding]({{ site.baseurl }}/pages/funding/) page.
 
-(Donations are made through [our fiscal sponsor][], [NumFOCUS][], which is
-a 501(c)(3) non-profit charity in the United States; as such,
-donations to NumFOCUS are tax-deductible as allowed by law.  As with
-any donation, you should consult with your personal tax adviser or the
-IRS about your particular tax situation.)
 
 [![Powered by MDAnalysis](https://img.shields.io/badge/powered%20by-MDAnalysis-orange.svg?logoWidth=16&logo=data:image/x-icon;base64,AAABAAEAEBAAAAEAIAAoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJD+XwCY/fEAkf3uAJf97wGT/a+HfHaoiIWE7n9/f+6Hh4fvgICAjwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACT/yYAlP//AJ///wCg//8JjvOchXly1oaGhv+Ghob/j4+P/39/f3IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJH8aQCY/8wAkv2kfY+elJ6al/yVlZX7iIiI8H9/f7h/f38UAAAAAAAAAAAAAAAAAAAAAAAAAAB/f38egYF/noqAebF8gYaagnx3oFpUUtZpaWr/WFhY8zo6OmT///8BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAn46Ojv+Hh4b/jouJ/4iGhfcAAADnAAAA/wAAAP8AAADIAAAAAwCj/zIAnf2VAJD/PAAAAAAAAAAAAAAAAICAgNGHh4f/gICA/4SEhP+Xl5f/AwMD/wAAAP8AAAD/AAAA/wAAAB8Aov9/ALr//wCS/Z0AAAAAAAAAAAAAAACBgYGOjo6O/4mJif+Pj4//iYmJ/wAAAOAAAAD+AAAA/wAAAP8AAABhAP7+FgCi/38Axf4fAAAAAAAAAAAAAAAAiIiID4GBgYKCgoKogoB+fYSEgZhgYGDZXl5e/m9vb/9ISEjpEBAQxw8AAFQAAAAAAAAANQAAADcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjo6Mb5iYmP+cnJz/jY2N95CQkO4pKSn/AAAA7gAAAP0AAAD7AAAAhgAAAAEAAAAAAAAAAACL/gsAkv2uAJX/QQAAAAB9fX3egoKC/4CAgP+NjY3/c3Nz+wAAAP8AAAD/AAAA/wAAAPUAAAAcAAAAAAAAAAAAnP4NAJL9rgCR/0YAAAAAfX19w4ODg/98fHz/i4uL/4qKivwAAAD/AAAA/wAAAP8AAAD1AAAAGwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALGxsVyqqqr/mpqa/6mpqf9KSUn/AAAA5QAAAPkAAAD5AAAAhQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADkUFBSuZ2dn/3V1df8uLi7bAAAATgBGfyQAAAA2AAAAMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AAADoAAAA/wAAAP8AAAD/AAAAWgC3/2AAnv3eAJ/+dgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9AAAA/wAAAP8AAAD/AAAA/wAKDzEAnP3WAKn//wCS/OgAf/8MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIQAAANwAAADtAAAA7QAAAMAAABUMAJn9gwCe/e0Aj/2LAP//AQAAAAAAAAAA)](https://www.mdanalysis.org)
-Additionally, consider displaying our badge in your projects that use
-MDAnalysis. We provide several [embedding markup examples]({{ site.baseurl }}/pages/citations/#powered-by-mdanalysis).
 
 <a href="https://github.com/MDAnalysis/mdanalysis"><img style="position: absolute; top:
 0; right: 0; border: 0;"
@@ -97,3 +62,5 @@ data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d
 
 [NumFOCUS]: https://www.numfocus.org
 [our fiscal sponsor]: {{site.baseurl}}/about#partners
+[NumPy]: https://numpy.org/
+[PDB format]: https://www.wwpdb.org/documentation/file-format
