@@ -15,18 +15,9 @@ manager formats) contains the citations associated with the specific
 algorithms and libraries that were used in the program.
 
 
-
 ## MDAnalysis library ##
 
-When using MDAnalysis in published work, please cite the following two
-papers. 
-
-(We are asking you to cite *both* papers if at all possible because
-the 2016 paper describes many updates to the original 2011 paper and
-neither paper on its own provides a comprehensive description of the
-library. We will publish a complete self-contained paper with the
-upcoming 1.0 release of MDAnalysis, which will then supersede these
-two citations.)
+To properly credit MDAnalysis, please cite both papers. The 2016 paper details significant updates to the 2011 paper, and together they provide a comprehensive description of the library.
 
  * <a name="Gowers2016"></a>R. J. Gowers, M. Linke, J. Barnoud, T. J. E. Reddy,
    M. N. Melo, S. L. Seyler, D. L. Dotson, J. Domanski, S. Buchoux,
@@ -53,7 +44,7 @@ two citations.)
 ## Powered by MDAnalysis
 [![Powered by MDAnalysis](https://img.shields.io/badge/powered%20by-MDAnalysis-orange.svg?logoWidth=16&logo=data:image/x-icon;base64,AAABAAEAEBAAAAEAIAAoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJD+XwCY/fEAkf3uAJf97wGT/a+HfHaoiIWE7n9/f+6Hh4fvgICAjwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACT/yYAlP//AJ///wCg//8JjvOchXly1oaGhv+Ghob/j4+P/39/f3IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJH8aQCY/8wAkv2kfY+elJ6al/yVlZX7iIiI8H9/f7h/f38UAAAAAAAAAAAAAAAAAAAAAAAAAAB/f38egYF/noqAebF8gYaagnx3oFpUUtZpaWr/WFhY8zo6OmT///8BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAn46Ojv+Hh4b/jouJ/4iGhfcAAADnAAAA/wAAAP8AAADIAAAAAwCj/zIAnf2VAJD/PAAAAAAAAAAAAAAAAICAgNGHh4f/gICA/4SEhP+Xl5f/AwMD/wAAAP8AAAD/AAAA/wAAAB8Aov9/ALr//wCS/Z0AAAAAAAAAAAAAAACBgYGOjo6O/4mJif+Pj4//iYmJ/wAAAOAAAAD+AAAA/wAAAP8AAABhAP7+FgCi/38Axf4fAAAAAAAAAAAAAAAAiIiID4GBgYKCgoKogoB+fYSEgZhgYGDZXl5e/m9vb/9ISEjpEBAQxw8AAFQAAAAAAAAANQAAADcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjo6Mb5iYmP+cnJz/jY2N95CQkO4pKSn/AAAA7gAAAP0AAAD7AAAAhgAAAAEAAAAAAAAAAACL/gsAkv2uAJX/QQAAAAB9fX3egoKC/4CAgP+NjY3/c3Nz+wAAAP8AAAD/AAAA/wAAAPUAAAAcAAAAAAAAAAAAnP4NAJL9rgCR/0YAAAAAfX19w4ODg/98fHz/i4uL/4qKivwAAAD/AAAA/wAAAP8AAAD1AAAAGwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALGxsVyqqqr/mpqa/6mpqf9KSUn/AAAA5QAAAPkAAAD5AAAAhQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADkUFBSuZ2dn/3V1df8uLi7bAAAATgBGfyQAAAA2AAAAMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AAADoAAAA/wAAAP8AAAD/AAAAWgC3/2AAnv3eAJ/+dgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9AAAA/wAAAP8AAAD/AAAA/wAKDzEAnP3WAKn//wCS/OgAf/8MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIQAAANwAAADtAAAA7QAAAMAAABUMAJn9gwCe/e0Aj/2LAP//AQAAAAAAAAAA)](https://www.mdanalysis.org)
 
-We appreciate it if you display our badge in your projects that use MDAnalysis. You can use the embed code below that suits your markup:
+If you use MDAnalysis in your projects, **we encourage you to display our badge**.  You can use the embed code below that suits your markup:
 
 <details>
   <summary>Markdown</summary>
@@ -87,20 +78,14 @@ We appreciate it if you display our badge in your projects that use MDAnalysis. 
 
 ## <a name="IncludedAlgorithms"></a>Included algorithms ##
 
-The full list of [references for included
-algorithms]({{site.pypi.docs}}/documentation_pages/references.html#citations-for-included-algorithms-and-modules)
-is maintained and kept up-to-date as part of the documentation.
+The full list of citations for [included algorithms]({{site.pypi.docs}}/documentation_pages/references.html#citations-for-included-algorithms-and-modules) is maintained in our documentation and updated regularly.
 
 ## Acknowledgements
 
-MDAnalysis was originally inspired by the Schulten Group's
-[MDTools](http://www.ks.uiuc.edu/Development/MDTools/) for Python, and the DCD
-reading code is derived from VMD's
-[catdcd](http://www.ks.uiuc.edu/Development/MDTools/catdcd/). MDAnalysis is GPL
-licensed, except for some 3rd party code that is included under GPL-compatible
-licenses; for instance the dcd reading code is under the [UIUC Open Source
-Licence](http://www.ks.uiuc.edu/Development/MDTools/catdcd/license.html). See
-the files AUTHORS and LICENSE in the distribution for details.
+MDAnalysis was inspired by the Schulten Group’s [MDTools](http://www.ks.uiuc.edu/Development/MDTools/) for Python. The DCD reading code originates from VMD’s [catdcd](http://www.ks.uiuc.edu/Development/MDTools/catdcd/).
+
+MDAnalysis is released under the GPL license, with some third-party code under GPL-compatible licenses, such as the DCD reading code, which is licensed under the [UIUC Open Source
+Licence](http://www.ks.uiuc.edu/Development/MDTools/catdcd/license.html). See the files AUTHORS and LICENSE in the distribution for details.
 
 The **MDAnalysis 'Atom' Logo** was designed by [**Christian
 Beckstein**](https://www.linkedin.com/in/beckstein/) and is licensed
