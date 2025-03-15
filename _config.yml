@@ -68,6 +68,10 @@ pypi:
   package:        https://pypi.org/project/MDAnalysis
   tests:          https://pypi.org/project/MDAnalysisTests
   docs:           https://docs.mdanalysis.org
+mdakits:
+  registry:       https://mdakits.mdanalysis.org/mdakits.html
+  guide:          https://mdakits.mdanalysis.org/makingakit.html 
+  issues:         https://github.com/MDAnalysis/MDAKits/issues
 mailinglists:
   discussion:
     name:         GitHub Discussions
@@ -101,6 +105,8 @@ docs:
   userguide:
     name:         User Guide
     url:          https://userguide.mdanalysis.org
+    repo:         https://github.com/MDAnalysis/UserGuide
+    issues:       https://github.com/MDAnalysis/UserGuide/issues
   quickstart:
     name:         Quick Start Guide
     url:          https://userguide.mdanalysis.org/stable/examples/quickstart.html
