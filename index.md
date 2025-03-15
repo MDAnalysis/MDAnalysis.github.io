@@ -42,7 +42,7 @@ Want to contribute to MDAnalysis? Here’s how:
 
 ## Citing MDAnalysis
 
-If you use MDAnalysis in your research, please cite it appropriately. Check out our [Citation guidelines]({{ site.baseurl }}/pages/citations/).
+If you use MDAnalysis in your research, please cite it appropriately and consider displaying our MDAnalysis badge in your projects. All citation formats and badge instructions are available in our [Citation guidelines]({{ site.baseurl }}/pages/citations/).
 
 ## Funding & Support
 
