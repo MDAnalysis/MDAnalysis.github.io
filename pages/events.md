@@ -19,7 +19,7 @@ For mentoring programs and outreach opportunities, please visit the [Contribute]
 
 ## User Group Meetings (UGMs)
 
-UGMs are meetings where users meet developers, share best practices, present new features, and discuss improvements.
+UGMs are meetings where users meet developers, share best practices, present new features, and discuss improvements. If you are interested in sponsoring or potentially hosting a UGM (or similar MDAnalysis event), please [let us know](mailto: ugm@mdanalysis.org).
 
 ### Past UGMs
 - [UGM 2024][]
