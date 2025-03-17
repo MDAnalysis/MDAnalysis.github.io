@@ -24,10 +24,25 @@ For mentoring programs and outreach opportunities, please visit the [Contribute]
 UGMs are meetings where users meet developers, share best practices, present new features, and discuss improvements. If you are interested in sponsoring or potentially hosting a UGM (or similar MDAnalysis event), please [let us know](mailto: ugm@mdanalysis.org).
 
 ### Past UGMs
-- [UGM 2024][]
-- [UGM 2023][]
 
-For a summary of MDAnalysis events and key outcomes, also see the [2024 Events Recap][] and [2023 Events Recap][]. 
+<div style="display: flex; align-items: center; gap: 10px;">
+  <img src="/public/images/mdanalysis-ugm2024.png" title="MDAnalysis UGM 2024 Logo" 
+       alt="MDAnalysis UGM 2024 Logo" style="height: 5em;" />
+  <p>
+    <strong><a href="https://www.mdanalysis.org/pages/ugm2024/">UGM 2024</a></strong>
+    (<a href="https://www.mdanalysis.org/2024/09/11/mda_2024events/#mdanalysis-ugm-user-group-meeting">Post-UGM Summary</a>)
+  </p>
+</div>
+
+<div style="display: flex; align-items: center; gap: 10px;">
+  <img src="/public/images/ugm.jpeg" title="MDAnalysis UGM 2023 Logo" 
+       alt="MDAnalysis UGM 2023 Logo" style="height: 5em;" />
+  <p>
+    <strong><a href="https://www.mdanalysis.org/pages/ugm2023/">UGM 2023</a></strong>
+    (<a href="https://www.mdanalysis.org/2024/01/15/mda_events/#mdanalysis-ugm-user-group-meeting">Post-UGM Summary</a>)
+  </p>
+</div>
+
 
 ## Workshops & Training
 
