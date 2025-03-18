@@ -82,12 +82,10 @@ The full list of citations for [included algorithms]({{site.pypi.docs}}/document
 
 ## Acknowledgements
 
-MDAnalysis was inspired by the Schulten Group’s [MDTools](http://www.ks.uiuc.edu/Development/MDTools/) for Python. The DCD reading code originates from VMD’s [catdcd](http://www.ks.uiuc.edu/Development/MDTools/catdcd/).
+MDAnalysis was inspired by the Schulten Group’s [MDTools](http://www.ks.uiuc.edu/Development/MDTools/) for Python. 
 
-MDAnalysis is released under the GPL license, with some third-party code under GPL-compatible licenses, such as the DCD reading code, which is licensed under the [UIUC Open Source
-Licence](http://www.ks.uiuc.edu/Development/MDTools/catdcd/license.html). See the files AUTHORS and LICENSE in the distribution for details.
+The DCD reading code originates from VMD’s [catdcd](http://www.ks.uiuc.edu/Development/MDTools/catdcd/).
 
-The **MDAnalysis 'Atom' Logo** was designed by [**Christian
-Beckstein**](https://www.linkedin.com/in/beckstein/) and is licensed
-under a [Creative Commons Attribution-NoDerivs 3.0 Unported
-License](http://creativecommons.org/licenses/by-nd/3.0/).
+MDAnalysis is released under the [LGPL](https://www.gnu.org/licenses/lgpl-3.0.html) license, with some third-party code under LGPL-compatible licenses. For instance, the DCD reading code is licensed under the [UIUC Open Source Licence](http://www.ks.uiuc.edu/Development/MDTools/catdcd/license.html). See the files [AUTHORS](https://github.com/MDAnalysis/mdanalysis/blob/develop/package/AUTHORS) and [LICENSE](https://github.com/MDAnalysis/mdanalysis/blob/develop/package/LICENSE) in the distribution for details.
+
+The **MDAnalysis 'Atom' Logo** was designed by [Christian Beckstein](https://www.linkedin.com/in/beckstein/). NumFOCUS as the fiscal sponsor of MDAnalysis holds all rights on the logo (see [branding/logos/LICENSE](https://github.com/MDAnalysis/branding/blob/main/logos/LICENSE)).
