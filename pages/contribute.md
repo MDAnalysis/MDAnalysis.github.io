@@ -6,7 +6,9 @@ order: 6
 
 MDAnalysis is an open-source project that welcomes and encourages contributions from the community. Whether you're a developer, documentation writer, or interested in improving the website, there are many ways to get involved.
 
-You can contribute by **developing new features, fixing bugs, improving documentation, enhancing tutorials, contributing to MDAKits, improving the website, or engaging in discussions**. Contributions also extend to our **mentoring and outreach programs**, where participants gain hands-on experience in open-source development and scientific software.
+You can contribute by **developing new features, fixing bugs, improving documentation, enhancing tutorials, contributing to MDAKits, improving the website, or engaging in discussions**. 
+
+Contributions also extend to our **mentoring and outreach programs**, where participants gain hands-on experience in open-source development and scientific software. You can also contribute by **mentoring new contributors**, helping them navigate MDAnalysis, review their work, and share best practices.
 
 If you're new, you can start by participating in community conversations and mentoring programs. For more information on how you can participate, check out the [Community]({{ site.baseurl }}/pages/community/) and [Events]({{ site.baseurl }}/pages/events/) pages.
 
@@ -63,7 +65,7 @@ To get started:
 - Browse open API documentation issues in [GitHub Issues]({{ site.github.issues }}).
 
 ## Mentoring & Outreach Programs
-MDAnalysis actively participates in various mentoring and outreach programs **to help students, researchers, and early-career contributors gain experience in open-source development and scientific software**. Through these programs, participants receive mentorship, contribute to real-world projects, and develop valuable skills in computational science and software engineering.
+MDAnalysis has actively participated in various mentoring and outreach programs **to help students, researchers, and early-career contributors gain experience in open-source development and scientific software**. Through these programs, participants receive mentorship, contribute to real-world projects, and develop valuable skills in computational science and software engineering.
 
 ### Available Programs
 We have been involved in several mentoring initiatives:
@@ -103,7 +105,7 @@ MDAnalysis has participated in Google Summer of Code for several years, mentorin
 
 If you are interested in contributing in other ways, such as improving the website or blog, you can refer to the [README file][] in the [Website Repository][]. While the website is already maintained by the MDAnalysis team, minor fixes and updates are always welcome. 
 
-If you'd like to write a **blog post**, feel free to reach out via the [Community]({{ site.baseurl }}/pages/community/) page.
+If you'd like to write a **blog post**, we welcome contributions that document your experience with MDAnalysis—whether it's learning the software, participating in a UGM, or working on a project. Feel free to reach out via the [Community]({{ site.baseurl }}/pages/community/) page for guidance on submitting a post.
 
 [core developers]: https://github.com/orgs/MDAnalysis/teams/coredevs/members
 [Website Repository]: https://github.com/MDAnalysis/MDAnalysis.github.io
