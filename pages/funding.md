@@ -3,9 +3,35 @@ layout: otherpage
 title: Funding
 ---
 
-We are grateful for financial support from the following organizations, which have supported MDAnalysis either through direct funding or indirectly by funding MDAnalysis contributors.
+We are grateful for financial support from the following organizations, which have supported MDAnalysis either directly through grants or indirectly by funding MDAnalysis contributors.
 
-### [Chan Zuckerberg Initiative][] (CZI)
+## Fiscal Sponsor: [NumFOCUS][]
+
+<a href="{{site.numfocus.sponsored_project}}"><img
+    src="{{site.images}}/numfocus-sponsored.png" title="NumFOCUS
+    sponsored project" alt="NumFOCUS Sponsored" style="display:
+    inline; float: right; height: 4em; margin: 0 0.5em" /></a>
+
+MDAnalysis is [fiscally sponsored project]({{site.numfocus.sponsored_project}}) of [NumFOCUS][], a nonprofit organization that supports **open-source scientific computing** projects. Their support allows us to sustain our development, infrastructure, and outreach efforts.
+ 
+MDAnalysis has also received [Small Development Grants](https://numfocus.org/programs/small-development-grants) (SDG) from NumFOCUS:
+
+- SDG Round 3 (**2024**): Customizable and automated scientific molecular rendering with Molecular Nodes (**Personnel**: @yuxuanzhuang, @BradyAJohnston)
+- SDG Round 2 (**2023**): Unified and comprehensive documentation and learning resources for MDAnalysis (**Personnel**: @jennaswa, @namiroues, @micaela-matta, @orbeckst, @IAlibay, @lilyminium)
+- SDG Round 2 (**2022**): Improving the organization and content of MDAnalysis teaching materials (**Personnel**: @micaela-matta, @pgbarletta)
+- SDG Round 1 (**2020**): Periodic boundary handling and on the fly transformations
+- SDG Round 2 (**2018**): MDAnalysis tutorial and hackathon
+- SDG Round 1 (**2017**): Widening platform availability for MDAnalysis: Full Python 3 Support
+
+If you like MDAnalysis and want to support our mission, **please consider making a [donation]({{site.numfocus.donate}})** to help sustain our work. 
+
+NumFOCUS is a 501(c)(3) nonprofit in the United States, and donations are tax-deductible where applicable. As with any donation, you should consult with your personal
+tax adviser or the IRS about your particular tax situation.
+
+{{ site.numfocus.donate_button }}
+
+
+## [Chan Zuckerberg Initiative][] (CZI)
 
 <a href="https://chanzuckerberg.com/"><img
     src="{{site.images}}/CZI_Logo.jpg" title="Chan Zuckerberg
@@ -17,7 +43,7 @@ MDAnalysis has been supported by the [Essential Open Source for Science](https:/
 - EOSS5, 2022-253062 (**2022**): [MDAnalysis: Outreach and Project Manager](https://chanzuckerberg.com/eoss/proposals/mdanalysis-outreach-and-project-manager/) (**Personnel**: @IAlibay, @jennaswa, @micaela-matta, @orbeckst, @richardjgowers (*PI*))
 - EOSS4, DAF2021-237663, DOI [https://doi.org/10.37921/426590wiobus](https://doi.org/10.37921/426590wiobus) (**2021**): [MDAnalysis: Faster, Extensible Molecular Analysis for Reproducible Science](https://chanzuckerberg.com/eoss/proposals/mdanalysis-faster-extensible-molecular-analysis-for-reproducible-science/) (**Personnel**: @fiona-naughton, @hmacdope, @IAlibay, @ianmkenney, @lilyminium, @orbeckst (*PI*), @richardjgowers)
 
-### [Google](https://opensource.google/)
+## [Google](https://opensource.google/)
 
 <a href="https://summerofcode.withgoogle.com/"> <img
     src="https://developers.google.com/open-source/gsoc/images/gsoc2016-sun-373x373.png"
@@ -46,7 +72,7 @@ The following technical writers were sponsored to work on MDAnalysis through the
 
 - **2019**: @lilyminium
 
-### [National Science Foundation](https://www.nsf.gov/)
+## [National Science Foundation](https://www.nsf.gov/)
 
 <a href="https://nsf.gov/">
 <img src="{{site.images}}/nsf.jpg" title="National Science
@@ -67,23 +93,8 @@ The following students were sponsored to work on MDAnalysis through the [NSF Res
 - **2016**: @rbrtdlgd
 - **2015**: @ianmkenney
 
-### [NumFOCUS][]
 
-<a href="{{site.numfocus.sponsored_project}}"><img
-    src="{{site.images}}/numfocus-sponsored.png" title="NumFOCUS
-    sponsored project" alt="NumFOCUS Sponsored" style="display:
-    inline; float: right; height: 4em; margin: 0 0.5em" /></a>
-    
-MDAnalysis thanks NumFOCUS for its continued support as our fiscal sponsor, as well as through its [Small Development Grants](https://numfocus.org/programs/small-development-grants) (SDG) program.
-
-- SDG Round 3 (**2024**): Customizable and automated scientific molecular rendering with Molecular Nodes (**Personnel**: @yuxuanzhuang, @BradyAJohnston)
-- SDG Round 2 (**2023**): Unified and comprehensive documentation and learning resources for MDAnalysis (**Personnel**: @IAlibay, @jennaswa, @lilyminium, @micaela-matta, @orbeckst)
-- SDG Round 2 (**2022**): Improving the organization and content of MDAnalysis teaching materials (**Personnel**: @micaela-matta, @pgbarletta)
-- SDG Round 1 (**2020**): Periodic boundary handling and on the fly transformations
-- SDG Round 2 (**2018**): MDAnalysis tutorial and hackathon
-- SDG Round 1 (**2017**): Widening platform availability for MDAnalysis: Full Python 3 Support
-
-### [Outreachy](https://www.outreachy.org/)
+## [Outreachy](https://www.outreachy.org/)
 
 <a href="https://www.outreachy.org/"><img
     src="{{ site.baseurl }}{{ site.images }}/Outreachy-logo.svg"
@@ -107,22 +118,6 @@ The following contributors were sponsored to work on MDAnalysis through the [Sta
 - **2023**: @jong9559, @KarenBekhazi
 
 <div style="clear: both"></div>
-
-## Partners
-
-MDAnalysis is a [fiscally sponsored
-project]({{site.numfocus.sponsored_project}}) of [NumFOCUS][], a nonprofit
-dedicated to supporting the open source scientific computing
-community. 
-
-If you like MDAnalysis and want to support our mission, please
-consider making a [donation]({{site.numfocus.donate}}) to support our
-efforts. NumFOCUS is a 501(c)(3) non-profit charity in the United
-States; as such, donations to NumFOCUS are tax-deductible as allowed
-by law.  As with any donation, you should consult with your personal
-tax adviser or the IRS about your particular tax situation.
-
-{{ site.numfocus.donate_button }}
 
 [Chan Zuckerberg Initiative]: https://chanzuckerberg.com/
 [NumFOCUS]: https://www.numfocus.org

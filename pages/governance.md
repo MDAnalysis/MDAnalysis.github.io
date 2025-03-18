@@ -12,8 +12,7 @@ The **Core Developers** lead the MDAnalysis project and are responsible to
 the community and to [NumFOCUS][], our fiscal sponsor. They **represent
 the project publicly** and **vote to make decisions for the project**.
 
-PIs on a grant submitted by MDAnalysis via NumFOCUS must be Core Developers
-while co-PIs do not have to be Core Developers.
+Principal Investigators (PIs) on a grant submitted by MDAnalysis via [NumFOCUS][] must be Core Developers while co-PIs do not have to be Core Developers.
 
 Core Developers are granted commit rights (write access) to the [GitHub source
 code repositories][orgrepo] and thus can approve pull requests for merges.
