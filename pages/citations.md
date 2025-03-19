@@ -17,7 +17,7 @@ algorithms and libraries that were used in the program.
 
 ## MDAnalysis library ##
 
-To properly credit MDAnalysis, please cite both the following papers. The 2016 paper details significant updates to the 2011 paper, and together they provide a comprehensive description of the library.
+To properly credit MDAnalysis, please cite both of the following papers. The 2016 paper details significant updates to the 2011 paper, and together they provide a comprehensive description of the library.
 
  * <a name="Gowers2016"></a>R. J. Gowers, M. Linke, J. Barnoud, T. J. E. Reddy,
    M. N. Melo, S. L. Seyler, D. L. Dotson, J. Domanski, S. Buchoux,
