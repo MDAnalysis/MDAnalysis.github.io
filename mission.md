@@ -5,7 +5,7 @@ title: Mission
 
 The MDAnalysis community is interested in all facets of **working
 with data in the computational molecular sciences**. We welcome everyone. **We all follow our
-[Code of Conduct]({{ site.baseurl }}/pages/conduct/) and strive to create an environment that is welcoming to all.** Our primary purpose is to produce software that scientists in academia and industry will trust to use in their research.
+[Code of Conduct]({{ site.baseurl }}/conduct/) and strive to create an environment that is welcoming to all.** Our primary purpose is to produce software that scientists in academia and industry will trust to use in their research.
 
 We develop and maintain projects related to the broader goal of processing and
 analyzing data in the computational molecular sciences. We aim to empower users/developers to
