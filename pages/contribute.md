@@ -12,6 +12,12 @@ Contributions also extend to our **mentoring and outreach programs**, where part
 
 If you're new, you can start by participating in community conversations and mentoring programs. For more information on how you can participate, check out the [Community]({{ site.baseurl }}/pages/community/) and [Events]({{ site.baseurl }}/pages/events/) pages.
 
+The [MDAnalysis Project][] hosts several open-source repositories beyond the main library and MDAKits. You are welcome to contribute to any of them! Each repository typically has a `CONTRIBUTING.md` file to help you get started. If you’re unsure where to begin, you can:
+
+- Check the repository’s issue tracker for open tasks.
+- Submit a pull request for improvements.
+- Contact maintainers via [GitHub discussions][] or MDAnalysis [Community]({{ site.baseurl }}/pages/community/) forums.
+
 This page provides an overview of how you can contribute to the [Codebase](#contributing-to-the-codebase), [MDAKits](#contributing-to-mdakits), [Documentation](#contributing-to-the-documentation), or [Mentoring & Outreach Programs](#mentoring--outreach-programs).
 
 ## Contributing to the Codebase
@@ -89,17 +95,22 @@ Many of our [core developers][] started through these programs &mdash; consider 
 
 ### Upcoming Opportunities
 
-Applications for [Google Summer of Code 2025][] are open! If you're interested in participating, check out our project ideas and application guidelines.
+Stay informed about upcoming opportunities such as **Google Summer of Code, Outreachy, and other mentoring programs**. For the latest announcements, deadlines, and project ideas, check out our [blog]({{ site.baseurl }}/blog/) where we share updates on participation and application guidelines.  
 
-For additional updates on upcoming events, visit our [Community]({{ site.baseurl }}/pages/community/) page.
-
-### Past GSoC
+### GSoC
 
 MDAnalysis has participated in Google Summer of Code for several years, mentoring students on a variety of open-source projects. Explore our past projects:
 
+- [GSoC 2025][] 
 - [GSoC 2024][] 
 - [GSoC 2023][] 
 - [GSoC 2022][] 
+- [GSoC 2021][] 
+- [GSoC 2020][] 
+- [GSoC 2019][] 
+- [GSoC 2018][] 
+- [GSoC 2017][] 
+- [GSoC 2016][] 
 
 ## Other Contributions
 
@@ -107,10 +118,19 @@ If you are interested in contributing in other ways, such as improving the websi
 
 If you'd like to write a **blog post**, we welcome contributions that document your experience with MDAnalysis—whether it's learning the software, participating in a UGM, or working on a project. Feel free to reach out via the [Community]({{ site.baseurl }}/pages/community/) page for guidance on submitting a post.
 
+[MDAnalysis Project]: https://github.com/MDAnalysis/
+[GitHub discussions]: https://github.com/MDAnalysis/mdanalysis/discussions
 [core developers]: https://github.com/orgs/MDAnalysis/teams/coredevs/members
 [Website Repository]: https://github.com/MDAnalysis/MDAnalysis.github.io
 [README file]: https://github.com/namiroues/MDAnalysis.github.io/blob/master/README.md
-[Google Summer of Code 2025]: https://www.mdanalysis.org/2025/02/28/gsoc2025/
+[GSoC 2025]: https://www.mdanalysis.org/2025/02/28/gsoc2025/
 [GSoC 2024]: https://www.mdanalysis.org/2024/02/27/gsoc2024/
 [GSoC 2023]: https://www.mdanalysis.org/2023/02/22/gsoc2023/
 [GSoC 2022]: https://www.mdanalysis.org/2022/03/07/gsoc2022/
+[GSoC 2021]: https://www.mdanalysis.org/2021/03/09/gsoc2021/
+[GSoC 2020]: https://www.mdanalysis.org/2020/02/22/gsoc2020/
+[GSoC 2019]: https://www.mdanalysis.org/2019/03/04/gsoc2019/
+[GSoC 2018]: https://www.mdanalysis.org/2018/02/14/gsoc2018/
+[GSoC 2017]: https://www.mdanalysis.org/2017/03/02/gsoc2017/
+[GSoC 2016]: https://www.mdanalysis.org/2016/04/26/gsoc/
+
