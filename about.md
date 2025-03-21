@@ -20,7 +20,7 @@ The MDAnalysis Project is committed to open-source, reproducible computational r
 
 ## Team & Leadership
 
-MDAnalysis is maintained by the [Core Developers]({{ site.baseurl }}/pages/governance//#mdanalysis-core-developers) who lead the project and make key decisions regarding its development. Past contributors who've stepped back become Emeriti Core Developers.
+MDAnalysis is maintained by the [Core Developers]({{ site.baseurl }}/pages/governance/#mdanalysis-core-developers) who lead the project and make key decisions regarding its development. Past contributors who've stepped back become Emeriti Core Developers.
 
 Our governance structure ensures transparency and sustainability. See our [Governance]({{ site.baseurl }}/pages/governance/) and [Team]({{ site.baseurl }}/pages/team/) pages for more details.
 
