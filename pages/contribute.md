@@ -73,7 +73,10 @@ To get started:
 ## Mentoring & Outreach Programs
 MDAnalysis has actively participated in various mentoring and outreach programs **to help students, researchers, and early-career contributors gain experience in open-source development and scientific software**. Through these programs, participants receive mentorship, contribute to real-world projects, and develop valuable skills in computational science and software engineering.
 
-### Available Programs
+### Stay informed
+
+Stay informed about upcoming opportunities such as **Google Summer of Code, Outreachy, and other mentoring programs**. For the latest announcements, deadlines, and project ideas, check out our [blog]({{ site.baseurl }}/blog/) where we share updates on participation and application guidelines.  
+
 We have been involved in several mentoring initiatives:
 
 - **[Google Summer of Code (GSoC)](https://summerofcode.withgoogle.com/)** \
@@ -92,10 +95,6 @@ We have been involved in several mentoring initiatives:
     A mentoring initiative focused on computational chemistry, supporting undergraduates and early-career researchers in gaining expertise in the field.
 
 Many of our [core developers][] started through these programs &mdash; consider joining and becoming part of the MDAnalysis community!
-
-### Upcoming Opportunities
-
-Stay informed about upcoming opportunities such as **Google Summer of Code, Outreachy, and other mentoring programs**. For the latest announcements, deadlines, and project ideas, check out our [blog]({{ site.baseurl }}/blog/) where we share updates on participation and application guidelines.  
 
 ### GSoC
 
