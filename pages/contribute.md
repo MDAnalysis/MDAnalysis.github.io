@@ -30,7 +30,7 @@ MDAnalysis is developed and maintained in the [MDAnalysis Main Code Repository](
 - The [API documentation]({{ site.docs.mdanalysis.url }}/stable/index.html), generated from in-code docstrings.
 - [Open issues]({{ site.github.issues }}), where contributions such as bug fixes and feature implementations are tracked.
 
-### How to Get Started
+#### How to Get Started
 - Read the [Contributing to the Main Codebase]({{ site.docs.userguide.url }}/stable/contributing_code.html#working-with-mdanalysis-code) guide, which outlines all the necessary steps.
 - Browse [GitHub Issues]({{ site.github.issues }}) to find open tasks. Look for "good first issue" if you're a beginner. You can also report bugs or suggest improvements there.
 - Follow best practices, including
@@ -43,7 +43,8 @@ MDAnalysis is developed and maintained in the [MDAnalysis Main Code Repository](
 ### MDAKits Registry
 The [MDAKits Registry]({{ site.mdakits.registry }}) lists active projects contributed by the community. These projects cover various applications, such as enhanced trajectory analysis, molecular simulations, and integration with machine learning frameworks.
 
-### How to Get Started
+#### How to Get Started
+
 - Explore existing MDAKits in the [MDAKits Registry]({{ site.mdakits.registry }}) to find projects that match your interests. Each entry includes functionality, installation instructions, and contribution guidelines.
 - Find open issues in [MDAKits GitHub Issues]({{ site.mdakits.issues }}).
 - Propose a new MDAKit by following the [MDAKits Guide]({{ site.mdakits.guide }}).
@@ -57,7 +58,7 @@ Good documentation is essential to making MDAnalysis accessible to users and dev
 ### User Guide
 The [User Guide]({{ site.docs.userguide.url }}/stable/index.html) provides tutorials and explanatory content to help users install and learn MDAnalysis. You can contribute by updating unclear explanations, adding new tutorials or examples, or fixing outdated information. 
 
-### How to Get Started
+#### How to Get Started
 - Work on the [User Guide Repository]({{ site.docs.userguide.repo }}).
 - Follow the [Contributing to the User Guide]({{ site.docs.userguide.url }}/stable/contributing_docs.html).
 - Check for open documentation-related issues in the [User Guide GitHub Issues]({{ site.docs.userguide.issues }}).
@@ -65,7 +66,7 @@ The [User Guide]({{ site.docs.userguide.url }}/stable/index.html) provides tutor
 ### API Reference
 The [API reference]({{ site.docs.mdanalysis.url }}/stable/index.html) is **automatically generated** from *docstrings* in the codebase. It provides a structured reference for developers working with MDAnalysis. You can contribute by improving *docstrings* for functions, classes, and modules or updating outdated documentation.
 
-To get started:
+#### How to Get Started
 - Work on the [MDAnalysis Main Code Repository]({{ site.github.repo }}).
 - Follow the [API Documentation Contribution Guide]({{ site.docs.userguide.url }}/stable/contributing_code.html#working-with-mdanalysis-docs).
 - Browse open API documentation issues in [GitHub Issues]({{ site.github.issues }}).
@@ -94,42 +95,31 @@ We have been involved in several mentoring initiatives:
 - **[CompChemURG](https://www.bindingsites.co.uk/home)**  \
     A mentoring initiative focused on computational chemistry, supporting undergraduates and early-career researchers in gaining expertise in the field.
 
-Many of our [core developers][] started through these programs &mdash; consider joining and becoming part of the MDAnalysis community!
+Many of our [core developers]({{ site.baseurl }}/governance/#mdanalysis-core-developers) started through these programs &mdash; consider joining and becoming part of the MDAnalysis community!
 
 ### GSoC
 
 MDAnalysis has participated in Google Summer of Code for several years, mentoring students on a variety of open-source projects. Explore our past projects:
 
-- [GSoC 2025][] 
-- [GSoC 2024][] 
-- [GSoC 2023][] 
-- [GSoC 2022][] 
-- [GSoC 2021][] 
-- [GSoC 2020][] 
-- [GSoC 2019][] 
-- [GSoC 2018][] 
-- [GSoC 2017][] 
-- [GSoC 2016][] 
+- [GSoC 2025]({% post_url 2025-02-28-gsoc2025 %})
+- [GSoC 2024]({% post_url 2024-02-27-gsoc2024 %})
+- [GSoC 2023]({% post_url 2023-02-22-gsoc2023 %})
+- [GSoC 2022]({% post_url 2022-03-07-gsoc2022 %})
+- [GSoC 2021]({% post_url 2021-03-09-gsoc2021 %})
+- [GSoC 2020]({% post_url 2020-02-22-gsoc2020 %})
+- [GSoC 2019]({% post_url 2019-03-04-gsoc2019 %})
+- [GSoC 2018]({% post_url 2018-02-14-gsoc2018 %})
+- [GSoC 2017]({% post_url 2017-03-02-gsoc2017 %})
+- [GSoC 2016]({% post_url 2016-04-26-gsoc %})
 
 ## Other Contributions
 
-If you are interested in contributing in other ways, such as improving the website or blog, you can refer to the [README file][] in the [Website Repository][]. While the website is already maintained by the MDAnalysis team, minor fixes and updates are always welcome. 
+If you are interested in contributing in other ways, such as improving the website or blog, you can refer to the [README file][] in the [Website Repository][]. While the website is already maintained by the MDAnalysis team, any fixes and updates are always welcome. 
 
 If you'd like to write a **blog post**, we welcome contributions that document your experience with MDAnalysis—whether it's learning the software, participating in a UGM, or working on a project. Feel free to reach out via the [Community]({{ site.baseurl }}/pages/community/) page for guidance on submitting a post.
 
 [MDAnalysis Project]: https://github.com/MDAnalysis/
 [GitHub discussions]: https://github.com/MDAnalysis/mdanalysis/discussions
-[core developers]: https://github.com/orgs/MDAnalysis/teams/coredevs/members
 [Website Repository]: https://github.com/MDAnalysis/MDAnalysis.github.io
 [README file]: https://github.com/namiroues/MDAnalysis.github.io/blob/master/README.md
-[GSoC 2025]: https://www.mdanalysis.org/2025/02/28/gsoc2025/
-[GSoC 2024]: https://www.mdanalysis.org/2024/02/27/gsoc2024/
-[GSoC 2023]: https://www.mdanalysis.org/2023/02/22/gsoc2023/
-[GSoC 2022]: https://www.mdanalysis.org/2022/03/07/gsoc2022/
-[GSoC 2021]: https://www.mdanalysis.org/2021/03/09/gsoc2021/
-[GSoC 2020]: https://www.mdanalysis.org/2020/02/22/gsoc2020/
-[GSoC 2019]: https://www.mdanalysis.org/2019/03/04/gsoc2019/
-[GSoC 2018]: https://www.mdanalysis.org/2018/02/14/gsoc2018/
-[GSoC 2017]: https://www.mdanalysis.org/2017/03/02/gsoc2017/
-[GSoC 2016]: https://www.mdanalysis.org/2016/04/26/gsoc/
 
