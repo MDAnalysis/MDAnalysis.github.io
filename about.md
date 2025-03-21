@@ -33,7 +33,7 @@ Learn more on .
     sponsored project" alt="NumFOCUS Sponsored" style="display:
     inline; float: right; height: 4em; margin: 0 0.5em" /></a>
 
-MDAnalysis is supported by grants, sponsorships, and community contributions. As a fiscally-sponsored project of [NumFOCUS][], we receive funding from various organizations that play key roles in supporting our development.
+MDAnalysis is a fiscally-sponsored project of [NumFOCUS][]. We are also supported by grants, sponsorships, and community contributions that play key roles in supporting our development.
 
  See our [Funding]({{ site.baseurl }}/pages/funding/) page for more details on our **funding sources and how you can support MDAnalysis**.
 
