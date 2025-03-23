@@ -45,10 +45,10 @@ The [MDAKits Registry]({{ site.mdakits.registry }}) lists active projects contri
 
 #### How to Get Started
 
-- Explore existing MDAKits in the [MDAKits Registry]({{ site.mdakits.registry }}) to find projects that match your interests. Each entry includes functionality, installation instructions, and contribution guidelines.
 - Find open issues in [MDAKits GitHub Issues]({{ site.mdakits.issues }}).
 - Propose a new MDAKit by following the [MDAKits Guide]({{ site.mdakits.guide }}).
 - Contribute to an existing MDAKit by collaborating with maintainers to improve functionality, fix bugs, or add new features.
+- Explore existing MDAKits in the [MDAKits Registry]({{ site.mdakits.registry }}) to find projects that match your interests. Each entry includes functionality, installation instructions, and contribution guidelines.
 
 MDAKits follow MDAnalysis coding standards but operate independently. Contributions to these projects are highly encouraged and help expand the MDAnalysis ecosystem.
 
