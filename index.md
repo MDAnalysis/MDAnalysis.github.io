@@ -7,17 +7,19 @@ title: MDAnalysis
 <img src="{{ site.baseurl }}/public/mdanalysis-logo_square.png"
 style="float: right" alt="MDAnalysis" width="30%"/>
 
- The **MDAnalysis Project** develops open-source tools for the analysis of molecular simulation data, providing researchers with efficient and accessible solutions for studying molecular structures and dynamics. The project is a fiscally sponsored initiative of [NumFOCUS][], a nonprofit organization that supports open-source scientific computing.
+ The **MDAnalysis Project** develops open-source tools for the analysis of molecular simulation data, providing researchers with efficient and accessible solutions for studying molecular structures and dynamics.
 
-At the core of the project is MDAnalysis, **an open-source Python library** for analyzing molecular dynamics (MD) trajectories across [multiple formats]({{ site.docs.userguide.url }}/formats/index.html#formats). MDAnalysis enables seamless reading and writing of simulation data, allowing users to efficiently analyze molecular structures and dynamics, including particle-based trajectories and individual coordinate frames (e.g., biomolecules in the [PDB format][]).
+ MDAnalysis is a fiscally sponsored project of [NumFOCUS][], a nonprofit that promotes open practices in research, data, and scientific computing.
+ 
+At the core of the project is *MDAnalysis*, **an open-source Python library** for analyzing molecular dynamics (MD) trajectories across [multiple formats]({{ site.docs.userguide.url }}/formats/index.html#formats). *MDAnalysis* enables seamless reading and writing of simulation data, allowing users to efficiently analyze molecular structures and dynamics, including particle-based trajectories and individual coordinate frames (e.g., biomolecules in the [PDB format][]).
 
-With MDAnalysis, you can access atomic coordinates as [NumPy][] arrays, providing a flexible and efficient framework for complex analysis tasks. The library includes powerful [atom selection commands]({{ site.docs.userguide.url }}/selections.html) for extracting subsets of structures and supports trajectory transformations (e.g., fitting to a reference structure).
+With *MDAnalysis*, you can access atomic coordinates as [NumPy][] arrays, providing a flexible and efficient framework for complex analysis tasks. The library includes powerful [atom selection commands]({{ site.docs.userguide.url }}/selections.html) for extracting subsets of structures and supports trajectory transformations (e.g., fitting to a reference structure).
 
 Learn more about our **mission, development, team, and governance** on the [About MDAnalysis]({{ site.baseurl }}/about/) page.
 
 ## Get Started  
 
-If you're new to MDAnalysis, explore the following resources to install the library, access tutorials, and dive into the documentation:
+If you're new to *MDAnalysis*, explore the following resources to install the `MDAnalysis` package, access tutorials, and dive into the documentation:
 
 - [Getting Started]({{ site.baseurl }}/pages/getting_started/)  
 - [Learning MDAnalysis]({{ site.baseurl }}/pages/learning_MDAnalysis)  
@@ -39,6 +41,8 @@ Want to contribute to MDAnalysis? Here’s how:
 
 - [Contribute]({{ site.baseurl }}/pages/contribute/) &mdash; Learn how to help improve MDAnalysis through coding, documentation, or discussions.  
 - [MDAKits and MDA-based tools]({{ site.baseurl }}/pages/mdakits/) &mdash; Build and extend MDAnalysis with MDAKits.  
+- [Support MDAnalysis financially](#funding--support) &mdash; Donate via NumFOCUS to sustain the project.
+
 
 ## Citing MDAnalysis
 
@@ -50,18 +54,19 @@ Additionally, consider displaying our badge in your projects that use MDAnalysis
 
 ## Funding & Support
 
-MDAnalysis is a fiscally sponsored project of [NumFOCUS][]. We have received generous support from organizations such as the **Chan Zuckerberg Initiative, Google, and the National Science Foundation**.
+If you find MDAnalysis useful and would like to support its continued development, please consider making a donation. You can learn more about out Sponsors in our [Funding]({{ site.baseurl }}/pages/funding/) page.
 
 {{ site.numfocus.donate_button }}
 
-To learn more about our Sponsors or how to support MDAnalysis, visit our [Funding]({{ site.baseurl }}/pages/funding/) page.
+<small>
+    Donations are made through [our fiscal sponsor][], [NumFOCUS][], which is a 501(c)(3) non-profit charity in the United States; as such, donations to NumFOCUS are tax-deductible as allowed by law.  As with any donation, you should consult with your personal tax adviser or the IRS about your particular tax situation.
+</small>
 
 <a href="https://github.com/MDAnalysis/mdanalysis"><img style="position: absolute; top:
 0; right: 0; border: 0;"
 src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67"
 alt="Fork me on GitHub"
 data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
-
 
 [NumFOCUS]: https://www.numfocus.org
 [our fiscal sponsor]: {{site.baseurl}}/about#partners
