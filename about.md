@@ -24,8 +24,6 @@ MDAnalysis is maintained by the [Core Developers]({{ site.baseurl }}/pages/gover
 
 Our governance structure ensures transparency and sustainability. See our [Governance]({{ site.baseurl }}/pages/governance/) and [Team]({{ site.baseurl }}/pages/team/) pages for more details.
 
-Learn more on .
-
 ## Funding & Sponsors
 
 <a href="{{site.numfocus.sponsored_project}}"><img
