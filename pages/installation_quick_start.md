@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: otherpage
 title: Installation Quick Start
-order: 2
 ---
 
 MDAnalysis can be installed using [mamba][], a faster drop-in replacement for [conda][], or [pip][].
