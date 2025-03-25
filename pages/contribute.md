@@ -44,7 +44,6 @@ MDAnalysis is developed and maintained in the [MDAnalysis Main Code Repository](
 The [MDAKits Registry]({{ site.mdakits.registry }}) lists active projects contributed by the community. These projects cover various applications, such as enhanced trajectory analysis, molecular simulations, and integration with machine learning frameworks.
 
 #### How to Get Started
-
 - Find open issues in [MDAKits GitHub Issues]({{ site.mdakits.issues }}).
 - Propose a new MDAKit by following the [MDAKits Guide]({{ site.mdakits.guide }}).
 - Contribute to an existing MDAKit by collaborating with maintainers to improve functionality, fix bugs, or add new features.
@@ -75,8 +74,7 @@ The [API reference]({{ site.docs.mdanalysis.url }}/stable/index.html) is **autom
 MDAnalysis has actively participated in various mentoring and outreach programs **to help students, researchers, and early-career contributors gain experience in open-source development and scientific software**. Through these programs, participants receive mentorship, contribute to real-world projects, and develop valuable skills in computational science and software engineering.
 
 ### Stay informed
-
-Stay informed about upcoming opportunities such as **Google Summer of Code, Outreachy, and other mentoring programs**. For the latest announcements, deadlines, and project ideas, check out our [blog]({{ site.baseurl }}/blog/) where we share updates on participation and application guidelines.  
+For the latest announcements, deadlines, and project ideas, check out our [blog]({{ site.baseurl }}/blog/) where we share updates on participation and application guidelines.  
 
 We have been involved in several mentoring initiatives:
 
@@ -98,7 +96,6 @@ We have been involved in several mentoring initiatives:
 Many of our [core developers]({{ site.baseurl }}/governance/#mdanalysis-core-developers) started through these programs &mdash; consider joining and becoming part of the MDAnalysis community!
 
 ### GSoC
-
 MDAnalysis has participated in Google Summer of Code for several years, mentoring students on a variety of open-source projects. Explore our past projects:
 
 - [GSoC 2025]({% post_url 2025-02-28-gsoc2025 %})
@@ -113,10 +110,9 @@ MDAnalysis has participated in Google Summer of Code for several years, mentorin
 - [GSoC 2016]({% post_url 2016-04-26-gsoc %})
 
 ## Other Contributions
+If you are interested in contributing in other ways, such as writing a **blog post**, we welcome contributions that document your experience with MDAnalysis &mdash; whether it's learning the software, participating in a UGM, or working on a project. Feel free to reach out via the [Community]({{ site.baseurl }}/pages/community/) page for guidance on submitting a post.
 
-If you are interested in contributing in other ways, such as improving the website or blog, you can refer to the [README file][] in the [Website Repository][]. While the website is already maintained by the MDAnalysis team, any fixes and updates are always welcome. 
-
-If you'd like to write a **blog post**, we welcome contributions that document your experience with MDAnalysis—whether it's learning the software, participating in a UGM, or working on a project. Feel free to reach out via the [Community]({{ site.baseurl }}/pages/community/) page for guidance on submitting a post.
+If you are interested in improving our website, you can refer to the [README file][] in the [Website Repository][]. While the website is already maintained by the MDAnalysis team, any fixes and updates are always welcome.
 
 [MDAnalysis Project]: https://github.com/MDAnalysis/
 [GitHub discussions]: https://github.com/MDAnalysis/mdanalysis/discussions
