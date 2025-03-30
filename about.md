@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About MDAnalysis
+order: 10
 ---
 
 <img src="{{ site.baseurl }}/public/mdanalysis-logo_square.png"

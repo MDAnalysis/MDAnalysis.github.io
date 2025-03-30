@@ -9,8 +9,29 @@
       <p class="lead">{{ site.description }}</p>
     </div>
 
-    <div id="docsearch">Enable javascript for search.</div>
-
+    <!-- Social Media Icons -->
+    <div class="sidebar-social-icons">
+      <a href="{{ site.linkedin.url }}" target="_blank" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="{{ site.bluesky.url }}" target="_blank" title="Bluesky">
+        <img src="{{ site.baseurl }}/public/images/bluesky.svg" width="24" height="24" alt="Bluesky">
+      </a>
+      <a href="{{ site.discord.invite }}" target="_blank" title="Discord">
+        <i class="fab fa-discord"></i>
+      </a>
+      <a href="{{ site.github.repo }}" target="_blank" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    
+    <!-- Search Bar -->
+    <div class="sidebar-search">
+      <div class="sidebar-search-box">
+        <div id="docsearch">Enable javascript for search.</div>
+      </div>
+    </div>
+    
     <nav class="sidebar-nav">
       {% assign site_base_url = site.baseurl | append: "/" %}
       <a class="sidebar-nav-item{% if page.url == site_base_url %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
@@ -19,7 +40,7 @@
         The code below dynamically generates a sidebar nav of pages with
         `layout: page` in the front-matter. See readme for usage.
       {% endcomment %}
-
+    
       {% assign blogpagedir = site.paginate_path | split: ":" | first %}
       {% assign blogpagedir_len = blogpagedir | size %}
       {% assign pages_list = site.pages | sort: "order" %}
@@ -33,14 +54,8 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-
-      <a class="sidebar-nav-item" href="{{ site.docs.userguide.url }}">User Guide</a>	      
-      <a class="sidebar-nav-item" href="{{ site.docs.mdanalysis.url }}">Docs</a>
-      <a class="sidebar-nav-item" href="{{ site.pypi.package }}">Download</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-      <a class="sidebar-nav-item" href="{{ site.twitter.url }}">@{{ site.twitter.name }}</a>
     </nav>
-
+    
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
