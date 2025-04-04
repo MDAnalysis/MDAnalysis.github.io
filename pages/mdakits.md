@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MDAKits and MDA-based tools
-order: 5
+order: 4
 ---
 
 MDAnalysis is developed with extensibility in mind, allowing
