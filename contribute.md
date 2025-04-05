@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contribute
-order: 5
+order: 8
 ---
 
 MDAnalysis is an open-source project that welcomes and encourages contributions from the community. Whether you're a developer, documentation writer, or interested in improving the website, there are many ways to get involved.
@@ -10,13 +10,13 @@ You can contribute by **developing new features, fixing bugs, improving document
 
 Contributions also extend to our **mentoring and outreach programs**, where participants gain hands-on experience in open-source development and scientific software. You can also contribute by **mentoring new contributors**, helping them navigate MDAnalysis, review their work, and share best practices.
 
-If you're new, you can start by participating in community conversations and mentoring programs. For more information on how you can participate, check out the [Community]({{ site.baseurl }}/pages/community/) and [Events]({{ site.baseurl }}/pages/events/) pages.
+If you're new, you can start by participating in community conversations and mentoring programs. For more information on how you can participate, check out the [Community]({{ site.baseurl }}/community/) and [Events]({{ site.baseurl }}events) pages.
 
 The [MDAnalysis Project][] hosts several open-source repositories beyond the main library and MDAKits. You are welcome to contribute to any of them! Each repository typically has a `CONTRIBUTING.md` file to help you get started. If you’re unsure where to begin, you can:
 
 - Check the repository’s issue tracker for open tasks.
 - Submit a pull request for improvements.
-- Contact maintainers via [GitHub discussions][] or MDAnalysis [Community]({{ site.baseurl }}/pages/community/) forums.
+- Contact maintainers via [GitHub discussions][] or MDAnalysis [Community]({{ site.baseurl }}/community/) forums.
 
 This page provides an overview of how you can contribute to the [Codebase](#contributing-to-the-codebase), [MDAKits](#contributing-to-mdakits), [Documentation](#contributing-to-the-documentation), or [Mentoring & Outreach Programs](#mentoring--outreach-programs).
 
@@ -74,7 +74,7 @@ The [API reference]({{ site.docs.mdanalysis.url }}/stable/index.html) is **autom
 MDAnalysis has actively participated in various mentoring and outreach programs **to help students, researchers, and early-career contributors gain experience in open-source development and scientific software**. Through these programs, participants receive mentorship, contribute to real-world projects, and develop valuable skills in computational science and software engineering.
 
 ### Stay informed
-For the latest announcements, deadlines, and project ideas, check out our [blog]({{ site.baseurl }}/blog/) where we share updates on participation and application guidelines.  
+For the latest announcements, deadlines, and project ideas, check out our [News]({{ site.baseurl }}/blog/) where we share updates on participation and application guidelines.  
 
 We have been involved in several mentoring initiatives:
 
@@ -110,7 +110,7 @@ MDAnalysis has participated in Google Summer of Code for several years, mentorin
 - [GSoC 2016]({% post_url 2016-04-26-gsoc %})
 
 ## Other Contributions
-If you are interested in contributing in other ways, such as writing a **blog post**, we welcome contributions that document your experience with MDAnalysis &mdash; whether it's learning the software, participating in a UGM, or working on a project. Feel free to reach out via the [Community]({{ site.baseurl }}/pages/community/) page for guidance on submitting a post.
+If you are interested in contributing in other ways, such as writing a **blog post**, we welcome contributions that document your experience with MDAnalysis &mdash; whether it's learning the software, participating in a UGM, or working on a project. Feel free to reach out via the [Community]({{ site.baseurl }}/community/) page for guidance on submitting a post.
 
 If you are interested in improving our website, you can refer to the [README file][] in the [Website Repository][]. While the website is already maintained by the MDAnalysis team, any fixes and updates are always welcome.
 

@@ -1,16 +1,16 @@
 ---
 layout: page
 title: Events
-order: 7
+order: 6
 ---
 
 MDAnalysis hosts and participates in various **community-driven events, user group meetings (UGMs), workshops, and hackathons** to foster collaboration and learning.
 
 This page provides information on **upcoming and past events**, including **UGMs, workshops, and talks**. Whether you're a developer, researcher, or new to the field, these events provide opportunities to engage with and contribute to the MDAnalysis ecosystem.
 
-For the latest discussions, **join the MDAnalysis community channels** by visiting our [Community]({{ site.baseurl }}/pages/community/) page.
+For the latest discussions, **join the MDAnalysis community channels** by visiting our [Community]({{ site.baseurl }}/community/) page.
 
-For mentoring programs and outreach opportunities, please visit the [Contribute]({{ site.baseurl }}/pages/contribute/) page.
+For mentoring programs and outreach opportunities, please visit the [Contribute]({{ site.baseurl }}/contribute/) page.
 
 <!--  Uncomment the following section when new events are announced 
 
