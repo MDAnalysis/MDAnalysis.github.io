@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MDAnalysis team
+title: MDAnalysis Team
 order: 9
 ---
 
