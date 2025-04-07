@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Events
-order: 6
+order: 7
 ---
 
 MDAnalysis hosts and participates in various **community-driven events, user group meetings (UGMs), workshops, and hackathons** to foster collaboration and learning.
