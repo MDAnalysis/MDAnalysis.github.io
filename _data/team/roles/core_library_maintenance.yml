@@ -9,25 +9,38 @@ subroles:
       - Initial triage and tagging of issues
       - Managing timely responses and resolving issues
     current_members:
-      - Rocco Meli
-      - Hugo MacDermott-Opeskin
+      - "[Brady Johnston](https://github.com/bradyajohnston)"
+      - "[Egor Marin](https://github.com/marinegor)"
+      - "[Hugo MacDermott-Opeskin](https://github.com/hmacdope)"
+      - "[Paul Smith](https://github.com/p-j-smith)"
+      - "[Rocco Meli](https://github.com/RMeli)"
+
+
     
 
   - subrole: Pull request management
     tasks:
       - Reviewing, shepherding, and merging pull requests
     current_members:
-      - Oliver Beckstein
-      - Rocco Meli
-      - Hugo MacDermott-Opeskin
+      - "[Egor Marin](https://github.com/marinegor)"
+      - "[Oliver Beckstein](https://github.com/orbeckst)"
+      - "[Hugo MacDermott-Opeskin](https://github.com/hmacdope)"
+      - "[Paul Smith](https://github.com/p-j-smith)"
+      - "[Rocco Meli](https://github.com/RMeli)"
+
+
     
   
   - subrole: General maintenance
     tasks:
-      - Monitoring and acting on maintenance needs across the MDAnalysis ecosystem
-      - Standards compliance (e.g. managing metadata such as the author list)
+      - Monitoring maintenance needs across the MDAnalysis ecosystem
+      - Acting on maintenance needs, or delegating to appropriate managers of sub-projects, as necessary
+      - Standards compliance (e.g., managing metadata such as the author list)
       - Tracking new dependencies
       - Emergency fixes
       - Other general maintenance tasks
     current_members:
-      - Irfan Alibay
+      - "[Brady Johnston](https://github.com/bradyajohnston)"
+      - "[Irfan Alibay](https://github.com/IAlibay)"
+      - "[Paul Smith](https://github.com/p-j-smith)"
+      - "[Yuxuan Zhuang](https://github.com/yuxuanzhuang)"

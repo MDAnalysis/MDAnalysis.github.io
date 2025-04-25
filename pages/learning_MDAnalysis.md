@@ -4,72 +4,45 @@ title: Learning MDAnalysis
 order: 3
 ---
 
-Once you had a look at the 
-[basic example]({{ site.baseurl }}/pages/basic_example) 
-you might want to learn more about how to use
-MDAnalysis. MDAnalysis is primarily a library that helps you to build
-your own tools but it also works very well for **interactive data
-exploration** of MD data in [IPython](http://ipython.org/), in
-particular within [Jupyter notebooks](https://jupyter.org/) and in
-conjunction with [pandas](http://pandas.pydata.org/). MDAnalysis is
-well suited for a *rapid development* approach.
+MDAnalysis is a powerful Python library for analyzing MD simulations. While primarily designed to help you build custom analysis tools, it also supports interactive data exploration in environments like [IPython](http://ipython.org/) and [Jupyter notebooks](https://jupyter.org/), especially when combined with [pandas](http://pandas.pydata.org/). This makes MDAnalysis an excellent choice for rapid prototyping and exploratory analysis.
 
-The resources below should help you to quickly find out to best use
-MDAnalysis for your own specific uses.
+MDAnalysis is an academic software package, and if you use it in your research, please cite the relevant publications. For details on how to cite MDAnalysis, visit our [Citations]({{ site.baseurl }}/pages/citations/) page.
 
+Whether you're new to MDAnalysis or looking to deepen your expertise, this page will guide you through our learning resources.
 
-## Tutorials ##
+## Step-by-Step Guide to Learning MDAnalysis
 
-Start with the [{{ site.docs.quickstart.name }}]({{
-site.docs.quickstart.url }}) when you are new MDAnalysis.
+1. **Install MDAnalysis**  
+   Follow the instructions in [Getting Started]({{ site.baseurl }}/pages/getting_started/) to install MDAnalysis.
 
-Then browse the [{{ site.docs.userguide.name }}]({{ site.docs.userguide.url }}), which contains detailed documentation for all the important parts of MDAnalysis and many self-contained tutorials.
+2. **Quickstart Tutorial**      
+	Begin with the [{{ site.docs.quickstart.name }}]({{ site.docs.quickstart.url }}) tutorial to write and run your first MDAnalysis script.
 
+3. **User Guide**  
+	Explore the [{{ site.docs.userguide.name }}]({{ site.docs.userguide.url }}) for detailed tutorials and self-contained examples.
 
-There are a number of [older tutorials]({{site.github.wiki}}/Tutorials) available, too, although we recommend new users start  with [{{ site.docs.quickstart.name }}]({{
-site.docs.quickstart.url }}) and then start reading the [{{ site.docs.userguide.name }}]({{ site.docs.userguide.url }}).
+4. **Tutorials Repository**  
+	Browse additional learning resources and code examples in our Tutorials repository.
 
+5. **Full Documentation**  
+   For in-depth technical details, visit the [Documentation]({{ site.baseurl }}/pages/documentation/) page.
 
-## Documentation ##
+6. **Watch MDAnalysis videos**  
+   Learn from conference talks, workshops, and webinars presented by core developers. Explore the [Videos](#videos) section below and our [YouTube channel](https://www.youtube.com/channel/UC3TCuK-z_bJNdwWCvsH9D3Q).
+   
+If you need help, check out our [Community]({{ site.baseurl }}/pages/community/) page.
 
-The [{{ site.docs.userguide.name }}]({{ site.docs.userguide.url }})
-contains installation instructions, the [{{ site.docs.quickstart.name
-}}]({{ site.docs.quickstart.url }}), and comprehensive description of
-the functionality of MDAnalysis from a user's perspective. **New users
-should start here!**
+## Videos 
 
-The [{{ site.docs.mdanalysis.name }}]({{ site.docs.mdanalysis.url }})
-contains technical information on how to use MDAnalysis. 
+The following videos, presented by core developers at conferences, highlight various aspects of MDAnalysis and demonstrate its use in research.
 
-The [paper on MDAnalysis]({{ site.baseurl
-}}/pages/citations#Gowers2016) contains a high-level description of
-the structure and philosophy of the library together with examples of
-its use.
-
-The [FAQ]({{ site.github.wiki }}/FAQ) contains a 
-growing list of specific (frequently asked) questions and answers.
-
-## GitHub Discussions ##
-
-You can ask for advice or help on [{{ site.mailinglists.discussion.name}}]
-({{ site.mailinglists.discussion.url }}). If you find *bugs* or
-want to *request enhancements* please [file a report]({{
-site.github.wiki }}/ReportingProblems) in the [Issue Tracker]({{
-sitemap.github.issues }}).
-
-## Videos ##
-
-The videos listed below were given by core developers at
-conferences. They highlight various aspects of MDAnalysis and show how
-to use it in a research context.
-
-### Introductory ###
+### Introductory 
 
 #### The universe as balls and springs: molecular dynamics in Python
 @lilyminium's talk at [PyCon AU 2019](https://2019.pycon-au.org/) *The universe as balls and
 springs: molecular dynamics in Python* gives a general introduction to
 molecular dynamics and shows how to use MDAnalysis (and other tools
-such as [OpenMM](http://openmm.org/), [nglviewer](nglviewer.org/nglview/latest/),
+such as [OpenMM](http://openmm.org/), [nglviewer](https://nglviewer.org/nglview/latest/),
 [pandas](https://pandas.pydata.org/),
 [plotly](https://pandas.pydata.org/)). If you want to better
 understand what MD simulations are and how scientists can make use of
@@ -95,9 +68,7 @@ analysis of molecular dynamics
 simulations](http://conference.scipy.org/proceedings/scipy2016/oliver_beckstein.html)
 which adds detail to the concepts outlined in this talk.
 
-
-
-### Intermediate ###
+### Intermediate 
 
 #### Looking at molecules using Python
 @jbarnoud presented at the PyGrunn 2017 conference _Looking at
@@ -112,7 +83,6 @@ data):
 	allowfullscreen class="video"></iframe>
 </div>
 
-
 #### BioExcel Webinar: MDAnalysis: Interoperable analysis of biomolecular simulations in Python
 
 In this [BioExcel](https://bioexcel.eu/) webinar, three of the MDAnalysis Core
@@ -124,4 +94,5 @@ MDAnalysis**, show more advanced ways to **hack MDAnalysis** and outline
 	<iframe src="https://www.youtube.com/embed/1Wot83DSt4E" frameborder="0"
 	allowfullscreen class="video"></iframe>
 </div>
+
 

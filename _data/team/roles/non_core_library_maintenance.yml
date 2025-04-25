@@ -13,52 +13,57 @@ subroles:
 
   - subrole: distopia
     current_members:
-      - Richard Gowers
-      - Hugo MacDermott-Opeskin
-      - Rocco Meli
+      - "[Richard Gowers](https://github.com/richardjgowers)"
+      - "[Hugo MacDermott-Opeskin](https://github.com/hmacdope)"
 
   - subrole: cookiecutter-mdakit
     current_members:
-      - Lily Wang
-      - Irfan Alibay
+      - "[Lily Wang](https://github.com/lilyminium)"
+      - "[Irfan Alibay](https://github.com/IAlibay)"
+      - "[Paul Smith](https://github.com/p-j-smith)"
 
   - subrole: mda-encore
-    current_members: []
+    current_members:
+      - "[Kristoffer Enøe Johansson](https://github.com/enoee) (external developer)"
+      - "[Kresten Lindorff-Larsen](https://github.com/lindorff-larsen) (external developer)"
+      - "[Yuxuan Zhuang](https://github.com/yuxuanzhuang)"
     
   - subrole: hole2-mdakit
     current_members:
-      - Lily Wang    
+      - "[Lily Wang](https://github.com/lilyminium)"
 
   - subrole: benchmarks
     current_members:
-      - Oliver Beckstein    
+      - "[Oliver Beckstein](https://github.com/orbeckst)"
 
   - subrole: GridDataFormats
     current_members:
-      - Irfan Alibay
-      - Oliver Beckstein
+      - "[Irfan Alibay](https://github.com/IAlibay)"
+      - "[Oliver Beckstein](https://github.com/orbeckst)"
   
   - subrole: MDAnalysisData
     current_members:
-      - Irfan Alibay
-      - Oliver Beckstein
+      - "[Irfan Alibay](https://github.com/IAlibay)"
+      - "[Oliver Beckstein](https://github.com/orbeckst)"
   
   - subrole: mda-xrlib and other utilities
     current_members:
-      - Irfan Alibay    
+      - "[Irfan Alibay](https://github.com/IAlibay)"
   
   - subrole: pyedr
     current_members:
-      - Irfan Alibay
+      - "[Irfan Alibay](https://github.com/IAlibay)"
 
   - subrole: pytng
     current_members:
-      - Hugo MacDermott-Opeskin
+      - "[Hugo MacDermott-Opeskin](https://github.com/hmacdope)"
 
   - subrole: PathSimAnalysis
     current_members:
-      - Oliver Beckstein
+      - "[Oliver Beckstein](https://github.com/orbeckst)"
+      - "[Irfan Alibay](https://github.com/IAlibay)"
 
   - subrole: waterdynamics
     current_members:
-      - Fiona Naughton
+      - "[Fiona Naughton](https://github.com/fiona-naughton)"
+      - "[Irfan Alibay](https://github.com/IAlibay)"

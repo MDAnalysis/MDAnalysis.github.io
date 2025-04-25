@@ -1,7 +1,15 @@
 role: Community engagement
 tasks: 
-  - Responding to questions on Discord and GitHub Discussions
-  - Managing and triaging conversations on Discord and GitHub Discussions
+  - Responding to questions on [Discord]({{ site.discord.url }}) and [GitHub Discussions]({{ site.mailinglists.discussion.url }})
+  - Managing and triaging conversations on [Discord]({{ site.discord.url }}) and [GitHub Discussions]({{ site.mailinglists.discussion.url }})
+  - General management and administration of social accounts (i.e., [LinkedIn]({{ site.linkedin.url}}), [Bluesky]({{ site.bluesky.url }})), [website]({{ site.url }}), and [blog]({{ site.blog }}), including...
+    - *Posting announcements of new developments*
+    - *Moderating content*
 
 current_members:
-  - Jenna Swarthout Goddard
+  - "[Brady Johnston](https://github.com/bradyajohnston)"
+  - "[Egor Marin](https://github.com/marinegor)"
+  - "[Jenna Swarthout Goddard](https://github.com/jennaswa)"
+  - "[Oliver Beckstein](https://github.com/orbeckst)"
+  - "[Rocco Meli](https://github.com/RMeli)"
+  - "[Yuxuan Zhuang](https://github.com/yuxuanzhuang)"

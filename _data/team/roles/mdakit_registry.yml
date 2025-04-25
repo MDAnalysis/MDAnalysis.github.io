@@ -3,10 +3,12 @@ tasks:
   - Managing submissions to MDAKits registry
   - Managing manual review process of new MDAKits
   - Managing automated test and badge infrastructure of all MDAKits
-  - Manage helping with MDAKits who need assistance
+  - Offer input on failures due to the MDAKit registry
 current_members:
-  - Irfan Alibay
-  - Fiona Naughton
-  - Lily Wang
-  - Oliver Beckstein
+  - "[Irfan Alibay](https://github.com/IAlibay)"
+  - "[Fiona Naughton](https://github.com/fiona-naughton)"
+  - "[Lily Wang](https://github.com/lilyminium)"
+  - "[Oliver Beckstein](https://github.com/orbeckst)"
+  - "[Paul Smith](https://github.com/p-j-smith)"
+
 

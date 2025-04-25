@@ -78,7 +78,7 @@ Adetutu is on GitHub as @adetutudeborah, and on Twitter as [@adetutuoluwa2](http
 She will be documenting her internship journey on her [Medium blog](https://medium.com/@adetutuoluwasanmi). Feel free to check it out for updates on her experience!
 
 
-— @BradyAJohnston @cbouy @hmacdope @IAlibay @jennaswa @micaela-matta @orbeckst @richardgowers @xhgchen @yuxuanzhuang (mentors and org admins)
+— @BradyAJohnston @cbouy @hmacdope @IAlibay @jennaswa @micaela-matta @orbeckst @richardjgowers @xhgchen @yuxuanzhuang (mentors and org admins)
 
 [gsoc]: https://summerofcode.withgoogle.com
 [outreachy]: https://www.outreachy.org/
