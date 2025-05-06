@@ -33,8 +33,9 @@ subroles:
   
   - subrole: General maintenance
     tasks:
-      - Monitoring and acting on maintenance needs across the MDAnalysis ecosystem
-      - Standards compliance (e.g. managing metadata such as the author list)
+      - Monitoring maintenance needs across the MDAnalysis ecosystem
+      - Acting on maintenance needs, or delegating to appropriate managers of sub-projects, as necessary
+      - Standards compliance (e.g., managing metadata such as the author list)
       - Tracking new dependencies
       - Emergency fixes
       - Other general maintenance tasks

@@ -2,14 +2,18 @@ role: Outreach
 subroles:
   - subrole: Workshops and meetings
     tasks:
-    - Identifying workshop and event opportunities
+    - Identifying workshop and event opportunities and sponsors
     - Organising workshops and events
     - Gathering and coordinating volunteers
     - Managing content, presentations and teaching at workshops
+    - Managing teaching materials on GitHub for workshops and events
+    - Maintaining and fixing materials
     current_members:
       - "[Brady Johnston](https://github.com/bradyajohnston)"
       - "[Jenna Swarthout Goddard](https://github.com/jennaswa)"
       - "[Micaela Matta](https://github.com/micaela-matta)"
+      - "[Rocco Meli](https://github.com/RMeli)"
+      - "[Yuxuan Zhuang](https://github.com/yuxuanzhuang)"
   
   - subrole: Mentoring programs
     tasks:
@@ -21,12 +25,3 @@ subroles:
       - "[Egor Marin](https://github.com/marinegor)"
       - "[Jenna Swarthout Goddard](https://github.com/jennaswa)"
       - "[Google Summer of Code (GSoC) mentors](https://github.com/MDAnalysis/mdanalysis/wiki/Google-Summer-Of-Code#available-mentors)"
-    
-  - subrole: Teaching materials
-    tasks:
-      - Managing teaching materials on GitHub for workshops and events
-      - Maintaining and fixing materials
-    current_members:
-      - "[Rocco Meli](https://github.com/RMeli)"
-      - "[Micaela Matta](https://github.com/micaela-matta)"
-      - "[Jenna Swarthout Goddard](https://github.com/jennaswa)"

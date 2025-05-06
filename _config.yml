@@ -24,7 +24,7 @@ url:              https://www.mdanalysis.org
 baseurl:          
 author:
   name:           The MDAnalysis Team
-  url:            https://twitter.com/mdanalysis
+  url:            https://www.mdanalysis.org/pages/team/
   email:          mdanalysis@numfocus.org
 
 images:           /public/images
@@ -49,6 +49,11 @@ paginate:        3
 feed:
   path: atom.xml
 
+# do not build these files/dirs:
+# see https://jekyllrb.com/docs/configuration/options/#global-configuration
+# (explicitly include the defaults for jekyll 3.x)
+exclude: [".sass-cache/", "gemfiles/", ".jekyll-cache/", "Gemfile", "Gemfile.lock", "README.md", "**/README.md", "INSTALL.md"]
+
 # Custom vars
 version:          2.0.0
 
@@ -63,6 +68,10 @@ pypi:
   package:        https://pypi.org/project/MDAnalysis
   tests:          https://pypi.org/project/MDAnalysisTests
   docs:           https://docs.mdanalysis.org
+mdakits:
+  registry:       https://mdakits.mdanalysis.org/mdakits.html
+  guide:          https://mdakits.mdanalysis.org/makingakit.html 
+  issues:         https://github.com/MDAnalysis/MDAKits/issues
 mailinglists:
   discussion:
     name:         GitHub Discussions
@@ -76,6 +85,12 @@ mailinglists:
 twitter:
   name:           mdanalysis
   url:            https://twitter.com/mdanalysis
+linkedin:
+  name:           mdanalysis
+  url:            https://linkedin.com/company/mdanalysis
+bluesky:
+  name:           mdanalysis.bsky.social
+  url:            https://bsky.app/profile/mdanalysis.bsky.social
 discord:
   name:           MDAnalysis
   url:            https://discord.com/channels/807348386012987462/
@@ -90,6 +105,8 @@ docs:
   userguide:
     name:         User Guide
     url:          https://userguide.mdanalysis.org
+    repo:         https://github.com/MDAnalysis/UserGuide
+    issues:       https://github.com/MDAnalysis/UserGuide/issues
   quickstart:
     name:         Quick Start Guide
     url:          https://userguide.mdanalysis.org/stable/examples/quickstart.html
@@ -106,3 +123,4 @@ numfocus:
   sponsored_project: https://numfocus.org/project/mdanalysis
   donate_button:     <a href="https://numfocus.org/donate-to-mdanalysis" target="_blank" style="background:#FF9200;padding:10px;margin:10px 0px;text-align:center;text-decoration:none;font-size:12pt;color:#000000;display:inline-block;border-radius:3px">Donate Now</a>
   
+

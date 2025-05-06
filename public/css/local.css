@@ -45,3 +45,78 @@ but our YouTube videos seem to be natively widescreen.
   position: absolute;
 }
 
+/* Sidebar Social Media Icons */
+
+.sidebar-social-icons {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%; 
+  text-align: left; 
+}
+
+/* Ensure sidebar social icons override sidebar link styles */
+.sidebar .sidebar-social-icons a {
+  font-size: 24px !important;
+  text-decoration: none !important;
+}
+
+/* Apply white color to icons */
+.sidebar .sidebar-social-icons a[href*="linkedin.com"],
+.sidebar .sidebar-social-icons a[href*="discord.com"],
+.sidebar .sidebar-social-icons a[href*="github.com"] {
+  color: #ffffff !important; 
+}
+
+/* Hover effect for icons */
+.sidebar .sidebar-social-icons a:hover {
+  opacity: 0.8 !important;
+}
+
+/* Fix Bluesky Icon Alignment */
+.sidebar-social-icons img {
+  width: 24px;
+  height: 24px;
+  margin-bottom: -2px; 
+  object-fit: contain; 
+  transition: opacity 0.3s ease;
+}
+
+.sidebar-social-icons img[src*="bluesky"] {
+  filter: brightness(0) invert(1);
+}
+
+.sidebar-social-icons img:hover {
+  opacity: 0.8;
+}
+
+.sidebar-search {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding-left: 0; 
+  margin-left: -20px; 
+  margin-bottom: 20px;
+}
+
+.sidebar-search-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  text-align: left;
+  margin-left: 0; 
+  padding-left: 0; 
+}
+
+#docsearch {
+  width: 100%;
+  max-width: 100%;
+  text-align: left;
+  margin-left: 0 !important; 
+  padding-left: 5px; 
+}
