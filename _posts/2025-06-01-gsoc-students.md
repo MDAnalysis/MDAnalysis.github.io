@@ -24,18 +24,18 @@ Add a link to your blog here!
 
 ## Nilay Verma: [Enhancing ProLIF Visualizations: A Hybrid Approach for Automated, Customizable 2D Interaction Layout](https://summerofcode.withgoogle.com/programs/2025/projects/XWsglxQM)
 
-<img
-src="Picture Here"
+<img    
+src="https://github.com/nilay-v3rma.png"
 title="Nilay Verma" alt="Nilay Verma"
 style="float: left; width: 110px; height: 110px; border-radius: 20px; border: 15px solid white" />
 
-Write a short description of your project here!
+Nilay's project focuses on improving the 2D interaction visualizations in [ProLIF](https://github.com/chemosim-lab/ProLIF), a tool for analyzing molecular interactions such as protein–ligand and protein–protein binding. He is enhancing LigNetwork plots by implementing graph-based algorithms to automate residue placement, reduce edge overlaps, and improve overall readability. Additionally, he is exploring the integration of visualization approaches from tools like InteractionDrawer and Flareplot to improve the visual representation of interactions. The goal is to create a more user-friendly and informative visualization tool for researchers.
 
-Write something about yourself here! (affiliation, background, interests - work and/or personal, etc.)
+Nilay is a sophomore at Indian Institute of Technology Gandhinagar (IITGN), pursuing a dual major in B.Tech Computer Science and Materials Science. He is passionate about computational materials science, machine learning, and generative AI and its applications. 
 
-Add where we can find you here! (github, linkedin, twitter, others, etc.)
+You can find Nilay on [GitHub](https://github.com/nilay-v3rma), [LinkedIn](https://www.linkedin.com/in/nilay-verma-1110a928a/) and his [Portfolio](https://nilay-v3rma.github.io/).
 
-Add a link to your blog here!
+To keep up with his work, you can check out his [gsoc-blog](https://nilay-v3rma.github.io/gsoc-blog/).
 
 ## Pardhav Maradani: [Better Interfacing of Blender and MDAnalysis](https://summerofcode.withgoogle.com/programs/2025/projects/9BR8jbvV)
 
