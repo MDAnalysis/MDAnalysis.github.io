@@ -65,7 +65,7 @@ Yu-Yuan (Stuart) graduated from National Taiwan University (Taipei, Taiwan), hol
 
 You can find Stuart on GitHub as @yuyuan871111 and on [LinkedIn](https://www.linkedin.com/in/yuyuan871111/). To keep up to date with his latest projects, check out his [blog](https://yuyuan871111.github.io/blogs/gsoc/).
 
-— @BradyAJohnston @cbouy @fiona-naughton @jeremyleung521 @ljwoods2 @ltchong @orbeckst @talagayev @yuxuanzhuang @IAlibay @jennaswa (mentors and org admins)
+— @BradyAJohnston @cbouy @fiona-naughton @jeremyleung521 @ljwoods2 @ltchong @orbeckst @talagayev @yuxuanzhuang @IAlibay @jennaswa (@MDAnalysis/gsoc-mentors and org admins)
 
 [gsoc]: https://summerofcode.withgoogle.com
 [mda-gsoc]: https://summerofcode.withgoogle.com/programs/2025/organizations/mdanalysis
