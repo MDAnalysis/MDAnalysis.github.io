@@ -7,7 +7,7 @@ We are proud to announce that MDAnalysis — in [collaboration with Molecular No
 is hosting _four_ [Google Summer of Code][gsoc] (GSoC) contributors: @jpkrowe, @nilay-v3rma, @PardhavMaradani, and @yuyuan871111. MDAnalysis has been accepted as its own [organization with GSoC][mda-gsoc] 
 for the sixth year in a row. We are grateful to Google for granting us the opportunity to get started on these four very exciting projects!
 
-## James Rowe: [Integrating MDAnalysis Streaming Analysis within WESTPA Propagators](https://summerofcode.withgoogle.com/programs/2025/projects/SvFaSgr5)
+## James (Jamie) Rowe: [Integrating MDAnalysis Streaming Analysis within WESTPA Propagators](https://summerofcode.withgoogle.com/programs/2025/projects/SvFaSgr5)
 
 <img
 src="https://avatars.githubusercontent.com/u/28990394?v=4"
