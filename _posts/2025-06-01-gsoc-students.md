@@ -10,17 +10,17 @@ for the sixth year in a row. We are grateful to Google for granting us the oppor
 ## James Rowe: [Integrating MDAnalysis Streaming Analysis within WESTPA Propagators](https://summerofcode.withgoogle.com/programs/2025/projects/SvFaSgr5)
 
 <img
-src="Picture Here"
-title="James Rowe" alt="James Rowe"
+src="https://avatars.githubusercontent.com/u/28990394?v=4"
+title="James (Jamie) Rowe" alt="James (Jamie) Rowe"
 style="float: left; width: 110px; height: 110px; border-radius: 20px; border: 15px solid white" />
 
-Write a short description of your project here!
+James' project is a collaboration between MDAnalysis and [WESTPA](https://westpa.github.io/westpa/), a toolkit for running Weighted Ensemble simulations. In Weighted Ensemble simulations, many short trajectories are run in parallel and evaluated after each iteration to identify those that have progressed along a predefined coordinate. This analysis step can become a bottleneck, as all trajectories must be loaded and processed before the next iteration can begin. The goal of this project is to use MDAnalysis' trajectory streaming capabilities to analyze trajectories on-the-fly, reducing analysis overhead and decreasing the time between iterations.
 
-Write something about yourself here! (affiliation, background, interests - work and/or personal, etc.)
+James is a 3rd year PhD student at Imperial College London. His PhD project aims to use molecular dynamics to understand how mutations and modifications to the fundamental building blocks of bone, such as collagen, lead to increased fracture risk and compromised mobility. He has recently released an article on [selective rupture in collagen](https://pubs.rsc.org/en/content/articlehtml/2023/cp/d2cp05051j) and a [review article that integrates experimental and computational advances in bone research](https://www.sciencedirect.com/science/article/pii/S0079642525000490).
 
-Add where we can find you here! (github, linkedin, twitter, others, etc.)
+You can find James on [GitHub](https://github.com/jpkrowe), [LinkedIn](https://www.linkedin.com/in/james-rowe-74018425b/) and [Bluesky](https://bsky.app/profile/jrowe2000.bsky.social).
 
-Add a link to your blog here!
+To find updates on this project, check out his blog [here!](jpkrowe.github.io)
 
 ## Nilay Verma: [Enhancing ProLIF Visualizations: A Hybrid Approach for Automated, Customizable 2D Interaction Layout](https://summerofcode.withgoogle.com/programs/2025/projects/XWsglxQM)
 
