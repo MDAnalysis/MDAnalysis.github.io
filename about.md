@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About MDAnalysis
-order: 10
+order: 1
 ---
 
 <img src="{{ site.baseurl }}/public/mdanalysis-logo_square.png"
@@ -14,8 +14,8 @@ The MDAnalysis Project is committed to open-source, reproducible computational r
 ## Get Involved
 
 - **Follow Our Code of Conduct:** We foster a welcoming, inclusive environment. Read our [Code of Conduct]({{ site.baseurl }}/conduct/) before participating.
-- **Join the Community:** Connect with other users, report issues, and contribute through multiple channels. Learn more on our [Community]({{ site.baseurl }}/pages/community/) page.
-- **Contribute:** Whether through coding, documentation, community support, or event organization, you can help shape the MDAnalysis ecosystem. Get started with our [Contributing Guide]({{ site.baseurl }}/pages/contribute/) or [join a team]({{ site.baseurl }}/pages/team/) to support specific initiatives. 
+- **Join the Community:** Connect with other users, report issues, and contribute through multiple channels. Learn more on our [Community]({{ site.baseurl }}/community/) page.
+- **Contribute:** Whether through coding, documentation, community support, or event organization, you can help shape the MDAnalysis ecosystem. Get started with our [Contributing Guide]({{ site.baseurl }}contribute/) or [join a team]({{ site.baseurl }}team/) to support specific initiatives. 
 - **Support MDAnalysis:** MDAnalysis relies on grants, sponsorships, and donations to sustain development and community events. Your support helps fund maintenance, development, UGMs (User Group Meetings), workshops, and more. Learn more on our [Funding]({{ site.baseurl }}/pages/funding/) page.
 - **Share your Feedback:** MDAnalysis welcomes feedback for improvement from its users and community. Share your thoughts on MDAnalysis, the community, or events by filling out [this feedback form][].
 
@@ -46,7 +46,7 @@ MDAnalysis is:
 - **Openly developed** &mdash; The [source code]({{ site.github.repo }}) is hosted on GitHub.
 - **Regularly updated** &mdash; Official releases are distributed via [PyPI][].
 
-For full installation instructions and setup guides, visit our [Getting Started]({{ site.baseurl }}/pages/getting_started/) page.
+For full installation instructions and setup guides, visit our [Getting Started]({{ site.baseurl }}/getting_started/) page.
 
 [GNU Lesser General Public License, version 2.1 or later (LGPLv2.1+)]: https://www.gnu.org/licenses/lgpl-2.1.html
 [PyPI]: https://pypi.org/project/MDAnalysis/
