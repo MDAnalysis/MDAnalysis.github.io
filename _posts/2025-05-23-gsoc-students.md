@@ -20,7 +20,7 @@ James is a 3rd year PhD student at Imperial College London. His PhD project aims
 
 You can find James on [GitHub](https://github.com/jpkrowe), [LinkedIn](https://www.linkedin.com/in/james-rowe-74018425b/) and [Bluesky](https://bsky.app/profile/jrowe2000.bsky.social).
 
-To find updates on this project, check out his blog [here!](jpkrowe.github.io)
+To find updates on this project, check out his blog [here!](https://jpkrowe.github.io)
 
 ## Nilay Verma: [Enhancing ProLIF Visualizations: A Hybrid Approach for Automated, Customizable 2D Interaction Layout](https://summerofcode.withgoogle.com/programs/2025/projects/XWsglxQM)
 
