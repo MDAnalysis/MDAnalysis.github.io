@@ -53,6 +53,7 @@ MDAnalysis has been supported by the [Essential Open Source for Science](https:/
 
 The following contributors were sponsored to work on MDAnalysis through the [Google Summer of Code](https://summerofcode.withgoogle.com/) program.
 
+- **2025**: @jpkrowe, @nilay-v3rma, @PardhavMaradani, @yuyuan871111
 - **2024**: @ljwoods2, @lunamorrow, @talagayev
 - **2023**: @marinegor, @xhgchen 
 - **2022**: @aya9aladdin, @BFedder
