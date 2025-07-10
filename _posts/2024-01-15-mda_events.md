@@ -46,10 +46,10 @@ Additional details about registration and a call for proposals will be communica
 
 More than 70 people joined us live on October 25, 2023 for a free online workshop, during which 4 instructors (@fiona-naughton, @ianmkenney, @micaela-matta, @richardjgowers) introduced the MDAnalysis package and demonstrated use cases through interactive tutorials; the [recording](https://www.youtube.com/watch?v=njzoNzOwR78) is now available on our [YouTube](https://www.youtube.com/@mdanalysis3040) channel. @micaela-matta led the first lecture/tutorial on the Basics of MDAnalysis, and @richardjgowers led a lecture/tutorial on positions, distances, and trajectories; all instructors helped answer participant questions throughout the workshop. Prior to the workshop, @ianmkenney answered participant questions during an optional installation troubleshooting block. All workshop materials and installation instructions are publicly available on the [MDAnalysis/MDAnalysisWorkshop2023](https://github.com/MDAnalysis/MDAnalysisWorkshop2023/) GitHub repository.
 
-We will soon be announcing a series of additional workshops taking place in 2024. These workshops are planned to accommodate both beginner and more advanced MDAnalysis users across differing time zones. We are also working on some exciting collaborations to offer workshops on more specialized topics! Stay tuned for updates on our [blog][], [X][], and [LinkedIn][] pages.
+We will soon be announcing a series of additional workshops taking place in 2024. These workshops are planned to accommodate both beginner and more advanced MDAnalysis users across differing time zones. We are also working on some exciting collaborations to offer workshops on more specialized topics! Stay tuned for updates on our [News][], [X][], and [LinkedIn][] pages.
 
 ![Workshop Instructors Present MDAnalysis Tutorial](/public/images/20231025_Online_Workshop.png)
 
-[blog]: https://www.mdanalysis.org/blog/
+[News]: https://www.mdanalysis.org/blog/
 [X]: https://twitter.com/mdanalysis
 [LinkedIn]: https://www.linkedin.com/company/mdanalysis/
