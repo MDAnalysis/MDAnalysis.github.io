@@ -10,7 +10,7 @@ You can contribute by **developing new features, fixing bugs, improving document
 
 Contributions also extend to our **mentoring and outreach programs**, where participants gain hands-on experience in open-source development and scientific software. You can also contribute by **mentoring new contributors**, helping them navigate MDAnalysis, review their work, and share best practices.
 
-If you're new, you can start by participating in community conversations and mentoring programs. For more information on how you can participate, check out the [Community]({{ site.baseurl }}/community/) and [Events]({{ site.baseurl }}events) pages.
+If you're new, you can start by participating in community conversations and mentoring programs. For more information on how you can participate, check out the [Community]({{ site.baseurl }}/community/) and [Events]({{ site.baseurl }}/events/) pages.
 
 The [MDAnalysis Project][] hosts several open-source repositories beyond the main library and MDAKits. You are welcome to contribute to any of them! Each repository typically has a `CONTRIBUTING.md` file to help you get started. If you’re unsure where to begin, you can:
 
@@ -93,24 +93,24 @@ We have been involved in several mentoring initiatives:
 - **[CompChemURG](https://www.bindingsites.co.uk/home)**  \
     A mentoring initiative focused on computational chemistry, supporting undergraduates and early-career researchers in gaining expertise in the field.
 
-Many of our [core developers]({{ site.baseurl }}/governance/#mdanalysis-core-developers) started through these programs &mdash; consider joining and becoming part of the MDAnalysis community!
+Many of our [core developers]({{ site.baseurl }}/pages/governance/#mdanalysis-core-developers) started through these programs &mdash; consider joining and becoming part of the MDAnalysis community!
 
 ### GSoC
 MDAnalysis has participated in Google Summer of Code for several years, mentoring students on a variety of open-source projects. Explore our past projects:
 
-- [GSoC 2025]({% post_url 2025-02-28-gsoc2025 %})
-- [GSoC 2024]({% post_url 2024-02-27-gsoc2024 %})
-- [GSoC 2023]({% post_url 2023-02-22-gsoc2023 %})
-- [GSoC 2022]({% post_url 2022-03-07-gsoc2022 %})
-- [GSoC 2021]({% post_url 2021-03-09-gsoc2021 %})
-- [GSoC 2020]({% post_url 2020-02-22-gsoc2020 %})
-- [GSoC 2019]({% post_url 2019-03-04-gsoc2019 %})
-- [GSoC 2018]({% post_url 2018-02-14-gsoc2018 %})
-- [GSoC 2017]({% post_url 2017-03-02-gsoc2017 %})
+- [GSoC 2025]({% post_url 2025-05-23-gsoc-students %})
+- GSoC 2024 — [Small Projects]({% post_url 2024-08-30-gsoc2024-final-sm %}); [Large Projects]({% post_url 2025-02-11-gsoc2024-final-lg %})
+- [GSoC 2023]({% post_url 2024-01-18-gsoc2023-final %})
+- [GSoC 2022]({% post_url 2022-12-15-gsoc_outreachy2022-final %})
+- [GSoC 2021]({% post_url 2021-9-14-gsoc2021-final %})
+- [GSoC 2020]({% post_url 2020-09-10-gsoc2020-final %})
+- [GSoC 2019]({% post_url 2019-05-24-gsoc-students %})
+- [GSoC 2018]({% post_url 2018-04-26-gsoc-students %})
+- [GSoC 2017]({% post_url 2017-06-04-gsoc-students %})
 - [GSoC 2016]({% post_url 2016-04-26-gsoc %})
 
 ## Other Contributions
-If you are interested in contributing in other ways, such as writing a **blog post**, we welcome contributions that document your experience with MDAnalysis &mdash; whether it's learning the software, participating in a UGM, or working on a project. Feel free to reach out via the [Community]({{ site.baseurl }}/community/) page for guidance on submitting a post.
+If you are interested in contributing in other ways, such as writing a **blog post**, we welcome contributions that document your experience with MDAnalysis &mdash; whether it's learning the software, participating in a user group meeting, or working on a project. Feel free to reach out via the [Community]({{ site.baseurl }}/community/) page for guidance on submitting a post.
 
 If you are interested in improving our website, you can refer to the [README file][] in the [Website Repository][]. While the website is already maintained by the MDAnalysis team, any fixes and updates are always welcome.
 

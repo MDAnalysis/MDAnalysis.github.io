@@ -11,7 +11,7 @@ in a file called `AUTHORS` in each source code repository and in the list of
 contributions; for example, see the [`AUTHORS` file for mdanalysis](https://github.com/MDAnalysis/mdanalysis/blob/develop/package/AUTHORS) and the [contributors for
 mdanalysis](https://github.com/MDAnalysis/mdanalysis/graphs/contributors).
 
-MDAnalysis is widely used in scientific research and is described in various [academic publications]({{site.baseurl}}/pages/citations/). It also serves as the foundation for several other [molecular dynamics tools]({{site.baseurl}}/mdakits/).
+MDAnalysis is widely used in scientific research and is described in various [academic publications]({{site.baseurl}}/citations/). It also serves as the foundation for several other [molecular dynamics tools]({{site.baseurl}}/mdakits/).
 
 This page provides an overview of **how you can engage with the MDAnalysis community, where to seek support, and how to participate**. 
 
@@ -22,6 +22,7 @@ Follow our official channels for news, updates, and major announcements:
 - [News]({{ site.baseurl }}/blog/) &mdash; News, development highlights, tutorials, and releases.
 - [LinkedIn](https://www.linkedin.com/company/mdanalysis/) &mdash; Professional networking, project updates, event announcements, and industry connections.
 - [Bluesky](https://bsky.app/profile/mdanalysis.bsky.social) &mdash; Community-driven discussions and project insights.
+- [Events]({{ site.baseurl }}/events/) &mdash;  Upcoming (and past) user group meetings, workshops, and hackathons.
 
 ## Ask Questions & Get Help
 

@@ -6,7 +6,7 @@ order: 4
 
 MDAnalysis is a powerful Python library for analyzing MD simulations. While primarily designed to help you build custom analysis tools, it also supports interactive data exploration in environments like [IPython](http://ipython.org/) and [Jupyter notebooks](https://jupyter.org/), especially when combined with [pandas](http://pandas.pydata.org/). This makes MDAnalysis an excellent choice for rapid prototyping and exploratory analysis.
 
-MDAnalysis is an academic software package, and if you use it in your research, please cite the relevant publications. For details on how to cite MDAnalysis, visit our [Citations]({{ site.baseurl }}/pages/citations/) page.
+MDAnalysis is an academic software package, and if you use it in your research, please cite the relevant publications. For details on how to cite MDAnalysis, visit our [Citations]({{ site.baseurl }}/citations/) page.
 
 Whether you're new to MDAnalysis or looking to deepen your expertise, this page will guide you through our learning resources.
 

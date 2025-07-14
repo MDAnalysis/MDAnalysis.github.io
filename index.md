@@ -31,8 +31,8 @@ MDAnalysis is driven by an active **community of users and contributors**. Stay 
 
 <!-- TODO: Add link [Get Involved]({{ site.baseurl }}/pages/about/#get-involved)
  -->
-- [Community]({{ site.baseurl }}/community/) &mdash; Get involved, ask questions, and collaborate.
 - [News]({{ site.baseurl }}/blog) &mdash; Stay updated with development news and community highlights.
+- [Community]({{ site.baseurl }}/community/) &mdash; Get involved, ask questions, and collaborate.
 - [Events]({{ site.baseurl }}/events/) &mdash; Join workshops, conferences, and mentoring programs.
 
 ## Contributing 
@@ -40,6 +40,7 @@ MDAnalysis is driven by an active **community of users and contributors**. Stay 
 Want to contribute to MDAnalysis? Here’s how:  
 
 - [Contribute]({{ site.baseurl }}/contribute/) &mdash; Learn how to help improve MDAnalysis through coding, documentation, or discussions.  
+- Join a [Team]({{ site.baseurl}}/team/) &mdash; Express your interest in contributing to any of the roles related to sustaining the MDAnalysis project.
 - [MDAKits and MDA-based tools]({{ site.baseurl }}/mdakits/) &mdash; Build and extend MDAnalysis with MDAKits.  
 - [Support MDAnalysis financially](#funding--support) &mdash; Donate via NumFOCUS to sustain the project.
 
