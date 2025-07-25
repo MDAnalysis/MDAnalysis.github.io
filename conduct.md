@@ -39,7 +39,7 @@ Thank you for helping make this a welcoming, friendly community for all.
 
 ### THE LONG VERSION
 You can find the long version of the Code of Conduct on the NumFOCUS website:
-https://numfocus.org/code-of-conduct.
+[https://numfocus.org/code-of-conduct][NF-conduct].
 
 ## HOW TO REPORT
 If you feel that the Code of Conduct has been violated, feel free to submit a report, by
