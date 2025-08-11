@@ -1,23 +1,25 @@
 ---
 layout: page
 title: Events
-order: 4
+order: 7
 ---
 
 MDAnalysis hosts and participates in various **community-driven events, user group meetings (UGMs), workshops, and hackathons** to foster collaboration and learning.
 
 This page provides information on **upcoming and past events**, including **UGMs, workshops, and talks**. Whether you're a developer, researcher, or new to the field, these events provide opportunities to engage with and contribute to the MDAnalysis ecosystem.
 
-For the latest discussions, **join the MDAnalysis community channels** by visiting our [Community]({{ site.baseurl }}/pages/community/) page.
+For the latest discussions, **join the MDAnalysis community channels** by visiting our [Community]({{ site.baseurl }}/community/) page.
 
-For mentoring programs and outreach opportunities, please visit the [Contribute]({{ site.baseurl }}/pages/contribute/) page.
+For mentoring programs and outreach opportunities, please visit the [Contribute]({{ site.baseurl }}/contribute/) page.
 
 <!--  Uncomment the following section when new events are announced 
-
-## Upcoming Events
-
 - [Upcoming Event Name](#)
 -->
+## Upcoming Events
+
+| **Title and Website** | **Date(s)** | **Format** | **Additional Links** |
+| ----- | ------- | ------ | -------------- |
+| [UGM 2025]({{ site.baseurl }}/pages/ugm2025/) | Nov 9-11, 2025 | Hybrid | [Announcement]({% post_url 2025-04-13-ugm2025 %}) |
 
 ## User Group Meetings (UGMs)
 
@@ -70,7 +72,7 @@ Workshop materials are made publicly available under open source licenses. Recor
 ## Hosting Your Own MDAnalysis Workshops
 **Have you previously hosted/Are you already organizing an MDAnalysis workshop?** [Let us know][partner-workshops], as we would love to help you spread the word and share information about your event.
 
-**Would you like to host your own MDAnalysis workshop**, but don't know where to get started, have questions on available workshop materials, or would like to seek other support from the [MDAnalysis workshop team]({{ site.baseurl }}/pages/team/)? [Get in touch][partner-workshops] to let us know how we can best support you.
+**Would you like to host your own MDAnalysis workshop**, but don't know where to get started, have questions on available workshop materials, or would like to seek other support from the [MDAnalysis workshop team]({{ site.baseurl }}/team/)? [Get in touch][partner-workshops] to let us know how we can best support you.
 
 
 [YouTube channel]: https://www.youtube.com/@mdanalysis3040
