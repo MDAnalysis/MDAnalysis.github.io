@@ -68,6 +68,7 @@ Below we list projects that use MDAnalysis and are not (yet) registered as MDAKi
 
 ### Molecular modeling tools
 
+-  [metallicious](https://github.com/duartegroup/metallicious/): An automated tool for creating force fields for metal-containing systems with a covalent model of the metal.
 -  [Swarm-CG](https://github.com/GMPavanLab/Swarm-CG): Automatically optimizes the bonded terms of a MARTINI-like coarse-grained (CG) molecular model with respect to its reference all-atom (AA) trajectory, via [FST-PSO](https://github.com/aresio/fst-pso).
 
 ### Simulation packages
