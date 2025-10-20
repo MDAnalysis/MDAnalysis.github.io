@@ -20,7 +20,7 @@ project, MDAnalysis follows the [NumFOCUS Code of Conduct][NF-conduct].
 - [Acknowledgment](#acknowledgment)
 
 ## MDANALYSIS CODE OF CONDUCT
-You can find the whole document here: https://numfocus.org/code-of-conduct.
+You can find the whole document here: [https://numfocus.org/code-of-conduct][NF-conduct].
 
 ### THE SHORT VERSION
 MDAnalysis and NumFOCUS are dedicated to providing a harassment-free community for everyone,
@@ -49,7 +49,7 @@ using the [NumFOCUS Code of Conduct Reporting Form](https://numfocus.typeform.co
 If you are attending an MDAnalysis event or meetup and wish to make a report that requires
 an appropriate immediate response, you may contact the ombudspersons (who will identify
 themselves at the event) or other event staff/meetup organizers. If you would prefer not to
-do that, please [submit a report](how-to-report) to NumFOCUS, but please note it may not be
+do that, please [submit a report](#how-to-report) to NumFOCUS, but please note it may not be
 possible for the [NumFOCUS Code of Conduct Working Group](#who-will-receive-your-report) to
 respond immediately. 
 
@@ -67,7 +67,7 @@ You can learn more about the current group members, as well as the reporting pro
 ### ENFORCEMENT
 Based on recommendations for next steps as determined by the NumFOCUS Code of Conduct Working Group,
 the MDAnalysis project will remain responsible for making the final decision and implementing any
-resulting actions. See the [MDanalysis team](https://www.mdanalysis.org/pages/team/#roles) page on
+resulting actions. See the [MDAnalysis team](https://www.mdanalysis.org/pages/team/#roles) page on
 the MDAnalysis website for a current list of the **MDAnalysis Code of Conduct Committee** members.
 
 Once a resolution has been agreed upon, but before it is enacted, the MDAnalysis Code of Conduct
@@ -92,8 +92,4 @@ All content on this page is licensed under a [*Creative Commons Attribution*](ht
 license. 
 
 [NF]: https://numfocus.org/
-[NF-conduct]: https://numfocus.org/code-of-conduct
-
-[conduct-form]: https://forms.gle/r2SMU4XcwM814CpJ9
-
 [NF-conduct]: https://numfocus.org/code-of-conduct
