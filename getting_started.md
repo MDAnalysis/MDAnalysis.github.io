@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Getting Started 
-order: 1
+order: 3
 ---
 
 MDAnalysis is a Python library for analyzing molecular dynamics (MD) simulations. This page will guide you through quickly installing MDAnalysis, exploring a basic example, and accessing learning resources to get started.
@@ -46,8 +46,8 @@ In the following example, the end-to-end distance of a protein and the radius of
 ## Learning Resources
 
 To find out what else you can do, head over to [Learning
-MDAnalysis]({{ site.baseurl }}/pages/learning_MDAnalysis) to explore
+MDAnalysis]({{ site.baseurl }}/learning_MDAnalysis/) to explore
 tutorials and documentation.
 
-If you have questions, visit our [Community]({{ site.baseurl }}/pages/community) page to learn about available discussion channels. Happy coding!
+If you have questions, visit our [Community]({{ site.baseurl }}/community/) page to learn about available discussion channels. Happy coding!
 
