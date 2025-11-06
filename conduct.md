@@ -67,7 +67,7 @@ You can learn more about the current group members, as well as the reporting pro
 ### ENFORCEMENT
 Based on recommendations for next steps as determined by the NumFOCUS Code of Conduct Working Group,
 the MDAnalysis project will remain responsible for making the final decision and implementing any
-resulting actions. See the [MDAnalysis team](https://www.mdanalysis.org/pages/team/#roles) page on
+resulting actions. See the [MDAnalysis team]({{ site.baseurl }}/pages/team/#roles) page on
 the MDAnalysis website for a current list of the **MDAnalysis Code of Conduct Committee** members.
 
 Once a resolution has been agreed upon, but before it is enacted, the MDAnalysis Code of Conduct

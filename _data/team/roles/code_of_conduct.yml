@@ -1,11 +1,11 @@
 role: Code of conduct committee
 description: |
-  The [code of conduct](https://www.mdanalysis.org/conduct/) committee members
-  are elected by the [project leadership](https://www.mdanalysis.org/pages/governance/) when a committee members' term limit (2 years) has expired.
+  The [code of conduct]({{ site.baseurl }}/conduct/) committee members
+  are elected by the [project leadership]({{ site.baseurl }}/pages/governance/) when a committee members' term limit (2 years) has expired.
 tasks: 
   - Ensure that the application of the code of conduct remains up-to-date, reflecting any changes from the NumFOCUS and MDAnalysis communities
-  - Coordinate with and defer to the [NumFOCUS Code of Conduct Working Group](https://www.mdanalysis.org/conduct/#who-will-receive-your-report) for complaints/violation reports and initial recommendations
-  - Propose actions and sanctions, as necessary, to the [project leadership](https://www.mdanalysis.org/pages/governance/), original reporter, and any other affeccted parties (project leadership is tasked with enforcement)
+  - Coordinate with and defer to the [NumFOCUS Code of Conduct Working Group]({{ site.baseurl }}/conduct/#who-will-receive-your-report) for complaints/violation reports and initial recommendations
+  - Propose actions and sanctions, as necessary, to the [project leadership]({{ site.baseurl }}/pages/governance/), original reporter, and any other affeccted parties (project leadership is tasked with enforcement)
   - Keep confidential records of how reported incidents were handled
 
 current_members:
