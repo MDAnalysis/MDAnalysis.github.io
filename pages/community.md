@@ -4,7 +4,7 @@ title: Community
 order: 5
 ---
 
-MDAnalysis is developed and maintained as a freely available, open-source project by a global community of scientists. Our community adheres to our [Code of Conduct]({{ site.baseurl }}/pages/conduct/) and welcomes everyone to participate&mdash;whether through GitHub Discussions, issue reports, or code contributions.
+MDAnalysis is developed and maintained as a freely available, open-source project by a global community of scientists. Our community adheres to our [Code of Conduct]({{ site.baseurl }}/conduct/) and welcomes everyone to participate&mdash;whether through GitHub Discussions, issue reports, or code contributions.
 
 All contributors to the MDAnalysis library and its subprojects are acknowledged
 in a file called `AUTHORS` in each source code repository and in the list of
