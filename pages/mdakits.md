@@ -39,7 +39,7 @@ Below we list projects that use MDAnalysis and are not (yet) registered as MDAKi
    [bieniekmateusz/pymol-mdanalysis](https://github.com/bieniekmateusz/pymol-mdanalysis) on GitHub.
 -  [MolecularNodes](https://github.com/BradyAJohnston/MolecularNodes) plugin for the [Blender](https://www.blender.org/) rendering package; the plugin provides a convenient method for importing structural biology files, including MD trajectories, into Blender, and several nodes for working with atomic data inside of Blender's Geometry Nodes.
 -  [chemiscope](https://chemiscope.org/docs/examples/10-visualizing-biomolecules.html):
-   An interactive structure/property explorer for materials and molecules
+   an interactive structure/property explorer for materials and molecules.
 
 ### Analysis tools
 
