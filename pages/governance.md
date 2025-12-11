@@ -29,7 +29,6 @@ The current [@MDAnalysis/coredevs][] team ("MDAnalysis Core Developers") consist
 - @micaela-matta
 - @orbeckst
 - @p-j-smith
-- @richardjgowers
 - @RMeli
 - @tylerjereddy
 - @yuxuanzhuang
@@ -56,6 +55,7 @@ The current *Emeriti Core Developers* are:
 - @mtiberti
 - @nmichaud
 - @PicoCentauri
+- @richardjgowers
 - @seb-buch
 - @zemanj
 
