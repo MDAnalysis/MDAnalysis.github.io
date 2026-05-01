@@ -3,7 +3,7 @@ layout: post
 title: Google Summer of Code Students 2026
 ---
 
-We’re excited to welcome _four_ contributors to MDAnalysis through [Google Summer of Code][gsoc] this year:
+We’re excited to welcome _three_ contributors to MDAnalysis through [Google Summer of Code][gsoc] this year:
 @jauy123, @kunjsinha, and @PardhavMaradani.
 
 This marks our seventh consecutive year participating as an independent [GSoC organization][mda-gsoc].
