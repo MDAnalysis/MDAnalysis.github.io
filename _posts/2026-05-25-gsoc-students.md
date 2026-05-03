@@ -43,17 +43,17 @@ Add a link to your blog here!
 ## Pardhav Maradani: [Dashboard for tracking MD simulation progress with the new streaming interface](https://summerofcode.withgoogle.com/programs/2026/projects/DzTMshtu)
 
 <img
-src="Picture Here"
-title="NAME" alt="NAME"
+src="https://avatars.githubusercontent.com/pardhavmaradani"
+title="Pardhav Maradani" alt="Pardhav Maradani"
 style="float: left; width: 110px; height: 110px; border-radius: 20px; border: 15px solid white" />
 
-Write a short description of your project here!
+This project will develop a browser-based, real-time dashboard for molecular dynamics simulations using the new IMDv3 streaming protocol, enabling live monitoring, analysis, and visualization of running simulations. The dashboard will leverage [imdclient](https://imdclient.readthedocs.io/) and MDAnalysis to receive and analyze data streams from running simulations.
 
-Write something about yourself here! (affiliation, background, interests - work and/or personal, etc.)
+Pardhav is an undergraduate student from India pursuing a Bachelors in Computer Science and Engineering from Vellore Institute of Technology (Vellore) and a BS in Data Science and Applications from Indian Institute of Technology (IIT) Madras.
 
-Add where we can find you here! (github, discord, linkedin, bluesky, others, etc.)
+You can find Pardhav on GitHub [@PardhavMaradani](https://github.com/PardhavMaradani).
 
-Add a link to your blog here!
+To see updates on this project, you can check out his [blog](https://pardhavmaradani.github.io/categories/gsoc-2026/).
 
 
 — @amruthesht @BradyAJohnston @HeydenLabASU @jeremyleung521 @ltchong @nilay-v3rma @orbeckst @talagayev @yuxuanzhuang @IAlibay @jennaswa (@MDAnalysis/gsoc-mentors and org admins)
