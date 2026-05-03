@@ -28,17 +28,17 @@ Add a link to your blog here!
 ## Kunj Sinha: [Interface for post-simulation analysis (“crawling”) of WESTPA simulations ](https://summerofcode.withgoogle.com/programs/2026/projects/VJMrp2UW)
 
 <img
-src="Picture Here"
-title="NAME" alt="NAME"
+src="https://avatars.githubusercontent.com/kunjsinha"
+title="Kunj Sinha" alt="Kunj Sinha"
 style="float: left; width: 110px; height: 110px; border-radius: 20px; border: 15px solid white" />
 
-Write a short description of your project here!
+This project will implement WESTPAParser and WESTPAReader inside [westpa/westpa](https://github.com/westpa/westpa), exposing [WESTPA's HDF5 Framework](https://westpa.readthedocs.io/en/latest/users_guide/hdf5.html) simulation data as a standard [MDAnalysis Universe](https://userguide.mdanalysis.org/stable/universe.html). Post-simulation analysis currently requires custom boilerplate code via [w_crawl](https://westpa.readthedocs.io/en/latest/users_guide/command_line_tools/w_crawl.html) which this project will replace with a single command, making the entire MDAnalysis toolkit accessible on WESTPA data.
 
-Write something about yourself here! (affiliation, background, interests - work and/or personal, etc.)
+Kunj is an undergraduate student at PES University, pursuing a Bachelor of Technology in Computer Science and Engineering. He has always had an interest in various fields of science and technology since his early school days. In his free time, he listens to music, plays different musical instruments and enjoys cooking as well.
 
-Add where we can find you here! (github, discord, linkedin, bluesky, others, etc.)
+You can find Kunj on [Github](https://github.com/kunjsinha) and [LinkedIn](https://www.linkedin.com/in/kunjsinha)
 
-Add a link to your blog here!
+To keep up with his work, you can check out his [blog](https://kunjsinha.github.io/blog)
 
 ## Pardhav Maradani: [Dashboard for tracking MD simulation progress with the new streaming interface](https://summerofcode.withgoogle.com/programs/2026/projects/DzTMshtu)
 
