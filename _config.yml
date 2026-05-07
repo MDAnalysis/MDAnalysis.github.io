@@ -24,7 +24,7 @@ url:              https://www.mdanalysis.org
 baseurl:          
 author:
   name:           The MDAnalysis Team
-  url:            https://www.mdanalysis.org/pages/team/
+  url:            https://www.mdanalysis.org/team/
   email:          mdanalysis@numfocus.org
 
 images:           /public/images
