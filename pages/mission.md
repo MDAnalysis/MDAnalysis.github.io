@@ -1,6 +1,8 @@
 ---
 layout: otherpage
 title: Mission
+redirect_from:
+  - /mission/
 ---
 
 The MDAnalysis community is interested in all facets of **working
