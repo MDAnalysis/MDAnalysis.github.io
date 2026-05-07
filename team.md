@@ -2,6 +2,7 @@
 layout: page
 title: MDAnalysis Team
 order: 9
+redirect_from: /pages/team
 ---
 
 MDAnalysis is a community-driven project that is made possible through the efforts of many members who contribute in numerous and diverse ways, ranging from direct package development, maintenance, documentation, communication, and managerial responsibilities. On this page we list identified project roles and team members for each of those roles. We note that the listed roles on this page can differ significantly in scope and required effort.

@@ -37,3 +37,5 @@ validation-report.json
 node_modules
 vendor
 .bundle
+.jekyll-metadata
+

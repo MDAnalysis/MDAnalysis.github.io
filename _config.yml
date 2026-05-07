@@ -38,6 +38,7 @@ plugins:
   - jekyll-mentions
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-redirect-from
 
 # Blog pagination
 paginate_path:   "/blog/page:num/"

@@ -2,6 +2,7 @@
 layout: page
 title: Privacy Policy
 order: 12
+redirect_from: /pages/privacy
 ---
 
 MDAnalysis is a [fiscally sponsored

@@ -2,6 +2,7 @@
 layout: page
 title: Learning MDAnalysis
 order: 4
+redirect_from: /pages/learning_MDAnalysis
 ---
 
 MDAnalysis is a powerful Python library for analyzing MD simulations. While primarily designed to help you build custom analysis tools, it also supports interactive data exploration in environments like [IPython](http://ipython.org/) and [Jupyter notebooks](https://jupyter.org/), especially when combined with [pandas](http://pandas.pydata.org/). This makes MDAnalysis an excellent choice for rapid prototyping and exploratory analysis.
