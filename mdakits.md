@@ -2,7 +2,9 @@
 layout: page
 title: MDA Ecosystem
 order: 10
-redirect_from: /pages/mdakits
+redirect_from:
+  - /pages/mdakits
+  - /pages/mdakits/
 ---
 
 MDAnalysis is developed with extensibility in mind, allowing

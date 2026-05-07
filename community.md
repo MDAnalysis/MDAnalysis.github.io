@@ -2,7 +2,9 @@
 layout: page
 title: Community
 order: 6
-redirect_from: /pages/community
+redirect_from: 
+  - /pages/community
+  - /pages/community/
 ---
 
 MDAnalysis is developed and maintained as a freely available, open-source project by a global community of scientists. Our community adheres to our [Code of Conduct]({{ site.baseurl }}/conduct/) and welcomes everyone to participate&mdash;whether through GitHub Discussions, issue reports, or code contributions.
