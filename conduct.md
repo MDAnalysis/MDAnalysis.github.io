@@ -1,6 +1,9 @@
 ---
 layout: otherpage
 title: Code of Conduct
+redirect_from:
+  - /pages/conduct
+  - /pages/conduct/
 ---
 
 <!-- DON'T CHANGE THIS. ALWAYS COPY FROM THE MAIN CODE REPOSITORY -->
