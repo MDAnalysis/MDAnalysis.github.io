@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MDAKits and MDA-based tools
+title: MDA Ecosystem
 order: 10
 ---
 
