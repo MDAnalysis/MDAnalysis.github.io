@@ -82,7 +82,7 @@ The following technical writers were sponsored to work on MDAnalysis through the
  
 The US National Science Foundation has supported work on or related to MDAnalysis
 
-- NSF CSSI award, 2311372 (**2023—2026**)  [Elements: Streaming Molecular Dynamics Simulation Trajectories for Direct Analysis: Applications to Sub-Picosecond Dynamics in Microsecond Simulations](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2311372) (@heydenlab (PI), @orbeckst (co-PI),  **MDAnalysis Personnel**: @orbeckst)
+- NSF CSSI award, 2311372 (**2023—2026**)  [Elements: Streaming Molecular Dynamics Simulation Trajectories for Direct Analysis: Applications to Sub-Picosecond Dynamics in Microsecond Simulations](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2311372) (@HeydenLabASU (PI), @orbeckst (co-PI),  **MDAnalysis Personnel**: @orbeckst)
 - NSF DIBBS award, ACI-1443054 (**2014–2021**): [CIF21 DIBBs: Middleware and High Performance Analytics Libraries for Scalable Data Science](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1443054) (**MDAnalysis Personnel**: @orbeckst)
 
 The following students were sponsored to work on MDAnalysis through the [NSF Research Experience for Undergraduates](https://www.nsf.gov/crssprgm/reu/) (REU) program as part of NSF award ACI-1443054:
