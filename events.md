@@ -19,13 +19,24 @@ For mentoring programs and outreach opportunities, please visit the [Contribute]
 
 | **Title and Website** | **Date(s)** | **Format** | **Additional Links** |
 | ----- | ------- | ------ | -------------- |
-| [UGM 2025]({{ site.baseurl }}/pages/ugm2025/) | Nov 9-11, 2025 | Hybrid | [Announcement]({% post_url 2025-04-13-ugm2025 %}) |
+|       |         |        |                |
+
+<!-- | [UGM 2025]({{ site.baseurl }}/pages/ugm2025/) | Nov 9-11, 2025 | Hybrid | [Announcement]({% post_url 2025-04-13-ugm2025 %}) | -->
 
 ## User Group Meetings (UGMs)
 
 UGMs are meetings where users meet developers, share best practices, present new features, and discuss improvements. If you are interested in sponsoring or potentially hosting a UGM (or similar MDAnalysis event), please [let us know](mailto: ugm@mdanalysis.org).
 
 ### Past UGMs
+
+<div style="display: flex; align-items: center; gap: 10px;">
+  <img src="{{ site.baseurl }}/public/images/mdanalysis-ugm-logo.png" title="MDAnalysis UGM 2025 Logo" 
+       alt="MDAnalysis UGM 2025 Logo" style="height: 5em;" />
+  <p>
+    <strong><a href="{{ site.baseurl }}/pages/ugm2025/">UGM 2025</a></strong>
+  </p>
+</div>
+
 
 <div style="display: flex; align-items: center; gap: 10px;">
   <img src="{{ site.baseurl }}/public/images/mdanalysis-ugm2024.png" title="MDAnalysis UGM 2024 Logo" 
