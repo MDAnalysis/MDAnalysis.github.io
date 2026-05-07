@@ -16,3 +16,6 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"
   gem "tzinfo-data"
 end
+
+# See PR https://github.com/MDAnalysis/MDAnalysis.github.io/pull/458
+gem 'jekyll-redirect-from'

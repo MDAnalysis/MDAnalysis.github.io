@@ -22,7 +22,7 @@ The mailing lists will remain open for a bit longer to finish off open discussio
 
 \- Rocco Meli, on behalf of the [MDAnalysis Team][]
 
-[MDAnalysis Team]: {{ site.url }}{% link pages/team.md %}
+[MDAnalysis Team]: {{ site.url }}{% link team.md %}
 [GitHub Discussions]: https://github.com/MDAnalysis/mdanalysis/discussions
 [Q&A]: https://github.com/MDAnalysis/mdanalysis/discussions/categories/q-a
 [mdnalysis-devel]: https://groups.google.com/g/mdnalysis-devel

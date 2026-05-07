@@ -1,7 +1,8 @@
 ---
 layout: page
-title: MDAKits and MDA-based tools
-order: 5
+title: MDA Ecosystem
+order: 10
+redirect_from: /pages/mdakits
 ---
 
 MDAnalysis is developed with extensibility in mind, allowing
