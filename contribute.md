@@ -2,7 +2,9 @@
 layout: page
 title: Contribute
 order: 8
-redirect_from: /pages/contribute
+redirect_from:
+  - /pages/contribute
+  - /pages/contribute/
 ---
 
 MDAnalysis is an open-source project that welcomes and encourages contributions from the community. Whether you're a developer, documentation writer, or interested in improving the website, there are many ways to get involved.

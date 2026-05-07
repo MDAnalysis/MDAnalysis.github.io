@@ -2,7 +2,9 @@
 layout: page
 title: Documentation
 order: 5
-redirect_from: /pages/documentation
+redirect_from:
+  - /pages/documentation
+  - /pages/documentation/
 ---
 
 The [MDAnalysis library]({{ site.github.repo }}) (`import MDAnalysis`) is open-source code, available under the [GNU Lesser General Public License, version 3 or later (LGPLv3+)](https://www.gnu.org/licenses/lgpl-3.0.html). MDAnalysis provides **comprehensive documentation** to help users at all levels&mdash;whether you're just getting started, developing new tools, or contributing to the project. From **step-by-step tutorials** to an in-depth **API reference**, these resources will guide you through installing, using, and extending MDAnalysis.

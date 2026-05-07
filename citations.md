@@ -2,7 +2,9 @@
 layout: page
 title: Citations
 order: 11
-redirect_from: /pages/citations
+redirect_from: 
+  - /pages/citations
+  - /pages/citations/
 ---
 
 MDAnalysis and the included algorithms are scientific software that
