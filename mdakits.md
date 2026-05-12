@@ -13,7 +13,9 @@ that the library provides. To help developers in this process,
 and to advertise these wonderful tools to the MDAnalysis user community,
 we have created an ecosystem of [MDAnalysis Toolkits, or "MDAKits"](https://mdakits.mdanalysis.org/about.html).
 
+
 ## MDAKits 
+
 
 Please look at the [registry of MDAKits](https://mdakits.mdanalysis.org/mdakits.html)
 for a list of toolkits that [meet the minimum MDAKit requirements](https://mdakits.mdanalysis.org/about.html#requirements).
@@ -24,6 +26,14 @@ MDAnalysis. Whilst we cannot guarantee the completeness of the MDAKit's test cov
 *If you have your own MDAKit and you would like to add it to the
 registry, please look at the contribution [instructions](https://mdakits.mdanalysis.org/makingakit.html)
 or share it on [{{ site.mailinglists.discussion.name }}]({{ site.mailinglists.discussion.url }})!*
+
+<p>
+<a href="https://mdakits.mdanalysis.org/about.html"><img
+src="https://mdakits.mdanalysis.org/_images/MDAcats_MDAKits.png"
+title="MDAKits ecosystem"
+alt="MDAKits ecosystem explained with cats"
+style="display: block; margin: auto" /></a>
+</p>
 
 
 ## Other (non-MDAKit registered) tools using MDAnalysis
