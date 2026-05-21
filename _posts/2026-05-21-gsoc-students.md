@@ -48,7 +48,7 @@ title="Josh Uy" alt="Josh Uy"
 style="float: left; width: 110px; height: 110px; border-radius: 20px; border: 15px solid white" />
 
 This project intends to add web retrieval functionality to MDAnalysis by augmenting the existing fetcher module. By introducing new fetchers,
-it is intended to allow MDAnalysis to download structures and trajectories from external databases such as [AlphaFold](https://alphafold.ebi.ac.uk/) and the [Molecular Dynamics Data Bank](https://alphafold.ebi.ac.uk/) by passing downloaded data to the in-built [Universe](https://userguide.mdanalysis.org/stable/universe.html) class. Additionally, this project intends to introduce a new suite of functions that is capable of retrieving any molecular data from any database supporting REST API.
+it is intended to allow MDAnalysis to download structures and trajectories from external databases such as [AlphaFold](https://alphafold.ebi.ac.uk/) and the [Molecular Dynamics Data Bank](https://mddbr.eu/) by passing downloaded data to the in-built [Universe](https://userguide.mdanalysis.org/stable/universe.html) class. Additionally, this project intends to introduce a new suite of functions that is capable of retrieving any molecular data from any database supporting REST API.
 
 Joshua Raphael Uy is a Physics Ph.D student at Arizona State University. He earned a Bachelor of Science in Physics, a Bachelor of Arts in
 Mathematics at Miami University in Oxford, Ohio, and a Master in Science in Physics at Arizona State University. He has a [bio page](https://becksteinlab.physics.asu.edu/people/155/joshua-raphael-uy) and a [Linkedin](https://www.linkedin.com/in/joshua-raphael-uy-9540a0202).
