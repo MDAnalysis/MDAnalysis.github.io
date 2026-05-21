@@ -10,21 +10,6 @@ This marks our seventh consecutive year participating as an independent [GSoC or
 A big thank you goes out to Google for supporting these *three* exciting projects.
 We're looking forward to getting started!
 
-##  jauy123 : [Adding Additional Functionality and Enhancements to the Fetcher Module](https://summerofcode.withgoogle.com/programs/2026/projects/Jz9S7jxP)
-
-<img
-src="Picture Here"
-title="NAME" alt="NAME"
-style="float: left; width: 110px; height: 110px; border-radius: 20px; border: 15px solid white" />
-
-Write a short description of your project here!
-
-Write something about yourself here! (affiliation, background, interests - work and/or personal, etc.)
-
-Add where we can find you here! (github, discord, linkedin, bluesky, others, etc.)
-
-Add a link to your blog here!
-
 ## Kunj Sinha: [Interface for post-simulation analysis (“crawling”) of WESTPA simulations ](https://summerofcode.withgoogle.com/programs/2026/projects/VJMrp2UW)
 
 <img
@@ -36,9 +21,9 @@ This project will implement WESTPAParser and WESTPAReader inside [westpa/westpa]
 
 Kunj is an undergraduate student at PES University, pursuing a Bachelor of Technology in Computer Science and Engineering. He has always had an interest in various fields of science and technology since his early school days. In his free time, he listens to music, plays different musical instruments and enjoys cooking as well.
 
-You can find Kunj on [Github](https://github.com/kunjsinha) and [LinkedIn](https://www.linkedin.com/in/kunjsinha)
+You can find Kunj on [Github](https://github.com/kunjsinha) and [LinkedIn](https://www.linkedin.com/in/kunjsinha).
 
-To keep up with his work, you can check out his [blog](https://kunjsinha.github.io/blog)
+To keep up with his work, you can check out his [blog](https://kunjsinha.github.io/blog).
 
 ## Pardhav Maradani: [Dashboard for tracking MD simulation progress with the new streaming interface](https://summerofcode.withgoogle.com/programs/2026/projects/DzTMshtu)
 
@@ -69,8 +54,6 @@ Joshua Raphael Uy is a Physics Ph.D student at Arizona State University. He earn
 Mathematics at Miami University in Oxford, Ohio, and a Master in Science in Physics at Arizona State University. He has a [bio page](https://becksteinlab.physics.asu.edu/people/155/joshua-raphael-uy) and a [Linkedin](https://www.linkedin.com/in/joshua-raphael-uy-9540a0202).
 
 To follow this project, you can check out Josh's [blog](https://jauy123.github.io/) 
-
-
 
 — @amruthesht @BradyAJohnston @HeydenLabASU @jeremyleung521 @ltchong @nilay-v3rma @orbeckst @talagayev @yuxuanzhuang @IAlibay @jennaswa (@MDAnalysis/gsoc-mentors and org admins)
 
