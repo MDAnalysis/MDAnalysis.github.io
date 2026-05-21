@@ -53,7 +53,7 @@ it is intended to allow MDAnalysis to download structures and trajectories from 
 Joshua Raphael Uy is a Physics Ph.D student at Arizona State University. He earned a Bachelor of Science in Physics, a Bachelor of Arts in
 Mathematics at Miami University in Oxford, Ohio, and a Master in Science in Physics at Arizona State University. He has a [bio page](https://becksteinlab.physics.asu.edu/people/155/joshua-raphael-uy) and a [Linkedin](https://www.linkedin.com/in/joshua-raphael-uy-9540a0202).
 
-To follow this project, you can check out Josh's [blog](https://jauy123.github.io/) 
+To follow this project, you can check out Josh's [blog](https://jauy123.github.io/).
 
 — @amruthesht @BradyAJohnston @HeydenLabASU @jeremyleung521 @ltchong @nilay-v3rma @orbeckst @talagayev @yuxuanzhuang @IAlibay @jennaswa (@MDAnalysis/gsoc-mentors and org admins)
 
