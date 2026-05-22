@@ -43,7 +43,7 @@ To see updates on this project, you can check out his [blog](https://pardhavmara
 ## Josh Uy: [Adding Additional Functionality and Enhancements to the Fetcher Module](https://summerofcode.withgoogle.com/programs/2026/projects/Jz9S7jxP)
 
 <img
-src=""{{site.images}}/joshuy.jpg"
+src="{{site.images}}/joshuy.jpg"
 title="Josh Uy" alt="Josh Uy"
 style="float: left; width: 110px; height: 110px; border-radius: 20px; border: 15px solid white" />
 
