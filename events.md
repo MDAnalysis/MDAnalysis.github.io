@@ -37,6 +37,7 @@ UGMs are meetings where users meet developers, share best practices, present new
        alt="MDAnalysis UGM 2025 Logo" style="height: 5em;" />
   <p>
     <strong><a href="{{ site.baseurl }}/pages/ugm2025/">UGM 2025</a></strong>
+    (<a href="{% post_url 2025-12-15-mda_2025events %}#mdanalysis-ugm-user-group-meeting">Post-UGM Summary</a>)
   </p>
 </div>
 
