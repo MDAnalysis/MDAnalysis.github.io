@@ -1,8 +1,9 @@
 role: Community engagement
 tasks: 
-  - Responding to questions on [Discord]({{ site.discord.url }}) and [GitHub Discussions]({{ site.mailinglists.discussion.url }})
-  - Managing and triaging conversations on [Discord]({{ site.discord.url }}) and [GitHub Discussions]({{ site.mailinglists.discussion.url }})
-  - General management and administration of social accounts (i.e., [LinkedIn]({{ site.linkedin.url}}), [Bluesky]({{ site.bluesky.url }})), [website]({{ site.url }}), and [blog]({{ site.blog }}), including...
+  - Responding to questions on [Discord](https://discord.com/channels/807348386012987462/) and [GitHub Discussions](https://github.com/MDAnalysis/mdanalysis/discussions)
+  - Managing and triaging conversations on [Discord](https://discord.com/channels/807348386012987462/) and [GitHub Discussions](https://github.com/MDAnalysis/mdanalysis/discussions)
+  - General management and administration of social accounts (i.e., [LinkedIn](https://linkedin.com/company/mdanalysis), [Bluesky](https://bsky.app/profile/mdanalysis.bsky.social)), [website](https://www.mdanalysis.org), and [blog](https://www.mdanalysis.org/blog/), including...
+    
     - *Posting announcements of new developments*
     - *Moderating content*
 
