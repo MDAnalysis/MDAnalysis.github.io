@@ -53,7 +53,7 @@ feed:
 # do not build these files/dirs:
 # see https://jekyllrb.com/docs/configuration/options/#global-configuration
 # (explicitly include the defaults for jekyll 3.x)
-exclude: [".sass-cache/", "gemfiles/", ".jekyll-cache/", "Gemfile", "Gemfile.lock", "README.md", "**/README.md", "INSTALL.md"]
+exclude: [".sass-cache/", "gemfiles/", ".jekyll-cache/", "Gemfile", "Gemfile.lock", "README.md", "**/README.md", "INSTALL.md", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/", "node_modules/"]
 
 # Custom vars
 version:          2.0.0
