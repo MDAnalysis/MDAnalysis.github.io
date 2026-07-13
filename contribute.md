@@ -35,6 +35,7 @@ MDAnalysis is developed and maintained in the [MDAnalysis Main Code Repository](
 
 #### How to Get Started
 - Read the [Contributing to the Main Codebase]({{ site.docs.userguide.url }}/stable/contributing_code.html#working-with-mdanalysis-code) guide, which outlines all the necessary steps.
+- Familiarize yourself with the current version of our [AI Policy]({{ site.github.repo }}/blob/develop/AI_POLICY.md).
 - Browse [GitHub Issues]({{ site.github.issues }}) to find open tasks. Look for "good first issue" if you're a beginner. You can also report bugs or suggest improvements there.
 - Follow best practices, including
     - [Writing and Running Tests]({{ site.docs.userguide.url }}/stable/testing.html#testing) to ensure your changes work correctly.
