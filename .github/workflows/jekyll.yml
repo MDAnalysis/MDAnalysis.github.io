@@ -36,7 +36,7 @@ jobs:
       - name: Setup Ruby
         # originally https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
         # updated to recent version (complained about node 20 deprecation)
-        uses: ruby/setup-ruby@v1.316.0
+        uses: ruby/setup-ruby@v1.318.0
         with:
           ruby-version: '3.4.1' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
