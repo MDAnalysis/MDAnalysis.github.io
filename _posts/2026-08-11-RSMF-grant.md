@@ -23,7 +23,7 @@ Over the 12-month grant period, our RSE and Community Manager will work across t
 
 **3. Community building and mentorship.** Our Community Manager will continue coordinating our participation in mentorship programs such as Google Summer of Code, maintain onboarding pathways for new Core Developers, and keep up our long-standing training partnerships with UK-based communities including the [Thomas Young Centre][], [CCPBioSim][], and [CCP5][]. We will also continue to grow relationships with industry stakeholders to help diversify our funding base beyond this grant.
 
-We will be advertising for the RSE position soon — if you're passionate about open-source scientific software and want to help sustain a tool used by thousands of researchers worldwide, keep an eye on our channels for the job posting.
+We will be advertising for a 1-year, UK-based RSE position soon — if you're passionate about open-source scientific software and want to help sustain a tool used by thousands of researchers worldwide, keep an eye on our channels for the job posting.
 
 ## Acknowledgements
 
