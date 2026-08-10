@@ -19,7 +19,7 @@ The program will run from 9:30 am to 11:30 am Pacific time (UTC 16:30 – 18:30)
 
 Attendance at this workshop will be *free*, and we encourage anyone with an interest in attending to register below. 
 
-[Registraion link to be added]
+<a href="https://numfocus-org.zoom.us/meeting/register/Dq9_vPOPSrCaYVHpfJodVA" target="_blank" style="background:#FF9200;padding:10px;margin:10px 0px;text-align:center;text-decoration:none;font-size:12pt;color:#000000;display:inline-block;border-radius:3px">Register</a>
 
 ## Workshop materials
 
