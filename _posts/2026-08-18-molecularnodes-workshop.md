@@ -3,7 +3,7 @@ layout: post
 title: "Molecular Nodes Workshop in London — September 17–18, 2026"
 ---
 
-We are excited to announce a **two-day, hands-on [Molecular
+We are excited to announce a **two-day, in-person [Molecular
 Nodes](https://bradyajohnston.github.io/MolecularNodes/) workshop** at
 King's College London on **September 17–18, 2026**. Registration is
 free, with 30 spots available — apply by **September 4, 2026**.
