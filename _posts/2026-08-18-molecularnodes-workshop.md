@@ -8,7 +8,7 @@ Nodes](https://bradyajohnston.github.io/MolecularNodes/) workshop** at
 King's College London on **September 17–18, 2026**. Registration is
 free, with 30 spots available — apply by **September 4, 2026**.
 
-  <img src="{{ site.images }}/public/images/blender-molecular-nodes.png"
+  <img src="{{ site.images }}/blender-molecular-nodes.png"
    style="float: right" alt="alternative text" width="30%"/>
 
 ## What Is Molecular Nodes?
