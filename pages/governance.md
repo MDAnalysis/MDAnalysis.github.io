@@ -20,7 +20,6 @@ code repositories][orgrepo] and thus can approve pull requests for merges.
 The current [@MDAnalysis/coredevs][] team ("MDAnalysis Core Developers") consists of:
 
 - @BradyAJohnston
-- @fiona-naughton
 - @hmacdope
 - @IAlibay
 - @jennaswa
@@ -28,7 +27,6 @@ The current [@MDAnalysis/coredevs][] team ("MDAnalysis Core Developers") consist
 - @marinegor
 - @micaela-matta
 - @orbeckst
-- @p-j-smith
 - @RMeli
 - @tylerjereddy
 - @yuxuanzhuang
@@ -48,6 +46,7 @@ The current *Emeriti Core Developers* are:
 
 - @dotsdl
 - Elizabeth Denning
+- @fiona-naughton
 - @jandom
 - @jbarnoud
 - @kain88-de
@@ -55,6 +54,7 @@ The current *Emeriti Core Developers* are:
 - @mtiberti
 - @nmichaud
 - @PicoCentauri
+- @p-j-smith
 - @richardjgowers
 - @seb-buch
 - @zemanj
